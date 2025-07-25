@@ -1,0 +1,2230 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    eeb-microway-32103 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -s Supermatrix.fa -p Parts.txt -pre all_loci_partition_finding -m GTR+F+I+G --merge -T AUTO -ntmax 20 --rclusterf 10
+Seed:    758184 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 28 13:36:06 2025
+Kernel:  AVX+FMA - auto-detect threads (64 CPU cores detected)
+
+Reading partition model file Parts.txt ...
+Reading alignment file Supermatrix.fa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 383 sequences with 2014362 columns, 1513544 distinct patterns
+1048027 parsimony-informative, 350101 singleton sites, 616234 constant sites
+WARNING: Some sequence names are changed as follows:
+Lecythidaceae_Eschweilera_coseocalyx_(ined)_L545 -> Lecythidaceae_Eschweilera_coseocalyx__ined__L545
+Lecythidaceae_Eschweilera_imbricata_(ined)_L394 -> Lecythidaceae_Eschweilera_imbricata__ined__L394
+Lecythidaceae_Eschweilera_spiralocucullata_(ined)_L946 -> Lecythidaceae_Eschweilera_spiralocucullata__ined__L946
+Lecythidaceae_Eschweilera_spnov_(Petaquilla_B)_L532 -> Lecythidaceae_Eschweilera_spnov__Petaquilla_B__L532
+Lecythidaceae_Eschweilera_sp_nov_(Petaquilla_D)_L533 -> Lecythidaceae_Eschweilera_sp_nov__Petaquilla_D__L533
+Lecythidaceae_Eschweilera_spacostarica_(ined)_L925 -> Lecythidaceae_Eschweilera_spacostarica__ined__L925
+
+                                                               Gap/Ambiguity  Composition  p-value
+   1  Lecythidaceae_Eschweilera_pseudodecolorans_P022_WF02            24.54%    failed      0.01%
+   2  Lecythidaceae_Lecythis_zabucajo_L870                            30.54%    failed      0.00%
+   3  Lecythidaceae_Couratari_asterotricha_L460                       37.83%    failed      0.00%
+   4  Lecythidaceae_Gustavia_superba_L266                             38.78%    failed      0.00%
+   5  Lecythidaceae_Eschweilera_rankiniae_L805                        30.73%    failed      0.00%
+   6  Lecythidaceae_Cariniana_parvifolia_L473                         36.49%    failed      0.00%
+   7  Lecythidaceae_Eschweilera_collina_L241                          32.37%    failed      0.00%
+   8  Lecythidaceae_Gustavia_monocaulis_F017                          36.58%    failed      0.00%
+   9  Lecythidaceae_Eschweilera_cyathiformis_L813                     30.22%    failed      0.00%
+  10  Lecythidaceae_Grias_longirachis_L934                            38.40%    failed      0.00%
+  11  Lecythidaceae_Eschweilera_alata_L245                            31.06%    failed      0.00%
+  12  Lecythidaceae_Eschweilera_sp_L886                               38.49%    failed      0.00%
+  13  Lecythidaceae_Eschweilera_coseocalyx__ined__L545                74.20%    failed      0.00%
+  14  Lecythidaceae_Lecythis_corrugata_subsp_corrugata_L029           35.80%    failed      0.00%
+  15  Lecythidaceae_Eschweilera_collina_L803                          30.89%    failed      0.00%
+  16  Lecythidaceae_Eschweilera_rufifolia_L940                        28.25%    failed      0.00%
+  17  Lecythidaceae_Eschweilera_compressa_P022_WE08                   25.79%    failed      0.02%
+  18  Lecythidaceae_Eschweilera_carinata_L836                         32.03%    failed      0.00%
+  19  Lecythidaceae_Lecythis_parvifructa_L790                         30.76%    failed      0.00%
+  20  Lecythidaceae_Lecythis_chartacea_L969                           32.93%    failed      0.00%
+  21  Lecythidaceae_Lecythis_alutacea_L025                            35.00%    failed      0.00%
+  22  Lecythidaceae_Eschweilera_alvimii_P022_WE07                     62.37%    failed      0.00%
+  23  Lecythidaceae_Eschweilera_tetrapetala_L380                      52.79%    failed      0.00%
+  24  Lecythidaceae_Eschweilera_pseudodecolorans_L792                 31.79%    failed      0.00%
+  25  Lecythidaceae_Eschweilera_decolorans_L070                       31.66%    failed      0.00%
+  26  Lecythidaceae_Couroupita_nicaraguarensis_L339                   33.09%    failed      0.00%
+  27  Lecythidaceae_Lecythis_persistens_ssp_persistens_P022_WE01      23.35%    failed      0.00%
+  28  Lecythidaceae_Eschweilera_tessmannii_L936                       30.45%    failed      0.00%
+  29  Lecythidaceae_Eschweilera_grandiflora_L066                      32.24%    failed      0.00%
+  30  Lecythidaceae_Eschweilera_pedicellata_L812                      31.72%    failed      0.00%
+  31  Lecythidaceae_Eschweilera_coriacea_L932                         30.29%    failed      0.00%
+  32  Lecythidaceae_Eschweilera_truncata_L772                         33.96%    failed      0.00%
+  33  Lecythidaceae_Lecythis_barnebyi_L782                            30.64%    failed      0.00%
+  34  Lecythidaceae_Eschweilera_atropetiolata_L643                    30.90%    failed      0.00%
+  35  Lecythidaceae_Couratari_multiflora_P022_WE03                    34.39%    failed      0.00%
+  36  Lecythidaceae_Eschweilera_sp_L653                               36.19%    failed      0.00%
+  37  Lecythidaceae_Lecythis_sp.05.LECY_L679                          36.37%    failed      0.00%
+  38  Lecythidaceae_Lecythis_confertiflora_L026                       35.82%    failed      0.00%
+  39  Lecythidaceae_Eschweilera_coriacea_L834                         31.20%    failed      0.00%
+  40  Lecythidaceae_Gustavia_nana_ssp_nana_P022_WF01                  29.30%    failed      0.00%
+  41  Lecythidaceae_Lecythis_congestiflora_L235                       34.35%    failed      0.00%
+  42  Lecythidaceae_Lecythis_sp_L776                                  32.91%    failed      0.00%
+  43  Lecythidaceae_Allantoma_decandra_L289                           32.50%    failed      0.00%
+  44  Lecythidaceae_Gustavia_serrata_LA02                             39.64%    failed      0.00%
+  45  Lecythidaceae_Eschweilera_pittieri_P022_WE10                    29.01%    failed      0.00%
+  46  Lecythidaceae_Eschweilera_coriacea_L885                         30.48%    failed      0.00%
+  47  Lecythidaceae_Couratari_longipedicellata_L721                   36.52%    failed      0.00%
+  48  Lecythidaceae_Couroupita_guianensis_F009                        33.09%    failed      0.00%
+  49  Lecythidaceae_Eschweilera_pittieri_LA07                         31.97%    failed      0.00%
+  50  Lecythidaceae_Corythophora_labriculata_L232                     32.70%    failed      0.00%
+  51  Lecythidaceae_Eschweilera_caudiculata_LA03                      32.50%    failed      0.00%
+  52  Lecythidaceae_Eschweilera_sp_L690                               29.86%    failed      0.00%
+  53  Lecythidaceae_Eschweilera_albiflora_L846                        30.28%    failed      0.00%
+  54  Lecythidaceae_Eschweilera_rimbachii_P021_WB11                   21.40%    failed      0.00%
+  55  Lecythidaceae_Gustavia_brachycarpa_L362                         40.44%    failed      0.00%
+  56  Lecythidaceae_Lecythis_ampla_L313                               31.64%    failed      0.00%
+  57  Lecythidaceae_Lecythis_zabucajo_L298                            41.16%    failed      0.00%
+  58  Lecythidaceae_Cariniana_ianeirensis_L513                        31.07%    failed      0.00%
+  59  Lecythidaceae_Eschweilera_juruensis_P021_WG11                   26.37%    failed      0.06%
+  60  Lecythidaceae_Gustavia_speciosa_L237                            35.66%    failed      0.00%
+  61  Lecythidaceae_Eschweilera_albiflora_L914                        36.01%    failed      0.00%
+  62  Lecythidaceae_Lecythis_lurida_L413                              34.50%    failed      0.00%
+  63  Lecythidaceae_Eschweilera_coriacea_L824                         59.71%    failed      0.00%
+  64  Lecythidaceae_Lecythis_idatimon_P022_WE02                       26.36%    failed      0.12%
+  65  Lecythidaceae_Grias_ecuadorica_LA04                             38.53%    failed      0.00%
+  66  Lecythidaceae_Lecythis_sp_nov_P022_WE05                         26.84%    failed      0.00%
+  67  Lecythidaceae_Lecythis_sp_L483                                  31.31%    failed      0.00%
+  68  Lecythidaceae_Eschweilera_sp_L551                               33.70%    failed      0.00%
+  69  Lecythidaceae_Corythophora_alta_L811                            48.35%    failed      0.00%
+  70  Lecythidaceae_Eschweilera_parviflora_P022_WD12                  26.32%    failed      0.10%
+  71  Lecythidaceae_Couratari_calycina_L233                           37.85%    failed      0.00%
+  72  Lecythidaceae_Gustavia_pubescens_LA06                           39.71%    failed      0.00%
+  73  Lecythidaceae_Gustavia_dubia_L949                               36.67%    failed      0.00%
+  74  Lecythidaceae_Gustavia_johnclarkii_P021_WE07                    28.52%    failed      0.00%
+  75  Lecythidaceae_Eschweilera_wachenheimii_L779                     30.63%    failed      0.00%
+  76  Lecythidaceae_Eschweilera_truncata_L793                         31.73%    failed      0.00%
+  77  Lecythidaceae_Gustavia_macarenensis_subsp_macarenensis_L046     40.13%    failed      0.00%
+  78  Lecythidaceae_Couratari_macrosperma_P021_WF08                   37.41%    failed      0.00%
+  79  Lecythidaceae_Eschweilera_sp_L785                               32.12%    failed      0.00%
+  80  Lecythidaceae_Allantoma_sp_L616                                 35.38%    failed      0.00%
+  81  Lecythidaceae_Eschweilera_sp_L781                               33.96%    failed      0.00%
+  82  Lecythidaceae_Eschweilera_laevicarpa_L814                       30.12%    failed      0.00%
+  83  Lecythidaceae_Eschweilera_romeu-cardosoi_L664                   30.46%    failed      0.00%
+  84  Lecythidaceae_Eschweilera_truncata_L620                         32.90%    failed      0.00%
+  85  Lecythidaceae_Gustavia_augusta_L953                             35.29%    failed      0.00%
+  86  Lecythidaceae_Grias_neuberthii_P021_WH08                        29.85%    failed      0.00%
+  87  Lecythidaceae_Lecythis_mesophylla_L360                          29.02%    failed      0.00%
+  88  Lecythidaceae_Eschweilera_nana_L381                             31.18%    failed      0.00%
+  89  Lecythidaceae_Eschweilera_albiflora_L857                        29.45%    failed      0.00%
+  90  Lecythidaceae_Couratari_pyramidata_L378                         39.25%    failed      0.00%
+  91  Lecythidaceae_Eschweilera_awaensis_L943                         31.07%    failed      0.00%
+  92  Lecythidaceae_Grias_cauliflora_L308                             35.08%    failed      0.00%
+  93  Lecythidaceae_Eschweilera_pedicellata_L017                      32.58%    failed      0.00%
+  94  Lecythidaceae_Eschweilera_cyathiformis_L797                     33.03%    failed      0.00%
+  95  Lecythidaceae_Eschweilera_correae_L535                          31.06%    failed      0.00%
+  96  Lecythidaceae_Lecythis_lanceolata_L516                          33.81%    failed      0.00%
+  97  Lecythidaceae_Eschweilera_sessilis_L345                         30.77%    failed      0.00%
+  98  Lecythidaceae_Couratari_stellata_L001                           37.86%    failed      0.00%
+  99  Lecythidaceae_Eschweilera_atropetiolata_L831                    31.65%    failed      0.00%
+ 100  Lecythidaceae_Gustavia_hubbardiorum_L950                        34.97%    failed      0.00%
+ 101  Lecythidaceae_Gustavia_angustifolia_L939                        38.45%    failed      0.00%
+ 102  Lecythidaceae_Eschweilera_ovata_L015                            31.23%    failed      0.00%
+ 103  Lecythidaceae_Eschweilera_laevicarpa_L013                       29.00%    failed      0.00%
+ 104  Lecythidaceae_Allantoma_decandra_L876                           33.44%    failed      0.00%
+ 105  Lecythidaceae_Cariniana_estrellensis_L363                       36.02%    failed      0.00%
+ 106  Lecythidaceae_Eschweilera_caudiculata_L926                      30.71%    failed      0.00%
+ 107  Lecythidaceae_Gustavia_longifolia_L948                          37.62%    failed      0.00%
+ 108  Lecythidaceae_Eschweilera_hondurensis_P021_WF12                 26.54%    failed      0.00%
+ 109  Lecythidaceae_Gustavia_hexapetala_L849                          35.60%    failed      0.00%
+ 110  Lecythidaceae_Eschweilera_sagotiana_L335                        30.65%    failed      0.00%
+ 111  Lecythidaceae_Eschweilera_aguilarii_L048                        32.34%    failed      0.00%
+ 112  Lecythidaceae_Lecythis_pisonis_L668                             33.76%    failed      0.00%
+ 113  Lecythidaceae_Couratari_tauari_L588                             37.72%    failed      0.00%
+ 114  Lecythidaceae_Lecythis_holcogyne_L284                           33.63%    failed      0.00%
+ 115  Lecythidaceae_Eschweilera_biflava_P022_WD11                     32.60%    failed      0.00%
+ 116  Lecythidaceae_Gustavia_hexapetala_L091                          41.00%    failed      0.00%
+ 117  Lecythidaceae_Eschweilera_mattos_P022_WE06                      36.42%    failed      0.00%
+ 118  Lecythidaceae_Cariniana_rubra_L475                              37.16%    failed      0.00%
+ 119  Lecythidaceae_Gustavia_longifolia_L931                          38.13%    failed      0.00%
+ 120  Lecythidaceae_Lecythis_minor_L274                               34.45%    failed      0.00%
+ 121  Lecythidaceae_Grias_subbullata_L944                             37.87%    failed      0.00%
+ 122  Lecythidaceae_Eschweilera_imbricata__ined__L394                 31.06%    failed      0.00%
+ 123  Lecythidaceae_Lecythis_pisonis_L966                             33.97%    failed      0.00%
+ 124  Lecythidaceae_Eschweilera_rhododendrifolia_L578                 30.52%    failed      0.00%
+ 125  Lecythidaceae_Gustavia_petiolata_L937                           40.06%    failed      0.00%
+ 126  Lecythidaceae_Barringtonia_edulis_F001                          53.09%    failed      0.00%
+ 127  Lecythidaceae_Eschweilera_coriacea_P021_WF07                    24.04%    failed      0.01%
+ 128  Lecythidaceae_Couratari_guianensis_L361                         43.93%    failed      0.00%
+ 129  Lecythidaceae_Eschweilera_parviflora_x_wachenheimii_P022_WF10   36.37%    failed      0.00%
+ 130  Lecythidaceae_Lecythis_simiorum_L278                            35.28%    failed      0.00%
+ 131  Lecythidaceae_Eschweilera_parvifolia_P021_WC06                  24.77%    failed      0.00%
+ 132  Lecythidaceae_Eschweilera_chartaceifolia_L261                   29.02%    failed      0.00%
+ 133  Lecythidaceae_Eschweilera_tessmannii_L704                       35.54%    failed      0.00%
+ 134  Lecythidaceae_Cariniana_legalis_L476                            35.51%    failed      0.00%
+ 135  Lecythidaceae_Gustavia_poeppigiana_P022_WF09                    31.96%    failed      0.00%
+ 136  Lecythidaceae_Couroupita_subsessilis_P022_WF08                  26.04%    failed      0.00%
+ 137  Lecythidaceae_Lecythis_poiteaui_L281                            32.95%    failed      0.00%
+ 138  Lecythidaceae_Eschweilera_bracteosa_L816                        29.77%    failed      0.00%
+ 139  Lecythidaceae_Lecythis_schwackei_L411                           37.46%    failed      0.00%
+ 140  Lecythidaceae_Lectyhis_sp_L409                                  29.62%    failed      0.00%
+ 141  Lecythidaceae_Couratari_guianensis_L628                         38.90%    failed      0.00%
+ 142  Lecythidaceae_Eschweilera_rotundicarpa_L539                     41.98%    failed      0.01%
+ 143  Lecythidaceae_Lecythis_sp_L683                                  36.45%    failed      0.00%
+ 144  Lecythidaceae_Eschweilera_wachenheimii_L271                     34.36%    failed      0.00%
+ 145  Lecythidaceae_Eschweilera_coriacea_L780                         30.96%    failed      0.00%
+ 146  Lecythidaceae_Eschweilera_ovalifolia_L845                       32.02%    failed      0.00%
+ 147  Lecythidaceae_Eschweilera_subglandulosa_L020                    32.54%    failed      0.00%
+ 148  Lecythidaceae_Eschweilera_coriacea_L938                         32.27%    failed      0.00%
+ 149  Lecythidaceae_Gustavia_gracieae_P021_WA10                       30.72%    failed      0.00%
+ 150  Lecythidaceae_Gustavia_elliptica_L784                           36.38%    failed      0.00%
+ 151  Lecythidaceae_Lecythis_pneumatophora_P022_WE04                  24.82%    failed      0.05%
+ 152  Lecythidaceae_Eschweilera_sp_L546                               62.46%    failed      0.00%
+ 153  Lecythidaceae_Lecythis_sp04_L735                                29.63%    failed      0.00%
+ 154  Lecythidaceae_Eschweilera_truncata_L891                         38.67%    failed      0.00%
+ 155  Lecythidaceae_Grias_angustipetala_LA10                          44.65%    failed      0.00%
+ 156  Lecythidaceae_Grias_peruviana_LA08                              43.45%    failed      0.00%
+ 157  Lecythidaceae_Eschweilera_sp_L302                               34.49%    failed      0.00%
+ 158  Lecythidaceae_Eschweilera_amazoniciformis_L722                  33.54%    failed      0.00%
+ 159  Lecythidaceae_Lecythis_retusa_L983                              35.77%    failed      0.00%
+ 160  Lecythidaceae_Eschweilera_coriacea_L770                         32.14%    failed      0.00%
+ 161  Lecythidaceae_Eschweilera_coriacea_L771                         30.92%    failed      0.00%
+ 162  Lecythidaceae_Eschweilera_amazoniciformis_P022_WE09             34.64%    failed      0.00%
+ 163  Lecythidaceae_Lecythis_pisonis_L769                             34.79%    failed      0.00%
+ 164  Lecythidaceae_Eschweilera_pedicellata_L866                      30.46%    failed      0.00%
+ 165  Lecythidaceae_Eschweilera_collinsii__L314                       29.87%    failed      0.00%
+ 166  Lecythidaceae_Grias_theobromicarpa_L933                         39.02%    failed      0.00%
+ 167  Lecythidaceae_Eschweilera_micrantha_L332                        30.42%    failed      0.00%
+ 168  Lecythidaceae_Gustavia_augusta_L840                             43.42%    failed      0.00%
+ 169  Lecythidaceae_Allantoma_integrifolia_L971                       33.08%    failed      0.00%
+ 170  Lecythidaceae_Bertholletia_excelsa_L299                         30.77%    failed      0.00%
+ 171  Lecythidaceae_Lecythis_prancei_L674                             29.08%    failed      0.00%
+ 172  Lecythidaceae_Eschweilera_wachenheimii_L832                     31.40%    failed      0.00%
+ 173  Lecythidaceae_Gustavia_augusta_L955                             45.27%    failed      0.07%
+ 174  Lecythidaceae_Eschweilera_laevicarpa_P022_WF04                  22.41%    failed      0.00%
+ 175  Lecythidaceae_Eschweilera_coriacea_L796                         32.42%    failed      0.00%
+ 176  Lecythidaceae_Eschweilera_spiralocucullata__ined__L946          38.22%    failed      0.00%
+ 177  Lecythidaceae_Eschweilera_integrifolia_LA01                     33.88%    failed      0.00%
+ 178  Lecythidaceae_Eschweilera_spnov__Petaquilla_B__L532             36.58%    failed      0.00%
+ 179  Lecythidaceae_Eschweilera_sp_nov__Petaquilla_D__L533            32.32%    failed      0.00%
+ 180  Lecythidaceae_Eschweilera_coriacea_L954                         30.57%    failed      0.00%
+ 181  Lecythidaceae_Grias_multinervia__L338                           37.04%    failed      0.00%
+ 182  Lecythidaceae_Eschweilera_spnov_L538                            40.55%    failed      0.00%
+ 183  Lecythidaceae_Eschweilera_bracteosa_L733                        32.33%    failed      0.00%
+ 184  Lecythidaceae_Eschweilera_sphaerocarpa_L388                     35.28%    failed      0.00%
+ 185  Lecythidaceae_Eschweilera_donosoensis_P022_WE12                 28.49%    failed      0.00%
+ 186  Lecythidaceae_Corythophora_rimosa_P022_WF05                     21.69%    failed      0.00%
+ 187  Lecythidaceae_Lecythis_sp01.LECY_L734                           34.28%    failed      0.00%
+ 188  Lecythidaceae_Lecythis_marcgraaviana_L450                       35.54%    failed      0.00%
+ 189  Lecythidaceae_Eschweilera_parvifolia_L868                       31.61%    failed      0.00%
+ 190  Lecythidaceae_Eschweilera_coriacea_L010                         31.83%    failed      0.00%
+ 191  Lecythidaceae_Eschweilera_rankiniae_P022_WF06                   25.07%    failed      0.00%
+ 192  Lecythidaceae_Couroupita_guianensis_P022_WE11                   28.24%    failed      0.00%
+ 193  Lecythidaceae_Corythophora_amapaensis_L004                      35.54%    failed      0.00%
+ 194  Lecythidaceae_Lecythis_sp06_L795                                32.33%    failed      0.00%
+ 195  Lecythidaceae_Eschweilera_micrantha_L821                        31.14%    failed      0.00%
+ 196  Lecythidaceae_Lecythis_gracieana_L808                           33.89%    failed      0.00%
+ 197  Lecythidaceae_Eschweilera_spacostarica__ined__L925              34.79%    failed      0.00%
+ 198  Lecythidaceae_Gustavia_longifolia_L904                          39.68%    failed      0.00%
+ 199  Lecythidaceae_Barringtonia_macrostachya_L995                    53.15%    failed      0.00%
+ 200  Lecythidaceae_Barringtonia_racemosa_L359                        61.89%    failed      0.00%
+ 201  Lecythidaceae_Allantoma_lineata_L357                            35.56%    failed      0.00%
+ 202  Lecythidaceae_Foetidia_mauritiana_L368                          57.81%    failed      0.00%
+ 203  Lecythidaceae_Gustavia_augusta_L291                             37.68%    failed      0.00%
+ 204  Lecythidaceae_Barringtonia_asiatica_L358                        58.32%    failed      0.00%
+ 205  Lecythidaceae_Napoleonaea_vogelii_L257                          79.64%    failed      0.00%
+ 206  Lecythidaceae_Napoleonaea_imperialis_F033                       78.04%    failed      0.00%
+ 207  Lecythidaceae_Petersianthus_macrocarpus_DAL1_G12                92.36%    failed      0.00%
+ 208  Lecythidaceae_Allantoma_lineata_DAL1_D10                        90.92%    failed      0.00%
+ 209  Lecythidaceae_Foetidia_mauritiana_DAL1_G11                      90.99%    failed      0.00%
+ 210  Lecythidaceae_Scytopetalum_pierreanum_DAL1_E11                  91.51%    failed      0.00%
+ 211  Lecythidaceae_Bertholletia_excelsa_DAL1_B11                     91.29%    failed      0.00%
+ 212  Tetrameristaceae_Pelliciera_rhizophorae_DAL1_F12                91.37%    failed      0.00%
+ 213  Lecythidaceae_Rhaptopetalum_DAL1_D11                            91.56%    failed      0.00%
+ 214  Lecythidaceae_Oubanguia_alata_DAL1_C12                          90.80%    failed      0.00%
+ 215  Lecythidaceae_Grias_cauliflora_DAL1_F11                         91.25%    failed      0.00%
+ 216  Tetrameristaceae_Pentamerista_neotropica_DAL1_C10               92.03%    failed      0.00%
+ 217  Marcgraviaceae_Marcgraviastrum_subsessile_DAL2_G12              92.58%    failed      0.00%
+ 218  Lecythidaceae_Crateranthus_talbotii_DAL2_C12                    91.05%    failed      0.00%
+ 219  Lecythidaceae_Asteranthos_brasiliensis_DAL2_B11                 91.19%    failed      0.00%
+ 220  Lecythidaceae_Pierrina_zenkeri_DAL2_D12                         95.56%    failed      0.00%
+ 221  Lecythidaceae_Brazzeia_DAL2_E10                                 90.83%    failed      0.00%
+ 222  Lecythidaceae_Careya_arborea_DAL3_D11                           92.52%    failed      0.00%
+ 223  Marcgraviaceae_Marcgravia_lineolata_P008_WA10                   96.45%    failed      0.00%
+ 224  Marcgraviaceae_Marcgravia_umbellata_P008_WB06                   95.78%    failed      0.00%
+ 225  Marcgraviaceae_Marcgraviastrum_mixtum_P008_WC02                 99.02%    failed      0.00%
+ 226  Marcgraviaceae_Marcgravia_polyantha_P008_WC01                   98.90%    failed      0.00%
+ 227  Marcgraviaceae_Marcgravia_flagellaris_P008_WB12                 92.04%    failed      0.00%
+ 228  Marcgraviaceae_Marcgravia_oligandra_P008_WB10                   99.26%    failed      0.00%
+ 229  Marcgraviaceae_Marcgraviastrum_pendulum_P008_WB09               91.73%    failed      0.00%
+ 230  Marcgraviaceae_Marcgravia_caudata_P009_WA02                     93.47%    failed      0.00%
+ 231  Marcgraviaceae_Marcgravia_atropunctata_P009_WA01                92.05%    failed      0.00%
+ 232  Lecythidaceae_Eschweilera_pedicellata_P020_WB06                 92.06%    failed      0.00%
+ 233  Lecythidaceae_Eschweilera_ovalifolia_P020_WB08                  91.06%    failed      0.00%
+ 234  Lecythidaceae_Eschweilera_amazonica_P020_WB04                   94.30%    failed      0.00%
+ 235  Lecythidaceae_Eschweilera_ovata_P020_WB05                       94.30%    failed      0.00%
+ 236  Lecythidaceae_Eschweilera_subglandulosa_P020_WB11               91.70%    failed      0.00%
+ 237  Lecythidaceae_Eschweilera_tessmannii_P020_WC01                  91.22%    failed      0.00%
+ 238  Lecythidaceae_Eschweilera_bracteosa_P020_WB03                   91.95%    failed      0.00%
+ 239  Lecythidaceae_Eschweilera_parvifolia_P020_WB07                  96.89%    failed      0.00%
+ 240  Lecythidaceae_Gustavia_speciosa_P021_WA12                       90.47%    failed      0.00%
+ 241  Lecythidaceae_Lecythis_pisonis_P021_WA07                        91.02%    failed      0.00%
+ 242  Lecythidaceae_Eschweilera_decolorans_P021_WG10                  90.73%    failed      0.00%
+ 243  Lecythidaceae_Lecythis_chartacea_P021_WB10                      90.67%    failed      0.00%
+ 244  Lecythidaceae_Gustavia_superba_P021_WG09                        91.01%    failed      0.00%
+ 245  Lecythidaceae_Allantoma_decandra_P021_WC08                      90.48%    failed      0.00%
+ 246  Lecythidaceae_Lecythis_simiorum_P021_WD10                       90.60%    failed      0.00%
+ 247  Lecythidaceae_Eschweilera_integrifolia_P021_WB12                90.58%    failed      0.00%
+ 248  Lecythidaceae_Barringtonia_edulis_P021_WF10                     91.48%    failed      0.00%
+ 249  Lecythidaceae_Eschweilera_caudiculata_P021_WH11                 90.69%    failed      0.00%
+ 250  Lecythidaceae_Eschweilera_awaensis_P021_WA11                    90.48%    failed      0.00%
+ 251  Lecythidaceae_Corythophora_labriculata_P021_WH07                90.59%    failed      0.00%
+ 252  Lecythidaceae_Eschweilera_correae_P021_WG12                     90.57%    failed      0.00%
+ 253  Lecythidaceae_Grias_angustipetala_P021_WB08                     90.71%    failed      0.00%
+ 254  Lecythidaceae_Lecythis_minor_P021_WE06                          90.44%    failed      0.00%
+ 255  Lecythidaceae_Eschweilera_roseocalyx_P021_WH12                  90.99%    failed      0.00%
+ 256  Lecythidaceae_Eschweilera_albiflora_P021_WC07                   90.46%    failed      0.00%
+ 257  Lecythidaceae_Gustavia_dubia_P021_WH09                          90.69%    failed      0.00%
+ 258  Lecythidaceae_Gustavia_augusta_P021_WB06                        91.03%    failed      0.00%
+ 259  Lecythidaceae_Gustavia_monocaulis_P021_WE10                     90.62%    failed      0.00%
+ 260  Lecythidaceae_Gustavia_longifolia_P021_WC11                     90.55%    failed      0.00%
+ 261  Lecythidaceae_Grias_subbullata_P021_WB07                        90.57%    failed      0.00%
+ 262  Lecythidaceae_Lecythis_zabucajo_P021_WG07                       90.77%    failed      0.00%
+ 263  Lecythidaceae_Gustavia_serrata_P021_WF11                        90.49%    failed      0.00%
+ 264  Lecythidaceae_Gustavia_pubescens_P021_WC12                      90.52%    failed      0.00%
+ 265  Lecythidaceae_Gustavia_angustifolia_P021_WE12                   90.45%    failed      0.00%
+ 266  Lecythidaceae_Napoleonaea_vogelii_P021_WB09                     90.78%    failed      0.00%
+ 267  Lecythidaceae_Eschweilera_collinsii_P021_WF09                   90.55%    failed      0.00%
+ 268  Lecythidaceae_Lecythis_mesophylla_P021_WF06                     90.59%    failed      0.00%
+ 269  Lecythidaceae_Bertholletia_excelsa_P021_WA09                    90.61%    failed      0.00%
+ 270  Lecythidaceae_Gustavia_hubbardiorum_P021_WG08                   90.42%    failed      0.00%
+ 271  Lecythidaceae_Grias_theobromicarpa_P021_WD09                    90.81%    failed      0.00%
+ 272  Lecythidaceae_Napoleonaea_imperialis_P021_WD06                  91.82%    failed      0.00%
+ 273  Lecythidaceae_Eschweilera_coriacea_P021_WA08                    90.50%    failed      0.00%
+ 274  Lecythidaceae_Allantoma_integrifolia_P021_WC10                  90.64%    failed      0.00%
+ 275  Lecythidaceae_Grias_cauliflora_P021_WE11                        90.54%    failed      0.00%
+ 276  Lecythidaceae_Eschweilera_pedicellata_P021_WD08                 90.79%    failed      0.00%
+ 277  Lecythidaceae_Barringtonia_racemosa_P021_WE08                   91.22%    failed      0.00%
+ 278  Lecythidaceae_Couroupita_guianensis_P021_WG06                   90.62%    failed      0.00%
+ 279  Lecythidaceae_Lecythis_ampla_P021_WA06                          90.48%    failed      0.00%
+ 280  Lecythidaceae_Eschweilera_rufifolia_P021_WD07                   90.70%    failed      0.00%
+ 281  Lecythidaceae_Eschweilera_aguilarii_P021_WE09                   90.78%    failed      0.00%
+ 282  Lecythidaceae_Lecythis_poiteaui_P021_WH06                       90.50%    failed      0.00%
+ 283  Lecythidaceae_Grias_longirachis_P021_WC09                       90.61%    failed      0.00%
+ 284  Lecythidaceae_Gustavia_brachycarpa_P021_WD11                    90.68%    failed      0.00%
+ 285  Lecythidaceae_Barringtonia_racemosa                             93.82%    failed      0.00%
+ 286  Lecythidaceae_Gustavia_santanderiensis_SSP01_L0243              82.82%    failed      0.00%
+ 287  Lecythidaceae_Gustavia_longifuniculata_SSP01_L0229              86.08%    failed      0.00%
+ 288  Lecythidaceae_Gustavia_romeroii_SSP01_L0219                     89.27%    failed      0.00%
+ 289  Lecythidaceae_Gustavia_santanderiensis_SSP01_L0258              80.42%    failed      0.00%
+ 290  Lecythidaceae_Gustavia_gentryi_SSP01_L0244                      84.16%    failed      0.00%
+ 291  Lecythidaceae_Gustavia_flagellata_SSP01_L0247                   95.61%    failed      0.00%
+ 292  Lecythidaceae_Gustavia_excelsa_SSP01_L0220                      90.03%    failed      0.00%
+ 293  Lecythidaceae_Gustavia_grandibracteata_SSP01_L0233              96.94%    failed      0.00%
+ 294  Lecythidaceae_Gustavia_verticillata_SSP01_L0259                 80.91%    failed      0.00%
+ 295  Lecythidaceae_Gustavia_elliptica_SSP01_L0248                    83.34%    failed      0.00%
+ 296  Lecythidaceae_Gustavia_gigantophylla_SSP01_L0282                80.58%    failed      0.00%
+ 297  Lecythidaceae_Gustavia_speciosa_SSP01_L0270                     82.33%    failed      0.00%
+ 298  Lecythidaceae_Gustavia_montana_SSP01_L0254                      80.86%    failed      0.00%
+ 299  Lecythidaceae_Gustavia_gracillima_SSP01_L0231                   96.53%    failed      0.00%
+ 300  Lecythidaceae_Gustavia_multinervia_SSP01_L0261                  80.80%    failed      0.00%
+ 301  Lecythidaceae_Gustavia_hexapetala_SSP01_L0268                   80.99%    failed      0.00%
+ 302  Lecythidaceae_Grias_longirachis_SSP01_L0235                     85.13%    failed      0.00%
+ 303  Lecythidaceae_Grias_multinervia_SSP01_L0236                     87.27%    failed      0.00%
+ 304  Lecythidaceae_Grias_peruviana_SSP01_L0222                       94.69%    failed      0.00%
+ 305  Lecythidaceae_Gustavia_brachycarpa_SSP01_L0217                  89.07%    failed      0.00%
+ 306  Lecythidaceae_Gustavia_dubia_SSP01_L0241                        85.39%    failed      0.00%
+ 307  Lecythidaceae_Gustavia_petiolata_SSP01_L0208                    97.21%    failed      0.00%
+ 308  Lecythidaceae_Gustavia_fosterii_SSP01_L0283                     80.82%    failed      0.00%
+ 309  Lecythidaceae_Gustavia_verticillata_SSP01_L0245                 81.76%    failed      0.00%
+ 310  Lecythidaceae_Gustavia_romeroii_SSP01_L0226                     84.51%    failed      0.00%
+ 311  Lecythidaceae_Gustavia_gentryi_SSP01_L0260                      87.14%    failed      0.00%
+ 312  Lecythidaceae_Gustavia_verticillata_SSP01_L0237                 91.57%    failed      0.00%
+ 313  Lecythidaceae_Gustavia_superba_SSP01_L0271                      81.83%    failed      0.00%
+ 314  Lecythidaceae_Gustavia_sessilis_SSP01_L0223                     99.29%    failed      0.00%
+ 315  Lecythidaceae_Gustavia_excelsa_SSP01_L0279                      80.61%    failed      0.00%
+ 316  Lecythidaceae_Gustavia_verticillata_SSP01_L0291                 80.32%    failed      0.00%
+ 317  Lecythidaceae_Gustavia_SSP01_L0262                              80.04%    failed      0.00%
+ 318  Lecythidaceae_Gustavia_montana_SSP01_L0256                      83.79%    failed      0.00%
+ 319  Lecythidaceae_Gustavia_gentryi_SSP01_L0277                      79.81%    failed      0.00%
+ 320  Lecythidaceae_Gustavia_serrata_SSP01_L0281                      83.36%    failed      0.00%
+ 321  Lecythidaceae_Gustavia_romeroii_SSP01_L0238                     82.94%    failed      0.00%
+ 322  Lecythidaceae_Gustavia_petiolata_SSP01_L0257                    82.07%    failed      0.00%
+ 323  Lecythidaceae_Gustavia_hexapetala_SSP01_L0272                   80.70%    failed      0.00%
+ 324  Lecythidaceae_Gustavia_montana_SSP01_L0265                      80.09%    failed      0.00%
+ 325  Lecythidaceae_Gustavia_gracillima_SSP01_L0251                   98.49%    failed      0.00%
+ 326  Lecythidaceae_Gustavia_verticillata_SSP01_L0225                 95.44%    failed      0.00%
+ 327  Lecythidaceae_Cariniana_estrellensis_SSP01_L0286                81.44%    failed      0.00%
+ 328  Lecythidaceae_Gustavia_augusta_SSP01_L0280                      80.26%    failed      0.00%
+ 329  Lecythidaceae_Grias_angustipetala_SSP01_L0266                   80.22%    failed      0.00%
+ 330  Lecythidaceae_Grias_longirachis_SSP01_L0292                     80.80%    failed      0.00%
+ 331  Lecythidaceae_Grias_peruviana_SSP01_L0294                       80.68%    failed      0.00%
+ 332  Lecythidaceae_Grias_purpuripetala_SSP01_L0287                   81.52%    failed      0.00%
+ 333  Lecythidaceae_Eschweilera_antioquensis_SSP01_L0299              81.24%    failed      0.00%
+ 334  Lecythidaceae_Grias_theobromicarpa_SSP01_L0263                  80.25%    failed      0.00%
+ 335  Lecythidaceae_Gustavia_elliptica_SSP01_L0264                    80.28%    failed      0.00%
+ 336  Lecythidaceae_Gustavia_hexapetala_SSP01_L0278                   80.80%    failed      0.00%
+ 337  Lecythidaceae_Gustavia_petiolata_SSP01_L0293                    80.56%    failed      0.00%
+ 338  Lecythidaceae_Eschweilera_tenuifolia_SSP01_L0273                81.62%    failed      0.00%
+ 339  Lecythidaceae_Lecythis_tuyrana_SSP01_L0274                      81.04%    failed      0.00%
+ 340  Lecythidaceae_Cariniana_pyriformis_SSP01_L0255                  80.72%    failed      0.00%
+ 341  Lecythidaceae_Eschweilera_antioquensis_SSP01_L0300              80.86%    failed      0.00%
+ 342  Lecythidaceae_Gustavia_longifuniculata_SSP01_L0275              80.88%    failed      0.00%
+ 343  Lecythidaceae_Eschweilera_coriacea_SSP01_L0239                  87.73%    failed      0.00%
+ 344  Lecythidaceae_Gustavia_excelsa_SSP01_L0276                      80.90%    failed      0.00%
+ 345  Lecythidaceae_Cariniana_ianeirensis_SSP01_L0240                 80.58%    failed      0.00%
+ 346  Lecythidaceae_Grias_ecuadorica_SSP01_L0253                      80.30%    failed      0.00%
+ 347  Lecythidaceae_Grias_haughtii_SSP01_L0234                        99.42%    failed      0.00%
+ 348  Lecythidaceae_Grias_longirachis_SSP01_L0211                     93.96%    failed      0.00%
+ 349  Lecythidaceae_Grias_multinervia_SSP01_L0212                     95.59%    failed      0.00%
+ 350  Lecythidaceae_Gustavia_cf._fosteri_SSP01_L0290                  80.78%    failed      0.00%
+ 351  Lecythidaceae_Gustavia_grandibracteata_SSP01_L0288              80.39%    failed      0.00%
+ 352  Lecythidaceae_Grias_colombiana_SSP01_L0213                      98.49%    failed      0.00%
+ 353  Lecythidaceae_Gustavia_grandibracteata_SSP01_L0214              85.30%    failed      0.00%
+ 354  Lecythidaceae_Gustavia_superba_SSP01_L0227                      90.85%    failed      0.00%
+ 355  Lecythidaceae_Gustavia_dodsonii_SSP01_L0295                     81.74%    failed      0.00%
+ 356  Lecythidaceae_Gustavia_dodsonii_SSP01_L0215                     89.83%    failed      0.00%
+ 357  Lecythidaceae_Gustavia_sessilis_SSP01_L0216                     89.58%    failed      0.00%
+ 358  Lecythidaceae_Gustavia_santanderensis_SSP01_L0289               80.80%    failed      0.00%
+ 359  Lecythidaceae_Gustavia_cauliflora_SSP01_L0296                   80.69%    failed      0.00%
+ 360  Lecythidaceae_Gustavia_nana_subsp._nana_SSP01_L0297             80.29%    failed      0.00%
+ 361  Lecythidaceae_Gustavia_elliptica_SSP01_L0252                    97.14%    failed      0.00%
+ 362  Lecythidaceae_Gustavia_elliptica_SSP01_L0284                    81.06%    failed      0.00%
+ 363  Lecythidaceae_Gustavia_speciosa_SSP01_L0298                     80.87%    failed      0.00%
+ 364  Lecythidaceae_Gustavia_pubescens_SSP01_L0285                    80.66%    failed      0.00%
+ 365  Lecythidaceae_Gustavia_verticillata_SSP01_L0267                 99.87%    failed      0.00%
+ 366  Lecythidaceae_Gustavia_johnclarkii_SSP01_L0221                  99.89%    failed      0.00%
+ 367  Lecythidaceae_Lecythis_usitata_SSP01_L0242                      99.83%    failed      0.03%
+ 368  Lecythidaceae_Gustavia_longifuniculata_SSP01_L0232              99.24%    failed      0.00%
+ 369  Lecythidaceae_Gustavia_gracillima_SSP01_L0250                   99.95%    failed      0.02%
+ 370  Lecythidaceae_Allantoma_kuhlmannii_SSP01_L0230                  99.80%    failed      0.00%
+ 371  Lecythidaceae_Cariniana_decandra_SSP01_L0246                    99.95%    failed      0.03%
+ 372  Lecythidaceae_Gustavia_macarenensis_P021_WD12                   91.94%    failed      0.00%
+ 373  Lecythidaceae_Lecythis_corrugata_P021_WH10                      92.05%    failed      0.00%
+ 374  Lecythidaceae_Eschweilera_atropetiolata_P022_WF03               92.04%    failed      0.00%
+ 375  Lecythidaceae_Eschweilera_truncata_P022_WF07                    92.06%    failed      0.00%
+ 376  Lecythidaceae_Eschweilera_mattos-silvae_P022_WE06               92.33%    failed      0.00%
+ 377  Lecythidaceae_Grias_ecuadorica_SSP01_L0206                      99.93%    failed      0.11%
+ 378  Lecythidaceae_Cariniana_legalis_SSP01_L0269                     99.99%    failed      0.23%
+ 379  Lecythidaceae_Eschweilera_apiculata_SSP01_L0224                 99.97%    failed      0.00%
+ 380  Lecythidaceae_Gustavia_monocaulis_SSP01_L0249                   99.97%    failed      0.00%
+ 381  Lecythidaceae_Gustavia_nana_SSP01_L0205                         99.99%    passed     37.06%
+ 382  Lecythidaceae_Grias_colombiana_SSP01_L0209                      99.99%    failed      0.00%
+ 383  Lecythidaceae_Gustavia_gracillima_SSP01_L0228                   99.99%    failed      4.95%
+WARNING: 189 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                           60.16%  382 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	197	904	299	436	GTR+F+I+G	exon/trimmed_344_AT1G01180_exon.fa
+2	DNA	193	306	194	50	GTR+F+I+G	intron_ok/trimmed_344_AT1G01180_intron.fa
+3	DNA	203	2105	926	862	GTR+F+I+G	exon/trimmed_344_AT1G01880_exon.fa
+4	DNA	179	4772	3029	734	GTR+F+I+G	intron_ok/trimmed_344_AT1G01880_intron.fa
+5	DNA	204	1936	950	633	GTR+F+I+G	exon/trimmed_344_AT1G02020_exon.fa
+6	DNA	199	4785	3250	447	GTR+F+I+G	intron_ok/trimmed_344_AT1G02020_intron.fa
+7	DNA	202	3111	1482	1039	GTR+F+I+G	exon/trimmed_344_AT1G03000_exon.fa
+8	DNA	195	4373	2896	630	GTR+F+I+G	intron_ok/trimmed_344_AT1G03000_intron.fa
+9	DNA	195	2684	851	1444	GTR+F+I+G	exon/trimmed_344_AT1G03750_exon.fa
+10	DNA	131	9324	2062	5434	GTR+F+I+G	intron_ok/trimmed_344_AT1G03750_intron.fa
+11	DNA	201	2665	1163	1221	GTR+F+I+G	exon/trimmed_344_AT1G04110_exon.fa
+12	DNA	179	181	118	21	GTR+F+I+G	intron_ok/trimmed_344_AT1G04110_intron.fa
+13	DNA	203	911	434	335	GTR+F+I+G	exon/trimmed_344_AT1G04640_exon.fa
+14	DNA	202	1908	1600	102	GTR+F+I+G	intron_ok/trimmed_344_AT1G04640_intron.fa
+15	DNA	202	1874	899	737	GTR+F+I+G	exon/trimmed_344_AT1G05590_exon.fa
+16	DNA	181	829	734	26	GTR+F+I+G	intron_ok/trimmed_344_AT1G05590_intron.fa
+17	DNA	187	1629	741	596	GTR+F+I+G	exon/trimmed_344_AT1G05910_exon.fa
+18	DNA	189	4228	3193	413	GTR+F+I+G	intron_ok/trimmed_344_AT1G05910_intron.fa
+19	DNA	200	1435	452	814	GTR+F+I+G	exon/trimmed_344_AT1G05940_exon.fa
+20	DNA	192	3300	2224	498	GTR+F+I+G	intron_ok/trimmed_344_AT1G05940_intron.fa
+21	DNA	201	1329	576	551	GTR+F+I+G	exon/trimmed_344_AT1G07040_exon.fa
+22	DNA	198	4287	3292	437	GTR+F+I+G	intron_ok/trimmed_344_AT1G07040_intron.fa
+23	DNA	203	1267	480	594	GTR+F+I+G	exon/trimmed_344_AT1G07590_exon.fa
+24	DNA	199	128	96	17	GTR+F+I+G	intron_ok/trimmed_344_AT1G07590_intron.fa
+25	DNA	200	2297	932	965	GTR+F+I+G	exon/trimmed_344_AT1G07970_exon.fa
+26	DNA	191	4343	3361	349	GTR+F+I+G	intron_ok/trimmed_344_AT1G07970_intron.fa
+27	DNA	197	1288	523	567	GTR+F+I+G	exon/trimmed_344_AT1G08460_exon.fa
+28	DNA	177	2649	2110	204	GTR+F+I+G	intron_ok/trimmed_344_AT1G08460_intron.fa
+29	DNA	197	2403	909	1126	GTR+F+I+G	exon/trimmed_344_AT1G09010_exon.fa
+30	DNA	177	5890	4385	592	GTR+F+I+G	intron_ok/trimmed_344_AT1G09010_intron.fa
+31	DNA	201	2303	1055	842	GTR+F+I+G	exon/trimmed_344_AT1G09680_exon.fa
+32	DNA	140	1581	1017	207	GTR+F+I+G	intron_ok/trimmed_344_AT1G09680_intron.fa
+33	DNA	203	681	298	291	GTR+F+I+G	exon/trimmed_344_AT1G10460_exon.fa
+34	DNA	179	849	640	109	GTR+F+I+G	intron_ok/trimmed_344_AT1G10460_intron.fa
+35	DNA	205	1118	511	476	GTR+F+I+G	exon/trimmed_344_AT1G11090_exon.fa
+36	DNA	175	524	439	31	GTR+F+I+G	intron_ok/trimmed_344_AT1G11090_intron.fa
+37	DNA	200	2880	1192	1259	GTR+F+I+G	exon/trimmed_344_AT1G11290_exon.fa
+38	DNA	181	955	908	4	GTR+F+I+G	intron_ok/trimmed_344_AT1G11290_intron.fa
+39	DNA	202	1123	390	588	GTR+F+I+G	exon/trimmed_344_AT1G11545_exon.fa
+40	DNA	186	2057	1530	216	GTR+F+I+G	intron_ok/trimmed_344_AT1G11545_intron.fa
+41	DNA	204	2108	864	838	GTR+F+I+G	exon/trimmed_344_AT1G11870_exon.fa
+42	DNA	202	5319	2641	1474	GTR+F+I+G	intron_ok/trimmed_344_AT1G11870_intron.fa
+43	DNA	203	2970	1106	1458	GTR+F+I+G	exon/trimmed_344_AT1G15440_exon.fa
+44	DNA	198	1779	1346	213	GTR+F+I+G	intron_ok/trimmed_344_AT1G15440_intron.fa
+45	DNA	205	2516	935	1194	GTR+F+I+G	exon/trimmed_344_AT1G15510_exon.fa
+46	DNA	194	2994	1697	758	GTR+F+I+G	intron_ok/trimmed_344_AT1G15510_intron.fa
+47	DNA	201	1447	582	665	GTR+F+I+G	exon/trimmed_344_AT1G15980_exon.fa
+48	DNA	159	1891	1277	297	GTR+F+I+G	intron_ok/trimmed_344_AT1G15980_intron.fa
+49	DNA	204	953	287	567	GTR+F+I+G	exon/trimmed_344_AT1G16180_exon.fa
+50	DNA	194	2849	1580	629	GTR+F+I+G	intron_ok/trimmed_344_AT1G16180_intron.fa
+51	DNA	197	1275	478	558	GTR+F+I+G	exon/trimmed_344_AT1G17160_exon.fa
+52	DNA	187	4478	2891	693	GTR+F+I+G	intron_ok/trimmed_344_AT1G17160_intron.fa
+53	DNA	201	1344	620	570	GTR+F+I+G	exon/trimmed_344_AT1G18480_exon.fa
+54	DNA	167	564	548	2	GTR+F+I+G	intron_ok/trimmed_344_AT1G18480_intron.fa
+55	DNA	203	1496	579	672	GTR+F+I+G	exon/trimmed_344_AT1G19290_exon.fa
+56	DNA	188	873	649	140	GTR+F+I+G	intron_ok/trimmed_344_AT1G19290_intron.fa
+57	DNA	200	2600	1088	1107	GTR+F+I+G	exon/trimmed_344_AT1G19520_exon.fa
+58	DNA	202	3827	2043	1155	GTR+F+I+G	intron_ok/trimmed_344_AT1G19520_intron.fa
+59	DNA	203	943	308	504	GTR+F+I+G	exon/trimmed_344_AT1G20300_exon.fa
+60	DNA	191	1554	1366	60	GTR+F+I+G	intron_ok/trimmed_344_AT1G20300_intron.fa
+61	DNA	196	562	237	227	GTR+F+I+G	exon/trimmed_344_AT1G20830_exon.fa
+62	DNA	188	1708	1178	248	GTR+F+I+G	intron_ok/trimmed_344_AT1G20830_intron.fa
+63	DNA	202	972	447	369	GTR+F+I+G	exon/trimmed_344_AT1G21370_exon.fa
+64	DNA	177	3034	2398	271	GTR+F+I+G	intron_ok/trimmed_344_AT1G21370_intron.fa
+65	DNA	201	1572	646	676	GTR+F+I+G	exon/trimmed_344_AT1G21480_exon.fa
+66	DNA	186	3165	2435	299	GTR+F+I+G	intron_ok/trimmed_344_AT1G21480_intron.fa
+67	DNA	190	4053	1334	2147	GTR+F+I+G	exon/trimmed_344_AT1G21640_exon.fa
+68	DNA	176	4647	3089	693	GTR+F+I+G	intron_ok/trimmed_344_AT1G21640_intron.fa
+69	DNA	202	852	268	464	GTR+F+I+G	exon/trimmed_344_AT1G21790_exon.fa
+70	DNA	194	3146	2544	220	GTR+F+I+G	intron_ok/trimmed_344_AT1G21790_intron.fa
+71	DNA	199	718	248	358	GTR+F+I+G	exon/trimmed_344_AT1G23400_exon.fa
+72	DNA	193	3974	2960	316	GTR+F+I+G	intron_ok/trimmed_344_AT1G23400_intron.fa
+73	DNA	205	1889	903	698	GTR+F+I+G	exon/trimmed_344_AT1G24610_exon.fa
+74	DNA	198	3662	2775	427	GTR+F+I+G	intron_ok/trimmed_344_AT1G24610_intron.fa
+75	DNA	197	2892	1173	1195	GTR+F+I+G	exon/trimmed_344_AT1G25360_exon.fa
+76	DNA	192	27	17	3	GTR+F+I+G	intron_ok/trimmed_344_AT1G25360_intron.fa
+77	DNA	200	2392	1041	1041	GTR+F+I+G	exon/trimmed_344_AT1G26460_exon.fa
+78	DNA	160	2917	2156	319	GTR+F+I+G	intron_ok/trimmed_344_AT1G26460_intron.fa
+79	DNA	203	774	289	328	GTR+F+I+G	exon/trimmed_344_AT1G27060_exon.fa
+80	DNA	199	3698	2755	339	GTR+F+I+G	intron_ok/trimmed_344_AT1G27060_intron.fa
+81	DNA	201	2093	915	820	GTR+F+I+G	exon/trimmed_344_AT1G28530_exon.fa
+82	DNA	187	3442	2114	656	GTR+F+I+G	intron_ok/trimmed_344_AT1G28530_intron.fa
+83	DNA	202	1239	568	413	GTR+F+I+G	exon/trimmed_344_AT1G28680_exon.fa
+84	DNA	185	1283	1149	33	GTR+F+I+G	intron_ok/trimmed_344_AT1G28680_intron.fa
+85	DNA	164	1763	457	1092	GTR+F+I+G	exon/trimmed_344_AT1G30000_exon.fa
+86	DNA	197	4808	3160	813	GTR+F+I+G	intron_ok/trimmed_344_AT1G30000_intron.fa
+87	DNA	199	2664	1038	1224	GTR+F+I+G	exon/trimmed_344_AT1G30360_exon.fa
+88	DNA	186	4298	2702	817	GTR+F+I+G	intron_ok/trimmed_344_AT1G30360_intron.fa
+89	DNA	203	1106	485	442	GTR+F+I+G	exon/trimmed_344_AT1G30520_exon.fa
+90	DNA	197	2504	1967	276	GTR+F+I+G	intron_ok/trimmed_344_AT1G30520_intron.fa
+91	DNA	206	1558	679	658	GTR+F+I+G	exon/trimmed_344_AT1G30960_exon.fa
+92	DNA	202	5513	4473	430	GTR+F+I+G	intron_ok/trimmed_344_AT1G30960_intron.fa
+93	DNA	198	1913	844	851	GTR+F+I+G	exon/trimmed_344_AT1G34160_exon.fa
+94	DNA	169	596	505	26	GTR+F+I+G	intron_ok/trimmed_344_AT1G34160_intron.fa
+95	DNA	206	1389	566	634	GTR+F+I+G	exon/trimmed_344_AT1G34630_exon.fa
+96	DNA	197	4206	3103	476	GTR+F+I+G	intron_ok/trimmed_344_AT1G34630_intron.fa
+97	DNA	198	1235	623	409	GTR+F+I+G	exon/trimmed_344_AT1G43580_exon.fa
+98	DNA	190	1462	1094	132	GTR+F+I+G	intron_ok/trimmed_344_AT1G43580_intron.fa
+99	DNA	199	1678	785	657	GTR+F+I+G	exon/trimmed_344_AT1G44350_exon.fa
+100	DNA	193	2353	1588	308	GTR+F+I+G	intron_ok/trimmed_344_AT1G44350_intron.fa
+101	DNA	204	1958	720	940	GTR+F+I+G	exon/trimmed_344_AT1G51965_exon.fa
+102	DNA	185	1733	1552	50	GTR+F+I+G	intron_ok/trimmed_344_AT1G51965_intron.fa
+103	DNA	198	1162	521	417	GTR+F+I+G	exon/trimmed_344_AT1G53280_exon.fa
+104	DNA	190	1906	1573	85	GTR+F+I+G	intron_ok/trimmed_344_AT1G53280_intron.fa
+105	DNA	205	2212	765	1149	GTR+F+I+G	exon/trimmed_344_AT1G54350_exon.fa
+106	DNA	202	7851	5523	1135	GTR+F+I+G	intron_ok/trimmed_344_AT1G54350_intron.fa
+107	DNA	197	506	143	279	GTR+F+I+G	exon/trimmed_344_AT1G54780_exon.fa
+108	DNA	187	942	598	162	GTR+F+I+G	intron_ok/trimmed_344_AT1G54780_intron.fa
+109	DNA	202	1703	787	658	GTR+F+I+G	exon/trimmed_344_AT1G54990_exon.fa
+110	DNA	187	1303	965	145	GTR+F+I+G	intron_ok/trimmed_344_AT1G54990_intron.fa
+111	DNA	203	2498	1056	1035	GTR+F+I+G	exon/trimmed_344_AT1G55870_exon.fa
+112	DNA	179	2684	2021	285	GTR+F+I+G	intron_ok/trimmed_344_AT1G55870_intron.fa
+113	DNA	204	1692	726	713	GTR+F+I+G	exon/trimmed_344_AT1G56230_exon.fa
+114	DNA	197	3106	2226	388	GTR+F+I+G	intron_ok/trimmed_344_AT1G56230_intron.fa
+115	DNA	203	1257	442	594	GTR+F+I+G	exon/trimmed_344_AT1G56570_exon.fa
+116	DNA	183	2226	1159	627	GTR+F+I+G	intron_ok/trimmed_344_AT1G56570_intron.fa
+117	DNA	205	1995	758	887	GTR+F+I+G	exon/trimmed_344_AT1G57770_exon.fa
+118	DNA	202	6015	4554	644	GTR+F+I+G	intron_ok/trimmed_344_AT1G57770_intron.fa
+119	DNA	202	1325	591	527	GTR+F+I+G	exon/trimmed_344_AT1G59600_exon.fa
+120	DNA	191	3263	2054	511	GTR+F+I+G	intron_ok/trimmed_344_AT1G59600_intron.fa
+121	DNA	203	1865	742	815	GTR+F+I+G	exon/trimmed_344_AT1G59720_exon.fa
+122	DNA	137	877	637	71	GTR+F+I+G	intron_ok/trimmed_344_AT1G59720_intron.fa
+123	DNA	204	217	67	102	GTR+F+I+G	exon/trimmed_344_AT1G60770_exon.fa
+124	DNA	183	554	426	59	GTR+F+I+G	intron_ok/trimmed_344_AT1G60770_intron.fa
+125	DNA	199	1318	539	584	GTR+F+I+G	exon/trimmed_344_AT1G61870_exon.fa
+126	DNA	197	8	5	1	GTR+F+I+G	intron_ok/trimmed_344_AT1G61870_intron.fa
+127	DNA	187	674	374	198	GTR+F+I+G	exon/trimmed_344_AT1G62750_exon.fa
+128	DNA	175	1165	952	67	GTR+F+I+G	intron_ok/trimmed_344_AT1G62750_intron.fa
+129	DNA	204	1851	849	759	GTR+F+I+G	exon/trimmed_344_AT1G64890_exon.fa
+130	DNA	202	258	116	90	GTR+F+I+G	intron_ok/trimmed_344_AT1G64890_intron.fa
+131	DNA	194	2807	1147	1222	GTR+F+I+G	exon/trimmed_344_AT1G65070_exon.fa
+132	DNA	186	1986	1355	343	GTR+F+I+G	intron_ok/trimmed_344_AT1G65070_intron.fa
+133	DNA	195	885	342	394	GTR+F+I+G	exon/trimmed_344_AT1G67410_exon.fa
+134	DNA	195	1427	968	254	GTR+F+I+G	intron_ok/trimmed_344_AT1G67410_intron.fa
+135	DNA	203	1640	679	746	GTR+F+I+G	exon/trimmed_344_AT1G67570_exon.fa
+136	DNA	193	3062	2272	315	GTR+F+I+G	intron_ok/trimmed_344_AT1G67570_intron.fa
+137	DNA	170	1226	401	609	GTR+F+I+G	exon/trimmed_344_AT1G68070_exon.fa
+138	DNA	193	1756	1395	119	GTR+F+I+G	intron_ok/trimmed_344_AT1G68070_intron.fa
+139	DNA	200	1895	725	892	GTR+F+I+G	exon/trimmed_344_AT1G68400_exon.fa
+140	DNA	185	2041	1389	270	GTR+F+I+G	intron_ok/trimmed_344_AT1G68400_intron.fa
+141	DNA	202	1479	560	733	GTR+F+I+G	exon/trimmed_344_AT1G69800_exon.fa
+142	DNA	189	1922	1391	280	GTR+F+I+G	intron_ok/trimmed_344_AT1G69800_intron.fa
+143	DNA	204	1064	409	540	GTR+F+I+G	exon/trimmed_344_AT1G69910_exon.fa
+144	DNA	193	66	34	14	GTR+F+I+G	intron_ok/trimmed_344_AT1G69910_intron.fa
+145	DNA	145	1491	341	911	GTR+F+I+G	exon/trimmed_344_AT1G70330_exon.fa
+146	DNA	152	1509	971	247	GTR+F+I+G	intron_ok/trimmed_344_AT1G70330_intron.fa
+147	DNA	197	1112	446	418	GTR+F+I+G	exon/trimmed_344_AT1G70820_exon.fa
+148	DNA	188	3063	2177	398	GTR+F+I+G	intron_ok/trimmed_344_AT1G70820_intron.fa
+149	DNA	205	769	302	363	GTR+F+I+G	exon/trimmed_344_AT1G71190_exon.fa
+150	DNA	189	4993	3166	861	GTR+F+I+G	intron_ok/trimmed_344_AT1G71190_intron.fa
+151	DNA	201	2478	939	1122	GTR+F+I+G	exon/trimmed_344_AT1G71240_exon.fa
+152	DNA	196	7540	5193	1038	GTR+F+I+G	intron_ok/trimmed_344_AT1G71240_intron.fa
+153	DNA	200	2522	1023	1022	GTR+F+I+G	exon/trimmed_344_AT1G72320_exon.fa
+154	DNA	195	4602	3119	678	GTR+F+I+G	intron_ok/trimmed_344_AT1G72320_intron.fa
+155	DNA	198	1777	741	768	GTR+F+I+G	exon/trimmed_344_AT1G73970_exon.fa
+156	DNA	181	1987	1014	621	GTR+F+I+G	intron_ok/trimmed_344_AT1G73970_intron.fa
+157	DNA	205	1929	788	841	GTR+F+I+G	exon/trimmed_344_AT1G74030_exon.fa
+158	DNA	196	7296	3995	1522	GTR+F+I+G	intron_ok/trimmed_344_AT1G74030_intron.fa
+159	DNA	202	1049	318	588	GTR+F+I+G	exon/trimmed_344_AT1G74470_exon.fa
+160	DNA	186	1449	1121	108	GTR+F+I+G	intron_ok/trimmed_344_AT1G74470_intron.fa
+161	DNA	202	1279	477	634	GTR+F+I+G	exon/trimmed_344_AT1G76920_exon.fa
+162	DNA	185	1389	869	218	GTR+F+I+G	intron_ok/trimmed_344_AT1G76920_intron.fa
+163	DNA	202	2575	1010	1194	GTR+F+I+G	exon/trimmed_344_AT1G77550_exon.fa
+164	DNA	193	6667	4989	797	GTR+F+I+G	intron_ok/trimmed_344_AT1G77550_intron.fa
+165	DNA	199	1703	726	646	GTR+F+I+G	exon/trimmed_344_AT1G78930_exon.fa
+166	DNA	192	4577	3334	428	GTR+F+I+G	intron_ok/trimmed_344_AT1G78930_intron.fa
+167	DNA	200	4464	2025	1672	GTR+F+I+G	exon/trimmed_344_AT1G79190_exon.fa
+168	DNA	182	9142	4484	2420	GTR+F+I+G	intron_ok/trimmed_344_AT1G79190_intron.fa
+169	DNA	204	638	389	188	GTR+F+I+G	exon/trimmed_344_AT1G79600_exon.fa
+170	DNA	184	938	753	56	GTR+F+I+G	intron_ok/trimmed_344_AT1G79600_intron.fa
+171	DNA	187	2772	1042	1223	GTR+F+I+G	exon/trimmed_344_AT2G01320_exon.fa
+172	DNA	187	4739	3581	496	GTR+F+I+G	intron_ok/trimmed_344_AT2G01320_intron.fa
+173	DNA	201	1493	804	409	GTR+F+I+G	exon/trimmed_344_AT2G01860_exon.fa
+174	DNA	151	644	364	101	GTR+F+I+G	intron_ok/trimmed_344_AT2G01860_intron.fa
+175	DNA	196	1720	732	719	GTR+F+I+G	exon/trimmed_344_AT2G03270_exon.fa
+176	DNA	191	6198	4323	794	GTR+F+I+G	intron_ok/trimmed_344_AT2G03270_intron.fa
+177	DNA	203	2128	831	940	GTR+F+I+G	exon/trimmed_344_AT2G04740_exon.fa
+178	DNA	191	5185	2214	1822	GTR+F+I+G	intron_ok/trimmed_344_AT2G04740_intron.fa
+179	DNA	205	1114	489	506	GTR+F+I+G	exon/trimmed_344_AT2G04850_exon.fa
+180	DNA	185	1176	914	103	GTR+F+I+G	intron_ok/trimmed_344_AT2G04850_intron.fa
+181	DNA	204	161	47	85	GTR+F+I+G	exon/trimmed_344_AT2G05170_exon.fa
+182	DNA	188	567	375	89	GTR+F+I+G	intron_ok/trimmed_344_AT2G05170_intron.fa
+183	DNA	197	1959	819	858	GTR+F+I+G	exon/trimmed_344_AT2G13100_exon.fa
+184	DNA	193	496	315	73	GTR+F+I+G	intron_ok/trimmed_344_AT2G13100_intron.fa
+185	DNA	196	1372	430	750	GTR+F+I+G	exon/trimmed_344_AT2G13840_exon.fa
+186	DNA	192	2766	1620	622	GTR+F+I+G	intron_ok/trimmed_344_AT2G13840_intron.fa
+187	DNA	194	1362	518	614	GTR+F+I+G	exon/trimmed_344_AT2G14530_exon.fa
+188	DNA	191	3618	2501	469	GTR+F+I+G	intron_ok/trimmed_344_AT2G14530_intron.fa
+189	DNA	194	882	353	332	GTR+F+I+G	exon/trimmed_344_AT2G15430_exon.fa
+190	DNA	157	2739	2037	184	GTR+F+I+G	intron_ok/trimmed_344_AT2G15430_intron.fa
+191	DNA	197	1920	839	764	GTR+F+I+G	exon/trimmed_344_AT2G15560_exon.fa
+192	DNA	168	1262	756	161	GTR+F+I+G	intron_ok/trimmed_344_AT2G15560_intron.fa
+193	DNA	150	2164	634	1054	GTR+F+I+G	exon/trimmed_344_AT2G15630_exon.fa
+194	DNA	186	1252	1024	89	GTR+F+I+G	intron_ok/trimmed_344_AT2G15630_intron.fa
+195	DNA	192	772	217	406	GTR+F+I+G	exon/trimmed_344_AT2G16860_exon.fa
+196	DNA	195	2005	1331	226	GTR+F+I+G	intron_ok/trimmed_344_AT2G16860_intron.fa
+197	DNA	199	1761	669	870	GTR+F+I+G	exon/trimmed_344_AT2G17020_exon.fa
+198	DNA	181	1642	1266	175	GTR+F+I+G	intron_ok/trimmed_344_AT2G17020_intron.fa
+199	DNA	205	1315	637	450	GTR+F+I+G	exon/trimmed_344_AT2G17265_exon.fa
+200	DNA	193	806	781	2	GTR+F+I+G	intron_ok/trimmed_344_AT2G17265_intron.fa
+201	DNA	196	1707	748	743	GTR+F+I+G	exon/trimmed_344_AT2G17670_exon.fa
+202	DNA	158	577	497	25	GTR+F+I+G	intron_ok/trimmed_344_AT2G17670_intron.fa
+203	DNA	199	2038	837	893	GTR+F+I+G	exon/trimmed_344_AT2G18710_exon.fa
+204	DNA	192	5639	3565	862	GTR+F+I+G	intron_ok/trimmed_344_AT2G18710_intron.fa
+205	DNA	204	1536	688	642	GTR+F+I+G	exon/trimmed_344_AT2G18890_exon.fa
+206	DNA	195	3178	2386	330	GTR+F+I+G	intron_ok/trimmed_344_AT2G18890_intron.fa
+207	DNA	199	1959	767	822	GTR+F+I+G	exon/trimmed_344_AT2G21710_exon.fa
+208	DNA	198	3767	2940	283	GTR+F+I+G	intron_ok/trimmed_344_AT2G21710_intron.fa
+209	DNA	204	918	322	457	GTR+F+I+G	exon/trimmed_344_AT2G22410_exon.fa
+210	DNA	160	1771	747	496	GTR+F+I+G	intron_ok/trimmed_344_AT2G22410_intron.fa
+211	DNA	203	831	288	440	GTR+F+I+G	exon/trimmed_344_AT2G22870_exon.fa
+212	DNA	193	2167	1684	188	GTR+F+I+G	intron_ok/trimmed_344_AT2G22870_intron.fa
+213	DNA	201	1481	612	634	GTR+F+I+G	exon/trimmed_344_AT2G24830_exon.fa
+214	DNA	198	1776	1394	161	GTR+F+I+G	intron_ok/trimmed_344_AT2G24830_intron.fa
+215	DNA	199	2001	757	822	GTR+F+I+G	exon/trimmed_344_AT2G25530_exon.fa
+216	DNA	194	9186	5703	1537	GTR+F+I+G	intron_ok/trimmed_344_AT2G25530_intron.fa
+217	DNA	202	1407	576	637	GTR+F+I+G	exon/trimmed_344_AT2G25620_exon.fa
+218	DNA	189	3431	2515	427	GTR+F+I+G	intron_ok/trimmed_344_AT2G25620_intron.fa
+219	DNA	204	1565	570	770	GTR+F+I+G	exon/trimmed_344_AT2G26700_exon.fa
+220	DNA	190	1474	1026	171	GTR+F+I+G	intron_ok/trimmed_344_AT2G26700_intron.fa
+221	DNA	203	1017	372	535	GTR+F+I+G	exon/trimmed_344_AT2G30080_exon.fa
+222	DNA	189	1535	1313	75	GTR+F+I+G	intron_ok/trimmed_344_AT2G30080_intron.fa
+223	DNA	197	2125	714	1099	GTR+F+I+G	exon/trimmed_344_AT2G30100_exon.fa
+224	DNA	175	1889	1242	220	GTR+F+I+G	intron_ok/trimmed_344_AT2G30100_intron.fa
+225	DNA	196	2441	949	1118	GTR+F+I+G	exon/trimmed_344_AT2G31240_exon.fa
+226	DNA	182	1975	1438	241	GTR+F+I+G	intron_ok/trimmed_344_AT2G31240_intron.fa
+227	DNA	202	1666	605	891	GTR+F+I+G	exon/trimmed_344_AT2G31880_exon.fa
+228	DNA	145	1125	583	188	GTR+F+I+G	intron_ok/trimmed_344_AT2G31880_intron.fa
+229	DNA	199	1303	457	627	GTR+F+I+G	exon/trimmed_344_AT2G33610_exon.fa
+230	DNA	193	2435	1454	443	GTR+F+I+G	intron_ok/trimmed_344_AT2G33610_intron.fa
+231	DNA	206	883	350	420	GTR+F+I+G	exon/trimmed_344_AT2G33630_exon.fa
+232	DNA	196	3242	2360	366	GTR+F+I+G	intron_ok/trimmed_344_AT2G33630_intron.fa
+233	DNA	196	1706	569	803	GTR+F+I+G	exon/trimmed_344_AT2G35130_exon.fa
+234	DNA	189	4267	3004	447	GTR+F+I+G	intron_ok/trimmed_344_AT2G35130_intron.fa
+235	DNA	149	2244	889	923	GTR+F+I+G	exon/trimmed_344_AT2G36660_exon.fa
+236	DNA	168	2546	1692	362	GTR+F+I+G	intron_ok/trimmed_344_AT2G36660_intron.fa
+237	DNA	205	2052	850	857	GTR+F+I+G	exon/trimmed_344_AT2G36990_exon.fa
+238	DNA	196	2229	1547	287	GTR+F+I+G	intron_ok/trimmed_344_AT2G36990_intron.fa
+239	DNA	203	1550	586	730	GTR+F+I+G	exon/trimmed_344_AT2G37230_exon.fa
+240	DNA	171	929	844	11	GTR+F+I+G	intron_ok/trimmed_344_AT2G37230_intron.fa
+241	DNA	188	1444	509	582	GTR+F+I+G	exon/trimmed_344_AT2G38000_exon.fa
+242	DNA	178	2606	1502	493	GTR+F+I+G	intron_ok/trimmed_344_AT2G38000_intron.fa
+243	DNA	206	1245	533	562	GTR+F+I+G	exon/trimmed_344_AT2G38060_exon.fa
+244	DNA	191	2278	1468	254	GTR+F+I+G	intron_ok/trimmed_344_AT2G38060_intron.fa
+245	DNA	199	969	461	309	GTR+F+I+G	exon/trimmed_344_AT2G39000_exon.fa
+246	DNA	183	1734	1337	101	GTR+F+I+G	intron_ok/trimmed_344_AT2G39000_intron.fa
+247	DNA	201	695	316	285	GTR+F+I+G	exon/trimmed_344_AT2G40190_exon.fa
+248	DNA	190	1756	1362	160	GTR+F+I+G	intron_ok/trimmed_344_AT2G40190_intron.fa
+249	DNA	197	5677	2066	2469	GTR+F+I+G	exon/trimmed_344_AT2G40770_exon.fa
+250	DNA	193	12493	8100	1949	GTR+F+I+G	intron_ok/trimmed_344_AT2G40770_intron.fa
+251	DNA	202	1536	564	765	GTR+F+I+G	exon/trimmed_344_AT2G42450_exon.fa
+252	DNA	198	6055	3748	1096	GTR+F+I+G	intron_ok/trimmed_344_AT2G42450_intron.fa
+253	DNA	201	2997	1204	1362	GTR+F+I+G	exon/trimmed_344_AT2G42700_exon.fa
+254	DNA	190	3919	2607	537	GTR+F+I+G	intron_ok/trimmed_344_AT2G42700_intron.fa
+255	DNA	198	593	279	212	GTR+F+I+G	exon/trimmed_344_AT2G43540_exon.fa
+256	DNA	176	908	816	19	GTR+F+I+G	intron_ok/trimmed_344_AT2G43540_intron.fa
+257	DNA	199	1872	793	846	GTR+F+I+G	exon/trimmed_344_AT2G44020_exon.fa
+258	DNA	164	663	588	35	GTR+F+I+G	intron_ok/trimmed_344_AT2G44020_intron.fa
+259	DNA	203	587	266	216	GTR+F+I+G	exon/trimmed_344_AT2G47330_exon.fa
+260	DNA	190	580	365	122	GTR+F+I+G	intron_ok/trimmed_344_AT2G47330_intron.fa
+261	DNA	201	3540	1497	1538	GTR+F+I+G	exon/trimmed_344_AT2G47680_exon.fa
+262	DNA	200	10117	4821	3536	GTR+F+I+G	intron_ok/trimmed_344_AT2G47680_intron.fa
+263	DNA	194	1512	556	670	GTR+F+I+G	exon/trimmed_344_AT2G47990_exon.fa
+264	DNA	161	734	631	35	GTR+F+I+G	intron_ok/trimmed_344_AT2G47990_intron.fa
+265	DNA	202	1303	438	700	GTR+F+I+G	exon/trimmed_344_AT3G01060_exon.fa
+266	DNA	190	4923	3250	569	GTR+F+I+G	intron_ok/trimmed_344_AT3G01060_intron.fa
+267	DNA	199	1696	602	787	GTR+F+I+G	exon/trimmed_344_AT3G01480_exon.fa
+268	DNA	193	3542	2288	558	GTR+F+I+G	intron_ok/trimmed_344_AT3G01480_intron.fa
+269	DNA	201	3178	1302	1427	GTR+F+I+G	exon/trimmed_344_AT3G01720_exon.fa
+270	DNA	177	11064	4856	4077	GTR+F+I+G	intron_ok/trimmed_344_AT3G01720_intron.fa
+271	DNA	202	1966	714	941	GTR+F+I+G	exon/trimmed_344_AT3G02450_exon.fa
+272	DNA	193	2643	1968	307	GTR+F+I+G	intron_ok/trimmed_344_AT3G02450_intron.fa
+273	DNA	194	1363	668	424	GTR+F+I+G	exon/trimmed_344_AT3G02760_exon.fa
+274	DNA	176	3182	2795	83	GTR+F+I+G	intron_ok/trimmed_344_AT3G02760_intron.fa
+275	DNA	202	2782	943	1437	GTR+F+I+G	exon/trimmed_344_AT3G04260_exon.fa
+276	DNA	198	9095	6367	1271	GTR+F+I+G	intron_ok/trimmed_344_AT3G04260_intron.fa
+277	DNA	203	1004	407	487	GTR+F+I+G	exon/trimmed_344_AT3G04880_exon.fa
+278	DNA	169	958	795	55	GTR+F+I+G	intron_ok/trimmed_344_AT3G04880_intron.fa
+279	DNA	201	1664	692	717	GTR+F+I+G	exon/trimmed_344_AT3G05340_exon.fa
+280	DNA	179	128	109	6	GTR+F+I+G	intron_ok/trimmed_344_AT3G05340_intron.fa
+281	DNA	201	654	278	246	GTR+F+I+G	exon/trimmed_344_AT3G05410_exon.fa
+282	DNA	185	876	677	59	GTR+F+I+G	intron_ok/trimmed_344_AT3G05410_intron.fa
+283	DNA	197	2704	876	1350	GTR+F+I+G	exon/trimmed_344_AT3G06510_exon.fa
+284	DNA	191	5607	3576	1045	GTR+F+I+G	intron_ok/trimmed_344_AT3G06510_intron.fa
+285	DNA	202	2291	859	1035	GTR+F+I+G	exon/trimmed_344_AT3G07140_exon.fa
+286	DNA	189	3304	2507	266	GTR+F+I+G	intron_ok/trimmed_344_AT3G07140_intron.fa
+287	DNA	200	1360	538	606	GTR+F+I+G	exon/trimmed_344_AT3G08010_exon.fa
+288	DNA	186	3157	2228	398	GTR+F+I+G	intron_ok/trimmed_344_AT3G08010_intron.fa
+289	DNA	203	831	343	394	GTR+F+I+G	exon/trimmed_344_AT3G08760_exon.fa
+290	DNA	203	2935	1495	728	GTR+F+I+G	intron_ok/trimmed_344_AT3G08760_intron.fa
+291	DNA	201	588	250	235	GTR+F+I+G	exon/trimmed_344_AT3G09210_exon.fa
+292	DNA	189	3090	2006	470	GTR+F+I+G	intron_ok/trimmed_344_AT3G09210_intron.fa
+293	DNA	197	2534	911	1279	GTR+F+I+G	exon/trimmed_344_AT3G09650_exon.fa
+294	DNA	184	779	567	105	GTR+F+I+G	intron_ok/trimmed_344_AT3G09650_intron.fa
+295	DNA	198	1302	544	538	GTR+F+I+G	exon/trimmed_344_AT3G10150_exon.fa
+296	DNA	194	5568	4478	561	GTR+F+I+G	intron_ok/trimmed_344_AT3G10150_intron.fa
+297	DNA	201	1316	457	609	GTR+F+I+G	exon/trimmed_344_AT3G10420_exon.fa
+298	DNA	190	3356	2476	275	GTR+F+I+G	intron_ok/trimmed_344_AT3G10420_intron.fa
+299	DNA	202	990	313	537	GTR+F+I+G	exon/trimmed_344_AT3G12290_exon.fa
+300	DNA	196	3031	2148	363	GTR+F+I+G	intron_ok/trimmed_344_AT3G12290_intron.fa
+301	DNA	200	2524	1110	1011	GTR+F+I+G	exon/trimmed_344_AT3G14075_exon.fa
+302	DNA	194	5698	3495	997	GTR+F+I+G	intron_ok/trimmed_344_AT3G14075_intron.fa
+303	DNA	203	1643	743	651	GTR+F+I+G	exon/trimmed_344_AT3G14860_exon.fa
+304	DNA	191	4953	3463	628	GTR+F+I+G	intron_ok/trimmed_344_AT3G14860_intron.fa
+305	DNA	202	2173	1059	854	GTR+F+I+G	exon/trimmed_344_AT3G14900_exon.fa
+306	DNA	165	881	700	65	GTR+F+I+G	intron_ok/trimmed_344_AT3G14900_intron.fa
+307	DNA	205	1636	643	754	GTR+F+I+G	exon/trimmed_344_AT3G14910_exon.fa
+308	DNA	201	6237	4638	635	GTR+F+I+G	intron_ok/trimmed_344_AT3G14910_intron.fa
+309	DNA	200	1589	621	733	GTR+F+I+G	exon/trimmed_344_AT3G14930_exon.fa
+310	DNA	144	2522	1693	390	GTR+F+I+G	intron_ok/trimmed_344_AT3G14930_intron.fa
+311	DNA	203	3042	1154	1351	GTR+F+I+G	exon/trimmed_344_AT3G18390_exon.fa
+312	DNA	196	7505	4842	1360	GTR+F+I+G	intron_ok/trimmed_344_AT3G18390_intron.fa
+313	DNA	203	1870	692	898	GTR+F+I+G	exon/trimmed_344_AT3G19553_exon.fa
+314	DNA	189	1344	1014	179	GTR+F+I+G	intron_ok/trimmed_344_AT3G19553_intron.fa
+315	DNA	201	1545	624	695	GTR+F+I+G	exon/trimmed_344_AT3G19770_exon.fa
+316	DNA	200	1840	1204	218	GTR+F+I+G	intron_ok/trimmed_344_AT3G19770_intron.fa
+317	DNA	201	2912	1078	1407	GTR+F+I+G	exon/trimmed_344_AT3G19870_exon.fa
+318	DNA	195	2321	1614	362	GTR+F+I+G	intron_ok/trimmed_344_AT3G19870_intron.fa
+319	DNA	200	1650	683	805	GTR+F+I+G	exon/trimmed_344_AT3G20015_exon.fa
+320	DNA	173	705	582	37	GTR+F+I+G	intron_ok/trimmed_344_AT3G20015_intron.fa
+321	DNA	195	313	104	173	GTR+F+I+G	exon/trimmed_344_AT3G20230_exon.fa
+322	DNA	174	534	415	54	GTR+F+I+G	intron_ok/trimmed_344_AT3G20230_intron.fa
+323	DNA	202	967	318	522	GTR+F+I+G	exon/trimmed_344_AT3G20420_exon.fa
+324	DNA	199	2965	1878	589	GTR+F+I+G	intron_ok/trimmed_344_AT3G20420_intron.fa
+325	DNA	203	919	317	449	GTR+F+I+G	exon/trimmed_344_AT3G20810_exon.fa
+326	DNA	186	2831	2027	373	GTR+F+I+G	intron_ok/trimmed_344_AT3G20810_intron.fa
+327	DNA	202	2900	954	1466	GTR+F+I+G	exon/trimmed_344_AT3G21540_exon.fa
+328	DNA	195	5915	3976	822	GTR+F+I+G	intron_ok/trimmed_344_AT3G21540_intron.fa
+329	DNA	200	944	393	395	GTR+F+I+G	exon/trimmed_344_AT3G21740_exon.fa
+330	DNA	183	965	751	53	GTR+F+I+G	intron_ok/trimmed_344_AT3G21740_intron.fa
+331	DNA	204	2656	1099	1170	GTR+F+I+G	exon/trimmed_344_AT3G24190_exon.fa
+332	DNA	200	9148	6070	1249	GTR+F+I+G	intron_ok/trimmed_344_AT3G24190_intron.fa
+333	DNA	200	1522	774	391	GTR+F+I+G	exon/trimmed_344_AT3G25440_exon.fa
+334	DNA	170	2331	1949	55	GTR+F+I+G	intron_ok/trimmed_344_AT3G25440_intron.fa
+335	DNA	204	2164	904	965	GTR+F+I+G	exon/trimmed_344_AT3G26570_exon.fa
+336	DNA	181	2513	2047	156	GTR+F+I+G	intron_ok/trimmed_344_AT3G26570_intron.fa
+337	DNA	195	995	463	389	GTR+F+I+G	exon/trimmed_344_AT3G26580_exon.fa
+338	DNA	183	1496	1088	147	GTR+F+I+G	intron_ok/trimmed_344_AT3G26580_intron.fa
+339	DNA	200	987	482	358	GTR+F+I+G	exon/trimmed_344_AT3G29240_exon.fa
+340	DNA	173	537	413	62	GTR+F+I+G	intron_ok/trimmed_344_AT3G29240_intron.fa
+341	DNA	201	2033	869	812	GTR+F+I+G	exon/trimmed_344_AT3G44880_exon.fa
+342	DNA	195	3718	2853	362	GTR+F+I+G	intron_ok/trimmed_344_AT3G44880_intron.fa
+343	DNA	198	2274	1037	911	GTR+F+I+G	exon/trimmed_344_AT3G46610_exon.fa
+344	DNA	184	1301	860	126	GTR+F+I+G	intron_ok/trimmed_344_AT3G46610_intron.fa
+345	DNA	202	2270	784	1222	GTR+F+I+G	exon/trimmed_344_AT3G47390_exon.fa
+346	DNA	194	5276	4159	540	GTR+F+I+G	intron_ok/trimmed_344_AT3G47390_intron.fa
+347	DNA	199	1245	567	388	GTR+F+I+G	exon/trimmed_344_AT3G47610_exon.fa
+348	DNA	193	1219	929	102	GTR+F+I+G	intron_ok/trimmed_344_AT3G47610_intron.fa
+349	DNA	193	957	408	349	GTR+F+I+G	exon/trimmed_344_AT3G47830_exon.fa
+350	DNA	190	4321	2620	681	GTR+F+I+G	intron_ok/trimmed_344_AT3G47830_intron.fa
+351	DNA	199	1122	373	591	GTR+F+I+G	exon/trimmed_344_AT3G48250_exon.fa
+352	DNA	154	1000	467	216	GTR+F+I+G	intron_ok/trimmed_344_AT3G48250_intron.fa
+353	DNA	199	1274	558	564	GTR+F+I+G	exon/trimmed_344_AT3G48460_exon.fa
+354	DNA	162	2952	1690	595	GTR+F+I+G	intron_ok/trimmed_344_AT3G48460_intron.fa
+355	DNA	190	2605	1255	768	GTR+F+I+G	exon/trimmed_344_AT3G49170_exon.fa
+356	DNA	126	847	727	17	GTR+F+I+G	intron_ok/trimmed_344_AT3G49170_intron.fa
+357	DNA	206	748	255	393	GTR+F+I+G	exon/trimmed_344_AT3G51980_exon.fa
+358	DNA	200	4956	3375	538	GTR+F+I+G	intron_ok/trimmed_344_AT3G51980_intron.fa
+359	DNA	202	791	304	343	GTR+F+I+G	exon/trimmed_344_AT3G52570_exon.fa
+360	DNA	196	2048	1600	157	GTR+F+I+G	intron_ok/trimmed_344_AT3G52570_intron.fa
+361	DNA	189	1080	516	378	GTR+F+I+G	exon/trimmed_344_AT3G53140_exon.fa
+362	DNA	186	915	810	35	GTR+F+I+G	intron_ok/trimmed_344_AT3G53140_intron.fa
+363	DNA	197	1711	507	927	GTR+F+I+G	exon/trimmed_344_AT3G53700_exon.fa
+364	DNA	134	511	428	18	GTR+F+I+G	intron_ok/trimmed_344_AT3G53700_intron.fa
+365	DNA	200	864	287	472	GTR+F+I+G	exon/trimmed_344_AT3G54690_exon.fa
+366	DNA	166	2050	1692	133	GTR+F+I+G	intron_ok/trimmed_344_AT3G54690_intron.fa
+367	DNA	203	1203	387	641	GTR+F+I+G	exon/trimmed_344_AT3G55070_exon.fa
+368	DNA	189	4449	3155	548	GTR+F+I+G	intron_ok/trimmed_344_AT3G55070_intron.fa
+369	DNA	198	802	325	345	GTR+F+I+G	exon/trimmed_344_AT3G55120_exon.fa
+370	DNA	187	2504	1844	296	GTR+F+I+G	intron_ok/trimmed_344_AT3G55120_intron.fa
+371	DNA	204	416	162	193	GTR+F+I+G	exon/trimmed_344_AT3G55400_exon.fa
+372	DNA	197	6643	4163	1090	GTR+F+I+G	intron_ok/trimmed_344_AT3G55400_intron.fa
+373	DNA	202	2180	897	976	GTR+F+I+G	exon/trimmed_344_AT3G55480_exon.fa
+374	DNA	193	4899	3346	683	GTR+F+I+G	intron_ok/trimmed_344_AT3G55480_intron.fa
+375	DNA	200	2242	966	931	GTR+F+I+G	exon/trimmed_344_AT3G57180_exon.fa
+376	DNA	185	3055	2076	359	GTR+F+I+G	intron_ok/trimmed_344_AT3G57180_intron.fa
+377	DNA	200	1128	458	513	GTR+F+I+G	exon/trimmed_344_AT3G57190_exon.fa
+378	DNA	189	4422	3230	496	GTR+F+I+G	intron_ok/trimmed_344_AT3G57190_intron.fa
+379	DNA	200	1805	722	817	GTR+F+I+G	exon/trimmed_344_AT3G57790_exon.fa
+380	DNA	181	1853	1231	318	GTR+F+I+G	intron_ok/trimmed_344_AT3G57790_intron.fa
+381	DNA	194	389	201	117	GTR+F+I+G	exon/trimmed_344_AT3G58470_exon.fa
+382	DNA	204	111	83	15	GTR+F+I+G	intron_ok/trimmed_344_AT3G58470_intron.fa
+383	DNA	204	1251	447	594	GTR+F+I+G	exon/trimmed_344_AT3G58690_exon.fa
+384	DNA	191	3577	2601	374	GTR+F+I+G	intron_ok/trimmed_344_AT3G58690_intron.fa
+385	DNA	201	1935	706	904	GTR+F+I+G	exon/trimmed_344_AT3G59040_exon.fa
+386	DNA	193	5084	3974	405	GTR+F+I+G	intron_ok/trimmed_344_AT3G59040_intron.fa
+387	DNA	195	3443	1268	1691	GTR+F+I+G	exon/trimmed_344_AT3G59420_exon.fa
+388	DNA	135	954	631	94	GTR+F+I+G	intron_ok/trimmed_344_AT3G59420_intron.fa
+389	DNA	200	1363	527	653	GTR+F+I+G	exon/trimmed_344_AT3G59530_exon.fa
+390	DNA	184	2075	1493	211	GTR+F+I+G	intron_ok/trimmed_344_AT3G59530_intron.fa
+391	DNA	199	4539	1513	2264	GTR+F+I+G	exon/trimmed_344_AT3G59770_exon.fa
+392	DNA	187	9909	6638	1361	GTR+F+I+G	intron_ok/trimmed_344_AT3G59770_intron.fa
+393	DNA	200	2209	844	1152	GTR+F+I+G	exon/trimmed_344_AT3G60850_exon.fa
+394	DNA	175	722	536	86	GTR+F+I+G	intron_ok/trimmed_344_AT3G60850_intron.fa
+395	DNA	198	1721	571	854	GTR+F+I+G	exon/trimmed_344_AT3G61320_exon.fa
+396	DNA	191	3581	2209	614	GTR+F+I+G	intron_ok/trimmed_344_AT3G61320_intron.fa
+397	DNA	201	1041	382	464	GTR+F+I+G	exon/trimmed_344_AT3G61350_exon.fa
+398	DNA	196	1977	1246	374	GTR+F+I+G	intron_ok/trimmed_344_AT3G61350_intron.fa
+399	DNA	202	1526	567	696	GTR+F+I+G	exon/trimmed_344_AT3G61360_exon.fa
+400	DNA	179	500	369	55	GTR+F+I+G	intron_ok/trimmed_344_AT3G61360_intron.fa
+401	DNA	202	1578	691	623	GTR+F+I+G	exon/trimmed_344_AT3G62390_exon.fa
+402	DNA	197	2590	1902	260	GTR+F+I+G	intron_ok/trimmed_344_AT3G62390_intron.fa
+403	DNA	153	1056	464	375	GTR+F+I+G	exon/trimmed_344_AT4G01130_exon.fa
+404	DNA	152	3225	2447	271	GTR+F+I+G	intron_ok/trimmed_344_AT4G01130_intron.fa
+405	DNA	202	912	359	421	GTR+F+I+G	exon/trimmed_344_AT4G01310_exon.fa
+406	DNA	194	2712	2003	326	GTR+F+I+G	intron_ok/trimmed_344_AT4G01310_intron.fa
+407	DNA	199	2242	1168	650	GTR+F+I+G	exon/trimmed_344_AT4G01870_exon.fa
+408	DNA	172	641	623	1	GTR+F+I+G	intron_ok/trimmed_344_AT4G01870_intron.fa
+409	DNA	201	909	543	207	GTR+F+I+G	exon/trimmed_344_AT4G02405_exon.fa
+410	DNA	200	325	254	28	GTR+F+I+G	intron_ok/trimmed_344_AT4G02405_intron.fa
+411	DNA	202	1098	417	497	GTR+F+I+G	exon/trimmed_344_AT4G02820_exon.fa
+412	DNA	151	2577	893	1132	GTR+F+I+G	intron_ok/trimmed_344_AT4G02820_intron.fa
+413	DNA	202	1842	703	764	GTR+F+I+G	exon/trimmed_344_AT4G04180_exon.fa
+414	DNA	169	6732	4611	968	GTR+F+I+G	intron_ok/trimmed_344_AT4G04180_intron.fa
+415	DNA	200	159	53	80	GTR+F+I+G	exon/trimmed_344_AT4G04930_exon.fa
+416	DNA	176	593	447	53	GTR+F+I+G	intron_ok/trimmed_344_AT4G04930_intron.fa
+417	DNA	205	2202	848	1075	GTR+F+I+G	exon/trimmed_344_AT4G08810_exon.fa
+418	DNA	170	684	442	115	GTR+F+I+G	intron_ok/trimmed_344_AT4G08810_intron.fa
+419	DNA	204	1771	640	809	GTR+F+I+G	exon/trimmed_344_AT4G09730_exon.fa
+420	DNA	198	5689	4300	563	GTR+F+I+G	intron_ok/trimmed_344_AT4G09730_intron.fa
+421	DNA	201	1648	837	507	GTR+F+I+G	exon/trimmed_344_AT4G12130_exon.fa
+422	DNA	194	3083	2373	292	GTR+F+I+G	intron_ok/trimmed_344_AT4G12130_intron.fa
+423	DNA	205	2242	797	1145	GTR+F+I+G	exon/trimmed_344_AT4G13970_exon.fa
+424	DNA	162	3953	2430	723	GTR+F+I+G	intron_ok/trimmed_344_AT4G13970_intron.fa
+425	DNA	197	2201	668	1140	GTR+F+I+G	exon/trimmed_344_AT4G15420_exon.fa
+426	DNA	179	1298	891	216	GTR+F+I+G	intron_ok/trimmed_344_AT4G15420_intron.fa
+427	DNA	202	1391	521	645	GTR+F+I+G	exon/trimmed_344_AT4G15850_exon.fa
+428	DNA	197	8728	5959	1170	GTR+F+I+G	intron_ok/trimmed_344_AT4G15850_intron.fa
+429	DNA	201	2598	902	1354	GTR+F+I+G	exon/trimmed_344_AT4G16180_exon.fa
+430	DNA	193	5840	4009	769	GTR+F+I+G	intron_ok/trimmed_344_AT4G16180_intron.fa
+431	DNA	196	2114	943	738	GTR+F+I+G	exon/trimmed_344_AT4G16390_exon.fa
+432	DNA	144	818	741	5	GTR+F+I+G	intron_ok/trimmed_344_AT4G16390_intron.fa
+433	DNA	201	1272	458	614	GTR+F+I+G	exon/trimmed_344_AT4G17370_exon.fa
+434	DNA	190	2814	1960	278	GTR+F+I+G	intron_ok/trimmed_344_AT4G17370_intron.fa
+435	DNA	203	500	169	245	GTR+F+I+G	exon/trimmed_344_AT4G19180_exon.fa
+436	DNA	185	1014	725	135	GTR+F+I+G	intron_ok/trimmed_344_AT4G19180_intron.fa
+437	DNA	204	2376	1001	1072	GTR+F+I+G	exon/trimmed_344_AT4G20740_exon.fa
+438	DNA	187	7122	2892	2898	GTR+F+I+G	intron_ok/trimmed_344_AT4G20740_intron.fa
+439	DNA	202	609	206	340	GTR+F+I+G	exon/trimmed_344_AT4G23930_exon.fa
+440	DNA	170	603	419	68	GTR+F+I+G	intron_ok/trimmed_344_AT4G23930_intron.fa
+441	DNA	203	982	332	477	GTR+F+I+G	exon/trimmed_344_AT4G26180_exon.fa
+442	DNA	201	2172	1495	273	GTR+F+I+G	intron_ok/trimmed_344_AT4G26180_intron.fa
+443	DNA	202	1353	469	679	GTR+F+I+G	exon/trimmed_344_AT4G28980_exon.fa
+444	DNA	187	1713	1180	219	GTR+F+I+G	intron_ok/trimmed_344_AT4G28980_intron.fa
+445	DNA	198	1054	476	351	GTR+F+I+G	exon/trimmed_344_AT4G29120_exon.fa
+446	DNA	165	701	626	16	GTR+F+I+G	intron_ok/trimmed_344_AT4G29120_intron.fa
+447	DNA	192	2654	889	1417	GTR+F+I+G	exon/trimmed_344_AT4G30825_exon.fa
+448	DNA	137	2386	863	1057	GTR+F+I+G	intron_ok/trimmed_344_AT4G30825_intron.fa
+449	DNA	202	659	278	273	GTR+F+I+G	exon/trimmed_344_AT4G32605_exon.fa
+450	DNA	181	1987	1272	267	GTR+F+I+G	intron_ok/trimmed_344_AT4G32605_intron.fa
+451	DNA	199	478	199	218	GTR+F+I+G	exon/trimmed_344_AT4G33410_exon.fa
+452	DNA	190	1344	978	150	GTR+F+I+G	intron_ok/trimmed_344_AT4G33410_intron.fa
+453	DNA	198	1721	775	655	GTR+F+I+G	exon/trimmed_344_AT4G33945_exon.fa
+454	DNA	191	3721	2692	391	GTR+F+I+G	intron_ok/trimmed_344_AT4G33945_intron.fa
+455	DNA	202	1837	633	950	GTR+F+I+G	exon/trimmed_344_AT4G34030_exon.fa
+456	DNA	195	3640	2638	482	GTR+F+I+G	intron_ok/trimmed_344_AT4G34030_intron.fa
+457	DNA	198	3157	1146	1643	GTR+F+I+G	exon/trimmed_344_AT4G35870_exon.fa
+458	DNA	156	915	788	41	GTR+F+I+G	intron_ok/trimmed_344_AT4G35870_intron.fa
+459	DNA	203	2134	819	1011	GTR+F+I+G	exon/trimmed_344_AT4G36390_exon.fa
+460	DNA	190	2449	1935	121	GTR+F+I+G	intron_ok/trimmed_344_AT4G36390_intron.fa
+461	DNA	193	1839	711	776	GTR+F+I+G	exon/trimmed_344_AT4G37380_exon.fa
+462	DNA	176	334	241	40	GTR+F+I+G	intron_ok/trimmed_344_AT4G37380_intron.fa
+463	DNA	203	897	329	420	GTR+F+I+G	exon/trimmed_344_AT4G38020_exon.fa
+464	DNA	185	1505	1067	184	GTR+F+I+G	intron_ok/trimmed_344_AT4G38020_intron.fa
+465	DNA	197	1127	384	571	GTR+F+I+G	exon/trimmed_344_AT4G38460_exon.fa
+466	DNA	189	1868	1347	196	GTR+F+I+G	intron_ok/trimmed_344_AT4G38460_intron.fa
+467	DNA	201	1877	756	839	GTR+F+I+G	exon/trimmed_344_AT4G38890_exon.fa
+468	DNA	197	2569	2007	295	GTR+F+I+G	intron_ok/trimmed_344_AT4G38890_intron.fa
+469	DNA	201	1875	740	857	GTR+F+I+G	exon/trimmed_344_AT4G39010_exon.fa
+470	DNA	201	3565	1637	1212	GTR+F+I+G	intron_ok/trimmed_344_AT4G39010_intron.fa
+471	DNA	203	1630	730	678	GTR+F+I+G	exon/trimmed_344_AT4G39820_exon.fa
+472	DNA	187	846	711	65	GTR+F+I+G	intron_ok/trimmed_344_AT4G39820_intron.fa
+473	DNA	204	1299	638	448	GTR+F+I+G	exon/trimmed_344_AT4G39920_exon.fa
+474	DNA	171	970	792	49	GTR+F+I+G	intron_ok/trimmed_344_AT4G39920_intron.fa
+475	DNA	204	2199	806	1041	GTR+F+I+G	exon/trimmed_344_AT5G02250_exon.fa
+476	DNA	202	15833	9631	3496	GTR+F+I+G	intron_ok/trimmed_344_AT5G02250_intron.fa
+477	DNA	199	1346	588	493	GTR+F+I+G	exon/trimmed_344_AT5G02270_exon.fa
+478	DNA	191	1818	1280	219	GTR+F+I+G	intron_ok/trimmed_344_AT5G02270_intron.fa
+479	DNA	199	1806	828	644	GTR+F+I+G	exon/trimmed_344_AT5G02410_exon.fa
+480	DNA	189	5214	3704	633	GTR+F+I+G	intron_ok/trimmed_344_AT5G02410_intron.fa
+481	DNA	201	915	259	610	GTR+F+I+G	exon/trimmed_344_AT5G02820_exon.fa
+482	DNA	194	297	173	63	GTR+F+I+G	intron_ok/trimmed_344_AT5G02820_intron.fa
+483	DNA	203	909	284	483	GTR+F+I+G	exon/trimmed_344_AT5G03160_exon.fa
+484	DNA	181	3612	2191	765	GTR+F+I+G	intron_ok/trimmed_344_AT5G03160_intron.fa
+485	DNA	198	1589	530	796	GTR+F+I+G	exon/trimmed_344_AT5G03555_exon.fa
+486	DNA	140	955	649	99	GTR+F+I+G	intron_ok/trimmed_344_AT5G03555_intron.fa
+487	DNA	203	2639	1159	1042	GTR+F+I+G	exon/trimmed_344_AT5G03800_exon.fa
+488	DNA	203	4632	2476	1150	GTR+F+I+G	intron_ok/trimmed_344_AT5G03800_intron.fa
+489	DNA	200	2820	1031	1270	GTR+F+I+G	exon/trimmed_344_AT5G04480_exon.fa
+490	DNA	192	4862	3454	554	GTR+F+I+G	intron_ok/trimmed_344_AT5G04480_intron.fa
+491	DNA	202	1630	634	758	GTR+F+I+G	exon/trimmed_344_AT5G04710_exon.fa
+492	DNA	194	9317	6993	1043	GTR+F+I+G	intron_ok/trimmed_344_AT5G04710_intron.fa
+493	DNA	197	3322	1126	1746	GTR+F+I+G	exon/trimmed_344_AT5G06680_exon.fa
+494	DNA	170	798	611	81	GTR+F+I+G	intron_ok/trimmed_344_AT5G06680_intron.fa
+495	DNA	185	1385	533	590	GTR+F+I+G	exon/trimmed_344_AT5G07360_exon.fa
+496	DNA	182	4036	3034	265	GTR+F+I+G	intron_ok/trimmed_344_AT5G07360_intron.fa
+497	DNA	201	1363	476	668	GTR+F+I+G	exon/trimmed_344_AT5G08305_exon.fa
+498	DNA	149	1027	732	104	GTR+F+I+G	intron_ok/trimmed_344_AT5G08305_intron.fa
+499	DNA	199	850	381	327	GTR+F+I+G	exon/trimmed_344_AT5G08510_exon.fa
+500	DNA	170	917	739	68	GTR+F+I+G	intron_ok/trimmed_344_AT5G08510_intron.fa
+501	DNA	204	882	345	411	GTR+F+I+G	exon/trimmed_344_AT5G10750_exon.fa
+502	DNA	197	658	548	40	GTR+F+I+G	intron_ok/trimmed_344_AT5G10750_intron.fa
+503	DNA	181	1104	513	372	GTR+F+I+G	exon/trimmed_344_AT5G12410_exon.fa
+504	DNA	186	6038	4111	975	GTR+F+I+G	intron_ok/trimmed_344_AT5G12410_intron.fa
+505	DNA	204	2270	918	1038	GTR+F+I+G	exon/trimmed_344_AT5G13030_exon.fa
+506	DNA	198	3133	2334	365	GTR+F+I+G	intron_ok/trimmed_344_AT5G13030_intron.fa
+507	DNA	202	297	93	176	GTR+F+I+G	exon/trimmed_344_AT5G13390_exon.fa
+508	DNA	189	648	409	147	GTR+F+I+G	intron_ok/trimmed_344_AT5G13390_intron.fa
+509	DNA	201	2310	868	1188	GTR+F+I+G	exon/trimmed_344_AT5G13400_exon.fa
+510	DNA	200	403	309	49	GTR+F+I+G	intron_ok/trimmed_344_AT5G13400_intron.fa
+511	DNA	199	2880	1430	873	GTR+F+I+G	exon/trimmed_344_AT5G13520_exon.fa
+512	DNA	181	2071	1782	81	GTR+F+I+G	intron_ok/trimmed_344_AT5G13520_intron.fa
+513	DNA	202	1433	482	788	GTR+F+I+G	exon/trimmed_344_AT5G13630_exon.fa
+514	DNA	179	2630	1784	459	GTR+F+I+G	intron_ok/trimmed_344_AT5G13630_intron.fa
+515	DNA	203	3294	1281	1571	GTR+F+I+G	exon/trimmed_344_AT5G14580_exon.fa
+516	DNA	200	13347	8936	2339	GTR+F+I+G	intron_ok/trimmed_344_AT5G14580_intron.fa
+517	DNA	205	1011	362	474	GTR+F+I+G	exon/trimmed_344_AT5G14600_exon.fa
+518	DNA	195	2291	1706	273	GTR+F+I+G	intron_ok/trimmed_344_AT5G14600_intron.fa
+519	DNA	204	1128	414	551	GTR+F+I+G	exon/trimmed_344_AT5G15300_exon.fa
+520	DNA	165	1247	787	188	GTR+F+I+G	intron_ok/trimmed_344_AT5G15300_intron.fa
+521	DNA	202	3695	1411	1740	GTR+F+I+G	exon/trimmed_344_AT5G16210_exon.fa
+522	DNA	201	6165	4018	978	GTR+F+I+G	intron_ok/trimmed_344_AT5G16210_intron.fa
+523	DNA	197	2600	1133	1009	GTR+F+I+G	exon/trimmed_344_AT5G17790_exon.fa
+524	DNA	185	1840	1336	202	GTR+F+I+G	intron_ok/trimmed_344_AT5G17790_intron.fa
+525	DNA	180	1724	839	530	GTR+F+I+G	exon/trimmed_344_AT5G18070_exon.fa
+526	DNA	173	3134	2222	264	GTR+F+I+G	intron_ok/trimmed_344_AT5G18070_intron.fa
+527	DNA	203	1865	807	695	GTR+F+I+G	exon/trimmed_344_AT5G19540_exon.fa
+528	DNA	183	2383	1577	356	GTR+F+I+G	intron_ok/trimmed_344_AT5G19540_intron.fa
+529	DNA	203	1929	695	984	GTR+F+I+G	exon/trimmed_344_AT5G19660_exon.fa
+530	DNA	199	5115	3731	650	GTR+F+I+G	intron_ok/trimmed_344_AT5G19660_intron.fa
+531	DNA	198	5540	1982	2875	GTR+F+I+G	exon/trimmed_344_AT5G20320_exon.fa
+532	DNA	188	12367	6686	3255	GTR+F+I+G	intron_ok/trimmed_344_AT5G20320_intron.fa
+533	DNA	205	866	329	452	GTR+F+I+G	exon/trimmed_344_AT5G20910_exon.fa
+534	DNA	199	1954	1613	176	GTR+F+I+G	intron_ok/trimmed_344_AT5G20910_intron.fa
+535	DNA	201	1353	583	528	GTR+F+I+G	exon/trimmed_344_AT5G23060_exon.fa
+536	DNA	194	4675	3194	696	GTR+F+I+G	intron_ok/trimmed_344_AT5G23060_intron.fa
+537	DNA	204	1293	621	513	GTR+F+I+G	exon/trimmed_344_AT5G23940_exon.fa
+538	DNA	148	1367	1059	107	GTR+F+I+G	intron_ok/trimmed_344_AT5G23940_intron.fa
+539	DNA	206	1659	792	615	GTR+F+I+G	exon/trimmed_344_AT5G24120_exon.fa
+540	DNA	191	2271	1552	308	GTR+F+I+G	intron_ok/trimmed_344_AT5G24120_intron.fa
+541	DNA	204	948	330	492	GTR+F+I+G	exon/trimmed_344_AT5G24340_exon.fa
+542	DNA	199	3389	2419	445	GTR+F+I+G	intron_ok/trimmed_344_AT5G24340_intron.fa
+543	DNA	199	3633	1280	1743	GTR+F+I+G	exon/trimmed_344_AT5G26850_exon.fa
+544	DNA	176	14467	8417	3162	GTR+F+I+G	intron_ok/trimmed_344_AT5G26850_intron.fa
+545	DNA	202	4988	1699	2562	GTR+F+I+G	exon/trimmed_344_AT5G37830_exon.fa
+546	DNA	168	951	772	75	GTR+F+I+G	intron_ok/trimmed_344_AT5G37830_intron.fa
+547	DNA	201	1899	820	844	GTR+F+I+G	exon/trimmed_344_AT5G39410_exon.fa
+548	DNA	166	1657	1279	110	GTR+F+I+G	intron_ok/trimmed_344_AT5G39410_intron.fa
+549	DNA	196	1644	699	603	GTR+F+I+G	exon/trimmed_344_AT5G39590_exon.fa
+550	DNA	181	4227	2851	585	GTR+F+I+G	intron_ok/trimmed_344_AT5G39590_intron.fa
+551	DNA	200	1677	587	797	GTR+F+I+G	exon/trimmed_344_AT5G39680_exon.fa
+552	DNA	195	2495	1480	536	GTR+F+I+G	intron_ok/trimmed_344_AT5G39680_intron.fa
+553	DNA	205	723	198	448	GTR+F+I+G	exon/trimmed_344_AT5G39900_exon.fa
+554	DNA	173	1725	790	484	GTR+F+I+G	intron_ok/trimmed_344_AT5G39900_intron.fa
+555	DNA	177	1191	377	671	GTR+F+I+G	exon/trimmed_344_AT5G41330_exon.fa
+556	DNA	191	1198	806	198	GTR+F+I+G	intron_ok/trimmed_344_AT5G41330_intron.fa
+557	DNA	204	557	215	251	GTR+F+I+G	exon/trimmed_344_AT5G43280_exon.fa
+558	DNA	183	1633	1284	169	GTR+F+I+G	intron_ok/trimmed_344_AT5G43280_intron.fa
+559	DNA	202	1232	496	547	GTR+F+I+G	exon/trimmed_344_AT5G44000_exon.fa
+560	DNA	184	1900	1452	197	GTR+F+I+G	intron_ok/trimmed_344_AT5G44000_intron.fa
+561	DNA	198	2229	824	1168	GTR+F+I+G	exon/trimmed_344_AT5G45380_exon.fa
+562	DNA	192	1677	1085	263	GTR+F+I+G	intron_ok/trimmed_344_AT5G45380_intron.fa
+563	DNA	201	2116	864	836	GTR+F+I+G	exon/trimmed_344_AT5G45900_exon.fa
+564	DNA	201	819	479	167	GTR+F+I+G	intron_ok/trimmed_344_AT5G45900_intron.fa
+565	DNA	201	801	294	414	GTR+F+I+G	exon/trimmed_344_AT5G46220_exon.fa
+566	DNA	185	2032	1351	341	GTR+F+I+G	intron_ok/trimmed_344_AT5G46220_intron.fa
+567	DNA	196	2713	1151	1207	GTR+F+I+G	exon/trimmed_344_AT5G46580_exon.fa
+568	DNA	138	1218	592	303	GTR+F+I+G	intron_ok/trimmed_344_AT5G46580_intron.fa
+569	DNA	195	591	198	331	GTR+F+I+G	exon/trimmed_344_AT5G46800_exon.fa
+570	DNA	146	2116	642	845	GTR+F+I+G	intron_ok/trimmed_344_AT5G46800_intron.fa
+571	DNA	201	1211	416	577	GTR+F+I+G	exon/trimmed_344_AT5G48730_exon.fa
+572	DNA	160	1703	870	366	GTR+F+I+G	intron_ok/trimmed_344_AT5G48730_intron.fa
+573	DNA	200	711	211	399	GTR+F+I+G	exon/trimmed_344_AT5G49800_exon.fa
+574	DNA	192	1163	821	129	GTR+F+I+G	intron_ok/trimmed_344_AT5G49800_intron.fa
+575	DNA	203	342	131	162	GTR+F+I+G	exon/trimmed_344_AT5G50230_exon.fa
+576	DNA	178	1491	901	257	GTR+F+I+G	intron_ok/trimmed_344_AT5G50230_intron.fa
+577	DNA	196	2372	991	993	GTR+F+I+G	exon/trimmed_344_AT5G50280_exon.fa
+578	DNA	174	1103	786	124	GTR+F+I+G	intron_ok/trimmed_344_AT5G50280_intron.fa
+579	DNA	199	2419	1190	749	GTR+F+I+G	exon/trimmed_344_AT5G50390_exon.fa
+580	DNA	158	427	412	3	GTR+F+I+G	intron_ok/trimmed_344_AT5G50390_intron.fa
+581	DNA	200	2228	813	1105	GTR+F+I+G	exon/trimmed_344_AT5G51340_exon.fa
+582	DNA	196	4835	3619	559	GTR+F+I+G	intron_ok/trimmed_344_AT5G51340_intron.fa
+583	DNA	200	984	334	475	GTR+F+I+G	exon/trimmed_344_AT5G52630_exon.fa
+584	DNA	153	534	493	10	GTR+F+I+G	intron_ok/trimmed_344_AT5G52630_intron.fa
+585	DNA	200	927	481	256	GTR+F+I+G	exon/trimmed_344_AT5G52810_exon.fa
+586	DNA	185	47	39	4	GTR+F+I+G	intron_ok/trimmed_344_AT5G52810_intron.fa
+587	DNA	198	1620	792	612	GTR+F+I+G	exon/trimmed_344_AT5G54140_exon.fa
+588	DNA	189	3288	2664	195	GTR+F+I+G	intron_ok/trimmed_344_AT5G54140_intron.fa
+589	DNA	199	2343	884	1120	GTR+F+I+G	exon/trimmed_344_AT5G54910_exon.fa
+590	DNA	194	3279	2359	344	GTR+F+I+G	intron_ok/trimmed_344_AT5G54910_intron.fa
+591	DNA	202	774	306	379	GTR+F+I+G	exon/trimmed_344_AT5G55500_exon.fa
+592	DNA	184	1556	1066	221	GTR+F+I+G	intron_ok/trimmed_344_AT5G55500_intron.fa
+593	DNA	187	1071	485	364	GTR+F+I+G	exon/trimmed_344_AT5G55580_exon.fa
+594	DNA	193	3057	2127	446	GTR+F+I+G	intron_ok/trimmed_344_AT5G55580_intron.fa
+595	DNA	201	1780	718	725	GTR+F+I+G	exon/trimmed_344_AT5G56900_exon.fa
+596	DNA	189	4773	2855	920	GTR+F+I+G	intron_ok/trimmed_344_AT5G56900_intron.fa
+597	DNA	199	1865	753	878	GTR+F+I+G	exon/trimmed_344_AT5G57460_exon.fa
+598	DNA	139	877	449	217	GTR+F+I+G	intron_ok/trimmed_344_AT5G57460_intron.fa
+599	DNA	198	2653	1017	1225	GTR+F+I+G	exon/trimmed_344_AT5G57590_exon.fa
+600	DNA	193	7775	5666	722	GTR+F+I+G	intron_ok/trimmed_344_AT5G57590_intron.fa
+601	DNA	198	1480	626	652	GTR+F+I+G	exon/trimmed_344_AT5G58480_exon.fa
+602	DNA	167	1489	894	169	GTR+F+I+G	intron_ok/trimmed_344_AT5G58480_intron.fa
+603	DNA	203	1328	538	589	GTR+F+I+G	exon/trimmed_344_AT5G59600_exon.fa
+604	DNA	153	842	564	106	GTR+F+I+G	intron_ok/trimmed_344_AT5G59600_intron.fa
+605	DNA	187	1397	676	517	GTR+F+I+G	exon/trimmed_344_AT5G61510_exon.fa
+606	DNA	143	3296	1867	667	GTR+F+I+G	intron_ok/trimmed_344_AT5G61510_intron.fa
+607	DNA	200	937	351	425	GTR+F+I+G	exon/trimmed_344_AT5G63010_exon.fa
+608	DNA	157	1594	832	341	GTR+F+I+G	intron_ok/trimmed_344_AT5G63010_intron.fa
+609	DNA	203	2334	853	1089	GTR+F+I+G	exon/trimmed_344_AT5G63200_exon.fa
+610	DNA	195	9189	5602	1965	GTR+F+I+G	intron_ok/trimmed_344_AT5G63200_intron.fa
+611	DNA	202	353	145	149	GTR+F+I+G	exon/trimmed_344_AT5G64150_exon.fa
+612	DNA	190	2299	1781	236	GTR+F+I+G	intron_ok/trimmed_344_AT5G64150_intron.fa
+613	DNA	199	1322	518	553	GTR+F+I+G	exon/trimmed_344_AT5G64250_exon.fa
+614	DNA	197	4337	2343	1031	GTR+F+I+G	intron_ok/trimmed_344_AT5G64250_intron.fa
+615	DNA	203	1996	839	839	GTR+F+I+G	exon/trimmed_344_AT5G65490_exon.fa
+616	DNA	194	2759	1939	374	GTR+F+I+G	intron_ok/trimmed_344_AT5G65490_intron.fa
+617	DNA	204	1795	730	847	GTR+F+I+G	exon/trimmed_344_AT5G65540_exon.fa
+618	DNA	194	2035	1277	410	GTR+F+I+G	intron_ok/trimmed_344_AT5G65540_intron.fa
+619	DNA	202	1899	892	800	GTR+F+I+G	exon/trimmed_344_AT5G65720_exon.fa
+620	DNA	170	956	858	30	GTR+F+I+G	intron_ok/trimmed_344_AT5G65720_intron.fa
+621	DNA	204	1751	871	636	GTR+F+I+G	exon/trimmed_344_AT5G65760_exon.fa
+622	DNA	193	3470	2516	431	GTR+F+I+G	intron_ok/trimmed_344_AT5G65760_intron.fa
+623	DNA	197	2836	1300	1051	GTR+F+I+G	exon/trimmed_344_AT5G66631_exon.fa
+624	DNA	154	3463	1351	1506	GTR+F+I+G	intron_ok/trimmed_344_AT5G66631_intron.fa
+625	DNA	362	2737	1371	893	GTR+F+I+G	exon/trimmed_4848_31_overlapped_exon.fa
+626	DNA	248	3508	2193	625	GTR+F+I+G	intron_ok/trimmed_4848_31_overlapped_intron.fa
+627	DNA	361	1218	648	412	GTR+F+I+G	exon/trimmed_5162_31_overlapped_exon.fa
+628	DNA	236	2150	1632	242	GTR+F+I+G	intron_ok/trimmed_5162_31_overlapped_intron.fa
+629	DNA	352	1070	506	333	GTR+F+I+G	exon/trimmed_5257_31_overlapped_exon.fa
+630	DNA	267	3921	3041	377	GTR+F+I+G	intron_ok/trimmed_5257_31_overlapped_intron.fa
+631	DNA	351	261	214	29	GTR+F+I+G	exon/trimmed_5333_31_overlapped_exon.fa
+632	DNA	251	54	50	0	GTR+F+I+G	intron_ok/trimmed_5333_31_overlapped_intron.fa
+633	DNA	352	471	202	220	GTR+F+I+G	exon/trimmed_5343_31_overlapped_exon.fa
+634	DNA	170	1293	965	119	GTR+F+I+G	intron_ok/trimmed_5343_31_overlapped_intron.fa
+635	DNA	364	1925	882	753	GTR+F+I+G	exon/trimmed_5426_31_overlapped_exon.fa
+636	DNA	271	6852	4671	901	GTR+F+I+G	intron_ok/trimmed_5426_31_overlapped_intron.fa
+637	DNA	360	1532	858	424	GTR+F+I+G	exon/trimmed_5449_31_overlapped_exon.fa
+638	DNA	277	2835	2314	164	GTR+F+I+G	intron_ok/trimmed_5449_31_overlapped_intron.fa
+639	DNA	354	891	441	345	GTR+F+I+G	exon/trimmed_5594_31_overlapped_exon.fa
+640	DNA	184	798	661	39	GTR+F+I+G	intron_ok/trimmed_5594_31_overlapped_intron.fa
+641	DNA	358	1146	484	505	GTR+F+I+G	exon/trimmed_5660_31_overlapped_exon.fa
+642	DNA	142	898	587	177	GTR+F+I+G	intron_ok/trimmed_5660_31_overlapped_intron.fa
+643	DNA	348	1002	421	435	GTR+F+I+G	exon/trimmed_5802_31_overlapped_exon.fa
+644	DNA	219	2634	1636	388	GTR+F+I+G	intron_ok/trimmed_5802_31_overlapped_intron.fa
+645	DNA	354	696	367	191	GTR+F+I+G	exon/trimmed_5821_31_overlapped_exon.fa
+646	DNA	231	2608	1775	299	GTR+F+I+G	intron_ok/trimmed_5821_31_overlapped_intron.fa
+647	DNA	359	1066	437	477	GTR+F+I+G	exon/trimmed_5859_31_overlapped_exon.fa
+648	DNA	267	416	364	24	GTR+F+I+G	intron_ok/trimmed_5859_31_overlapped_intron.fa
+649	DNA	363	717	267	375	GTR+F+I+G	exon/trimmed_5913_31_overlapped_exon.fa
+650	DNA	269	3258	2035	636	GTR+F+I+G	intron_ok/trimmed_5913_31_overlapped_intron.fa
+651	DNA	352	787	365	278	GTR+F+I+G	exon/trimmed_5933_31_overlapped_exon.fa
+652	DNA	256	2137	1628	192	GTR+F+I+G	intron_ok/trimmed_5933_31_overlapped_intron.fa
+653	DNA	358	1842	939	603	GTR+F+I+G	exon/trimmed_6051_31_overlapped_exon.fa
+654	DNA	160	520	446	7	GTR+F+I+G	intron_ok/trimmed_6051_31_overlapped_intron.fa
+655	DNA	359	1980	904	802	GTR+F+I+G	exon/trimmed_6098_31_overlapped_exon.fa
+656	DNA	268	5240	3735	782	GTR+F+I+G	intron_ok/trimmed_6098_31_overlapped_intron.fa
+657	DNA	361	1170	752	241	GTR+F+I+G	exon/trimmed_6139_31_overlapped_exon.fa
+658	DNA	203	1285	1036	71	GTR+F+I+G	intron_ok/trimmed_6139_31_overlapped_intron.fa
+659	DNA	349	1103	533	378	GTR+F+I+G	exon/trimmed_6175_31_overlapped_exon.fa
+660	DNA	224	1274	918	161	GTR+F+I+G	intron_ok/trimmed_6175_31_overlapped_intron.fa
+661	DNA	353	2202	1013	760	GTR+F+I+G	exon/trimmed_6226_31_overlapped_exon.fa
+662	DNA	263	7412	5148	888	GTR+F+I+G	intron_ok/trimmed_6226_31_overlapped_intron.fa
+663	DNA	359	1786	888	571	GTR+F+I+G	exon/trimmed_6284_31_overlapped_exon.fa
+664	DNA	252	1231	958	99	GTR+F+I+G	intron_ok/trimmed_6284_31_overlapped_intron.fa
+665	DNA	363	1282	605	502	GTR+F+I+G	exon/trimmed_6320_31_overlapped_exon.fa
+666	DNA	277	5878	4190	757	GTR+F+I+G	intron_ok/trimmed_6320_31_overlapped_intron.fa
+667	DNA	353	347	158	131	GTR+F+I+G	exon/trimmed_6363_31_overlapped_exon.fa
+668	DNA	264	764	590	70	GTR+F+I+G	intron_ok/trimmed_6363_31_overlapped_intron.fa
+669	DNA	356	1292	719	388	GTR+F+I+G	exon/trimmed_6393_31_overlapped_exon.fa
+670	DNA	263	4744	3475	564	GTR+F+I+G	intron_ok/trimmed_6393_31_overlapped_intron.fa
+671	DNA	358	773	456	202	GTR+F+I+G	exon/trimmed_6450_31_overlapped_exon.fa
+672	DNA	268	3530	2775	347	GTR+F+I+G	intron_ok/trimmed_6450_31_overlapped_intron.fa
+673	DNA	361	2152	1048	743	GTR+F+I+G	exon/trimmed_6500_31_overlapped_exon.fa
+674	DNA	257	4375	3598	285	GTR+F+I+G	intron_ok/trimmed_6500_31_overlapped_intron.fa
+675	DNA	351	1432	777	391	GTR+F+I+G	exon/trimmed_6639_31_overlapped_exon.fa
+676	DNA	254	3669	2736	418	GTR+F+I+G	intron_ok/trimmed_6639_31_overlapped_intron.fa
+677	DNA	357	1827	828	763	GTR+F+I+G	exon/trimmed_6652_31_overlapped_exon.fa
+678	DNA	269	3579	3001	218	GTR+F+I+G	intron_ok/trimmed_6652_31_overlapped_intron.fa
+679	DNA	350	348	142	166	GTR+F+I+G	exon/trimmed_6875_31_overlapped_exon.fa
+680	DNA	164	562	387	65	GTR+F+I+G	intron_ok/trimmed_6875_31_overlapped_intron.fa
+681	DNA	342	195	84	69	GTR+F+I+G	exon/trimmed_7325_31_overlapped_exon.fa
+682	DNA	185	1745	1229	182	GTR+F+I+G	intron_ok/trimmed_7325_31_overlapped_intron.fa
+683	DNA	352	325	159	126	GTR+F+I+G	exon/trimmed_7577_31_overlapped_exon.fa
+684	DNA	183	3000	2004	451	GTR+F+I+G	intron_ok/trimmed_7577_31_overlapped_intron.fa
+685	DNA	346	515	271	181	GTR+F+I+G	exon/trimmed_7602_31_overlapped_exon.fa
+686	DNA	251	2267	1764	131	GTR+F+I+G	intron_ok/trimmed_7602_31_overlapped_intron.fa
+687	DNA	184	610	262	268	GTR+F+I+G	exon/trimmed_a353_4471_exon.fa
+688	DNA	67	341	96	150	GTR+F+I+G	intron_ok/trimmed_a353_4471_intron.fa
+689	DNA	192	1305	566	525	GTR+F+I+G	exon/trimmed_a353_4527_exon.fa
+690	DNA	66	1567	387	770	GTR+F+I+G	intron_ok/trimmed_a353_4527_intron.fa
+691	DNA	187	465	210	211	GTR+F+I+G	exon/trimmed_a353_4691_exon.fa
+692	DNA	39	69	15	26	GTR+F+I+G	intron_ok/trimmed_a353_4691_intron.fa
+693	DNA	190	684	319	253	GTR+F+I+G	exon/trimmed_a353_4724_exon.fa
+694	DNA	33	537	111	269	GTR+F+I+G	intron_ok/trimmed_a353_4724_intron.fa
+695	DNA	180	279	118	110	GTR+F+I+G	exon/trimmed_a353_4744_exon.fa
+696	DNA	62	754	169	405	GTR+F+I+G	intron_ok/trimmed_a353_4744_intron.fa
+697	DNA	186	366	124	189	GTR+F+I+G	exon/trimmed_a353_4757_exon.fa
+698	DNA	63	220	49	114	GTR+F+I+G	intron_ok/trimmed_a353_4757_intron.fa
+699	DNA	187	2053	1117	588	GTR+F+I+G	exon/trimmed_a353_4793_exon.fa
+700	DNA	70	948	368	309	GTR+F+I+G	intron_ok/trimmed_a353_4793_intron.fa
+701	DNA	168	150	85	43	GTR+F+I+G	exon/trimmed_a353_4796_exon.fa
+702	DNA	46	138	29	54	GTR+F+I+G	intron_ok/trimmed_a353_4796_intron.fa
+703	DNA	180	860	342	370	GTR+F+I+G	exon/trimmed_a353_4802_exon.fa
+704	DNA	40	2137	331	1467	GTR+F+I+G	intron_ok/trimmed_a353_4802_intron.fa
+705	DNA	185	519	218	211	GTR+F+I+G	exon/trimmed_a353_4806_exon.fa
+706	DNA	60	1791	440	830	GTR+F+I+G	intron_ok/trimmed_a353_4806_intron.fa
+707	DNA	176	246	91	111	GTR+F+I+G	exon/trimmed_a353_4889_exon.fa
+708	DNA	51	368	94	226	GTR+F+I+G	intron_ok/trimmed_a353_4889_intron.fa
+709	DNA	180	258	126	70	GTR+F+I+G	exon/trimmed_a353_4890_exon.fa
+710	DNA	65	175	61	77	GTR+F+I+G	intron_ok/trimmed_a353_4890_intron.fa
+711	DNA	187	732	275	293	GTR+F+I+G	exon/trimmed_a353_4893_exon.fa
+712	DNA	70	1859	514	939	GTR+F+I+G	intron_ok/trimmed_a353_4893_intron.fa
+713	DNA	186	996	385	495	GTR+F+I+G	exon/trimmed_a353_4932_exon.fa
+714	DNA	61	501	121	276	GTR+F+I+G	intron_ok/trimmed_a353_4932_intron.fa
+715	DNA	192	825	355	366	GTR+F+I+G	exon/trimmed_a353_4942_exon.fa
+716	DNA	70	2482	629	1288	GTR+F+I+G	intron_ok/trimmed_a353_4942_intron.fa
+717	DNA	160	564	265	185	GTR+F+I+G	exon/trimmed_a353_4951_exon.fa
+718	DNA	66	426	203	130	GTR+F+I+G	intron_ok/trimmed_a353_4951_intron.fa
+719	DNA	188	462	134	262	GTR+F+I+G	exon/trimmed_a353_4954_exon.fa
+720	DNA	187	660	266	322	GTR+F+I+G	exon/trimmed_a353_4989_exon.fa
+721	DNA	68	932	214	514	GTR+F+I+G	intron_ok/trimmed_a353_4989_intron.fa
+722	DNA	188	1893	747	885	GTR+F+I+G	exon/trimmed_a353_4992_exon.fa
+723	DNA	72	3211	896	1512	GTR+F+I+G	intron_ok/trimmed_a353_4992_intron.fa
+724	DNA	186	846	404	351	GTR+F+I+G	exon/trimmed_a353_5018_exon.fa
+725	DNA	70	81	7	64	GTR+F+I+G	intron_ok/trimmed_a353_5018_intron.fa
+726	DNA	182	510	188	225	GTR+F+I+G	exon/trimmed_a353_5032_exon.fa
+727	DNA	185	476	202	218	GTR+F+I+G	exon/trimmed_a353_5034_exon.fa
+728	DNA	47	251	50	149	GTR+F+I+G	intron_ok/trimmed_a353_5034_intron.fa
+729	DNA	181	399	161	166	GTR+F+I+G	exon/trimmed_a353_5038_exon.fa
+730	DNA	169	213	65	137	GTR+F+I+G	exon/trimmed_a353_5064_exon.fa
+731	DNA	182	496	175	244	GTR+F+I+G	exon/trimmed_a353_5090_exon.fa
+732	DNA	65	710	209	339	GTR+F+I+G	intron_ok/trimmed_a353_5090_intron.fa
+733	DNA	180	141	47	76	GTR+F+I+G	exon/trimmed_a353_5104_exon.fa
+734	DNA	32	1091	164	707	GTR+F+I+G	intron_ok/trimmed_a353_5104_intron.fa
+735	DNA	185	709	296	286	GTR+F+I+G	exon/trimmed_a353_5116_exon.fa
+736	DNA	71	1004	247	522	GTR+F+I+G	intron_ok/trimmed_a353_5116_intron.fa
+737	DNA	187	581	229	273	GTR+F+I+G	exon/trimmed_a353_5123_exon.fa
+738	DNA	70	2277	671	1170	GTR+F+I+G	intron_ok/trimmed_a353_5123_intron.fa
+739	DNA	185	912	415	358	GTR+F+I+G	exon/trimmed_a353_5131_exon.fa
+740	DNA	49	1423	278	820	GTR+F+I+G	intron_ok/trimmed_a353_5131_intron.fa
+741	DNA	181	563	212	297	GTR+F+I+G	exon/trimmed_a353_5138_exon.fa
+742	DNA	59	683	171	400	GTR+F+I+G	intron_ok/trimmed_a353_5138_intron.fa
+743	DNA	189	1528	545	795	GTR+F+I+G	exon/trimmed_a353_5163_exon.fa
+744	DNA	74	2611	730	1386	GTR+F+I+G	intron_ok/trimmed_a353_5163_intron.fa
+745	DNA	114	351	120	157	GTR+F+I+G	exon/trimmed_a353_5168_exon.fa
+746	DNA	181	579	241	269	GTR+F+I+G	exon/trimmed_a353_5177_exon.fa
+747	DNA	59	809	237	328	GTR+F+I+G	intron_ok/trimmed_a353_5177_intron.fa
+748	DNA	156	295	130	130	GTR+F+I+G	exon/trimmed_a353_5188_exon.fa
+749	DNA	64	951	312	397	GTR+F+I+G	intron_ok/trimmed_a353_5188_intron.fa
+750	DNA	186	318	109	168	GTR+F+I+G	exon/trimmed_a353_5200_exon.fa
+751	DNA	68	1076	232	605	GTR+F+I+G	intron_ok/trimmed_a353_5200_intron.fa
+752	DNA	187	344	120	151	GTR+F+I+G	exon/trimmed_a353_5206_exon.fa
+753	DNA	32	1187	129	730	GTR+F+I+G	intron_ok/trimmed_a353_5206_intron.fa
+754	DNA	190	432	226	134	GTR+F+I+G	exon/trimmed_a353_5220_exon.fa
+755	DNA	52	976	380	382	GTR+F+I+G	intron_ok/trimmed_a353_5220_intron.fa
+756	DNA	177	297	114	138	GTR+F+I+G	exon/trimmed_a353_5260_exon.fa
+757	DNA	60	535	171	223	GTR+F+I+G	intron_ok/trimmed_a353_5260_intron.fa
+758	DNA	189	915	326	431	GTR+F+I+G	exon/trimmed_a353_5264_exon.fa
+759	DNA	72	1090	281	530	GTR+F+I+G	intron_ok/trimmed_a353_5264_intron.fa
+760	DNA	184	432	185	146	GTR+F+I+G	exon/trimmed_a353_5271_exon.fa
+761	DNA	51	1014	218	506	GTR+F+I+G	intron_ok/trimmed_a353_5271_intron.fa
+762	DNA	189	1463	614	598	GTR+F+I+G	exon/trimmed_a353_5273_exon.fa
+763	DNA	65	415	145	183	GTR+F+I+G	intron_ok/trimmed_a353_5273_intron.fa
+764	DNA	188	568	180	332	GTR+F+I+G	exon/trimmed_a353_5280_exon.fa
+765	DNA	66	123	37	67	GTR+F+I+G	intron_ok/trimmed_a353_5280_intron.fa
+766	DNA	181	236	82	93	GTR+F+I+G	exon/trimmed_a353_5296_exon.fa
+767	DNA	67	425	102	250	GTR+F+I+G	intron_ok/trimmed_a353_5296_intron.fa
+768	DNA	184	393	134	182	GTR+F+I+G	exon/trimmed_a353_5299_exon.fa
+769	DNA	179	384	182	108	GTR+F+I+G	exon/trimmed_a353_5304_exon.fa
+770	DNA	61	670	161	359	GTR+F+I+G	intron_ok/trimmed_a353_5304_intron.fa
+771	DNA	184	414	163	170	GTR+F+I+G	exon/trimmed_a353_5318_exon.fa
+772	DNA	61	189	44	105	GTR+F+I+G	intron_ok/trimmed_a353_5318_intron.fa
+773	DNA	191	448	167	237	GTR+F+I+G	exon/trimmed_a353_5326_exon.fa
+774	DNA	78	1150	439	381	GTR+F+I+G	intron_ok/trimmed_a353_5326_intron.fa
+775	DNA	185	495	227	195	GTR+F+I+G	exon/trimmed_a353_5328_exon.fa
+776	DNA	179	1493	575	698	GTR+F+I+G	exon/trimmed_a353_5335_exon.fa
+777	DNA	26	925	83	708	GTR+F+I+G	intron_ok/trimmed_a353_5335_intron.fa
+778	DNA	171	687	367	191	GTR+F+I+G	exon/trimmed_a353_5339_exon.fa
+779	DNA	27	982	153	747	GTR+F+I+G	intron_ok/trimmed_a353_5339_intron.fa
+780	DNA	164	207	73	109	GTR+F+I+G	exon/trimmed_a353_5347_exon.fa
+781	DNA	173	245	78	124	GTR+F+I+G	exon/trimmed_a353_5348_exon.fa
+782	DNA	31	680	174	296	GTR+F+I+G	intron_ok/trimmed_a353_5348_intron.fa
+783	DNA	176	468	143	256	GTR+F+I+G	exon/trimmed_a353_5354_exon.fa
+784	DNA	16	349	36	223	GTR+F+I+G	intron_ok/trimmed_a353_5354_intron.fa
+785	DNA	188	290	123	125	GTR+F+I+G	exon/trimmed_a353_5355_exon.fa
+786	DNA	182	321	163	87	GTR+F+I+G	exon/trimmed_a353_5357_exon.fa
+787	DNA	57	921	268	404	GTR+F+I+G	intron_ok/trimmed_a353_5357_intron.fa
+788	DNA	183	591	272	167	GTR+F+I+G	exon/trimmed_a353_5366_exon.fa
+789	DNA	68	1869	428	952	GTR+F+I+G	intron_ok/trimmed_a353_5366_intron.fa
+790	DNA	190	1767	584	881	GTR+F+I+G	exon/trimmed_a353_5398_exon.fa
+791	DNA	73	3974	1035	2205	GTR+F+I+G	intron_ok/trimmed_a353_5398_intron.fa
+792	DNA	184	561	221	248	GTR+F+I+G	exon/trimmed_a353_5404_exon.fa
+793	DNA	28	813	151	498	GTR+F+I+G	intron_ok/trimmed_a353_5404_intron.fa
+794	DNA	188	1635	536	898	GTR+F+I+G	exon/trimmed_a353_5406_exon.fa
+795	DNA	63	3162	766	1656	GTR+F+I+G	intron_ok/trimmed_a353_5406_intron.fa
+796	DNA	184	1285	541	499	GTR+F+I+G	exon/trimmed_a353_5421_exon.fa
+797	DNA	71	4622	1066	2574	GTR+F+I+G	intron_ok/trimmed_a353_5421_intron.fa
+798	DNA	186	570	288	206	GTR+F+I+G	exon/trimmed_a353_5422_exon.fa
+799	DNA	18	340	34	258	GTR+F+I+G	intron_ok/trimmed_a353_5422_intron.fa
+800	DNA	181	179	64	92	GTR+F+I+G	exon/trimmed_a353_5427_exon.fa
+801	DNA	62	1621	517	656	GTR+F+I+G	intron_ok/trimmed_a353_5427_intron.fa
+802	DNA	187	510	226	213	GTR+F+I+G	exon/trimmed_a353_5428_exon.fa
+803	DNA	179	489	231	179	GTR+F+I+G	exon/trimmed_a353_5430_exon.fa
+804	DNA	54	461	236	140	GTR+F+I+G	intron_ok/trimmed_a353_5430_intron.fa
+805	DNA	187	657	238	336	GTR+F+I+G	exon/trimmed_a353_5434_exon.fa
+806	DNA	71	238	72	84	GTR+F+I+G	intron_ok/trimmed_a353_5434_intron.fa
+807	DNA	186	1056	462	462	GTR+F+I+G	exon/trimmed_a353_5454_exon.fa
+808	DNA	65	1779	515	850	GTR+F+I+G	intron_ok/trimmed_a353_5454_intron.fa
+809	DNA	181	408	184	151	GTR+F+I+G	exon/trimmed_a353_5460_exon.fa
+810	DNA	16	817	117	444	GTR+F+I+G	intron_ok/trimmed_a353_5460_intron.fa
+811	DNA	182	303	98	168	GTR+F+I+G	exon/trimmed_a353_5463_exon.fa
+812	DNA	33	298	75	170	GTR+F+I+G	intron_ok/trimmed_a353_5463_intron.fa
+813	DNA	188	942	383	398	GTR+F+I+G	exon/trimmed_a353_5464_exon.fa
+814	DNA	70	3045	725	1541	GTR+F+I+G	intron_ok/trimmed_a353_5464_intron.fa
+815	DNA	184	135	52	64	GTR+F+I+G	exon/trimmed_a353_5469_exon.fa
+816	DNA	40	873	153	459	GTR+F+I+G	intron_ok/trimmed_a353_5469_intron.fa
+817	DNA	176	225	108	61	GTR+F+I+G	exon/trimmed_a353_5477_exon.fa
+818	DNA	26	1025	106	695	GTR+F+I+G	intron_ok/trimmed_a353_5477_intron.fa
+819	DNA	179	518	211	177	GTR+F+I+G	exon/trimmed_a353_5489_exon.fa
+820	DNA	19	298	30	219	GTR+F+I+G	intron_ok/trimmed_a353_5489_intron.fa
+821	DNA	189	782	320	363	GTR+F+I+G	exon/trimmed_a353_5502_exon.fa
+822	DNA	70	3738	768	2034	GTR+F+I+G	intron_ok/trimmed_a353_5502_intron.fa
+823	DNA	181	495	220	179	GTR+F+I+G	exon/trimmed_a353_5513_exon.fa
+824	DNA	31	263	42	184	GTR+F+I+G	intron_ok/trimmed_a353_5513_intron.fa
+825	DNA	184	531	171	283	GTR+F+I+G	exon/trimmed_a353_5528_exon.fa
+826	DNA	70	2379	537	1378	GTR+F+I+G	intron_ok/trimmed_a353_5528_intron.fa
+827	DNA	177	327	154	119	GTR+F+I+G	exon/trimmed_a353_5531_exon.fa
+828	DNA	11	256	7	174	GTR+F+I+G	intron_ok/trimmed_a353_5531_intron.fa
+829	DNA	180	231	103	107	GTR+F+I+G	exon/trimmed_a353_5536_exon.fa
+830	DNA	42	952	203	536	GTR+F+I+G	intron_ok/trimmed_a353_5536_intron.fa
+831	DNA	180	447	186	163	GTR+F+I+G	exon/trimmed_a353_5551_exon.fa
+832	DNA	52	639	236	319	GTR+F+I+G	intron_ok/trimmed_a353_5551_intron.fa
+833	DNA	188	1057	472	430	GTR+F+I+G	exon/trimmed_a353_5554_exon.fa
+834	DNA	68	2790	694	1416	GTR+F+I+G	intron_ok/trimmed_a353_5554_intron.fa
+835	DNA	176	348	134	160	GTR+F+I+G	exon/trimmed_a353_5562_exon.fa
+836	DNA	62	783	203	398	GTR+F+I+G	intron_ok/trimmed_a353_5562_intron.fa
+837	DNA	175	206	76	97	GTR+F+I+G	exon/trimmed_a353_5578_exon.fa
+838	DNA	191	1310	607	545	GTR+F+I+G	exon/trimmed_a353_5596_exon.fa
+839	DNA	56	1170	140	800	GTR+F+I+G	intron_ok/trimmed_a353_5596_intron.fa
+840	DNA	190	1965	938	674	GTR+F+I+G	exon/trimmed_a353_5599_exon.fa
+841	DNA	77	936	379	363	GTR+F+I+G	intron_ok/trimmed_a353_5599_intron.fa
+842	DNA	192	2033	910	789	GTR+F+I+G	exon/trimmed_a353_5614_exon.fa
+843	DNA	75	3403	712	1986	GTR+F+I+G	intron_ok/trimmed_a353_5614_intron.fa
+844	DNA	190	1032	497	398	GTR+F+I+G	exon/trimmed_a353_5620_exon.fa
+845	DNA	177	1153	516	398	GTR+F+I+G	exon/trimmed_a353_5634_exon.fa
+846	DNA	53	318	220	48	GTR+F+I+G	intron_ok/trimmed_a353_5634_intron.fa
+847	DNA	187	643	276	300	GTR+F+I+G	exon/trimmed_a353_5639_exon.fa
+848	DNA	71	1824	486	930	GTR+F+I+G	intron_ok/trimmed_a353_5639_intron.fa
+849	DNA	170	117	29	54	GTR+F+I+G	exon/trimmed_a353_5642_exon.fa
+850	DNA	31	970	221	559	GTR+F+I+G	intron_ok/trimmed_a353_5642_intron.fa
+851	DNA	185	873	348	372	GTR+F+I+G	exon/trimmed_a353_5644_exon.fa
+852	DNA	63	1894	457	975	GTR+F+I+G	intron_ok/trimmed_a353_5644_intron.fa
+853	DNA	166	201	75	90	GTR+F+I+G	exon/trimmed_a353_5656_exon.fa
+854	DNA	185	836	360	354	GTR+F+I+G	exon/trimmed_a353_5664_exon.fa
+855	DNA	47	1403	299	764	GTR+F+I+G	intron_ok/trimmed_a353_5664_intron.fa
+856	DNA	183	777	342	320	GTR+F+I+G	exon/trimmed_a353_5670_exon.fa
+857	DNA	47	1386	468	641	GTR+F+I+G	intron_ok/trimmed_a353_5670_intron.fa
+858	DNA	186	415	157	197	GTR+F+I+G	exon/trimmed_a353_5699_exon.fa
+859	DNA	67	4186	923	2384	GTR+F+I+G	intron_ok/trimmed_a353_5699_intron.fa
+860	DNA	186	718	253	342	GTR+F+I+G	exon/trimmed_a353_5702_exon.fa
+861	DNA	68	3038	704	1671	GTR+F+I+G	intron_ok/trimmed_a353_5702_intron.fa
+862	DNA	178	345	163	152	GTR+F+I+G	exon/trimmed_a353_5703_exon.fa
+863	DNA	61	218	60	131	GTR+F+I+G	intron_ok/trimmed_a353_5703_intron.fa
+864	DNA	185	1493	630	622	GTR+F+I+G	exon/trimmed_a353_5716_exon.fa
+865	DNA	11	289	25	201	GTR+F+I+G	intron_ok/trimmed_a353_5716_intron.fa
+866	DNA	191	561	224	256	GTR+F+I+G	exon/trimmed_a353_5721_exon.fa
+867	DNA	64	466	111	234	GTR+F+I+G	intron_ok/trimmed_a353_5721_intron.fa
+868	DNA	170	525	178	227	GTR+F+I+G	exon/trimmed_a353_5733_exon.fa
+869	DNA	35	911	203	485	GTR+F+I+G	intron_ok/trimmed_a353_5733_intron.fa
+870	DNA	188	342	143	138	GTR+F+I+G	exon/trimmed_a353_5744_exon.fa
+871	DNA	66	350	121	154	GTR+F+I+G	intron_ok/trimmed_a353_5744_intron.fa
+872	DNA	185	764	332	283	GTR+F+I+G	exon/trimmed_a353_5770_exon.fa
+873	DNA	40	1232	219	648	GTR+F+I+G	intron_ok/trimmed_a353_5770_intron.fa
+874	DNA	182	606	253	254	GTR+F+I+G	exon/trimmed_a353_5772_exon.fa
+875	DNA	69	624	168	306	GTR+F+I+G	intron_ok/trimmed_a353_5772_intron.fa
+876	DNA	172	645	297	217	GTR+F+I+G	exon/trimmed_a353_5791_exon.fa
+877	DNA	44	470	116	213	GTR+F+I+G	intron_ok/trimmed_a353_5791_intron.fa
+878	DNA	184	645	297	256	GTR+F+I+G	exon/trimmed_a353_5815_exon.fa
+879	DNA	29	485	118	271	GTR+F+I+G	intron_ok/trimmed_a353_5815_intron.fa
+880	DNA	182	256	102	111	GTR+F+I+G	exon/trimmed_a353_5816_exon.fa
+881	DNA	59	1439	313	766	GTR+F+I+G	intron_ok/trimmed_a353_5816_intron.fa
+882	DNA	177	481	247	172	GTR+F+I+G	exon/trimmed_a353_5822_exon.fa
+883	DNA	30	297	53	167	GTR+F+I+G	intron_ok/trimmed_a353_5822_intron.fa
+884	DNA	186	804	307	405	GTR+F+I+G	exon/trimmed_a353_5840_exon.fa
+885	DNA	45	352	70	212	GTR+F+I+G	intron_ok/trimmed_a353_5840_intron.fa
+886	DNA	183	513	200	220	GTR+F+I+G	exon/trimmed_a353_5841_exon.fa
+887	DNA	66	2417	619	1286	GTR+F+I+G	intron_ok/trimmed_a353_5841_intron.fa
+888	DNA	180	167	59	88	GTR+F+I+G	exon/trimmed_a353_5842_exon.fa
+889	DNA	57	348	86	194	GTR+F+I+G	intron_ok/trimmed_a353_5842_intron.fa
+890	DNA	168	306	138	123	GTR+F+I+G	exon/trimmed_a353_5843_exon.fa
+891	DNA	47	765	174	465	GTR+F+I+G	intron_ok/trimmed_a353_5843_intron.fa
+892	DNA	182	388	148	175	GTR+F+I+G	exon/trimmed_a353_5849_exon.fa
+893	DNA	48	358	86	203	GTR+F+I+G	intron_ok/trimmed_a353_5849_intron.fa
+894	DNA	182	600	247	253	GTR+F+I+G	exon/trimmed_a353_5853_exon.fa
+895	DNA	15	334	30	227	GTR+F+I+G	intron_ok/trimmed_a353_5853_intron.fa
+896	DNA	186	657	258	317	GTR+F+I+G	exon/trimmed_a353_5857_exon.fa
+897	DNA	49	643	123	343	GTR+F+I+G	intron_ok/trimmed_a353_5857_intron.fa
+898	DNA	189	630	219	331	GTR+F+I+G	exon/trimmed_a353_5858_exon.fa
+899	DNA	58	1996	528	859	GTR+F+I+G	intron_ok/trimmed_a353_5858_intron.fa
+900	DNA	188	1247	478	497	GTR+F+I+G	exon/trimmed_a353_5865_exon.fa
+901	DNA	71	3219	950	1631	GTR+F+I+G	intron_ok/trimmed_a353_5865_intron.fa
+902	DNA	180	492	190	198	GTR+F+I+G	exon/trimmed_a353_5866_exon.fa
+903	DNA	62	419	121	188	GTR+F+I+G	intron_ok/trimmed_a353_5866_intron.fa
+904	DNA	166	432	144	239	GTR+F+I+G	exon/trimmed_a353_5870_exon.fa
+905	DNA	46	874	411	256	GTR+F+I+G	intron_ok/trimmed_a353_5870_intron.fa
+906	DNA	178	773	336	328	GTR+F+I+G	exon/trimmed_a353_5893_exon.fa
+907	DNA	165	228	66	134	GTR+F+I+G	exon/trimmed_a353_5894_exon.fa
+908	DNA	62	528	146	265	GTR+F+I+G	intron_ok/trimmed_a353_5894_intron.fa
+909	DNA	187	1775	799	598	GTR+F+I+G	exon/trimmed_a353_5899_exon.fa
+910	DNA	69	1670	414	872	GTR+F+I+G	intron_ok/trimmed_a353_5899_intron.fa
+911	DNA	187	648	291	297	GTR+F+I+G	exon/trimmed_a353_5910_exon.fa
+912	DNA	32	89	12	69	GTR+F+I+G	intron_ok/trimmed_a353_5910_intron.fa
+913	DNA	157	357	156	140	GTR+F+I+G	exon/trimmed_a353_5918_exon.fa
+914	DNA	18	707	85	413	GTR+F+I+G	intron_ok/trimmed_a353_5918_intron.fa
+915	DNA	185	432	197	181	GTR+F+I+G	exon/trimmed_a353_5919_exon.fa
+916	DNA	10	179	3	148	GTR+F+I+G	intron_ok/trimmed_a353_5919_intron.fa
+917	DNA	190	1896	891	638	GTR+F+I+G	exon/trimmed_a353_5921_exon.fa
+918	DNA	64	1621	433	775	GTR+F+I+G	intron_ok/trimmed_a353_5921_intron.fa
+919	DNA	189	1343	549	629	GTR+F+I+G	exon/trimmed_a353_5922_exon.fa
+920	DNA	74	4200	1225	1939	GTR+F+I+G	intron_ok/trimmed_a353_5922_intron.fa
+921	DNA	182	300	117	113	GTR+F+I+G	exon/trimmed_a353_5926_exon.fa
+922	DNA	62	1770	420	937	GTR+F+I+G	intron_ok/trimmed_a353_5926_intron.fa
+923	DNA	176	95	23	62	GTR+F+I+G	exon/trimmed_a353_5936_exon.fa
+924	DNA	57	1679	382	973	GTR+F+I+G	intron_ok/trimmed_a353_5936_intron.fa
+925	DNA	187	693	289	305	GTR+F+I+G	exon/trimmed_a353_5940_exon.fa
+926	DNA	177	153	56	75	GTR+F+I+G	exon/trimmed_a353_5941_exon.fa
+927	DNA	187	499	252	196	GTR+F+I+G	exon/trimmed_a353_5942_exon.fa
+928	DNA	17	159	10	119	GTR+F+I+G	intron_ok/trimmed_a353_5942_intron.fa
+929	DNA	189	1608	548	831	GTR+F+I+G	exon/trimmed_a353_5943_exon.fa
+930	DNA	70	2103	586	927	GTR+F+I+G	intron_ok/trimmed_a353_5943_intron.fa
+931	DNA	181	567	224	276	GTR+F+I+G	exon/trimmed_a353_5944_exon.fa
+932	DNA	16	913	84	768	GTR+F+I+G	intron_ok/trimmed_a353_5944_intron.fa
+933	DNA	178	608	183	296	GTR+F+I+G	exon/trimmed_a353_5945_exon.fa
+934	DNA	60	1265	316	644	GTR+F+I+G	intron_ok/trimmed_a353_5945_intron.fa
+935	DNA	188	465	166	252	GTR+F+I+G	exon/trimmed_a353_5949_exon.fa
+936	DNA	71	1639	482	766	GTR+F+I+G	intron_ok/trimmed_a353_5949_intron.fa
+937	DNA	183	555	243	241	GTR+F+I+G	exon/trimmed_a353_5950_exon.fa
+938	DNA	68	1767	455	964	GTR+F+I+G	intron_ok/trimmed_a353_5950_intron.fa
+939	DNA	174	345	141	176	GTR+F+I+G	exon/trimmed_a353_5958_exon.fa
+940	DNA	187	969	450	346	GTR+F+I+G	exon/trimmed_a353_5960_exon.fa
+941	DNA	71	457	118	202	GTR+F+I+G	intron_ok/trimmed_a353_5960_intron.fa
+942	DNA	171	247	96	132	GTR+F+I+G	exon/trimmed_a353_5968_exon.fa
+943	DNA	26	277	41	209	GTR+F+I+G	intron_ok/trimmed_a353_5968_intron.fa
+944	DNA	182	507	194	223	GTR+F+I+G	exon/trimmed_a353_5974_exon.fa
+945	DNA	26	1329	173	946	GTR+F+I+G	intron_ok/trimmed_a353_5974_intron.fa
+946	DNA	179	477	210	180	GTR+F+I+G	exon/trimmed_a353_5977_exon.fa
+947	DNA	16	430	61	317	GTR+F+I+G	intron_ok/trimmed_a353_5977_intron.fa
+948	DNA	177	306	111	155	GTR+F+I+G	exon/trimmed_a353_5980_exon.fa
+949	DNA	61	273	58	169	GTR+F+I+G	intron_ok/trimmed_a353_5980_intron.fa
+950	DNA	187	831	439	255	GTR+F+I+G	exon/trimmed_a353_5981_exon.fa
+951	DNA	74	1113	414	355	GTR+F+I+G	intron_ok/trimmed_a353_5981_intron.fa
+952	DNA	177	411	141	204	GTR+F+I+G	exon/trimmed_a353_5990_exon.fa
+953	DNA	53	377	108	178	GTR+F+I+G	intron_ok/trimmed_a353_5990_intron.fa
+954	DNA	175	480	187	236	GTR+F+I+G	exon/trimmed_a353_6000_exon.fa
+955	DNA	58	1249	265	728	GTR+F+I+G	intron_ok/trimmed_a353_6000_intron.fa
+956	DNA	186	228	68	142	GTR+F+I+G	exon/trimmed_a353_6003_exon.fa
+957	DNA	181	852	387	321	GTR+F+I+G	exon/trimmed_a353_6004_exon.fa
+958	DNA	58	904	280	433	GTR+F+I+G	intron_ok/trimmed_a353_6004_intron.fa
+959	DNA	191	870	305	456	GTR+F+I+G	exon/trimmed_a353_6016_exon.fa
+960	DNA	75	860	250	410	GTR+F+I+G	intron_ok/trimmed_a353_6016_intron.fa
+961	DNA	180	637	336	156	GTR+F+I+G	exon/trimmed_a353_6026_exon.fa
+962	DNA	35	1013	195	558	GTR+F+I+G	intron_ok/trimmed_a353_6026_intron.fa
+963	DNA	180	462	218	179	GTR+F+I+G	exon/trimmed_a353_6029_exon.fa
+964	DNA	62	1308	368	691	GTR+F+I+G	intron_ok/trimmed_a353_6029_intron.fa
+965	DNA	181	325	191	104	GTR+F+I+G	exon/trimmed_a353_6034_exon.fa
+966	DNA	40	1250	250	748	GTR+F+I+G	intron_ok/trimmed_a353_6034_intron.fa
+967	DNA	187	1084	395	530	GTR+F+I+G	exon/trimmed_a353_6036_exon.fa
+968	DNA	68	174	48	94	GTR+F+I+G	intron_ok/trimmed_a353_6036_intron.fa
+969	DNA	183	636	260	276	GTR+F+I+G	exon/trimmed_a353_6038_exon.fa
+970	DNA	66	1086	258	655	GTR+F+I+G	intron_ok/trimmed_a353_6038_intron.fa
+971	DNA	187	1043	430	458	GTR+F+I+G	exon/trimmed_a353_6041_exon.fa
+972	DNA	66	222	69	86	GTR+F+I+G	intron_ok/trimmed_a353_6041_intron.fa
+973	DNA	162	306	130	122	GTR+F+I+G	exon/trimmed_a353_6048_exon.fa
+974	DNA	37	778	183	321	GTR+F+I+G	intron_ok/trimmed_a353_6048_intron.fa
+975	DNA	186	543	191	285	GTR+F+I+G	exon/trimmed_a353_6050_exon.fa
+976	DNA	35	341	48	246	GTR+F+I+G	intron_ok/trimmed_a353_6050_intron.fa
+977	DNA	173	204	82	96	GTR+F+I+G	exon/trimmed_a353_6056_exon.fa
+978	DNA	174	348	194	103	GTR+F+I+G	exon/trimmed_a353_6064_exon.fa
+979	DNA	14	845	98	708	GTR+F+I+G	intron_ok/trimmed_a353_6064_intron.fa
+980	DNA	180	240	84	129	GTR+F+I+G	exon/trimmed_a353_6068_exon.fa
+981	DNA	179	306	115	138	GTR+F+I+G	exon/trimmed_a353_6072_exon.fa
+982	DNA	44	967	291	361	GTR+F+I+G	intron_ok/trimmed_a353_6072_intron.fa
+983	DNA	174	324	143	138	GTR+F+I+G	exon/trimmed_a353_6110_exon.fa
+984	DNA	176	303	135	124	GTR+F+I+G	exon/trimmed_a353_6114_exon.fa
+985	DNA	187	2190	937	911	GTR+F+I+G	exon/trimmed_a353_6119_exon.fa
+986	DNA	28	481	49	368	GTR+F+I+G	intron_ok/trimmed_a353_6119_intron.fa
+987	DNA	149	360	220	95	GTR+F+I+G	exon/trimmed_a353_6128_exon.fa
+988	DNA	17	314	55	177	GTR+F+I+G	intron_ok/trimmed_a353_6128_intron.fa
+989	DNA	181	357	130	149	GTR+F+I+G	exon/trimmed_a353_6130_exon.fa
+990	DNA	10	902	55	635	GTR+F+I+G	intron_ok/trimmed_a353_6130_intron.fa
+991	DNA	180	363	167	137	GTR+F+I+G	exon/trimmed_a353_6148_exon.fa
+992	DNA	65	715	240	310	GTR+F+I+G	intron_ok/trimmed_a353_6148_intron.fa
+993	DNA	157	336	122	126	GTR+F+I+G	exon/trimmed_a353_6150_exon.fa
+994	DNA	11	636	38	393	GTR+F+I+G	intron_ok/trimmed_a353_6150_intron.fa
+995	DNA	182	330	156	117	GTR+F+I+G	exon/trimmed_a353_6164_exon.fa
+996	DNA	52	917	298	301	GTR+F+I+G	intron_ok/trimmed_a353_6164_intron.fa
+997	DNA	188	378	116	187	GTR+F+I+G	exon/trimmed_a353_6176_exon.fa
+998	DNA	68	2500	602	1354	GTR+F+I+G	intron_ok/trimmed_a353_6176_intron.fa
+999	DNA	171	138	60	65	GTR+F+I+G	exon/trimmed_a353_6198_exon.fa
+1000	DNA	184	564	273	181	GTR+F+I+G	exon/trimmed_a353_6216_exon.fa
+1001	DNA	10	480	6	389	GTR+F+I+G	intron_ok/trimmed_a353_6216_intron.fa
+1002	DNA	185	546	245	244	GTR+F+I+G	exon/trimmed_a353_6221_exon.fa
+1003	DNA	183	591	215	277	GTR+F+I+G	exon/trimmed_a353_6227_exon.fa
+1004	DNA	40	1502	282	876	GTR+F+I+G	intron_ok/trimmed_a353_6227_intron.fa
+1005	DNA	185	500	213	195	GTR+F+I+G	exon/trimmed_a353_6238_exon.fa
+1006	DNA	33	1017	152	602	GTR+F+I+G	intron_ok/trimmed_a353_6238_intron.fa
+1007	DNA	181	747	293	333	GTR+F+I+G	exon/trimmed_a353_6258_exon.fa
+1008	DNA	68	1443	370	659	GTR+F+I+G	intron_ok/trimmed_a353_6258_intron.fa
+1009	DNA	163	140	58	59	GTR+F+I+G	exon/trimmed_a353_6265_exon.fa
+1010	DNA	175	333	172	114	GTR+F+I+G	exon/trimmed_a353_6270_exon.fa
+1011	DNA	54	1585	486	627	GTR+F+I+G	intron_ok/trimmed_a353_6270_intron.fa
+1012	DNA	187	237	84	127	GTR+F+I+G	exon/trimmed_a353_6274_exon.fa
+1013	DNA	56	1187	229	651	GTR+F+I+G	intron_ok/trimmed_a353_6274_intron.fa
+1014	DNA	181	358	123	165	GTR+F+I+G	exon/trimmed_a353_6282_exon.fa
+1015	DNA	25	262	53	169	GTR+F+I+G	intron_ok/trimmed_a353_6282_intron.fa
+1016	DNA	195	1200	559	405	GTR+F+I+G	exon/trimmed_a353_6295_exon.fa
+1017	DNA	76	251	165	31	GTR+F+I+G	intron_ok/trimmed_a353_6295_intron.fa
+1018	DNA	183	521	237	216	GTR+F+I+G	exon/trimmed_a353_6298_exon.fa
+1019	DNA	67	1138	317	638	GTR+F+I+G	intron_ok/trimmed_a353_6298_intron.fa
+1020	DNA	174	426	150	204	GTR+F+I+G	exon/trimmed_a353_6299_exon.fa
+1021	DNA	37	221	54	99	GTR+F+I+G	intron_ok/trimmed_a353_6299_intron.fa
+1022	DNA	190	618	251	284	GTR+F+I+G	exon/trimmed_a353_6303_exon.fa
+1023	DNA	32	1239	146	837	GTR+F+I+G	intron_ok/trimmed_a353_6303_intron.fa
+1024	DNA	185	1326	542	553	GTR+F+I+G	exon/trimmed_a353_6318_exon.fa
+1025	DNA	65	2147	559	1099	GTR+F+I+G	intron_ok/trimmed_a353_6318_intron.fa
+1026	DNA	181	126	45	73	GTR+F+I+G	exon/trimmed_a353_6366_exon.fa
+1027	DNA	72	2123	549	990	GTR+F+I+G	intron_ok/trimmed_a353_6366_intron.fa
+1028	DNA	184	798	327	351	GTR+F+I+G	exon/trimmed_a353_6373_exon.fa
+1029	DNA	28	1041	157	634	GTR+F+I+G	intron_ok/trimmed_a353_6373_intron.fa
+1030	DNA	181	354	147	108	GTR+F+I+G	exon/trimmed_a353_6376_exon.fa
+1031	DNA	47	1593	358	842	GTR+F+I+G	intron_ok/trimmed_a353_6376_intron.fa
+1032	DNA	176	1040	430	413	GTR+F+I+G	exon/trimmed_a353_6378_exon.fa
+1033	DNA	62	436	124	235	GTR+F+I+G	intron_ok/trimmed_a353_6378_intron.fa
+1034	DNA	181	291	106	136	GTR+F+I+G	exon/trimmed_a353_6379_exon.fa
+1035	DNA	47	1064	382	410	GTR+F+I+G	intron_ok/trimmed_a353_6379_intron.fa
+1036	DNA	183	1009	489	358	GTR+F+I+G	exon/trimmed_a353_6383_exon.fa
+1037	DNA	64	277	66	172	GTR+F+I+G	intron_ok/trimmed_a353_6383_intron.fa
+1038	DNA	181	414	177	153	GTR+F+I+G	exon/trimmed_a353_6384_exon.fa
+1039	DNA	11	589	29	509	GTR+F+I+G	intron_ok/trimmed_a353_6384_intron.fa
+1040	DNA	192	801	313	410	GTR+F+I+G	exon/trimmed_a353_6387_exon.fa
+1041	DNA	188	404	127	211	GTR+F+I+G	exon/trimmed_a353_6389_exon.fa
+1042	DNA	68	4408	1332	1973	GTR+F+I+G	intron_ok/trimmed_a353_6389_intron.fa
+1043	DNA	168	129	52	60	GTR+F+I+G	exon/trimmed_a353_6398_exon.fa
+1044	DNA	56	621	172	331	GTR+F+I+G	intron_ok/trimmed_a353_6398_intron.fa
+1045	DNA	190	537	224	235	GTR+F+I+G	exon/trimmed_a353_6401_exon.fa
+1046	DNA	182	297	102	148	GTR+F+I+G	exon/trimmed_a353_6404_exon.fa
+1047	DNA	44	1635	373	953	GTR+F+I+G	intron_ok/trimmed_a353_6404_intron.fa
+1048	DNA	185	294	121	140	GTR+F+I+G	exon/trimmed_a353_6405_exon.fa
+1049	DNA	71	2526	601	1343	GTR+F+I+G	intron_ok/trimmed_a353_6405_intron.fa
+1050	DNA	177	234	94	79	GTR+F+I+G	exon/trimmed_a353_6406_exon.fa
+1051	DNA	62	889	281	338	GTR+F+I+G	intron_ok/trimmed_a353_6406_intron.fa
+1052	DNA	181	252	145	79	GTR+F+I+G	exon/trimmed_a353_6407_exon.fa
+1053	DNA	50	348	122	85	GTR+F+I+G	intron_ok/trimmed_a353_6407_intron.fa
+1054	DNA	180	231	99	112	GTR+F+I+G	exon/trimmed_a353_6412_exon.fa
+1055	DNA	37	824	231	437	GTR+F+I+G	intron_ok/trimmed_a353_6412_intron.fa
+1056	DNA	188	606	230	287	GTR+F+I+G	exon/trimmed_a353_6420_exon.fa
+1057	DNA	69	1404	377	680	GTR+F+I+G	intron_ok/trimmed_a353_6420_intron.fa
+1058	DNA	133	184	43	119	GTR+F+I+G	exon/trimmed_a353_6430_exon.fa
+1059	DNA	18	625	134	326	GTR+F+I+G	intron_ok/trimmed_a353_6430_intron.fa
+1060	DNA	190	384	131	193	GTR+F+I+G	exon/trimmed_a353_6432_exon.fa
+1061	DNA	25	563	66	333	GTR+F+I+G	intron_ok/trimmed_a353_6432_intron.fa
+1062	DNA	185	415	195	124	GTR+F+I+G	exon/trimmed_a353_6439_exon.fa
+1063	DNA	33	1065	157	567	GTR+F+I+G	intron_ok/trimmed_a353_6439_intron.fa
+1064	DNA	182	402	204	134	GTR+F+I+G	exon/trimmed_a353_6447_exon.fa
+1065	DNA	15	222	34	153	GTR+F+I+G	intron_ok/trimmed_a353_6447_intron.fa
+1066	DNA	180	383	133	179	GTR+F+I+G	exon/trimmed_a353_6448_exon.fa
+1067	DNA	18	617	333	228	GTR+F+I+G	intron_ok/trimmed_a353_6448_intron.fa
+1068	DNA	180	186	79	91	GTR+F+I+G	exon/trimmed_a353_6449_exon.fa
+1069	DNA	173	583	323	160	GTR+F+I+G	exon/trimmed_a353_6454_exon.fa
+1070	DNA	43	466	83	281	GTR+F+I+G	intron_ok/trimmed_a353_6454_intron.fa
+1071	DNA	170	368	216	90	GTR+F+I+G	exon/trimmed_a353_6457_exon.fa
+1072	DNA	185	535	199	228	GTR+F+I+G	exon/trimmed_a353_6458_exon.fa
+1073	DNA	57	778	231	325	GTR+F+I+G	intron_ok/trimmed_a353_6458_intron.fa
+1074	DNA	180	751	352	286	GTR+F+I+G	exon/trimmed_a353_6459_exon.fa
+1075	DNA	35	623	176	228	GTR+F+I+G	intron_ok/trimmed_a353_6459_intron.fa
+1076	DNA	188	600	252	254	GTR+F+I+G	exon/trimmed_a353_6460_exon.fa
+1077	DNA	189	717	305	301	GTR+F+I+G	exon/trimmed_a353_6462_exon.fa
+1078	DNA	71	1700	529	746	GTR+F+I+G	intron_ok/trimmed_a353_6462_intron.fa
+1079	DNA	180	252	82	143	GTR+F+I+G	exon/trimmed_a353_6483_exon.fa
+1080	DNA	66	409	89	246	GTR+F+I+G	intron_ok/trimmed_a353_6483_intron.fa
+1081	DNA	194	948	366	439	GTR+F+I+G	exon/trimmed_a353_6487_exon.fa
+1082	DNA	46	1970	397	1021	GTR+F+I+G	intron_ok/trimmed_a353_6487_intron.fa
+1083	DNA	182	273	117	128	GTR+F+I+G	exon/trimmed_a353_6488_exon.fa
+1084	DNA	18	405	26	312	GTR+F+I+G	intron_ok/trimmed_a353_6488_intron.fa
+1085	DNA	189	381	152	161	GTR+F+I+G	exon/trimmed_a353_6492_exon.fa
+1086	DNA	191	1245	477	590	GTR+F+I+G	exon/trimmed_a353_6494_exon.fa
+1087	DNA	45	1456	265	816	GTR+F+I+G	intron_ok/trimmed_a353_6494_intron.fa
+1088	DNA	184	349	114	165	GTR+F+I+G	exon/trimmed_a353_6496_exon.fa
+1089	DNA	63	762	196	365	GTR+F+I+G	intron_ok/trimmed_a353_6496_intron.fa
+1090	DNA	186	279	95	168	GTR+F+I+G	exon/trimmed_a353_6498_exon.fa
+1091	DNA	176	276	103	115	GTR+F+I+G	exon/trimmed_a353_6506_exon.fa
+1092	DNA	24	488	280	148	GTR+F+I+G	intron_ok/trimmed_a353_6506_intron.fa
+1093	DNA	165	306	93	126	GTR+F+I+G	exon/trimmed_a353_6507_exon.fa
+1094	DNA	34	804	222	285	GTR+F+I+G	intron_ok/trimmed_a353_6507_intron.fa
+1095	DNA	173	225	89	104	GTR+F+I+G	exon/trimmed_a353_6526_exon.fa
+1096	DNA	11	538	40	466	GTR+F+I+G	intron_ok/trimmed_a353_6526_intron.fa
+1097	DNA	185	703	294	286	GTR+F+I+G	exon/trimmed_a353_6527_exon.fa
+1098	DNA	63	644	157	370	GTR+F+I+G	intron_ok/trimmed_a353_6527_intron.fa
+1099	DNA	186	369	235	99	GTR+F+I+G	exon/trimmed_a353_6528_exon.fa
+1100	DNA	37	162	74	65	GTR+F+I+G	intron_ok/trimmed_a353_6528_intron.fa
+1101	DNA	167	403	176	145	GTR+F+I+G	exon/trimmed_a353_6531_exon.fa
+1102	DNA	44	343	71	201	GTR+F+I+G	intron_ok/trimmed_a353_6531_intron.fa
+1103	DNA	186	210	62	140	GTR+F+I+G	exon/trimmed_a353_6532_exon.fa
+1104	DNA	28	650	77	435	GTR+F+I+G	intron_ok/trimmed_a353_6532_intron.fa
+1105	DNA	187	747	265	368	GTR+F+I+G	exon/trimmed_a353_6533_exon.fa
+1106	DNA	68	133	52	53	GTR+F+I+G	intron_ok/trimmed_a353_6533_intron.fa
+1107	DNA	189	494	198	231	GTR+F+I+G	exon/trimmed_a353_6538_exon.fa
+1108	DNA	68	482	212	141	GTR+F+I+G	intron_ok/trimmed_a353_6538_intron.fa
+1109	DNA	177	132	40	77	GTR+F+I+G	exon/trimmed_a353_6540_exon.fa
+1110	DNA	46	662	160	275	GTR+F+I+G	intron_ok/trimmed_a353_6540_intron.fa
+1111	DNA	189	2229	1039	733	GTR+F+I+G	exon/trimmed_a353_6544_exon.fa
+1112	DNA	62	2738	678	1425	GTR+F+I+G	intron_ok/trimmed_a353_6544_intron.fa
+1113	DNA	186	369	145	176	GTR+F+I+G	exon/trimmed_a353_6550_exon.fa
+1114	DNA	42	368	48	286	GTR+F+I+G	intron_ok/trimmed_a353_6550_intron.fa
+1115	DNA	179	345	159	122	GTR+F+I+G	exon/trimmed_a353_6552_exon.fa
+1116	DNA	39	842	167	446	GTR+F+I+G	intron_ok/trimmed_a353_6552_intron.fa
+1117	DNA	131	159	69	63	GTR+F+I+G	exon/trimmed_a353_6557_exon.fa
+1118	DNA	183	381	157	176	GTR+F+I+G	exon/trimmed_a353_6559_exon.fa
+1119	DNA	18	520	31	414	GTR+F+I+G	intron_ok/trimmed_a353_6559_intron.fa
+1120	DNA	185	239	105	93	GTR+F+I+G	exon/trimmed_a353_6563_exon.fa
+1121	DNA	45	13	9	4	GTR+F+I+G	intron_ok/trimmed_a353_6563_intron.fa
+1122	DNA	138	248	47	147	GTR+F+I+G	exon/trimmed_a353_6565_exon.fa
+1123	DNA	39	597	102	415	GTR+F+I+G	intron_ok/trimmed_a353_6565_intron.fa
+1124	DNA	185	450	199	189	GTR+F+I+G	exon/trimmed_a353_6570_exon.fa
+1125	DNA	30	166	28	88	GTR+F+I+G	intron_ok/trimmed_a353_6570_intron.fa
+1126	DNA	178	548	236	211	GTR+F+I+G	exon/trimmed_a353_6572_exon.fa
+1127	DNA	181	555	257	162	GTR+F+I+G	exon/trimmed_a353_6601_exon.fa
+1128	DNA	67	285	80	133	GTR+F+I+G	intron_ok/trimmed_a353_6601_intron.fa
+1129	DNA	187	504	221	198	GTR+F+I+G	exon/trimmed_a353_6620_exon.fa
+1130	DNA	176	647	258	300	GTR+F+I+G	exon/trimmed_a353_6631_exon.fa
+1131	DNA	183	621	309	231	GTR+F+I+G	exon/trimmed_a353_6636_exon.fa
+1132	DNA	42	1663	328	894	GTR+F+I+G	intron_ok/trimmed_a353_6636_intron.fa
+1133	DNA	186	567	223	246	GTR+F+I+G	exon/trimmed_a353_6641_exon.fa
+1134	DNA	180	303	123	118	GTR+F+I+G	exon/trimmed_a353_6649_exon.fa
+1135	DNA	65	488	127	249	GTR+F+I+G	intron_ok/trimmed_a353_6649_intron.fa
+1136	DNA	173	651	317	211	GTR+F+I+G	exon/trimmed_a353_6660_exon.fa
+1137	DNA	32	1220	330	730	GTR+F+I+G	intron_ok/trimmed_a353_6660_intron.fa
+1138	DNA	188	909	403	358	GTR+F+I+G	exon/trimmed_a353_6667_exon.fa
+1139	DNA	61	187	57	76	GTR+F+I+G	intron_ok/trimmed_a353_6667_intron.fa
+1140	DNA	178	339	162	122	GTR+F+I+G	exon/trimmed_a353_6679_exon.fa
+1141	DNA	57	340	79	198	GTR+F+I+G	intron_ok/trimmed_a353_6679_intron.fa
+1142	DNA	187	636	241	314	GTR+F+I+G	exon/trimmed_a353_6685_exon.fa
+1143	DNA	15	728	83	433	GTR+F+I+G	intron_ok/trimmed_a353_6685_intron.fa
+1144	DNA	186	213	77	115	GTR+F+I+G	exon/trimmed_a353_6689_exon.fa
+1145	DNA	63	1448	327	781	GTR+F+I+G	intron_ok/trimmed_a353_6689_intron.fa
+1146	DNA	167	228	96	99	GTR+F+I+G	exon/trimmed_a353_6705_exon.fa
+1147	DNA	171	554	315	86	GTR+F+I+G	exon/trimmed_a353_6713_exon.fa
+1148	DNA	49	165	36	101	GTR+F+I+G	intron_ok/trimmed_a353_6713_intron.fa
+1149	DNA	189	1200	505	542	GTR+F+I+G	exon/trimmed_a353_6717_exon.fa
+1150	DNA	74	3040	652	1647	GTR+F+I+G	intron_ok/trimmed_a353_6717_intron.fa
+1151	DNA	169	174	72	49	GTR+F+I+G	exon/trimmed_a353_6732_exon.fa
+1152	DNA	178	141	56	63	GTR+F+I+G	exon/trimmed_a353_6733_exon.fa
+1153	DNA	47	632	156	339	GTR+F+I+G	intron_ok/trimmed_a353_6733_intron.fa
+1154	DNA	178	195	83	87	GTR+F+I+G	exon/trimmed_a353_6738_exon.fa
+1155	DNA	20	403	68	212	GTR+F+I+G	intron_ok/trimmed_a353_6738_intron.fa
+1156	DNA	178	75	46	12	GTR+F+I+G	exon/trimmed_a353_6746_exon.fa
+1157	DNA	187	487	246	169	GTR+F+I+G	exon/trimmed_a353_6779_exon.fa
+1158	DNA	60	1017	219	527	GTR+F+I+G	intron_ok/trimmed_a353_6779_intron.fa
+1159	DNA	187	237	81	127	GTR+F+I+G	exon/trimmed_a353_6780_exon.fa
+1160	DNA	15	286	29	139	GTR+F+I+G	intron_ok/trimmed_a353_6780_intron.fa
+1161	DNA	183	246	99	105	GTR+F+I+G	exon/trimmed_a353_6782_exon.fa
+1162	DNA	14	499	16	375	GTR+F+I+G	intron_ok/trimmed_a353_6782_intron.fa
+1163	DNA	165	240	94	108	GTR+F+I+G	exon/trimmed_a353_6785_exon.fa
+1164	DNA	174	312	129	102	GTR+F+I+G	exon/trimmed_a353_6791_exon.fa
+1165	DNA	57	1533	349	824	GTR+F+I+G	intron_ok/trimmed_a353_6791_intron.fa
+1166	DNA	179	542	250	200	GTR+F+I+G	exon/trimmed_a353_6792_exon.fa
+1167	DNA	68	202	54	96	GTR+F+I+G	intron_ok/trimmed_a353_6792_intron.fa
+1168	DNA	179	342	181	105	GTR+F+I+G	exon/trimmed_a353_6797_exon.fa
+1169	DNA	65	86	8	60	GTR+F+I+G	intron_ok/trimmed_a353_6797_intron.fa
+1170	DNA	185	351	136	171	GTR+F+I+G	exon/trimmed_a353_6825_exon.fa
+1171	DNA	68	669	194	282	GTR+F+I+G	intron_ok/trimmed_a353_6825_intron.fa
+1172	DNA	172	330	162	116	GTR+F+I+G	exon/trimmed_a353_6848_exon.fa
+1173	DNA	57	191	32	125	GTR+F+I+G	intron_ok/trimmed_a353_6848_intron.fa
+1174	DNA	138	646	252	285	GTR+F+I+G	exon/trimmed_a353_6854_exon.fa
+1175	DNA	187	873	343	395	GTR+F+I+G	exon/trimmed_a353_6859_exon.fa
+1176	DNA	68	1913	451	1051	GTR+F+I+G	intron_ok/trimmed_a353_6859_intron.fa
+1177	DNA	182	630	259	264	GTR+F+I+G	exon/trimmed_a353_6860_exon.fa
+1178	DNA	57	908	221	478	GTR+F+I+G	intron_ok/trimmed_a353_6860_intron.fa
+1179	DNA	155	222	94	62	GTR+F+I+G	exon/trimmed_a353_6864_exon.fa
+1180	DNA	33	566	186	303	GTR+F+I+G	intron_ok/trimmed_a353_6864_intron.fa
+1181	DNA	187	552	204	284	GTR+F+I+G	exon/trimmed_a353_6865_exon.fa
+1182	DNA	65	808	214	472	GTR+F+I+G	intron_ok/trimmed_a353_6865_intron.fa
+1183	DNA	180	723	276	288	GTR+F+I+G	exon/trimmed_a353_6882_exon.fa
+1184	DNA	67	1278	359	605	GTR+F+I+G	intron_ok/trimmed_a353_6882_intron.fa
+1185	DNA	189	423	134	226	GTR+F+I+G	exon/trimmed_a353_6883_exon.fa
+1186	DNA	71	255	62	113	GTR+F+I+G	intron_ok/trimmed_a353_6883_intron.fa
+1187	DNA	83	108	23	74	GTR+F+I+G	exon/trimmed_a353_6886_exon.fa
+1188	DNA	175	333	151	131	GTR+F+I+G	exon/trimmed_a353_6893_exon.fa
+1189	DNA	61	887	233	450	GTR+F+I+G	intron_ok/trimmed_a353_6893_intron.fa
+1190	DNA	184	396	154	185	GTR+F+I+G	exon/trimmed_a353_6909_exon.fa
+1191	DNA	67	1709	368	931	GTR+F+I+G	intron_ok/trimmed_a353_6909_intron.fa
+1192	DNA	191	729	291	378	GTR+F+I+G	exon/trimmed_a353_6913_exon.fa
+1193	DNA	73	3187	791	1708	GTR+F+I+G	intron_ok/trimmed_a353_6913_intron.fa
+1194	DNA	186	744	362	252	GTR+F+I+G	exon/trimmed_a353_6914_exon.fa
+1195	DNA	65	946	226	472	GTR+F+I+G	intron_ok/trimmed_a353_6914_intron.fa
+1196	DNA	189	1044	400	547	GTR+F+I+G	exon/trimmed_a353_6924_exon.fa
+1197	DNA	74	2084	570	1056	GTR+F+I+G	intron_ok/trimmed_a353_6924_intron.fa
+1198	DNA	183	579	288	188	GTR+F+I+G	exon/trimmed_a353_6933_exon.fa
+1199	DNA	181	252	93	115	GTR+F+I+G	exon/trimmed_a353_6946_exon.fa
+1200	DNA	188	1212	556	452	GTR+F+I+G	exon/trimmed_a353_6947_exon.fa
+1201	DNA	65	1915	480	991	GTR+F+I+G	intron_ok/trimmed_a353_6947_intron.fa
+1202	DNA	185	135	55	70	GTR+F+I+G	exon/trimmed_a353_6954_exon.fa
+1203	DNA	19	458	52	259	GTR+F+I+G	intron_ok/trimmed_a353_6954_intron.fa
+1204	DNA	185	231	88	124	GTR+F+I+G	exon/trimmed_a353_6955_exon.fa
+1205	DNA	180	396	142	154	GTR+F+I+G	exon/trimmed_a353_6958_exon.fa
+1206	DNA	57	549	124	323	GTR+F+I+G	intron_ok/trimmed_a353_6958_intron.fa
+1207	DNA	187	714	258	358	GTR+F+I+G	exon/trimmed_a353_6961_exon.fa
+1208	DNA	44	1090	199	697	GTR+F+I+G	intron_ok/trimmed_a353_6961_intron.fa
+1209	DNA	179	183	58	92	GTR+F+I+G	exon/trimmed_a353_6962_exon.fa
+1210	DNA	177	428	184	205	GTR+F+I+G	exon/trimmed_a353_6968_exon.fa
+1211	DNA	27	1074	103	753	GTR+F+I+G	intron_ok/trimmed_a353_6968_intron.fa
+1212	DNA	146	288	99	146	GTR+F+I+G	exon/trimmed_a353_6969_exon.fa
+1213	DNA	119	159	30	94	GTR+F+I+G	exon/trimmed_a353_6977_exon.fa
+1214	DNA	184	276	99	143	GTR+F+I+G	exon/trimmed_a353_6978_exon.fa
+1215	DNA	66	235	68	128	GTR+F+I+G	intron_ok/trimmed_a353_6978_intron.fa
+1216	DNA	190	720	299	309	GTR+F+I+G	exon/trimmed_a353_6979_exon.fa
+1217	DNA	172	195	53	112	GTR+F+I+G	exon/trimmed_a353_6992_exon.fa
+1218	DNA	59	2340	622	1227	GTR+F+I+G	intron_ok/trimmed_a353_6992_intron.fa
+1219	DNA	66	87	25	53	GTR+F+I+G	exon/trimmed_a353_6995_exon.fa
+1220	DNA	171	273	101	136	GTR+F+I+G	exon/trimmed_a353_7013_exon.fa
+1221	DNA	179	675	208	324	GTR+F+I+G	exon/trimmed_a353_7021_exon.fa
+1222	DNA	26	757	107	571	GTR+F+I+G	intron_ok/trimmed_a353_7021_intron.fa
+1223	DNA	176	210	79	108	GTR+F+I+G	exon/trimmed_a353_7024_exon.fa
+1224	DNA	15	734	32	605	GTR+F+I+G	intron_ok/trimmed_a353_7024_intron.fa
+1225	DNA	177	207	77	94	GTR+F+I+G	exon/trimmed_a353_7028_exon.fa
+1226	DNA	194	764	290	339	GTR+F+I+G	exon/trimmed_a353_7029_exon.fa
+1227	DNA	73	904	228	531	GTR+F+I+G	intron_ok/trimmed_a353_7029_intron.fa
+1228	DNA	162	270	109	96	GTR+F+I+G	exon/trimmed_a353_7067_exon.fa
+1229	DNA	180	336	130	140	GTR+F+I+G	exon/trimmed_a353_7111_exon.fa
+1230	DNA	67	691	189	350	GTR+F+I+G	intron_ok/trimmed_a353_7111_intron.fa
+1231	DNA	184	979	434	394	GTR+F+I+G	exon/trimmed_a353_7128_exon.fa
+1232	DNA	63	412	100	234	GTR+F+I+G	intron_ok/trimmed_a353_7128_intron.fa
+1233	DNA	160	129	55	34	GTR+F+I+G	exon/trimmed_a353_7135_exon.fa
+1234	DNA	183	297	108	159	GTR+F+I+G	exon/trimmed_a353_7136_exon.fa
+1235	DNA	62	186	48	100	GTR+F+I+G	intron_ok/trimmed_a353_7136_intron.fa
+1236	DNA	175	336	130	163	GTR+F+I+G	exon/trimmed_a353_7141_exon.fa
+1237	DNA	15	233	7	186	GTR+F+I+G	intron_ok/trimmed_a353_7141_intron.fa
+1238	DNA	186	1398	671	516	GTR+F+I+G	exon/trimmed_a353_7174_exon.fa
+1239	DNA	70	402	92	214	GTR+F+I+G	intron_ok/trimmed_a353_7174_intron.fa
+1240	DNA	175	357	153	153	GTR+F+I+G	exon/trimmed_a353_7194_exon.fa
+1241	DNA	180	234	136	78	GTR+F+I+G	exon/trimmed_a353_7241_exon.fa
+1242	DNA	178	339	138	145	GTR+F+I+G	exon/trimmed_a353_7273_exon.fa
+1243	DNA	20	748	63	601	GTR+F+I+G	intron_ok/trimmed_a353_7273_intron.fa
+1244	DNA	185	896	492	283	GTR+F+I+G	exon/trimmed_a353_7279_exon.fa
+1245	DNA	65	1527	380	810	GTR+F+I+G	intron_ok/trimmed_a353_7279_intron.fa
+1246	DNA	163	165	67	80	GTR+F+I+G	exon/trimmed_a353_7296_exon.fa
+1247	DNA	189	834	325	385	GTR+F+I+G	exon/trimmed_a353_7313_exon.fa
+1248	DNA	45	1058	124	691	GTR+F+I+G	intron_ok/trimmed_a353_7313_intron.fa
+1249	DNA	187	495	202	236	GTR+F+I+G	exon/trimmed_a353_7324_exon.fa
+1250	DNA	34	859	134	511	GTR+F+I+G	intron_ok/trimmed_a353_7324_intron.fa
+1251	DNA	143	99	39	44	GTR+F+I+G	exon/trimmed_a353_7331_exon.fa
+1252	DNA	10	509	21	424	GTR+F+I+G	intron_ok/trimmed_a353_7331_intron.fa
+1253	DNA	186	399	168	193	GTR+F+I+G	exon/trimmed_a353_7333_exon.fa
+1254	DNA	188	444	198	187	GTR+F+I+G	exon/trimmed_a353_7336_exon.fa
+1255	DNA	176	444	206	169	GTR+F+I+G	exon/trimmed_a353_7361_exon.fa
+1256	DNA	188	385	151	138	GTR+F+I+G	exon/trimmed_a353_7363_exon.fa
+1257	DNA	66	626	162	254	GTR+F+I+G	intron_ok/trimmed_a353_7363_intron.fa
+1258	DNA	169	99	32	54	GTR+F+I+G	exon/trimmed_a353_7367_exon.fa
+1259	DNA	167	138	41	90	GTR+F+I+G	exon/trimmed_a353_7371_exon.fa
+1260	DNA	182	747	295	313	GTR+F+I+G	exon/trimmed_a353_7572_exon.fa
+1261	DNA	17	586	40	430	GTR+F+I+G	intron_ok/trimmed_a353_7572_intron.fa
+1262	DNA	186	255	116	111	GTR+F+I+G	exon/trimmed_a353_7583_exon.fa
+1263	DNA	181	243	99	109	GTR+F+I+G	exon/trimmed_a353_7628_exon.fa
+Degree of missing data: 0.533
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 138.617 seconds
+
+NOTE: 35938 MB RAM (35 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+2 trees examined
+Threads: 1 / Time: 540.892 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -59791959
+Threads: 2 / Time: 302.769 sec / Speedup: 1.786 / Efficiency: 89% / LogL: -59791959
+Threads: 3 / Time: 235.801 sec / Speedup: 2.294 / Efficiency: 76% / LogL: -59791959
+Threads: 4 / Time: 197.796 sec / Speedup: 2.735 / Efficiency: 68% / LogL: -59791959
+Threads: 5 / Time: 176.818 sec / Speedup: 3.059 / Efficiency: 61% / LogL: -59791959
+Threads: 6 / Time: 158.953 sec / Speedup: 3.403 / Efficiency: 57% / LogL: -59791959
+Threads: 7 / Time: 154.879 sec / Speedup: 3.492 / Efficiency: 50% / LogL: -59791959
+BEST NUMBER OF THREADS: 6
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -33200148.039
+Current log-likelihood at step 1: -31958353.298
+Current log-likelihood at step 2: -31896892.441
+Current log-likelihood at step 3: -31890325.593
+Current log-likelihood at step 4: -31888750.907
+Current log-likelihood at step 5: -31887816.054
+Current log-likelihood at step 6: -31887163.385
+Current log-likelihood at step 7: -31886489.303
+Current log-likelihood at step 8: -31885256.226
+Current log-likelihood at step 9: -31884313.784
+Current log-likelihood at step 10: -31884037.083
+Current log-likelihood at step 11: -31883761.251
+Current log-likelihood at step 12: -31883526.416
+Current log-likelihood at step 13: -31883128.146
+Current log-likelihood at step 14: -31882995.479
+Current log-likelihood at step 15: -31882895.185
+Current log-likelihood at step 16: -31882807.770
+Current log-likelihood at step 17: -31882731.553
+Current log-likelihood at step 18: -31882661.456
+Current log-likelihood at step 19: -31882596.475
+Current log-likelihood at step 20: -31882536.660
+Current log-likelihood at step 21: -31882242.311
+Current log-likelihood at step 22: -31882191.414
+Current log-likelihood at step 23: -31882151.087
+Current log-likelihood at step 24: -31882114.097
+Current log-likelihood at step 25: -31882081.249
+Current log-likelihood at step 26: -31882049.279
+Current log-likelihood at step 27: -31882020.673
+Current log-likelihood at step 28: -31881992.505
+Current log-likelihood at step 29: -31881966.623
+Current log-likelihood at step 30: -31881940.392
+Current log-likelihood at step 31: -31881915.344
+Current log-likelihood at step 32: -31881887.216
+Current log-likelihood at step 33: -31881481.165
+Current log-likelihood at step 34: -31881269.402
+Current log-likelihood at step 35: -31881215.150
+Current log-likelihood at step 36: -31881180.033
+Current log-likelihood at step 37: -31881151.886
+Current log-likelihood at step 38: -31880946.509
+Current log-likelihood at step 39: -31880893.414
+Current log-likelihood at step 40: -31880882.864
+Current log-likelihood at step 41: -31880873.334
+Current log-likelihood at step 42: -31880864.329
+Current log-likelihood at step 43: -31880855.771
+Current log-likelihood at step 44: -31880847.668
+Current log-likelihood at step 45: -31880839.957
+Current log-likelihood at step 46: -31880832.666
+Current log-likelihood at step 47: -31880825.742
+Current log-likelihood at step 48: -31880819.153
+Current log-likelihood at step 49: -31880812.861
+Current log-likelihood at step 50: -31880806.865
+Current log-likelihood at step 51: -31880801.182
+Current log-likelihood at step 52: -31880795.767
+Current log-likelihood at step 53: -31880790.602
+Current log-likelihood at step 54: -31880785.675
+Current log-likelihood at step 55: -31880780.963
+Current log-likelihood at step 56: -31880776.459
+Current log-likelihood at step 57: -31880772.141
+Current log-likelihood at step 58: -31880767.992
+Current log-likelihood at step 59: -31880763.975
+Current log-likelihood at step 60: -31880760.156
+Current log-likelihood at step 61: -31880756.485
+Current log-likelihood at step 62: -31880752.943
+Current log-likelihood at step 63: -31880749.529
+Current log-likelihood at step 64: -31880746.232
+Current log-likelihood at step 65: -31880743.036
+Current log-likelihood at step 66: -31880739.949
+Current log-likelihood at step 67: -31880736.951
+Current log-likelihood at step 68: -31880734.022
+Current log-likelihood at step 69: -31880731.182
+Current log-likelihood at step 70: -31880728.458
+Current log-likelihood at step 71: -31880725.812
+Current log-likelihood at step 72: -31880723.246
+Current log-likelihood at step 73: -31880720.756
+Current log-likelihood at step 74: -31880718.340
+Current log-likelihood at step 75: -31880715.982
+Current log-likelihood at step 76: -31880713.675
+Current log-likelihood at step 77: -31880711.443
+Current log-likelihood at step 78: -31880709.260
+Current log-likelihood at step 79: -31880707.080
+Current log-likelihood at step 80: -31880704.993
+Current log-likelihood at step 81: -31880702.922
+Current log-likelihood at step 82: -31880661.241
+Current log-likelihood at step 83: -31880655.919
+Current log-likelihood at step 84: -31880653.332
+Current log-likelihood at step 85: -31880650.997
+Current log-likelihood at step 86: -31880648.799
+Current log-likelihood at step 87: -31880646.714
+Current log-likelihood at step 88: -31880644.731
+Current log-likelihood at step 89: -31880642.828
+Current log-likelihood at step 90: -31880641.003
+Current log-likelihood at step 91: -31880639.225
+Current log-likelihood at step 92: -31880637.523
+Current log-likelihood at step 93: -31880635.872
+Current log-likelihood at step 94: -31880634.233
+Current log-likelihood at step 95: -31880632.676
+Current log-likelihood at step 96: -31880631.162
+Current log-likelihood at step 97: -31880629.677
+Current log-likelihood at step 98: -31880628.235
+Current log-likelihood at step 99: -31880626.827
+Partition-specific rates:  0.381 0.769 1.050 1.710 1.000 1.397 0.795 0.839 0.282 0.358 0.394 0.830 1.022 2.087 0.905 2.210 1.995 1.904 0.349 0.864 0.428 1.988 0.631 0.741 0.627 1.914 0.461 2.222 1.070 2.051 0.486 1.496 0.396 0.997 0.428 1.250 0.519 3.584 0.490 1.505 0.690 0.710 0.471 1.127 0.312 0.715 0.479 0.829 0.279 0.812 0.486 1.489 0.524 2.801 0.361 1.458 0.516 1.202 0.372 2.890 1.134 1.453 2.029 1.622 0.763 1.263 0.427 1.180 0.347 1.221 0.401 1.763 0.467 1.239 0.649 0.755 0.450 1.348 0.414 1.135 0.541 0.984 0.623 2.050 0.245 0.926 0.465 1.334 0.462 1.171 0.431 1.463 0.513 1.760 0.782 0.973 0.993 2.027 0.595 1.082 0.400 2.708 0.648 1.724 0.247 1.112 0.419 0.954 0.368 0.857 1.176 1.660 0.427 0.955 0.419 1.127 0.496 1.625 0.569 1.515 0.394 1.523 0.337 1.064 0.415 0.584 1.062 2.109 0.632 0.408 0.387 0.873 0.735 0.827 0.453 1.074 0.521 1.964 0.408 1.097 0.431 1.161 0.460 0.728 0.394 1.306 0.505 1.298 0.648 2.250 0.478 1.291 0.608 1.005 0.322 0.815 0.497 0.934 0.400 2.011 0.327 0.936 0.394 1.155 0.521 1.171 0.505 0.890 0.928 1.621 0.762 1.091 0.799 0.827 1.045 1.155 0.365 0.576 0.562 1.508 0.477 0.701 0.476 0.542 0.343 0.904 0.451 1.493 0.512 2.446 0.412 0.787 0.531 1.727 0.411 1.505 0.364 1.153 0.635 3.155 0.583 1.739 0.473 1.044 1.791 0.982 0.403 2.143 0.343 0.627 0.299 0.992 0.765 1.094 0.545 1.380 0.616 1.024 0.373 1.060 0.376 1.504 0.402 1.277 0.397 1.061 0.316 1.183 0.348 0.839 0.345 1.537 0.472 1.004 1.165 1.216 0.448 1.062 0.307 3.002 1.167 1.087 0.736 0.804 0.748 1.157 0.522 1.224 0.590 1.012 0.336 1.062 0.413 0.870 0.636 2.053 0.437 1.877 0.449 0.624 0.380 0.624 0.465 1.802 0.346 1.517 0.551 1.596 0.510 1.386 0.407 1.109 0.719 2.417 0.308 1.122 0.562 1.953 0.557 1.269 1.158 2.047 0.517 1.321 0.415 1.119 0.383 1.230 1.541 0.677 0.593 1.356 0.326 1.659 0.595 2.139 0.375 0.995 0.283 0.788 1.174 1.023 0.948 1.592 0.600 1.402 0.522 1.612 0.588 0.813 0.380 1.287 0.316 1.546 0.361 0.601 0.250 0.843 0.368 1.567 1.114 1.044 0.279 1.207 0.361 1.137 0.338 1.136 0.913 1.170 1.174 1.394 1.851 2.547 0.435 2.851 0.637 1.172 0.531 1.702 1.124 1.345 0.405 1.390 0.389 1.329 0.746 1.038 1.063 1.966 0.346 0.786 0.460 1.102 1.204 2.413 0.377 1.470 0.513 1.453 2.423 5.303 0.250 1.354 0.374 2.239 0.353 0.974 0.561 1.790 0.348 1.222 0.309 1.175 0.368 1.206 0.380 0.948 1.525 1.366 1.487 0.663 0.483 1.532 0.915 1.803 0.345 1.106 0.680 2.198 0.503 1.106 0.656 1.587 0.863 1.094 0.350 0.754 0.282 0.636 0.344 0.922 1.801 3.187 0.801 2.058 0.960 57.322 1.588 1.087 0.284 0.486 0.425 1.061 0.331 0.939 0.351 0.912 0.367 1.077 0.674 2.727 0.348 0.973 0.823 0.807 0.349 1.290 0.349 0.752 1.040 2.796 0.405 1.236 0.317 0.851 0.332 0.569 0.333 1.024 0.282 1.104 0.296 0.915 0.891 2.665 0.334 0.866 0.611 1.237 0.339 0.782 0.533 1.144 0.452 1.344 0.346 1.160 0.448 1.445 0.395 1.106 0.497 0.920 0.650 1.449 0.399 1.007 0.481 0.797 0.496 1.523 1.114 2.185 0.377 1.599 0.683 1.009 0.472 1.195 0.310 0.705 0.320 0.837 0.737 1.677 0.657 0.963 0.393 1.038 0.432 1.636 0.284 1.168 2.617 2.601 0.338 1.167 0.505 1.346 0.622 1.624 0.558 1.751 0.583 0.947 0.206 0.630 0.333 0.650 2.160 2.067 0.360 1.583 0.513 1.796 0.404 1.333 0.281 0.979 0.365 1.171 0.428 1.371 1.931 2.192 1.116 1.182 0.363 1.742 0.419 0.812 0.326 1.262 0.460 1.383 1.110 1.729 0.655 1.581 0.331 1.121 0.367 1.013 0.355 1.497 0.726 1.946 0.775 2.178 0.507 1.343 0.211 0.658 0.252 0.819 0.631 1.818 0.359 1.047 0.553 0.927 0.629 0.559 0.306 1.083 0.386 0.839 0.609 0.670 0.343 0.887 0.276 0.868 0.330 0.876 0.379 0.936 1.342 2.849 0.488 0.815 0.400 1.826 0.722 1.245 0.636 1.915 0.363 1.204 0.385 1.102 1.766 2.370 0.403 0.785 0.624 1.066 0.355 0.956 0.336 0.789 0.408 1.366 1.092 1.200 0.410 0.854 0.339 1.042 0.412 1.906 0.569 0.897 0.415 0.907 0.328 0.617 5.311 2.771 1.202 1.162 0.651 0.849 0.470 0.931 0.277 1.594 0.505 1.603 4.167 1.377 0.335 1.057 0.329 0.956 0.477 1.001 0.412 2.427 0.284 0.936 0.504 1.173 0.428 1.379 0.381 1.346 0.274 0.593 0.306 1.021 0.483 2.636 0.281 1.213 1.687 1.510 0.435 0.960 0.556 1.523 0.407 0.890 0.309 1.037 0.462 0.829 0.447 1.056 1.131 2.006 0.527 1.651 0.625 1.981 0.419 1.342 0.242 1.119 0.358 1.949 0.327 1.139 0.396 2.224 0.302 0.624 0.385 0.958 0.362 0.675 0.333 0.716 0.517 0.616 0.308 0.547 2.358 1.139 0.461 0.931 0.488 0.620 0.256 0.786 0.327 0.497 0.759 1.566 0.247 0.607 0.276 0.530 0.300 0.634 1.170 2.170 0.175 0.295 0.553 0.270 0.690 0.299 0.154 0.290 0.279 0.675 0.458 0.199 0.258 0.691 0.150 0.530 0.250 0.510 0.336 0.844 0.851 0.743 0.204 0.495 0.187 0.526 0.267 0.239 1.027 0.382 0.886 0.233 0.730 0.330 0.800 2.483 48.359 0.447 0.910 0.212 0.741 0.286 0.770 0.271 0.755 0.190 0.532 0.483 0.523 0.224 0.580 0.562 0.807 0.504 0.250 0.962 0.349 0.609 0.595 0.500 0.815 0.225 0.736 1.165 0.469 0.651 0.262 0.919 2.073 0.424 0.583 0.241 0.548 0.314 0.789 0.249 0.622 0.399 0.720 0.317 0.812 0.397 1.152 0.307 1.714 1.851 0.288 0.949 0.259 0.717 0.288 1.067 0.195 0.711 0.424 0.856 0.307 1.176 0.404 0.787 0.551 0.482 0.330 0.722 0.334 0.491 0.199 0.522 0.360 0.882 0.314 0.830 0.346 0.857 0.369 0.733 0.279 0.645 0.346 0.475 0.429 1.356 2.111 0.270 0.667 0.330 1.694 4.179 0.258 0.609 0.299 0.783 0.320 0.629 0.274 0.264 0.649 0.709 0.968 0.995 0.628 0.286 0.688 0.273 0.523 0.260 0.937 0.287 0.575 0.568 0.911 0.286 1.160 0.375 0.848 0.286 0.520 0.403 0.775 0.648 0.721 0.246 0.750 0.389 0.936 0.235 0.755 0.225 0.565 0.325 0.532 0.431 0.532 0.292 0.533 0.254 0.870 0.233 0.862 0.431 0.920 0.273 0.622 0.418 0.795 0.812 3.746 0.425 0.199 0.610 0.365 0.612 0.274 0.228 0.320 0.860 0.278 0.510 0.303 0.632 0.222 0.636 0.238 0.628 0.321 0.658 0.259 0.203 3.826 1.048 0.260 0.680 0.271 0.466 0.235 0.695 0.209 0.873 0.376 0.891 0.312 0.413 0.592 0.283 0.313 0.290 0.577 0.316 0.508 0.233 0.480 0.455 1.289 0.459 0.791 0.338 0.742 0.153 0.476 0.889 0.223 0.611 0.657 0.839 0.388 0.593 0.759 0.691 0.248 0.548 0.289 0.438 0.500 0.747 0.930 1.402 0.848 0.560 0.734 0.477 0.471 0.166 0.220 1.117 0.364 0.303 0.319 0.471 1.372 1.377 0.308 1.184 0.299 0.900 0.275 1.116 0.370 1.449 0.230 0.558 0.251 1.135 0.757 0.236 0.255 0.875 0.246 0.698 0.260 0.626 0.384 0.846 2.077 0.283 0.930 0.219 0.585 0.473 1.540 0.407 0.554 0.349 0.845 0.261 0.582 0.243 0.662 0.255 0.962 0.307 0.690 0.288 0.769 0.436 0.581 0.266 1.420 0.857 0.396 0.388 0.471 0.223 0.320 1.058 0.270 0.700 0.233 0.328 0.615 0.256 0.862 0.315 1.046 0.410 1.260 0.221 0.913 0.330 0.772 0.193 1.214 0.312 0.993 0.374 1.466 0.857 0.709 0.263 2.138 0.321 0.935 0.523 0.432 0.899 1.921 0.853 1.444 0.248 0.857 1.038 0.180 0.404 0.450 0.721 0.460 0.455 0.263 0.223 0.718 0.347 0.547 0.195 0.285 2.378 0.287 1.285 0.865 0.529 0.273 0.464 2.877 2.735 0.706 0.886 0.200 0.963 0.268 0.707 0.243 1.225 0.171 0.944 0.546 0.687 0.210 0.449 0.412 0.709 0.875 0.283 0.477 6.353 19.681 0.282 0.411 0.358 0.869 0.368 0.407 0.652 0.270 1.369 0.452 0.832 0.207 0.269 0.576 0.358 1.642 0.307 0.834 0.354 0.391 0.538 0.966 0.251 0.895 0.261 0.720 0.597 0.264 0.656 0.349 0.188 0.638 0.209 0.934 0.496 0.341 0.825 0.378 1.464 0.283 1.575 0.405 0.341 0.645 0.535 0.710 0.485 0.237 0.302 0.708 0.589 0.338 0.465 0.369 0.511 1.348 0.663 0.845 1.309 0.230 0.420 0.628 0.859 0.204 0.533 0.190 0.311 0.689 0.267 0.582 0.265 0.564 0.364 0.667 0.207 0.634 0.938 0.210 0.408 0.714 0.189 1.065 0.250 0.249 0.489 0.182 0.586 0.165 0.454 0.608 2.186 0.187 0.192 0.434 0.284 0.970 0.811 0.353 0.286 0.300 0.428 0.218 0.796 0.204 0.224 0.371 0.255 0.322 0.785 0.520 0.560 0.833 0.261 0.534 0.233 0.418 0.305 0.548 0.311 3.644 0.259 0.439 0.718 0.665 0.205 0.293 0.439 0.257 0.727 0.315 0.481 0.277 0.338 0.451 0.255 0.667 1.289 0.195 0.212 0.662 0.328 0.273
+Parameters optimization took 99 rounds (16522.673 sec)
+
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.054583 sec (of wall-clock time) 0.325237 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.016088 sec (of wall-clock time) 0.105921 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -42202865.387
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 15213.478 second
+Computing log-likelihood of 98 initial trees ... 6583.831 seconds
+Current best score: -31880626.827
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -31872308.393
+Current log-likelihood at step 1: -31871988.272
+Current log-likelihood at step 2: -31871835.523
+Current log-likelihood at step 3: -31871753.570
+Current log-likelihood at step 4: -31871715.085
+Current log-likelihood at step 5: -31871700.498
+Current log-likelihood at step 6: -31871694.029
+Current log-likelihood at step 7: -31871690.381
+Current log-likelihood at step 8: -31871687.770
+Current log-likelihood at step 9: -31871685.604
+Current log-likelihood at step 10: -31871683.675
+Current log-likelihood at step 11: -31871682.231
+Current log-likelihood at step 12: -31871680.859
+Current log-likelihood at step 13: -31871679.537
+Current log-likelihood at step 14: -31871678.267
+Current log-likelihood at step 15: -31871677.029
+Current log-likelihood at step 16: -31871675.828
+Current log-likelihood at step 17: -31871674.656
+Current log-likelihood at step 18: -31871673.513
+Current log-likelihood at step 19: -31871672.400
+Current log-likelihood at step 20: -31871671.295
+Current log-likelihood at step 21: -31871670.234
+Current log-likelihood at step 22: -31871669.196
+Current log-likelihood at step 23: -31871668.184
+Current log-likelihood at step 24: -31871667.193
+Current log-likelihood at step 25: -31871666.219
+Current log-likelihood at step 26: -31871665.270
+Current log-likelihood at step 27: -31871664.343
+Current log-likelihood at step 28: -31871663.433
+Current log-likelihood at step 29: -31871662.540
+Current log-likelihood at step 30: -31871661.665
+Current log-likelihood at step 31: -31871660.792
+Current log-likelihood at step 32: -31871659.956
+Current log-likelihood at step 33: -31871659.131
+Current log-likelihood at step 34: -31871658.320
+Current log-likelihood at step 35: -31871657.517
+Current log-likelihood at step 36: -31871656.735
+Current log-likelihood at step 37: -31871655.964
+Current log-likelihood at step 38: -31871655.202
+Current log-likelihood at step 39: -31871654.451
+Current log-likelihood at step 40: -31871653.708
+Current log-likelihood at step 41: -31871652.979
+Current log-likelihood at step 42: -31871652.322
+Current log-likelihood at step 43: -31871651.657
+Current log-likelihood at step 44: -31871651.013
+Current log-likelihood at step 45: -31871650.379
+Current log-likelihood at step 46: -31871649.757
+Current log-likelihood at step 47: -31871649.139
+Current log-likelihood at step 48: -31871648.532
+Current log-likelihood at step 49: -31871647.929
+Current log-likelihood at step 50: -31871647.331
+Current log-likelihood at step 51: -31871646.739
+Current log-likelihood at step 52: -31871646.153
+Current log-likelihood at step 53: -31871645.567
+Current log-likelihood at step 54: -31871644.978
+Current log-likelihood at step 55: -31871644.394
+Current log-likelihood at step 56: -31871643.806
+Current log-likelihood at step 57: -31871643.235
+Current log-likelihood at step 58: -31871642.685
+Current log-likelihood at step 59: -31871642.127
+Current log-likelihood at step 60: -31871641.597
+Current log-likelihood at step 61: -31871641.083
+Current log-likelihood at step 62: -31871640.577
+Current log-likelihood at step 63: -31871640.079
+Current log-likelihood at step 64: -31871639.588
+Current log-likelihood at step 65: -31871639.101
+Current log-likelihood at step 66: -31871638.622
+Current log-likelihood at step 67: -31871638.148
+Current log-likelihood at step 68: -31871637.662
+Current log-likelihood at step 69: -31871637.200
+Current log-likelihood at step 70: -31871636.741
+Current log-likelihood at step 71: -31871636.284
+Current log-likelihood at step 72: -31871635.833
+Current log-likelihood at step 73: -31871635.387
+Current log-likelihood at step 74: -31871634.944
+Current log-likelihood at step 75: -31871634.507
+Current log-likelihood at step 76: -31871634.074
+Current log-likelihood at step 77: -31871633.640
+Current log-likelihood at step 78: -31871633.213
+Current log-likelihood at step 79: -31871632.789
+Current log-likelihood at step 80: -31871632.368
+Current log-likelihood at step 81: -31871631.950
+Current log-likelihood at step 82: -31871631.536
+Current log-likelihood at step 83: -31871631.108
+Current log-likelihood at step 84: -31871630.698
+Current log-likelihood at step 85: -31871630.292
+Current log-likelihood at step 86: -31871629.890
+Current log-likelihood at step 87: -31871629.489
+Current log-likelihood at step 88: -31871629.092
+Current log-likelihood at step 89: -31871628.694
+Current log-likelihood at step 90: -31871628.300
+Current log-likelihood at step 91: -31871627.907
+Current log-likelihood at step 92: -31871627.515
+Current log-likelihood at step 93: -31871627.126
+Current log-likelihood at step 94: -31871626.738
+Current log-likelihood at step 95: -31871626.353
+Current log-likelihood at step 96: -31871625.967
+Current log-likelihood at step 97: -31871625.581
+Current log-likelihood at step 98: -31871625.195
+Current log-likelihood at step 99: -31871624.813
+Parameters optimization took 99 rounds (11793.391 sec)
+
+BETTER TREE FOUND at iteration 1: -31871624.813
+Iteration 10 / LogL: -31872828.841 / Time: 19h:45m:13s
+Iteration 20 / LogL: -31876910.964 / Time: 26h:26m:26s
+Finish initializing candidate tree set (20)
+Current best tree score: -31871624.813 / CPU time: 75974.314
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -31871247.849
+Current log-likelihood at step 1: -31871176.093
+Current log-likelihood at step 2: -31871163.742
+Current log-likelihood at step 3: -31871154.193
+Current log-likelihood at step 4: -31871145.221
+Current log-likelihood at step 5: -31871138.212
+Current log-likelihood at step 6: -31871132.619
+Current log-likelihood at step 7: -31871128.108
+Current log-likelihood at step 8: -31871124.418
+Current log-likelihood at step 9: -31871121.377
+Current log-likelihood at step 10: -31871118.851
+Current log-likelihood at step 11: -31871116.742
+Current log-likelihood at step 12: -31871114.953
+Current log-likelihood at step 13: -31871113.421
+Current log-likelihood at step 14: -31871112.093
+Current log-likelihood at step 15: -31871110.978
+Current log-likelihood at step 16: -31871109.986
+Current log-likelihood at step 17: -31871109.431
+Current log-likelihood at step 18: -31871108.882
+Current log-likelihood at step 19: -31871108.299
+Current log-likelihood at step 20: -31871107.720
+Current log-likelihood at step 21: -31871107.143
+Current log-likelihood at step 22: -31871106.565
+Current log-likelihood at step 23: -31871105.997
+Current log-likelihood at step 24: -31871105.392
+Current log-likelihood at step 25: -31871104.785
+Current log-likelihood at step 26: -31871104.178
+Current log-likelihood at step 27: -31871103.569
+Current log-likelihood at step 28: -31871102.954
+Current log-likelihood at step 29: -31871102.330
+Current log-likelihood at step 30: -31871101.701
+Current log-likelihood at step 31: -31871101.062
+Current log-likelihood at step 32: -31871100.416
+Current log-likelihood at step 33: -31871099.759
+Current log-likelihood at step 34: -31871099.096
+Current log-likelihood at step 35: -31871098.409
+Current log-likelihood at step 36: -31871097.726
+Current log-likelihood at step 37: -31871097.036
+Current log-likelihood at step 38: -31871096.333
+Current log-likelihood at step 39: -31871095.620
+Current log-likelihood at step 40: -31871094.896
+Current log-likelihood at step 41: -31871094.160
+Current log-likelihood at step 42: -31871093.413
+Current log-likelihood at step 43: -31871092.656
+Current log-likelihood at step 44: -31871091.881
+Current log-likelihood at step 45: -31871091.097
+Current log-likelihood at step 46: -31871090.300
+Current log-likelihood at step 47: -31871089.487
+Current log-likelihood at step 48: -31871088.658
+Current log-likelihood at step 49: -31871087.815
+Current log-likelihood at step 50: -31871086.960
+Current log-likelihood at step 51: -31871086.083
+Current log-likelihood at step 52: -31871085.186
+Current log-likelihood at step 53: -31871084.268
+Current log-likelihood at step 54: -31871083.333
+Current log-likelihood at step 55: -31871082.377
+Current log-likelihood at step 56: -31871081.424
+Current log-likelihood at step 57: -31871080.433
+Current log-likelihood at step 58: -31871079.423
+Current log-likelihood at step 59: -31871078.407
+Current log-likelihood at step 60: -31871077.331
+Current log-likelihood at step 61: -31871076.245
+Current log-likelihood at step 62: -31871075.110
+Current log-likelihood at step 63: -31871073.943
+Current log-likelihood at step 64: -31871072.746
+Current log-likelihood at step 65: -31871071.512
+Current log-likelihood at step 66: -31871070.241
+Current log-likelihood at step 67: -31871068.930
+Current log-likelihood at step 68: -31871067.580
+Current log-likelihood at step 69: -31871066.183
+Current log-likelihood at step 70: -31871064.742
+Current log-likelihood at step 71: -31871063.250
+Current log-likelihood at step 72: -31871061.699
+Current log-likelihood at step 73: -31871060.096
+Current log-likelihood at step 74: -31871058.437
+Current log-likelihood at step 75: -31871056.708
+Current log-likelihood at step 76: -31871054.913
+Current log-likelihood at step 77: -31871053.028
+Current log-likelihood at step 78: -31871051.029
+Current log-likelihood at step 79: -31871048.973
+Current log-likelihood at step 80: -31871046.776
+Current log-likelihood at step 81: -31871044.498
+Current log-likelihood at step 82: -31871042.097
+Current log-likelihood at step 83: -31871039.544
+Current log-likelihood at step 84: -31871036.787
+Current log-likelihood at step 85: -31871033.879
+Current log-likelihood at step 86: -31871030.733
+Current log-likelihood at step 87: -31871027.015
+Current log-likelihood at step 88: -31871022.874
+Current log-likelihood at step 89: -31871018.220
+Current log-likelihood at step 90: -31871012.883
+Current log-likelihood at step 91: -31870214.587
+Current log-likelihood at step 92: -31870060.252
+Current log-likelihood at step 93: -31870059.314
+Current log-likelihood at step 94: -31870059.199
+Current log-likelihood at step 95: -31870059.087
+Current log-likelihood at step 96: -31870058.977
+Current log-likelihood at step 97: -31870058.868
+Current log-likelihood at step 98: -31870058.759
+Current log-likelihood at step 99: -31870058.652
+Parameters optimization took 99 rounds (12972.386 sec)
+
+BETTER TREE FOUND at iteration 27: -31870058.652
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -31869451.049
+Current log-likelihood at step 1: -31869430.322
+Current log-likelihood at step 2: -31869425.880
+Current log-likelihood at step 3: -31869422.694
+Current log-likelihood at step 4: -31869419.917
+Current log-likelihood at step 5: -31869417.857
+Current log-likelihood at step 6: -31869416.283
+Current log-likelihood at step 7: -31869415.047
+Current log-likelihood at step 8: -31869414.058
+Current log-likelihood at step 9: -31869413.247
+Current log-likelihood at step 10: -31869412.659
+Current log-likelihood at step 11: -31869412.408
+Current log-likelihood at step 12: -31869412.170
+Current log-likelihood at step 13: -31869411.944
+Current log-likelihood at step 14: -31869411.725
+Current log-likelihood at step 15: -31869411.516
+Current log-likelihood at step 16: -31869411.315
+Current log-likelihood at step 17: -31869411.125
+Current log-likelihood at step 18: -31869410.941
+Current log-likelihood at step 19: -31869410.760
+Current log-likelihood at step 20: -31869410.585
+Current log-likelihood at step 21: -31869410.414
+Current log-likelihood at step 22: -31869410.245
+Current log-likelihood at step 23: -31869410.082
+Current log-likelihood at step 24: -31869409.922
+Current log-likelihood at step 25: -31869409.765
+Current log-likelihood at step 26: -31869409.612
+Current log-likelihood at step 27: -31869409.463
+Current log-likelihood at step 28: -31869409.315
+Current log-likelihood at step 29: -31869409.171
+Current log-likelihood at step 30: -31869409.029
+Current log-likelihood at step 31: -31869408.888
+Current log-likelihood at step 32: -31869408.751
+Current log-likelihood at step 33: -31869408.615
+Current log-likelihood at step 34: -31869408.483
+Current log-likelihood at step 35: -31869408.353
+Current log-likelihood at step 36: -31869408.224
+Current log-likelihood at step 37: -31869408.095
+Current log-likelihood at step 38: -31869407.969
+Current log-likelihood at step 39: -31869407.844
+Current log-likelihood at step 40: -31869407.720
+Current log-likelihood at step 41: -31869407.600
+Current log-likelihood at step 42: -31869407.480
+Current log-likelihood at step 43: -31869407.362
+Current log-likelihood at step 44: -31869407.244
+Current log-likelihood at step 45: -31869407.128
+Current log-likelihood at step 46: -31869407.014
+Current log-likelihood at step 47: -31869406.899
+Current log-likelihood at step 48: -31869406.786
+Current log-likelihood at step 49: -31869406.675
+Current log-likelihood at step 50: -31869406.565
+Current log-likelihood at step 51: -31869406.456
+Current log-likelihood at step 52: -31869406.347
+Current log-likelihood at step 53: -31869406.240
+Current log-likelihood at step 54: -31869406.133
+Current log-likelihood at step 55: -31869406.028
+Current log-likelihood at step 56: -31869405.923
+Current log-likelihood at step 57: -31869405.820
+Current log-likelihood at step 58: -31869405.717
+Current log-likelihood at step 59: -31869405.615
+Current log-likelihood at step 60: -31869405.513
+Current log-likelihood at step 61: -31869405.413
+Current log-likelihood at step 62: -31869405.313
+Parameters optimization took 61 rounds (8021.917 sec)
+
+BETTER TREE FOUND at iteration 28: -31869405.313
+Iteration 30 / LogL: -31872523.761 / Time: 39h:8m:12s (132h:6m:51s left)
+Iteration 40 / LogL: -31870939.391 / Time: 48h:3m:26s (108h:20m:33s left)
+Iteration 50 / LogL: -31870805.311 / Time: 54h:0m:19s (85h:54m:4s left)
+Iteration 60 / LogL: -31873681.035 / Time: 60h:44m:27s (69h:57m:29s left)
+Iteration 70 / LogL: -31870123.037 / Time: 68h:14m:51s (57h:19m:56s left)
+Iteration 80 / LogL: -31870789.959 / Time: 76h:20m:46s (46h:21m:44s left)
+Iteration 90 / LogL: -31872008.327 / Time: 88h:44m:26s (37h:52m:17s left)
+Iteration 100 / LogL: -31871033.186 / Time: 99h:25m:39s (28h:6m:32s left)
+Iteration 110 / LogL: -31870474.564 / Time: 109h:55m:56s (18h:8m:49s left)
+Iteration 120 / LogL: -31874006.674 / Time: 120h:2m:34s (8h:4m:2s left)
+TREE SEARCH COMPLETED AFTER 129 ITERATIONS / Time: 131h:41m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -31869405.313
+Current log-likelihood at step 1: -31869405.176
+Current log-likelihood at step 2: -31869405.024
+Current log-likelihood at step 3: -31869404.900
+Current log-likelihood at step 4: -31869404.763
+Current log-likelihood at step 5: -31869404.629
+Current log-likelihood at step 6: -31869404.497
+Current log-likelihood at step 7: -31869404.366
+Current log-likelihood at step 8: -31869404.238
+Current log-likelihood at step 9: -31869404.113
+Current log-likelihood at step 10: -31869403.989
+Current log-likelihood at step 11: -31869403.867
+Current log-likelihood at step 12: -31869403.748
+Current log-likelihood at step 13: -31869403.631
+Current log-likelihood at step 14: -31869403.514
+Current log-likelihood at step 15: -31869403.400
+Current log-likelihood at step 16: -31869403.289
+Current log-likelihood at step 17: -31869403.178
+Current log-likelihood at step 18: -31869403.068
+Current log-likelihood at step 19: -31869402.959
+Current log-likelihood at step 20: -31869402.852
+Current log-likelihood at step 21: -31869402.745
+Current log-likelihood at step 22: -31869402.640
+Current log-likelihood at step 23: -31869402.537
+Current log-likelihood at step 24: -31869402.435
+Current log-likelihood at step 25: -31869402.333
+Current log-likelihood at step 26: -31869402.263
+Current log-likelihood at step 27: -31869402.205
+Current log-likelihood at step 28: -31869402.137
+Current log-likelihood at step 29: -31869402.078
+Current log-likelihood at step 30: -31869402.020
+Current log-likelihood at step 31: -31869401.961
+Current log-likelihood at step 32: -31869401.903
+Current log-likelihood at step 33: -31869401.845
+Current log-likelihood at step 34: -31869401.788
+Current log-likelihood at step 35: -31869401.730
+Current log-likelihood at step 36: -31869401.673
+Current log-likelihood at step 37: -31869401.617
+Current log-likelihood at step 38: -31869401.561
+Current log-likelihood at step 39: -31869401.506
+Current log-likelihood at step 40: -31869401.451
+Current log-likelihood at step 41: -31869401.396
+Current log-likelihood at step 42: -31869401.342
+Current log-likelihood at step 43: -31869401.287
+Current log-likelihood at step 44: -31869401.234
+Current log-likelihood at step 45: -31869401.180
+Current log-likelihood at step 46: -31869401.127
+Current log-likelihood at step 47: -31869401.074
+Current log-likelihood at step 48: -31869401.022
+Current log-likelihood at step 49: -31869400.972
+Current log-likelihood at step 50: -31869400.925
+Current log-likelihood at step 51: -31869400.879
+Current log-likelihood at step 52: -31869400.833
+Current log-likelihood at step 53: -31869400.788
+Current log-likelihood at step 54: -31869400.742
+Current log-likelihood at step 55: -31869400.696
+Current log-likelihood at step 56: -31869400.651
+Current log-likelihood at step 57: -31869400.605
+Current log-likelihood at step 58: -31869400.561
+Current log-likelihood at step 59: -31869400.517
+Current log-likelihood at step 60: -31869400.473
+Current log-likelihood at step 61: -31869400.430
+Current log-likelihood at step 62: -31869400.387
+Current log-likelihood at step 63: -31869400.343
+Current log-likelihood at step 64: -31869400.300
+Current log-likelihood at step 65: -31869400.258
+Current log-likelihood at step 66: -31869400.215
+Current log-likelihood at step 67: -31869400.173
+Current log-likelihood at step 68: -31869400.131
+Current log-likelihood at step 69: -31869400.089
+Current log-likelihood at step 70: -31869400.048
+Current log-likelihood at step 71: -31869400.007
+Current log-likelihood at step 72: -31869399.966
+Current log-likelihood at step 73: -31869399.926
+Current log-likelihood at step 74: -31869399.886
+Current log-likelihood at step 75: -31869399.846
+Current log-likelihood at step 76: -31869399.806
+Current log-likelihood at step 77: -31869399.767
+Current log-likelihood at step 78: -31869399.727
+Current log-likelihood at step 79: -31869399.687
+Current log-likelihood at step 80: -31869399.648
+Current log-likelihood at step 81: -31869399.610
+Current log-likelihood at step 82: -31869399.571
+Current log-likelihood at step 83: -31869399.533
+Current log-likelihood at step 84: -31869399.495
+Current log-likelihood at step 85: -31869399.457
+Current log-likelihood at step 86: -31869399.419
+Current log-likelihood at step 87: -31869399.381
+Current log-likelihood at step 88: -31869399.343
+Current log-likelihood at step 89: -31869399.306
+Current log-likelihood at step 90: -31869399.268
+Current log-likelihood at step 91: -31869399.231
+Current log-likelihood at step 92: -31869399.195
+Current log-likelihood at step 93: -31869399.159
+Current log-likelihood at step 94: -31869399.123
+Current log-likelihood at step 95: -31869399.087
+Current log-likelihood at step 96: -31869399.051
+Current log-likelihood at step 97: -31869399.016
+Current log-likelihood at step 98: -31869398.981
+Current log-likelihood at step 99: -31869398.946
+Partition-specific rates:  0.389 0.783 1.090 1.743 1.010 1.412 0.802 0.856 0.287 0.363 0.402 0.837 1.040 2.113 0.916 2.263 2.028 1.932 0.352 0.876 0.436 2.020 0.572 0.752 0.639 1.946 0.471 2.281 1.084 2.081 0.494 1.515 0.401 1.013 0.436 1.269 0.516 3.687 0.505 1.540 0.706 0.724 0.478 1.144 0.317 0.726 0.488 0.839 0.284 0.827 0.491 1.511 0.566 2.893 0.368 1.480 0.522 1.233 0.369 2.924 1.150 1.484 2.106 1.647 0.722 1.252 0.431 1.195 0.354 1.241 0.406 1.787 0.475 1.258 0.647 0.752 0.455 1.367 0.427 1.166 0.548 0.998 0.637 2.087 0.247 0.938 0.469 1.333 0.469 1.188 0.434 1.486 0.520 1.780 0.796 0.989 1.006 2.039 0.603 1.101 0.408 2.753 0.658 1.750 0.249 1.127 0.419 0.967 0.374 0.861 1.193 1.683 0.426 0.960 0.425 1.145 0.510 1.649 0.576 1.546 0.401 1.547 0.342 1.084 0.421 0.592 1.058 2.132 0.648 0.415 0.393 0.878 0.743 0.838 0.461 1.092 0.526 1.996 0.414 1.113 0.440 1.183 0.479 0.756 0.401 1.325 0.513 1.321 0.660 2.284 0.487 1.311 0.631 1.037 0.331 0.818 0.507 0.943 0.405 2.060 0.333 0.947 0.398 1.171 0.522 1.186 0.511 0.903 0.943 1.647 0.775 1.110 0.814 0.840 1.074 1.175 0.370 0.583 0.570 1.528 0.483 0.709 0.485 0.551 0.345 0.917 0.456 1.516 0.522 2.490 0.418 0.798 0.544 1.747 0.418 1.483 0.368 1.174 0.643 3.206 0.586 1.790 0.481 1.060 1.820 0.995 0.406 2.175 0.349 0.636 0.302 1.010 0.798 1.117 0.557 1.408 0.618 1.032 0.378 1.076 0.385 1.527 0.405 1.294 0.403 1.077 0.319 1.201 0.354 0.853 0.351 1.565 0.478 1.019 1.192 1.239 0.456 1.083 0.312 3.043 1.166 1.109 0.744 0.815 0.761 1.171 0.531 1.250 0.600 1.027 0.343 1.082 0.420 0.882 0.641 2.086 0.432 1.910 0.450 0.633 0.385 0.634 0.475 1.833 0.350 1.538 0.561 1.626 0.519 1.553 0.413 1.123 0.736 2.457 0.312 1.140 0.564 1.983 0.550 1.276 1.202 2.055 0.519 1.333 0.418 1.127 0.390 1.249 1.494 0.688 0.611 1.388 0.328 1.686 0.618 2.156 0.379 1.007 0.287 0.799 1.212 1.049 0.975 1.626 0.609 1.418 0.528 1.633 0.588 0.830 0.387 1.309 0.320 1.618 0.367 0.610 0.255 0.857 0.374 1.590 1.109 1.074 0.283 1.223 0.368 1.154 0.343 1.153 0.945 1.186 1.177 1.409 1.863 2.599 0.442 2.897 0.643 1.190 0.542 1.734 1.135 1.362 0.414 1.415 0.391 1.347 0.757 1.054 1.120 2.018 0.351 0.801 0.469 1.120 1.246 2.449 0.380 1.477 0.542 1.494 2.457 5.405 0.253 1.374 0.377 2.273 0.358 0.987 0.576 1.822 0.355 1.248 0.314 1.216 0.372 1.224 0.385 0.963 1.554 1.369 1.511 0.673 0.501 1.554 0.927 1.833 0.351 1.124 0.780 2.343 0.513 1.128 0.668 1.611 0.882 1.115 0.355 0.766 0.286 0.647 0.349 0.937 1.910 3.251 0.798 2.078 0.989 3.713 1.601 1.102 0.287 0.493 0.431 1.079 0.336 0.956 0.359 0.930 0.373 1.094 0.686 2.773 0.352 0.984 0.832 0.820 0.354 1.310 0.353 0.764 1.095 2.851 0.410 1.251 0.322 0.865 0.335 0.579 0.339 1.041 0.288 1.125 0.300 0.931 0.900 2.716 0.340 0.866 0.625 1.261 0.342 0.790 0.542 1.162 0.471 1.384 0.348 1.175 0.456 1.470 0.398 1.125 0.499 0.931 0.660 1.478 0.404 1.023 0.487 0.807 0.503 1.543 1.127 2.219 0.381 1.625 0.692 1.025 0.479 1.214 0.314 0.716 0.324 0.851 0.759 1.703 0.712 0.984 0.399 1.059 0.439 1.659 0.288 1.186 2.634 2.645 0.343 1.184 0.515 1.371 0.634 1.646 0.568 1.779 0.608 0.969 0.209 0.641 0.337 0.661 2.197 2.106 0.366 1.607 0.520 1.821 0.411 1.360 0.285 0.992 0.370 1.180 0.435 1.393 1.999 2.281 1.125 1.196 0.372 1.770 0.412 0.806 0.326 1.271 0.467 1.406 1.129 1.760 0.660 1.602 0.336 1.138 0.373 1.028 0.358 1.521 0.732 1.966 0.753 2.200 0.520 1.348 0.214 0.670 0.257 0.834 0.608 1.812 0.366 1.065 0.533 0.931 0.645 0.568 0.311 1.098 0.396 0.856 0.638 0.681 0.347 0.900 0.280 0.882 0.335 0.889 0.384 0.950 1.346 2.869 0.498 0.830 0.406 1.854 0.731 1.236 0.648 1.947 0.369 1.221 0.391 1.118 1.836 2.414 0.409 0.796 0.634 1.082 0.361 0.965 0.341 0.801 0.416 1.391 1.124 1.222 0.417 0.862 0.345 1.055 0.420 1.945 0.575 0.908 0.418 0.918 0.335 0.626 4.751 2.822 1.223 1.181 0.672 0.876 0.483 0.957 0.237 1.611 0.541 1.624 4.488 1.479 0.326 1.076 0.323 0.977 0.483 1.024 0.415 2.458 0.273 0.950 0.521 1.203 0.440 1.410 0.389 1.390 0.208 0.601 0.306 1.042 0.485 2.683 0.267 1.253 1.767 1.532 0.453 0.982 0.567 1.544 0.414 0.905 0.308 1.051 0.509 0.862 0.454 1.071 1.202 2.008 0.534 1.680 0.633 2.001 0.434 1.387 0.189 1.142 0.368 1.956 0.341 1.156 0.410 2.257 0.308 0.642 0.393 0.989 0.377 0.689 0.337 0.732 0.536 0.640 0.313 0.563 2.371 1.205 0.455 0.970 0.507 0.636 0.260 0.822 0.336 0.512 0.803 1.650 0.251 0.621 0.278 0.551 0.311 0.661 1.218 2.221 0.177 0.297 0.567 0.274 0.711 0.303 0.157 0.293 0.283 0.696 0.463 0.202 0.261 0.711 0.153 0.549 0.251 0.528 0.372 0.871 0.865 0.775 0.207 0.503 0.190 0.539 0.276 0.239 1.050 0.384 0.914 0.233 0.750 0.338 0.837 2.474 48.095 0.449 0.934 0.216 0.754 0.290 0.787 0.275 0.779 0.190 0.543 0.482 0.535 0.226 0.569 0.576 0.814 0.503 0.246 0.993 0.364 0.641 0.605 0.505 0.828 0.234 0.739 1.209 0.477 0.660 0.265 0.957 2.145 0.433 0.601 0.242 0.562 0.316 0.817 0.252 0.637 0.409 0.744 0.323 0.819 0.403 1.182 0.305 1.796 1.902 0.290 0.971 0.263 0.730 0.294 1.120 0.193 0.733 0.429 0.879 0.304 1.226 0.405 0.813 0.563 0.487 0.338 0.747 0.338 0.506 0.200 0.539 0.366 0.890 0.313 0.857 0.351 0.886 0.375 0.754 0.283 0.665 0.330 0.481 0.440 1.436 2.269 0.273 0.679 0.342 1.778 4.293 0.259 0.630 0.305 0.810 0.316 0.648 0.282 0.268 0.670 0.729 0.993 1.048 0.646 0.288 0.706 0.276 0.537 0.263 0.975 0.295 0.584 0.574 0.934 0.288 1.176 0.377 0.876 0.289 0.524 0.411 0.789 0.649 0.747 0.245 0.770 0.397 0.953 0.237 0.769 0.229 0.579 0.337 0.557 0.432 0.549 0.299 0.552 0.261 0.882 0.238 0.897 0.430 0.947 0.275 0.628 0.431 0.828 0.799 3.838 0.436 0.200 0.626 0.371 0.606 0.278 0.230 0.325 0.897 0.276 0.533 0.308 0.651 0.225 0.656 0.240 0.640 0.322 0.671 0.267 0.202 4.218 1.067 0.264 0.705 0.277 0.472 0.239 0.716 0.216 0.900 0.385 0.918 0.318 0.419 0.601 0.288 0.321 0.296 0.592 0.319 0.527 0.223 0.490 0.463 1.326 0.483 0.813 0.345 0.762 0.153 0.484 0.905 0.228 0.626 0.678 0.866 0.394 0.612 0.753 0.708 0.250 0.562 0.290 0.450 0.513 0.774 1.009 1.450 0.833 0.569 0.775 0.469 0.486 0.169 0.227 1.144 0.360 0.304 0.322 0.476 1.393 1.418 0.314 1.262 0.303 0.925 0.280 1.186 0.384 1.487 0.235 0.573 0.253 1.180 0.781 0.238 0.259 0.913 0.248 0.719 0.267 0.653 0.403 0.861 2.138 0.284 0.953 0.222 0.608 0.480 1.573 0.411 0.569 0.344 0.877 0.263 0.588 0.247 0.681 0.257 0.993 0.313 0.713 0.292 0.788 0.441 0.521 0.271 1.457 0.871 0.402 0.386 0.497 0.223 0.321 1.088 0.289 0.715 0.234 0.343 0.636 0.256 0.885 0.317 1.060 0.413 1.324 0.222 0.938 0.332 0.781 0.198 1.260 0.327 0.998 0.382 1.506 0.853 0.728 0.267 2.204 0.331 0.950 0.537 0.438 0.864 1.973 0.870 1.491 0.245 0.873 1.081 0.184 0.405 0.452 0.738 0.471 0.450 0.264 0.227 0.731 0.352 0.566 0.194 0.292 2.418 0.291 1.334 0.907 0.545 0.276 0.482 3.047 2.808 0.724 0.915 0.203 1.009 0.270 0.729 0.250 1.259 0.175 0.976 0.555 0.710 0.215 0.460 0.390 0.732 0.893 0.299 0.492 6.618 20.575 0.287 0.424 0.366 0.897 0.373 0.418 0.677 0.274 1.403 0.453 0.865 0.209 0.273 0.592 0.369 1.820 0.313 0.839 0.357 0.400 0.547 0.990 0.255 0.922 0.269 0.740 0.618 0.266 0.668 0.355 0.193 0.652 0.211 0.971 0.501 0.346 0.855 0.375 1.499 0.288 1.624 0.413 0.343 0.664 0.542 0.728 0.488 0.243 0.302 0.725 0.593 0.348 0.467 0.371 0.525 1.563 0.672 0.861 1.350 0.235 0.427 0.642 0.887 0.208 0.546 0.194 0.310 0.709 0.269 0.596 0.271 0.577 0.367 0.679 0.210 0.649 0.977 0.208 0.409 0.731 0.191 1.075 0.253 0.255 0.505 0.186 0.601 0.168 0.455 0.628 2.144 0.190 0.190 0.447 0.286 0.942 0.834 0.344 0.289 0.308 0.439 0.224 0.821 0.207 0.222 0.385 0.260 0.323 0.806 0.523 0.577 0.840 0.266 0.526 0.238 0.429 0.311 0.564 0.316 3.565 0.262 0.450 0.744 0.686 0.209 0.303 0.453 0.256 0.750 0.320 0.504 0.279 0.341 0.451 0.259 0.695 1.248 0.192 0.215 0.672 0.329 0.262
+Parameters optimization took 99 rounds (12580.149 sec)
+
+Partition information was printed to all_loci_partition_finding.best_model.nex
+BEST SCORE FOUND : -31869398.946
+Total tree length: 12.524
+
+Total number of iterations: 129
+CPU time used for tree search: 2509914.422 sec (697h:11m:54s)
+Wall-clock time used for tree search: 454877.181 sec (126h:21m:17s)
+Total CPU time used: 2690237.532 sec (747h:17m:17s)
+Total wall-clock time used: 486677.492 sec (135h:11m:17s)
+
+Analysis results written to: 
+  IQ-TREE report:                all_loci_partition_finding.iqtree
+  Maximum-likelihood tree:       all_loci_partition_finding.treefile
+  Likelihood distances:          all_loci_partition_finding.mldist
+  Screen log file:               all_loci_partition_finding.log
+
+Date and Time: Mon Feb  3 04:50:58 2025

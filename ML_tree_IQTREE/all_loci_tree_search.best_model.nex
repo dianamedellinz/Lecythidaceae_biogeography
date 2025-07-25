@@ -1,0 +1,2530 @@
+#nexus
+begin sets;
+  charset trimmed_344_AT1G01180_exon = 1-904;
+  charset trimmed_344_AT1G01180_intron = 905-1210;
+  charset trimmed_344_AT1G01880_exon = 1211-3315;
+  charset trimmed_344_AT1G01880_intron = 3316-8087;
+  charset trimmed_344_AT1G02020_exon = 8088-10023;
+  charset trimmed_344_AT1G02020_intron = 10024-14808;
+  charset trimmed_344_AT1G03000_exon = 14809-17919;
+  charset trimmed_344_AT1G03000_intron = 17920-22292;
+  charset trimmed_344_AT1G03750_exon = 22293-24976;
+  charset trimmed_344_AT1G03750_intron = 24977-34300;
+  charset trimmed_344_AT1G04110_exon = 34301-36965;
+  charset trimmed_344_AT1G04110_intron = 36966-37146;
+  charset trimmed_344_AT1G04640_exon = 37147-38057;
+  charset trimmed_344_AT1G04640_intron = 38058-39965;
+  charset trimmed_344_AT1G05590_exon = 39966-41839;
+  charset trimmed_344_AT1G05590_intron = 41840-42668;
+  charset trimmed_344_AT1G05910_exon = 42669-44297;
+  charset trimmed_344_AT1G05910_intron = 44298-48525;
+  charset trimmed_344_AT1G05940_exon = 48526-49960;
+  charset trimmed_344_AT1G05940_intron = 49961-53260;
+  charset trimmed_344_AT1G07040_exon = 53261-54589;
+  charset trimmed_344_AT1G07040_intron = 54590-58876;
+  charset trimmed_344_AT1G07590_exon = 58877-60143;
+  charset trimmed_344_AT1G07590_intron = 60144-60271;
+  charset trimmed_344_AT1G07970_exon = 60272-62568;
+  charset trimmed_344_AT1G07970_intron = 62569-66911;
+  charset trimmed_344_AT1G08460_exon = 66912-68199;
+  charset trimmed_344_AT1G08460_intron = 68200-70848;
+  charset trimmed_344_AT1G09010_exon = 70849-73251;
+  charset trimmed_344_AT1G09010_intron = 73252-79141;
+  charset trimmed_344_AT1G09680_exon = 79142-81444;
+  charset trimmed_344_AT1G09680_intron = 81445-83025;
+  charset trimmed_344_AT1G10460_exon = 83026-83706;
+  charset trimmed_344_AT1G10460_intron = 83707-84555;
+  charset trimmed_344_AT1G11090_exon = 84556-85673;
+  charset trimmed_344_AT1G11090_intron = 85674-86197;
+  charset trimmed_344_AT1G11290_exon = 86198-89077;
+  charset trimmed_344_AT1G11290_intron = 89078-90032;
+  charset trimmed_344_AT1G11545_exon = 90033-91155;
+  charset trimmed_344_AT1G11545_intron = 91156-93212;
+  charset trimmed_344_AT1G11870_exon = 93213-95320;
+  charset trimmed_344_AT1G11870_intron = 95321-100639;
+  charset trimmed_344_AT1G15440_exon = 100640-103609;
+  charset trimmed_344_AT1G15440_intron = 103610-105388;
+  charset trimmed_344_AT1G15510_exon = 105389-107904;
+  charset trimmed_344_AT1G15510_intron = 107905-110898;
+  charset trimmed_344_AT1G15980_exon = 110899-112345;
+  charset trimmed_344_AT1G15980_intron = 112346-114236;
+  charset trimmed_344_AT1G16180_exon = 114237-115189;
+  charset trimmed_344_AT1G16180_intron = 115190-118038;
+  charset trimmed_344_AT1G17160_exon = 118039-119313;
+  charset trimmed_344_AT1G17160_intron = 119314-123791;
+  charset trimmed_344_AT1G18480_exon = 123792-125135;
+  charset trimmed_344_AT1G18480_intron = 125136-125699;
+  charset trimmed_344_AT1G19290_exon = 125700-127195;
+  charset trimmed_344_AT1G19290_intron = 127196-128068;
+  charset trimmed_344_AT1G19520_exon = 128069-130668;
+  charset trimmed_344_AT1G19520_intron = 130669-134495;
+  charset trimmed_344_AT1G20300_exon = 134496-135438;
+  charset trimmed_344_AT1G20300_intron = 135439-136992;
+  charset trimmed_344_AT1G20830_exon = 136993-137554;
+  charset trimmed_344_AT1G20830_intron = 137555-139262;
+  charset trimmed_344_AT1G21370_exon = 139263-140234;
+  charset trimmed_344_AT1G21370_intron = 140235-143268;
+  charset trimmed_344_AT1G21480_exon = 143269-144840;
+  charset trimmed_344_AT1G21480_intron = 144841-148005;
+  charset trimmed_344_AT1G21640_exon = 148006-152058;
+  charset trimmed_344_AT1G21640_intron = 152059-156705;
+  charset trimmed_344_AT1G21790_exon = 156706-157557;
+  charset trimmed_344_AT1G21790_intron = 157558-160703;
+  charset trimmed_344_AT1G23400_exon = 160704-161421;
+  charset trimmed_344_AT1G23400_intron = 161422-165395;
+  charset trimmed_344_AT1G24610_exon = 165396-167284;
+  charset trimmed_344_AT1G24610_intron = 167285-170946;
+  charset trimmed_344_AT1G25360_exon = 170947-173838;
+  charset trimmed_344_AT1G25360_intron = 173839-173865;
+  charset trimmed_344_AT1G26460_exon = 173866-176257;
+  charset trimmed_344_AT1G26460_intron = 176258-179174;
+  charset trimmed_344_AT1G27060_exon = 179175-179948;
+  charset trimmed_344_AT1G27060_intron = 179949-183646;
+  charset trimmed_344_AT1G28530_exon = 183647-185739;
+  charset trimmed_344_AT1G28530_intron = 185740-189181;
+  charset trimmed_344_AT1G28680_exon = 189182-190420;
+  charset trimmed_344_AT1G28680_intron = 190421-191703;
+  charset trimmed_344_AT1G30000_exon = 191704-193466;
+  charset trimmed_344_AT1G30000_intron = 193467-198274;
+  charset trimmed_344_AT1G30360_exon = 198275-200938;
+  charset trimmed_344_AT1G30360_intron = 200939-205236;
+  charset trimmed_344_AT1G30520_exon = 205237-206342;
+  charset trimmed_344_AT1G30520_intron = 206343-208846;
+  charset trimmed_344_AT1G30960_exon = 208847-210404;
+  charset trimmed_344_AT1G30960_intron = 210405-215917;
+  charset trimmed_344_AT1G34160_exon = 215918-217830;
+  charset trimmed_344_AT1G34160_intron = 217831-218426;
+  charset trimmed_344_AT1G34630_exon = 218427-219815;
+  charset trimmed_344_AT1G34630_intron = 219816-224021;
+  charset trimmed_344_AT1G43580_exon = 224022-225256;
+  charset trimmed_344_AT1G43580_intron = 225257-226718;
+  charset trimmed_344_AT1G44350_exon = 226719-228396;
+  charset trimmed_344_AT1G44350_intron = 228397-230749;
+  charset trimmed_344_AT1G51965_exon = 230750-232707;
+  charset trimmed_344_AT1G51965_intron = 232708-234440;
+  charset trimmed_344_AT1G53280_exon = 234441-235602;
+  charset trimmed_344_AT1G53280_intron = 235603-237508;
+  charset trimmed_344_AT1G54350_exon = 237509-239720;
+  charset trimmed_344_AT1G54350_intron = 239721-247571;
+  charset trimmed_344_AT1G54780_exon = 247572-248077;
+  charset trimmed_344_AT1G54780_intron = 248078-249019;
+  charset trimmed_344_AT1G54990_exon = 249020-250722;
+  charset trimmed_344_AT1G54990_intron = 250723-252025;
+  charset trimmed_344_AT1G55870_exon = 252026-254523;
+  charset trimmed_344_AT1G55870_intron = 254524-257207;
+  charset trimmed_344_AT1G56230_exon = 257208-258899;
+  charset trimmed_344_AT1G56230_intron = 258900-262005;
+  charset trimmed_344_AT1G56570_exon = 262006-263262;
+  charset trimmed_344_AT1G56570_intron = 263263-265488;
+  charset trimmed_344_AT1G57770_exon = 265489-267483;
+  charset trimmed_344_AT1G57770_intron = 267484-273498;
+  charset trimmed_344_AT1G59600_exon = 273499-274823;
+  charset trimmed_344_AT1G59600_intron = 274824-278086;
+  charset trimmed_344_AT1G59720_exon = 278087-279951;
+  charset trimmed_344_AT1G59720_intron = 279952-280828;
+  charset trimmed_344_AT1G60770_exon = 280829-281045;
+  charset trimmed_344_AT1G60770_intron = 281046-281599;
+  charset trimmed_344_AT1G61870_exon = 281600-282917;
+  charset trimmed_344_AT1G61870_intron = 282918-282925;
+  charset trimmed_344_AT1G62750_exon = 282926-283599;
+  charset trimmed_344_AT1G62750_intron = 283600-284764;
+  charset trimmed_344_AT1G64890_exon = 284765-286615;
+  charset trimmed_344_AT1G64890_intron = 286616-286873;
+  charset trimmed_344_AT1G65070_exon = 286874-289680;
+  charset trimmed_344_AT1G65070_intron = 289681-291666;
+  charset trimmed_344_AT1G67410_exon = 291667-292551;
+  charset trimmed_344_AT1G67410_intron = 292552-293978;
+  charset trimmed_344_AT1G67570_exon = 293979-295618;
+  charset trimmed_344_AT1G67570_intron = 295619-298680;
+  charset trimmed_344_AT1G68070_exon = 298681-299906;
+  charset trimmed_344_AT1G68070_intron = 299907-301662;
+  charset trimmed_344_AT1G68400_exon = 301663-303557;
+  charset trimmed_344_AT1G68400_intron = 303558-305598;
+  charset trimmed_344_AT1G69800_exon = 305599-307077;
+  charset trimmed_344_AT1G69800_intron = 307078-308999;
+  charset trimmed_344_AT1G69910_exon = 309000-310063;
+  charset trimmed_344_AT1G69910_intron = 310064-310129;
+  charset trimmed_344_AT1G70330_exon = 310130-311620;
+  charset trimmed_344_AT1G70330_intron = 311621-313129;
+  charset trimmed_344_AT1G70820_exon = 313130-314241;
+  charset trimmed_344_AT1G70820_intron = 314242-317304;
+  charset trimmed_344_AT1G71190_exon = 317305-318073;
+  charset trimmed_344_AT1G71190_intron = 318074-323066;
+  charset trimmed_344_AT1G71240_exon = 323067-325544;
+  charset trimmed_344_AT1G71240_intron = 325545-333084;
+  charset trimmed_344_AT1G72320_exon = 333085-335606;
+  charset trimmed_344_AT1G72320_intron = 335607-340208;
+  charset trimmed_344_AT1G73970_exon = 340209-341985;
+  charset trimmed_344_AT1G73970_intron = 341986-343972;
+  charset trimmed_344_AT1G74030_exon = 343973-345901;
+  charset trimmed_344_AT1G74030_intron = 345902-353197;
+  charset trimmed_344_AT1G74470_exon = 353198-354246;
+  charset trimmed_344_AT1G74470_intron = 354247-355695;
+  charset trimmed_344_AT1G76920_exon = 355696-356974;
+  charset trimmed_344_AT1G76920_intron = 356975-358363;
+  charset trimmed_344_AT1G77550_exon = 358364-360938;
+  charset trimmed_344_AT1G77550_intron = 360939-367605;
+  charset trimmed_344_AT1G78930_exon = 367606-369308;
+  charset trimmed_344_AT1G78930_intron = 369309-373885;
+  charset trimmed_344_AT1G79190_exon = 373886-378349;
+  charset trimmed_344_AT1G79190_intron = 378350-387491;
+  charset trimmed_344_AT1G79600_exon = 387492-388129;
+  charset trimmed_344_AT1G79600_intron = 388130-389067;
+  charset trimmed_344_AT2G01320_exon = 389068-391839;
+  charset trimmed_344_AT2G01320_intron = 391840-396578;
+  charset trimmed_344_AT2G01860_exon = 396579-398071;
+  charset trimmed_344_AT2G01860_intron = 398072-398715;
+  charset trimmed_344_AT2G03270_exon = 398716-400435;
+  charset trimmed_344_AT2G03270_intron = 400436-406633;
+  charset trimmed_344_AT2G04740_exon = 406634-408761;
+  charset trimmed_344_AT2G04740_intron = 408762-413946;
+  charset trimmed_344_AT2G04850_exon = 413947-415060;
+  charset trimmed_344_AT2G04850_intron = 415061-416236;
+  charset trimmed_344_AT2G05170_exon = 416237-416397;
+  charset trimmed_344_AT2G05170_intron = 416398-416964;
+  charset trimmed_344_AT2G13100_exon = 416965-418923;
+  charset trimmed_344_AT2G13100_intron = 418924-419419;
+  charset trimmed_344_AT2G13840_exon = 419420-420791;
+  charset trimmed_344_AT2G13840_intron = 420792-423557;
+  charset trimmed_344_AT2G14530_exon = 423558-424919;
+  charset trimmed_344_AT2G14530_intron = 424920-428537;
+  charset trimmed_344_AT2G15430_exon = 428538-429419;
+  charset trimmed_344_AT2G15430_intron = 429420-432158;
+  charset trimmed_344_AT2G15560_exon = 432159-434078;
+  charset trimmed_344_AT2G15560_intron = 434079-435340;
+  charset trimmed_344_AT2G15630_exon = 435341-437504;
+  charset trimmed_344_AT2G15630_intron = 437505-438756;
+  charset trimmed_344_AT2G16860_exon = 438757-439528;
+  charset trimmed_344_AT2G16860_intron = 439529-441533;
+  charset trimmed_344_AT2G17020_exon = 441534-443294;
+  charset trimmed_344_AT2G17020_intron = 443295-444936;
+  charset trimmed_344_AT2G17265_exon = 444937-446251;
+  charset trimmed_344_AT2G17265_intron = 446252-447057;
+  charset trimmed_344_AT2G17670_exon = 447058-448764;
+  charset trimmed_344_AT2G17670_intron = 448765-449341;
+  charset trimmed_344_AT2G18710_exon = 449342-451379;
+  charset trimmed_344_AT2G18710_intron = 451380-457018;
+  charset trimmed_344_AT2G18890_exon = 457019-458554;
+  charset trimmed_344_AT2G18890_intron = 458555-461732;
+  charset trimmed_344_AT2G21710_exon = 461733-463691;
+  charset trimmed_344_AT2G21710_intron = 463692-467458;
+  charset trimmed_344_AT2G22410_exon = 467459-468376;
+  charset trimmed_344_AT2G22410_intron = 468377-470147;
+  charset trimmed_344_AT2G22870_exon = 470148-470978;
+  charset trimmed_344_AT2G22870_intron = 470979-473145;
+  charset trimmed_344_AT2G24830_exon = 473146-474626;
+  charset trimmed_344_AT2G24830_intron = 474627-476402;
+  charset trimmed_344_AT2G25530_exon = 476403-478403;
+  charset trimmed_344_AT2G25530_intron = 478404-487589;
+  charset trimmed_344_AT2G25620_exon = 487590-488996;
+  charset trimmed_344_AT2G25620_intron = 488997-492427;
+  charset trimmed_344_AT2G26700_exon = 492428-493992;
+  charset trimmed_344_AT2G26700_intron = 493993-495466;
+  charset trimmed_344_AT2G30080_exon = 495467-496483;
+  charset trimmed_344_AT2G30080_intron = 496484-498018;
+  charset trimmed_344_AT2G30100_exon = 498019-500143;
+  charset trimmed_344_AT2G30100_intron = 500144-502032;
+  charset trimmed_344_AT2G31240_exon = 502033-504473;
+  charset trimmed_344_AT2G31240_intron = 504474-506448;
+  charset trimmed_344_AT2G31880_exon = 506449-508114;
+  charset trimmed_344_AT2G31880_intron = 508115-509239;
+  charset trimmed_344_AT2G33610_exon = 509240-510542;
+  charset trimmed_344_AT2G33610_intron = 510543-512977;
+  charset trimmed_344_AT2G33630_exon = 512978-513860;
+  charset trimmed_344_AT2G33630_intron = 513861-517102;
+  charset trimmed_344_AT2G35130_exon = 517103-518808;
+  charset trimmed_344_AT2G35130_intron = 518809-523075;
+  charset trimmed_344_AT2G36660_exon = 523076-525319;
+  charset trimmed_344_AT2G36660_intron = 525320-527865;
+  charset trimmed_344_AT2G36990_exon = 527866-529917;
+  charset trimmed_344_AT2G36990_intron = 529918-532146;
+  charset trimmed_344_AT2G37230_exon = 532147-533696;
+  charset trimmed_344_AT2G37230_intron = 533697-534625;
+  charset trimmed_344_AT2G38000_exon = 534626-536069;
+  charset trimmed_344_AT2G38000_intron = 536070-538675;
+  charset trimmed_344_AT2G38060_exon = 538676-539920;
+  charset trimmed_344_AT2G38060_intron = 539921-542198;
+  charset trimmed_344_AT2G39000_exon = 542199-543167;
+  charset trimmed_344_AT2G39000_intron = 543168-544901;
+  charset trimmed_344_AT2G40190_exon = 544902-545596;
+  charset trimmed_344_AT2G40190_intron = 545597-547352;
+  charset trimmed_344_AT2G40770_exon = 547353-553029;
+  charset trimmed_344_AT2G40770_intron = 553030-565522;
+  charset trimmed_344_AT2G42450_exon = 565523-567058;
+  charset trimmed_344_AT2G42450_intron = 567059-573113;
+  charset trimmed_344_AT2G42700_exon = 573114-576110;
+  charset trimmed_344_AT2G42700_intron = 576111-580029;
+  charset trimmed_344_AT2G43540_exon = 580030-580622;
+  charset trimmed_344_AT2G43540_intron = 580623-581530;
+  charset trimmed_344_AT2G44020_exon = 581531-583402;
+  charset trimmed_344_AT2G44020_intron = 583403-584065;
+  charset trimmed_344_AT2G47330_exon = 584066-584652;
+  charset trimmed_344_AT2G47330_intron = 584653-585232;
+  charset trimmed_344_AT2G47680_exon = 585233-588772;
+  charset trimmed_344_AT2G47680_intron = 588773-598889;
+  charset trimmed_344_AT2G47990_exon = 598890-600401;
+  charset trimmed_344_AT2G47990_intron = 600402-601135;
+  charset trimmed_344_AT3G01060_exon = 601136-602438;
+  charset trimmed_344_AT3G01060_intron = 602439-607361;
+  charset trimmed_344_AT3G01480_exon = 607362-609057;
+  charset trimmed_344_AT3G01480_intron = 609058-612599;
+  charset trimmed_344_AT3G01720_exon = 612600-615777;
+  charset trimmed_344_AT3G01720_intron = 615778-626841;
+  charset trimmed_344_AT3G02450_exon = 626842-628807;
+  charset trimmed_344_AT3G02450_intron = 628808-631450;
+  charset trimmed_344_AT3G02760_exon = 631451-632813;
+  charset trimmed_344_AT3G02760_intron = 632814-635995;
+  charset trimmed_344_AT3G04260_exon = 635996-638777;
+  charset trimmed_344_AT3G04260_intron = 638778-647872;
+  charset trimmed_344_AT3G04880_exon = 647873-648876;
+  charset trimmed_344_AT3G04880_intron = 648877-649834;
+  charset trimmed_344_AT3G05340_exon = 649835-651498;
+  charset trimmed_344_AT3G05340_intron = 651499-651626;
+  charset trimmed_344_AT3G05410_exon = 651627-652280;
+  charset trimmed_344_AT3G05410_intron = 652281-653156;
+  charset trimmed_344_AT3G06510_exon = 653157-655860;
+  charset trimmed_344_AT3G06510_intron = 655861-661467;
+  charset trimmed_344_AT3G07140_exon = 661468-663758;
+  charset trimmed_344_AT3G07140_intron = 663759-667062;
+  charset trimmed_344_AT3G08010_exon = 667063-668422;
+  charset trimmed_344_AT3G08010_intron = 668423-671579;
+  charset trimmed_344_AT3G08760_exon = 671580-672410;
+  charset trimmed_344_AT3G08760_intron = 672411-675345;
+  charset trimmed_344_AT3G09210_exon = 675346-675933;
+  charset trimmed_344_AT3G09210_intron = 675934-679023;
+  charset trimmed_344_AT3G09650_exon = 679024-681557;
+  charset trimmed_344_AT3G09650_intron = 681558-682336;
+  charset trimmed_344_AT3G10150_exon = 682337-683638;
+  charset trimmed_344_AT3G10150_intron = 683639-689206;
+  charset trimmed_344_AT3G10420_exon = 689207-690522;
+  charset trimmed_344_AT3G10420_intron = 690523-693878;
+  charset trimmed_344_AT3G12290_exon = 693879-694868;
+  charset trimmed_344_AT3G12290_intron = 694869-697899;
+  charset trimmed_344_AT3G14075_exon = 697900-700423;
+  charset trimmed_344_AT3G14075_intron = 700424-706121;
+  charset trimmed_344_AT3G14860_exon = 706122-707764;
+  charset trimmed_344_AT3G14860_intron = 707765-712717;
+  charset trimmed_344_AT3G14900_exon = 712718-714890;
+  charset trimmed_344_AT3G14900_intron = 714891-715771;
+  charset trimmed_344_AT3G14910_exon = 715772-717407;
+  charset trimmed_344_AT3G14910_intron = 717408-723644;
+  charset trimmed_344_AT3G14930_exon = 723645-725233;
+  charset trimmed_344_AT3G14930_intron = 725234-727755;
+  charset trimmed_344_AT3G18390_exon = 727756-730797;
+  charset trimmed_344_AT3G18390_intron = 730798-738302;
+  charset trimmed_344_AT3G19553_exon = 738303-740172;
+  charset trimmed_344_AT3G19553_intron = 740173-741516;
+  charset trimmed_344_AT3G19770_exon = 741517-743061;
+  charset trimmed_344_AT3G19770_intron = 743062-744901;
+  charset trimmed_344_AT3G19870_exon = 744902-747813;
+  charset trimmed_344_AT3G19870_intron = 747814-750134;
+  charset trimmed_344_AT3G20015_exon = 750135-751784;
+  charset trimmed_344_AT3G20015_intron = 751785-752489;
+  charset trimmed_344_AT3G20230_exon = 752490-752802;
+  charset trimmed_344_AT3G20230_intron = 752803-753336;
+  charset trimmed_344_AT3G20420_exon = 753337-754303;
+  charset trimmed_344_AT3G20420_intron = 754304-757268;
+  charset trimmed_344_AT3G20810_exon = 757269-758187;
+  charset trimmed_344_AT3G20810_intron = 758188-761018;
+  charset trimmed_344_AT3G21540_exon = 761019-763918;
+  charset trimmed_344_AT3G21540_intron = 763919-769833;
+  charset trimmed_344_AT3G21740_exon = 769834-770777;
+  charset trimmed_344_AT3G21740_intron = 770778-771742;
+  charset trimmed_344_AT3G24190_exon = 771743-774398;
+  charset trimmed_344_AT3G24190_intron = 774399-783546;
+  charset trimmed_344_AT3G25440_exon = 783547-785068;
+  charset trimmed_344_AT3G25440_intron = 785069-787399;
+  charset trimmed_344_AT3G26570_exon = 787400-789563;
+  charset trimmed_344_AT3G26570_intron = 789564-792076;
+  charset trimmed_344_AT3G26580_exon = 792077-793071;
+  charset trimmed_344_AT3G26580_intron = 793072-794567;
+  charset trimmed_344_AT3G29240_exon = 794568-795554;
+  charset trimmed_344_AT3G29240_intron = 795555-796091;
+  charset trimmed_344_AT3G44880_exon = 796092-798124;
+  charset trimmed_344_AT3G44880_intron = 798125-801842;
+  charset trimmed_344_AT3G46610_exon = 801843-804116;
+  charset trimmed_344_AT3G46610_intron = 804117-805417;
+  charset trimmed_344_AT3G47390_exon = 805418-807687;
+  charset trimmed_344_AT3G47390_intron = 807688-812963;
+  charset trimmed_344_AT3G47610_exon = 812964-814208;
+  charset trimmed_344_AT3G47610_intron = 814209-815427;
+  charset trimmed_344_AT3G47830_exon = 815428-816384;
+  charset trimmed_344_AT3G47830_intron = 816385-820705;
+  charset trimmed_344_AT3G48250_exon = 820706-821827;
+  charset trimmed_344_AT3G48250_intron = 821828-822827;
+  charset trimmed_344_AT3G48460_exon = 822828-824101;
+  charset trimmed_344_AT3G48460_intron = 824102-827053;
+  charset trimmed_344_AT3G49170_exon = 827054-829658;
+  charset trimmed_344_AT3G49170_intron = 829659-830505;
+  charset trimmed_344_AT3G51980_exon = 830506-831253;
+  charset trimmed_344_AT3G51980_intron = 831254-836209;
+  charset trimmed_344_AT3G52570_exon = 836210-837000;
+  charset trimmed_344_AT3G52570_intron = 837001-839048;
+  charset trimmed_344_AT3G53140_exon = 839049-840128;
+  charset trimmed_344_AT3G53140_intron = 840129-841043;
+  charset trimmed_344_AT3G53700_exon = 841044-842754;
+  charset trimmed_344_AT3G53700_intron = 842755-843265;
+  charset trimmed_344_AT3G54690_exon = 843266-844129;
+  charset trimmed_344_AT3G54690_intron = 844130-846179;
+  charset trimmed_344_AT3G55070_exon = 846180-847382;
+  charset trimmed_344_AT3G55070_intron = 847383-851831;
+  charset trimmed_344_AT3G55120_exon = 851832-852633;
+  charset trimmed_344_AT3G55120_intron = 852634-855137;
+  charset trimmed_344_AT3G55400_exon = 855138-855553;
+  charset trimmed_344_AT3G55400_intron = 855554-862196;
+  charset trimmed_344_AT3G55480_exon = 862197-864376;
+  charset trimmed_344_AT3G55480_intron = 864377-869275;
+  charset trimmed_344_AT3G57180_exon = 869276-871517;
+  charset trimmed_344_AT3G57180_intron = 871518-874572;
+  charset trimmed_344_AT3G57190_exon = 874573-875700;
+  charset trimmed_344_AT3G57190_intron = 875701-880122;
+  charset trimmed_344_AT3G57790_exon = 880123-881927;
+  charset trimmed_344_AT3G57790_intron = 881928-883780;
+  charset trimmed_344_AT3G58470_exon = 883781-884169;
+  charset trimmed_344_AT3G58470_intron = 884170-884280;
+  charset trimmed_344_AT3G58690_exon = 884281-885531;
+  charset trimmed_344_AT3G58690_intron = 885532-889108;
+  charset trimmed_344_AT3G59040_exon = 889109-891043;
+  charset trimmed_344_AT3G59040_intron = 891044-896127;
+  charset trimmed_344_AT3G59420_exon = 896128-899570;
+  charset trimmed_344_AT3G59420_intron = 899571-900524;
+  charset trimmed_344_AT3G59530_exon = 900525-901887;
+  charset trimmed_344_AT3G59530_intron = 901888-903962;
+  charset trimmed_344_AT3G59770_exon = 903963-908501;
+  charset trimmed_344_AT3G59770_intron = 908502-918410;
+  charset trimmed_344_AT3G60850_exon = 918411-920619;
+  charset trimmed_344_AT3G60850_intron = 920620-921341;
+  charset trimmed_344_AT3G61320_exon = 921342-923062;
+  charset trimmed_344_AT3G61320_intron = 923063-926643;
+  charset trimmed_344_AT3G61350_exon = 926644-927684;
+  charset trimmed_344_AT3G61350_intron = 927685-929661;
+  charset trimmed_344_AT3G61360_exon = 929662-931187;
+  charset trimmed_344_AT3G61360_intron = 931188-931687;
+  charset trimmed_344_AT3G62390_exon = 931688-933265;
+  charset trimmed_344_AT3G62390_intron = 933266-935855;
+  charset trimmed_344_AT4G01130_exon = 935856-936911;
+  charset trimmed_344_AT4G01130_intron = 936912-940136;
+  charset trimmed_344_AT4G01310_exon = 940137-941048;
+  charset trimmed_344_AT4G01310_intron = 941049-943760;
+  charset trimmed_344_AT4G01870_exon = 943761-946002;
+  charset trimmed_344_AT4G01870_intron = 946003-946643;
+  charset trimmed_344_AT4G02405_exon = 946644-947552;
+  charset trimmed_344_AT4G02405_intron = 947553-947877;
+  charset trimmed_344_AT4G02820_exon = 947878-948975;
+  charset trimmed_344_AT4G02820_intron = 948976-951552;
+  charset trimmed_344_AT4G04180_exon = 951553-953394;
+  charset trimmed_344_AT4G04180_intron = 953395-960126;
+  charset trimmed_344_AT4G04930_exon = 960127-960285;
+  charset trimmed_344_AT4G04930_intron = 960286-960878;
+  charset trimmed_344_AT4G08810_exon = 960879-963080;
+  charset trimmed_344_AT4G08810_intron = 963081-963764;
+  charset trimmed_344_AT4G09730_exon = 963765-965535;
+  charset trimmed_344_AT4G09730_intron = 965536-971224;
+  charset trimmed_344_AT4G12130_exon = 971225-972872;
+  charset trimmed_344_AT4G12130_intron = 972873-975955;
+  charset trimmed_344_AT4G13970_exon = 975956-978197;
+  charset trimmed_344_AT4G13970_intron = 978198-982150;
+  charset trimmed_344_AT4G15420_exon = 982151-984351;
+  charset trimmed_344_AT4G15420_intron = 984352-985649;
+  charset trimmed_344_AT4G15850_exon = 985650-987040;
+  charset trimmed_344_AT4G15850_intron = 987041-995768;
+  charset trimmed_344_AT4G16180_exon = 995769-998366;
+  charset trimmed_344_AT4G16180_intron = 998367-1004206;
+  charset trimmed_344_AT4G16390_exon = 1004207-1006320;
+  charset trimmed_344_AT4G16390_intron = 1006321-1007138;
+  charset trimmed_344_AT4G17370_exon = 1007139-1008410;
+  charset trimmed_344_AT4G17370_intron = 1008411-1011224;
+  charset trimmed_344_AT4G19180_exon = 1011225-1011724;
+  charset trimmed_344_AT4G19180_intron = 1011725-1012738;
+  charset trimmed_344_AT4G20740_exon = 1012739-1015114;
+  charset trimmed_344_AT4G20740_intron = 1015115-1022236;
+  charset trimmed_344_AT4G23930_exon = 1022237-1022845;
+  charset trimmed_344_AT4G23930_intron = 1022846-1023448;
+  charset trimmed_344_AT4G26180_exon = 1023449-1024430;
+  charset trimmed_344_AT4G26180_intron = 1024431-1026602;
+  charset trimmed_344_AT4G28980_exon = 1026603-1027955;
+  charset trimmed_344_AT4G28980_intron = 1027956-1029668;
+  charset trimmed_344_AT4G29120_exon = 1029669-1030722;
+  charset trimmed_344_AT4G29120_intron = 1030723-1031423;
+  charset trimmed_344_AT4G30825_exon = 1031424-1034077;
+  charset trimmed_344_AT4G30825_intron = 1034078-1036463;
+  charset trimmed_344_AT4G32605_exon = 1036464-1037122;
+  charset trimmed_344_AT4G32605_intron = 1037123-1039109;
+  charset trimmed_344_AT4G33410_exon = 1039110-1039587;
+  charset trimmed_344_AT4G33410_intron = 1039588-1040931;
+  charset trimmed_344_AT4G33945_exon = 1040932-1042652;
+  charset trimmed_344_AT4G33945_intron = 1042653-1046373;
+  charset trimmed_344_AT4G34030_exon = 1046374-1048210;
+  charset trimmed_344_AT4G34030_intron = 1048211-1051850;
+  charset trimmed_344_AT4G35870_exon = 1051851-1055007;
+  charset trimmed_344_AT4G35870_intron = 1055008-1055922;
+  charset trimmed_344_AT4G36390_exon = 1055923-1058056;
+  charset trimmed_344_AT4G36390_intron = 1058057-1060505;
+  charset trimmed_344_AT4G37380_exon = 1060506-1062344;
+  charset trimmed_344_AT4G37380_intron = 1062345-1062678;
+  charset trimmed_344_AT4G38020_exon = 1062679-1063575;
+  charset trimmed_344_AT4G38020_intron = 1063576-1065080;
+  charset trimmed_344_AT4G38460_exon = 1065081-1066207;
+  charset trimmed_344_AT4G38460_intron = 1066208-1068075;
+  charset trimmed_344_AT4G38890_exon = 1068076-1069952;
+  charset trimmed_344_AT4G38890_intron = 1069953-1072521;
+  charset trimmed_344_AT4G39010_exon = 1072522-1074396;
+  charset trimmed_344_AT4G39010_intron = 1074397-1077961;
+  charset trimmed_344_AT4G39820_exon = 1077962-1079591;
+  charset trimmed_344_AT4G39820_intron = 1079592-1080437;
+  charset trimmed_344_AT4G39920_exon = 1080438-1081736;
+  charset trimmed_344_AT4G39920_intron = 1081737-1082706;
+  charset trimmed_344_AT5G02250_exon = 1082707-1084905;
+  charset trimmed_344_AT5G02250_intron = 1084906-1100738;
+  charset trimmed_344_AT5G02270_exon = 1100739-1102084;
+  charset trimmed_344_AT5G02270_intron = 1102085-1103902;
+  charset trimmed_344_AT5G02410_exon = 1103903-1105708;
+  charset trimmed_344_AT5G02410_intron = 1105709-1110922;
+  charset trimmed_344_AT5G02820_exon = 1110923-1111837;
+  charset trimmed_344_AT5G02820_intron = 1111838-1112134;
+  charset trimmed_344_AT5G03160_exon = 1112135-1113043;
+  charset trimmed_344_AT5G03160_intron = 1113044-1116655;
+  charset trimmed_344_AT5G03555_exon = 1116656-1118244;
+  charset trimmed_344_AT5G03555_intron = 1118245-1119199;
+  charset trimmed_344_AT5G03800_exon = 1119200-1121838;
+  charset trimmed_344_AT5G03800_intron = 1121839-1126470;
+  charset trimmed_344_AT5G04480_exon = 1126471-1129290;
+  charset trimmed_344_AT5G04480_intron = 1129291-1134152;
+  charset trimmed_344_AT5G04710_exon = 1134153-1135782;
+  charset trimmed_344_AT5G04710_intron = 1135783-1145099;
+  charset trimmed_344_AT5G06680_exon = 1145100-1148421;
+  charset trimmed_344_AT5G06680_intron = 1148422-1149219;
+  charset trimmed_344_AT5G07360_exon = 1149220-1150604;
+  charset trimmed_344_AT5G07360_intron = 1150605-1154640;
+  charset trimmed_344_AT5G08305_exon = 1154641-1156003;
+  charset trimmed_344_AT5G08305_intron = 1156004-1157030;
+  charset trimmed_344_AT5G08510_exon = 1157031-1157880;
+  charset trimmed_344_AT5G08510_intron = 1157881-1158797;
+  charset trimmed_344_AT5G10750_exon = 1158798-1159679;
+  charset trimmed_344_AT5G10750_intron = 1159680-1160337;
+  charset trimmed_344_AT5G12410_exon = 1160338-1161441;
+  charset trimmed_344_AT5G12410_intron = 1161442-1167479;
+  charset trimmed_344_AT5G13030_exon = 1167480-1169749;
+  charset trimmed_344_AT5G13030_intron = 1169750-1172882;
+  charset trimmed_344_AT5G13390_exon = 1172883-1173179;
+  charset trimmed_344_AT5G13390_intron = 1173180-1173827;
+  charset trimmed_344_AT5G13400_exon = 1173828-1176137;
+  charset trimmed_344_AT5G13400_intron = 1176138-1176540;
+  charset trimmed_344_AT5G13520_exon = 1176541-1179420;
+  charset trimmed_344_AT5G13520_intron = 1179421-1181491;
+  charset trimmed_344_AT5G13630_exon = 1181492-1182924;
+  charset trimmed_344_AT5G13630_intron = 1182925-1185554;
+  charset trimmed_344_AT5G14580_exon = 1185555-1188848;
+  charset trimmed_344_AT5G14580_intron = 1188849-1202195;
+  charset trimmed_344_AT5G14600_exon = 1202196-1203206;
+  charset trimmed_344_AT5G14600_intron = 1203207-1205497;
+  charset trimmed_344_AT5G15300_exon = 1205498-1206625;
+  charset trimmed_344_AT5G15300_intron = 1206626-1207872;
+  charset trimmed_344_AT5G16210_exon = 1207873-1211567;
+  charset trimmed_344_AT5G16210_intron = 1211568-1217732;
+  charset trimmed_344_AT5G17790_exon = 1217733-1220332;
+  charset trimmed_344_AT5G17790_intron = 1220333-1222172;
+  charset trimmed_344_AT5G18070_exon = 1222173-1223896;
+  charset trimmed_344_AT5G18070_intron = 1223897-1227030;
+  charset trimmed_344_AT5G19540_exon = 1227031-1228895;
+  charset trimmed_344_AT5G19540_intron = 1228896-1231278;
+  charset trimmed_344_AT5G19660_exon = 1231279-1233207;
+  charset trimmed_344_AT5G19660_intron = 1233208-1238322;
+  charset trimmed_344_AT5G20320_exon = 1238323-1243862;
+  charset trimmed_344_AT5G20320_intron = 1243863-1256229;
+  charset trimmed_344_AT5G20910_exon = 1256230-1257095;
+  charset trimmed_344_AT5G20910_intron = 1257096-1259049;
+  charset trimmed_344_AT5G23060_exon = 1259050-1260402;
+  charset trimmed_344_AT5G23060_intron = 1260403-1265077;
+  charset trimmed_344_AT5G23940_exon = 1265078-1266370;
+  charset trimmed_344_AT5G23940_intron = 1266371-1267737;
+  charset trimmed_344_AT5G24120_exon = 1267738-1269396;
+  charset trimmed_344_AT5G24120_intron = 1269397-1271667;
+  charset trimmed_344_AT5G24340_exon = 1271668-1272615;
+  charset trimmed_344_AT5G24340_intron = 1272616-1276004;
+  charset trimmed_344_AT5G26850_exon = 1276005-1279637;
+  charset trimmed_344_AT5G26850_intron = 1279638-1294104;
+  charset trimmed_344_AT5G37830_exon = 1294105-1299092;
+  charset trimmed_344_AT5G37830_intron = 1299093-1300043;
+  charset trimmed_344_AT5G39410_exon = 1300044-1301942;
+  charset trimmed_344_AT5G39410_intron = 1301943-1303599;
+  charset trimmed_344_AT5G39590_exon = 1303600-1305243;
+  charset trimmed_344_AT5G39590_intron = 1305244-1309470;
+  charset trimmed_344_AT5G39680_exon = 1309471-1311147;
+  charset trimmed_344_AT5G39680_intron = 1311148-1313642;
+  charset trimmed_344_AT5G39900_exon = 1313643-1314365;
+  charset trimmed_344_AT5G39900_intron = 1314366-1316090;
+  charset trimmed_344_AT5G41330_exon = 1316091-1317281;
+  charset trimmed_344_AT5G41330_intron = 1317282-1318479;
+  charset trimmed_344_AT5G43280_exon = 1318480-1319036;
+  charset trimmed_344_AT5G43280_intron = 1319037-1320669;
+  charset trimmed_344_AT5G44000_exon = 1320670-1321901;
+  charset trimmed_344_AT5G44000_intron = 1321902-1323801;
+  charset trimmed_344_AT5G45380_exon = 1323802-1326030;
+  charset trimmed_344_AT5G45380_intron = 1326031-1327707;
+  charset trimmed_344_AT5G45900_exon = 1327708-1329823;
+  charset trimmed_344_AT5G45900_intron = 1329824-1330642;
+  charset trimmed_344_AT5G46220_exon = 1330643-1331443;
+  charset trimmed_344_AT5G46220_intron = 1331444-1333475;
+  charset trimmed_344_AT5G46580_exon = 1333476-1336188;
+  charset trimmed_344_AT5G46580_intron = 1336189-1337406;
+  charset trimmed_344_AT5G46800_exon = 1337407-1337997;
+  charset trimmed_344_AT5G46800_intron = 1337998-1340113;
+  charset trimmed_344_AT5G48730_exon = 1340114-1341324;
+  charset trimmed_344_AT5G48730_intron = 1341325-1343027;
+  charset trimmed_344_AT5G49800_exon = 1343028-1343738;
+  charset trimmed_344_AT5G49800_intron = 1343739-1344901;
+  charset trimmed_344_AT5G50230_exon = 1344902-1345243;
+  charset trimmed_344_AT5G50230_intron = 1345244-1346734;
+  charset trimmed_344_AT5G50280_exon = 1346735-1349106;
+  charset trimmed_344_AT5G50280_intron = 1349107-1350209;
+  charset trimmed_344_AT5G50390_exon = 1350210-1352628;
+  charset trimmed_344_AT5G50390_intron = 1352629-1353055;
+  charset trimmed_344_AT5G51340_exon = 1353056-1355283;
+  charset trimmed_344_AT5G51340_intron = 1355284-1360118;
+  charset trimmed_344_AT5G52630_exon = 1360119-1361102;
+  charset trimmed_344_AT5G52630_intron = 1361103-1361636;
+  charset trimmed_344_AT5G52810_exon = 1361637-1362563;
+  charset trimmed_344_AT5G52810_intron = 1362564-1362610;
+  charset trimmed_344_AT5G54140_exon = 1362611-1364230;
+  charset trimmed_344_AT5G54140_intron = 1364231-1367518;
+  charset trimmed_344_AT5G54910_exon = 1367519-1369861;
+  charset trimmed_344_AT5G54910_intron = 1369862-1373140;
+  charset trimmed_344_AT5G55500_exon = 1373141-1373914;
+  charset trimmed_344_AT5G55500_intron = 1373915-1375470;
+  charset trimmed_344_AT5G55580_exon = 1375471-1376541;
+  charset trimmed_344_AT5G55580_intron = 1376542-1379598;
+  charset trimmed_344_AT5G56900_exon = 1379599-1381378;
+  charset trimmed_344_AT5G56900_intron = 1381379-1386151;
+  charset trimmed_344_AT5G57460_exon = 1386152-1388016;
+  charset trimmed_344_AT5G57460_intron = 1388017-1388893;
+  charset trimmed_344_AT5G57590_exon = 1388894-1391546;
+  charset trimmed_344_AT5G57590_intron = 1391547-1399321;
+  charset trimmed_344_AT5G58480_exon = 1399322-1400801;
+  charset trimmed_344_AT5G58480_intron = 1400802-1402290;
+  charset trimmed_344_AT5G59600_exon = 1402291-1403618;
+  charset trimmed_344_AT5G59600_intron = 1403619-1404460;
+  charset trimmed_344_AT5G61510_exon = 1404461-1405857;
+  charset trimmed_344_AT5G61510_intron = 1405858-1409153;
+  charset trimmed_344_AT5G63010_exon = 1409154-1410090;
+  charset trimmed_344_AT5G63010_intron = 1410091-1411684;
+  charset trimmed_344_AT5G63200_exon = 1411685-1414018;
+  charset trimmed_344_AT5G63200_intron = 1414019-1423207;
+  charset trimmed_344_AT5G64150_exon = 1423208-1423560;
+  charset trimmed_344_AT5G64150_intron = 1423561-1425859;
+  charset trimmed_344_AT5G64250_exon = 1425860-1427181;
+  charset trimmed_344_AT5G64250_intron = 1427182-1431518;
+  charset trimmed_344_AT5G65490_exon = 1431519-1433514;
+  charset trimmed_344_AT5G65490_intron = 1433515-1436273;
+  charset trimmed_344_AT5G65540_exon = 1436274-1438068;
+  charset trimmed_344_AT5G65540_intron = 1438069-1440103;
+  charset trimmed_344_AT5G65720_exon = 1440104-1442002;
+  charset trimmed_344_AT5G65720_intron = 1442003-1442958;
+  charset trimmed_344_AT5G65760_exon = 1442959-1444709;
+  charset trimmed_344_AT5G65760_intron = 1444710-1448179;
+  charset trimmed_344_AT5G66631_exon = 1448180-1451015;
+  charset trimmed_344_AT5G66631_intron = 1451016-1454478;
+  charset trimmed_4848_31_overlapped_exon = 1454479-1457215;
+  charset trimmed_4848_31_overlapped_intron = 1457216-1460723;
+  charset trimmed_5162_31_overlapped_exon = 1460724-1461941;
+  charset trimmed_5162_31_overlapped_intron = 1461942-1464091;
+  charset trimmed_5257_31_overlapped_exon = 1464092-1465161;
+  charset trimmed_5257_31_overlapped_intron = 1465162-1469082;
+  charset trimmed_5333_31_overlapped_exon = 1469083-1469343;
+  charset trimmed_5333_31_overlapped_intron = 1469344-1469397;
+  charset trimmed_5343_31_overlapped_exon = 1469398-1469868;
+  charset trimmed_5343_31_overlapped_intron = 1469869-1471161;
+  charset trimmed_5426_31_overlapped_exon = 1471162-1473086;
+  charset trimmed_5426_31_overlapped_intron = 1473087-1479938;
+  charset trimmed_5449_31_overlapped_exon = 1479939-1481470;
+  charset trimmed_5449_31_overlapped_intron = 1481471-1484305;
+  charset trimmed_5594_31_overlapped_exon = 1484306-1485196;
+  charset trimmed_5594_31_overlapped_intron = 1485197-1485994;
+  charset trimmed_5660_31_overlapped_exon = 1485995-1487140;
+  charset trimmed_5660_31_overlapped_intron = 1487141-1488038;
+  charset trimmed_5802_31_overlapped_exon = 1488039-1489040;
+  charset trimmed_5802_31_overlapped_intron = 1489041-1491674;
+  charset trimmed_5821_31_overlapped_exon = 1491675-1492370;
+  charset trimmed_5821_31_overlapped_intron = 1492371-1494978;
+  charset trimmed_5859_31_overlapped_exon = 1494979-1496044;
+  charset trimmed_5859_31_overlapped_intron = 1496045-1496460;
+  charset trimmed_5913_31_overlapped_exon = 1496461-1497177;
+  charset trimmed_5913_31_overlapped_intron = 1497178-1500435;
+  charset trimmed_5933_31_overlapped_exon = 1500436-1501222;
+  charset trimmed_5933_31_overlapped_intron = 1501223-1503359;
+  charset trimmed_6051_31_overlapped_exon = 1503360-1505201;
+  charset trimmed_6051_31_overlapped_intron = 1505202-1505721;
+  charset trimmed_6098_31_overlapped_exon = 1505722-1507701;
+  charset trimmed_6098_31_overlapped_intron = 1507702-1512941;
+  charset trimmed_6139_31_overlapped_exon = 1512942-1514111;
+  charset trimmed_6139_31_overlapped_intron = 1514112-1515396;
+  charset trimmed_6175_31_overlapped_exon = 1515397-1516499;
+  charset trimmed_6175_31_overlapped_intron = 1516500-1517773;
+  charset trimmed_6226_31_overlapped_exon = 1517774-1519975;
+  charset trimmed_6226_31_overlapped_intron = 1519976-1527387;
+  charset trimmed_6284_31_overlapped_exon = 1527388-1529173;
+  charset trimmed_6284_31_overlapped_intron = 1529174-1530404;
+  charset trimmed_6320_31_overlapped_exon = 1530405-1531686;
+  charset trimmed_6320_31_overlapped_intron = 1531687-1537564;
+  charset trimmed_6363_31_overlapped_exon = 1537565-1537911;
+  charset trimmed_6363_31_overlapped_intron = 1537912-1538675;
+  charset trimmed_6393_31_overlapped_exon = 1538676-1539967;
+  charset trimmed_6393_31_overlapped_intron = 1539968-1544711;
+  charset trimmed_6450_31_overlapped_exon = 1544712-1545484;
+  charset trimmed_6450_31_overlapped_intron = 1545485-1549014;
+  charset trimmed_6500_31_overlapped_exon = 1549015-1551166;
+  charset trimmed_6500_31_overlapped_intron = 1551167-1555541;
+  charset trimmed_6639_31_overlapped_exon = 1555542-1556973;
+  charset trimmed_6639_31_overlapped_intron = 1556974-1560642;
+  charset trimmed_6652_31_overlapped_exon = 1560643-1562469;
+  charset trimmed_6652_31_overlapped_intron = 1562470-1566048;
+  charset trimmed_6875_31_overlapped_exon = 1566049-1566396;
+  charset trimmed_6875_31_overlapped_intron = 1566397-1566958;
+  charset trimmed_7325_31_overlapped_exon = 1566959-1567153;
+  charset trimmed_7325_31_overlapped_intron = 1567154-1568898;
+  charset trimmed_7577_31_overlapped_exon = 1568899-1569223;
+  charset trimmed_7577_31_overlapped_intron = 1569224-1572223;
+  charset trimmed_7602_31_overlapped_exon = 1572224-1572738;
+  charset trimmed_7602_31_overlapped_intron = 1572739-1575005;
+  charset trimmed_a353_4471_exon = 1575006-1575615;
+  charset trimmed_a353_4471_intron = 1575616-1575956;
+  charset trimmed_a353_4527_exon = 1575957-1577261;
+  charset trimmed_a353_4527_intron = 1577262-1578828;
+  charset trimmed_a353_4691_exon = 1578829-1579293;
+  charset trimmed_a353_4691_intron = 1579294-1579362;
+  charset trimmed_a353_4724_exon = 1579363-1580046;
+  charset trimmed_a353_4724_intron = 1580047-1580583;
+  charset trimmed_a353_4744_exon = 1580584-1580862;
+  charset trimmed_a353_4744_intron = 1580863-1581616;
+  charset trimmed_a353_4757_exon = 1581617-1581982;
+  charset trimmed_a353_4757_intron = 1581983-1582202;
+  charset trimmed_a353_4793_exon = 1582203-1584255;
+  charset trimmed_a353_4793_intron = 1584256-1585203;
+  charset trimmed_a353_4796_exon = 1585204-1585353;
+  charset trimmed_a353_4796_intron = 1585354-1585491;
+  charset trimmed_a353_4802_exon = 1585492-1586351;
+  charset trimmed_a353_4802_intron = 1586352-1588488;
+  charset trimmed_a353_4806_exon = 1588489-1589007;
+  charset trimmed_a353_4806_intron = 1589008-1590798;
+  charset trimmed_a353_4889_exon = 1590799-1591044;
+  charset trimmed_a353_4889_intron = 1591045-1591412;
+  charset trimmed_a353_4890_exon = 1591413-1591670;
+  charset trimmed_a353_4890_intron = 1591671-1591845;
+  charset trimmed_a353_4893_exon = 1591846-1592577;
+  charset trimmed_a353_4893_intron = 1592578-1594436;
+  charset trimmed_a353_4932_exon = 1594437-1595432;
+  charset trimmed_a353_4932_intron = 1595433-1595933;
+  charset trimmed_a353_4942_exon = 1595934-1596758;
+  charset trimmed_a353_4942_intron = 1596759-1599240;
+  charset trimmed_a353_4951_exon = 1599241-1599804;
+  charset trimmed_a353_4951_intron = 1599805-1600230;
+  charset trimmed_a353_4954_exon = 1600231-1600692;
+  charset trimmed_a353_4989_exon = 1600693-1601352;
+  charset trimmed_a353_4989_intron = 1601353-1602284;
+  charset trimmed_a353_4992_exon = 1602285-1604177;
+  charset trimmed_a353_4992_intron = 1604178-1607388;
+  charset trimmed_a353_5018_exon = 1607389-1608234;
+  charset trimmed_a353_5018_intron = 1608235-1608315;
+  charset trimmed_a353_5032_exon = 1608316-1608825;
+  charset trimmed_a353_5034_exon = 1608826-1609301;
+  charset trimmed_a353_5034_intron = 1609302-1609552;
+  charset trimmed_a353_5038_exon = 1609553-1609951;
+  charset trimmed_a353_5064_exon = 1609952-1610164;
+  charset trimmed_a353_5090_exon = 1610165-1610660;
+  charset trimmed_a353_5090_intron = 1610661-1611370;
+  charset trimmed_a353_5104_exon = 1611371-1611511;
+  charset trimmed_a353_5104_intron = 1611512-1612602;
+  charset trimmed_a353_5116_exon = 1612603-1613311;
+  charset trimmed_a353_5116_intron = 1613312-1614315;
+  charset trimmed_a353_5123_exon = 1614316-1614896;
+  charset trimmed_a353_5123_intron = 1614897-1617173;
+  charset trimmed_a353_5131_exon = 1617174-1618085;
+  charset trimmed_a353_5131_intron = 1618086-1619508;
+  charset trimmed_a353_5138_exon = 1619509-1620071;
+  charset trimmed_a353_5138_intron = 1620072-1620754;
+  charset trimmed_a353_5163_exon = 1620755-1622282;
+  charset trimmed_a353_5163_intron = 1622283-1624893;
+  charset trimmed_a353_5168_exon = 1624894-1625244;
+  charset trimmed_a353_5177_exon = 1625245-1625823;
+  charset trimmed_a353_5177_intron = 1625824-1626632;
+  charset trimmed_a353_5188_exon = 1626633-1626927;
+  charset trimmed_a353_5188_intron = 1626928-1627878;
+  charset trimmed_a353_5200_exon = 1627879-1628196;
+  charset trimmed_a353_5200_intron = 1628197-1629272;
+  charset trimmed_a353_5206_exon = 1629273-1629616;
+  charset trimmed_a353_5206_intron = 1629617-1630803;
+  charset trimmed_a353_5220_exon = 1630804-1631235;
+  charset trimmed_a353_5220_intron = 1631236-1632211;
+  charset trimmed_a353_5260_exon = 1632212-1632508;
+  charset trimmed_a353_5260_intron = 1632509-1633043;
+  charset trimmed_a353_5264_exon = 1633044-1633958;
+  charset trimmed_a353_5264_intron = 1633959-1635048;
+  charset trimmed_a353_5271_exon = 1635049-1635480;
+  charset trimmed_a353_5271_intron = 1635481-1636494;
+  charset trimmed_a353_5273_exon = 1636495-1637957;
+  charset trimmed_a353_5273_intron = 1637958-1638372;
+  charset trimmed_a353_5280_exon = 1638373-1638940;
+  charset trimmed_a353_5280_intron = 1638941-1639063;
+  charset trimmed_a353_5296_exon = 1639064-1639299;
+  charset trimmed_a353_5296_intron = 1639300-1639724;
+  charset trimmed_a353_5299_exon = 1639725-1640117;
+  charset trimmed_a353_5304_exon = 1640118-1640501;
+  charset trimmed_a353_5304_intron = 1640502-1641171;
+  charset trimmed_a353_5318_exon = 1641172-1641585;
+  charset trimmed_a353_5318_intron = 1641586-1641774;
+  charset trimmed_a353_5326_exon = 1641775-1642222;
+  charset trimmed_a353_5326_intron = 1642223-1643372;
+  charset trimmed_a353_5328_exon = 1643373-1643867;
+  charset trimmed_a353_5335_exon = 1643868-1645360;
+  charset trimmed_a353_5335_intron = 1645361-1646285;
+  charset trimmed_a353_5339_exon = 1646286-1646972;
+  charset trimmed_a353_5339_intron = 1646973-1647954;
+  charset trimmed_a353_5347_exon = 1647955-1648161;
+  charset trimmed_a353_5348_exon = 1648162-1648406;
+  charset trimmed_a353_5348_intron = 1648407-1649086;
+  charset trimmed_a353_5354_exon = 1649087-1649554;
+  charset trimmed_a353_5354_intron = 1649555-1649903;
+  charset trimmed_a353_5355_exon = 1649904-1650193;
+  charset trimmed_a353_5357_exon = 1650194-1650514;
+  charset trimmed_a353_5357_intron = 1650515-1651435;
+  charset trimmed_a353_5366_exon = 1651436-1652026;
+  charset trimmed_a353_5366_intron = 1652027-1653895;
+  charset trimmed_a353_5398_exon = 1653896-1655662;
+  charset trimmed_a353_5398_intron = 1655663-1659636;
+  charset trimmed_a353_5404_exon = 1659637-1660197;
+  charset trimmed_a353_5404_intron = 1660198-1661010;
+  charset trimmed_a353_5406_exon = 1661011-1662645;
+  charset trimmed_a353_5406_intron = 1662646-1665807;
+  charset trimmed_a353_5421_exon = 1665808-1667092;
+  charset trimmed_a353_5421_intron = 1667093-1671714;
+  charset trimmed_a353_5422_exon = 1671715-1672284;
+  charset trimmed_a353_5422_intron = 1672285-1672624;
+  charset trimmed_a353_5427_exon = 1672625-1672803;
+  charset trimmed_a353_5427_intron = 1672804-1674424;
+  charset trimmed_a353_5428_exon = 1674425-1674934;
+  charset trimmed_a353_5430_exon = 1674935-1675423;
+  charset trimmed_a353_5430_intron = 1675424-1675884;
+  charset trimmed_a353_5434_exon = 1675885-1676541;
+  charset trimmed_a353_5434_intron = 1676542-1676779;
+  charset trimmed_a353_5454_exon = 1676780-1677835;
+  charset trimmed_a353_5454_intron = 1677836-1679614;
+  charset trimmed_a353_5460_exon = 1679615-1680022;
+  charset trimmed_a353_5460_intron = 1680023-1680839;
+  charset trimmed_a353_5463_exon = 1680840-1681142;
+  charset trimmed_a353_5463_intron = 1681143-1681440;
+  charset trimmed_a353_5464_exon = 1681441-1682382;
+  charset trimmed_a353_5464_intron = 1682383-1685427;
+  charset trimmed_a353_5469_exon = 1685428-1685562;
+  charset trimmed_a353_5469_intron = 1685563-1686435;
+  charset trimmed_a353_5477_exon = 1686436-1686660;
+  charset trimmed_a353_5477_intron = 1686661-1687685;
+  charset trimmed_a353_5489_exon = 1687686-1688203;
+  charset trimmed_a353_5489_intron = 1688204-1688501;
+  charset trimmed_a353_5502_exon = 1688502-1689283;
+  charset trimmed_a353_5502_intron = 1689284-1693021;
+  charset trimmed_a353_5513_exon = 1693022-1693516;
+  charset trimmed_a353_5513_intron = 1693517-1693779;
+  charset trimmed_a353_5528_exon = 1693780-1694310;
+  charset trimmed_a353_5528_intron = 1694311-1696689;
+  charset trimmed_a353_5531_exon = 1696690-1697016;
+  charset trimmed_a353_5531_intron = 1697017-1697272;
+  charset trimmed_a353_5536_exon = 1697273-1697503;
+  charset trimmed_a353_5536_intron = 1697504-1698455;
+  charset trimmed_a353_5551_exon = 1698456-1698902;
+  charset trimmed_a353_5551_intron = 1698903-1699541;
+  charset trimmed_a353_5554_exon = 1699542-1700598;
+  charset trimmed_a353_5554_intron = 1700599-1703388;
+  charset trimmed_a353_5562_exon = 1703389-1703736;
+  charset trimmed_a353_5562_intron = 1703737-1704519;
+  charset trimmed_a353_5578_exon = 1704520-1704725;
+  charset trimmed_a353_5596_exon = 1704726-1706035;
+  charset trimmed_a353_5596_intron = 1706036-1707205;
+  charset trimmed_a353_5599_exon = 1707206-1709170;
+  charset trimmed_a353_5599_intron = 1709171-1710106;
+  charset trimmed_a353_5614_exon = 1710107-1712139;
+  charset trimmed_a353_5614_intron = 1712140-1715542;
+  charset trimmed_a353_5620_exon = 1715543-1716574;
+  charset trimmed_a353_5634_exon = 1716575-1717727;
+  charset trimmed_a353_5634_intron = 1717728-1718045;
+  charset trimmed_a353_5639_exon = 1718046-1718688;
+  charset trimmed_a353_5639_intron = 1718689-1720512;
+  charset trimmed_a353_5642_exon = 1720513-1720629;
+  charset trimmed_a353_5642_intron = 1720630-1721599;
+  charset trimmed_a353_5644_exon = 1721600-1722472;
+  charset trimmed_a353_5644_intron = 1722473-1724366;
+  charset trimmed_a353_5656_exon = 1724367-1724567;
+  charset trimmed_a353_5664_exon = 1724568-1725403;
+  charset trimmed_a353_5664_intron = 1725404-1726806;
+  charset trimmed_a353_5670_exon = 1726807-1727583;
+  charset trimmed_a353_5670_intron = 1727584-1728969;
+  charset trimmed_a353_5699_exon = 1728970-1729384;
+  charset trimmed_a353_5699_intron = 1729385-1733570;
+  charset trimmed_a353_5702_exon = 1733571-1734288;
+  charset trimmed_a353_5702_intron = 1734289-1737326;
+  charset trimmed_a353_5703_exon = 1737327-1737671;
+  charset trimmed_a353_5703_intron = 1737672-1737889;
+  charset trimmed_a353_5716_exon = 1737890-1739382;
+  charset trimmed_a353_5716_intron = 1739383-1739671;
+  charset trimmed_a353_5721_exon = 1739672-1740232;
+  charset trimmed_a353_5721_intron = 1740233-1740698;
+  charset trimmed_a353_5733_exon = 1740699-1741223;
+  charset trimmed_a353_5733_intron = 1741224-1742134;
+  charset trimmed_a353_5744_exon = 1742135-1742476;
+  charset trimmed_a353_5744_intron = 1742477-1742826;
+  charset trimmed_a353_5770_exon = 1742827-1743590;
+  charset trimmed_a353_5770_intron = 1743591-1744822;
+  charset trimmed_a353_5772_exon = 1744823-1745428;
+  charset trimmed_a353_5772_intron = 1745429-1746052;
+  charset trimmed_a353_5791_exon = 1746053-1746697;
+  charset trimmed_a353_5791_intron = 1746698-1747167;
+  charset trimmed_a353_5815_exon = 1747168-1747812;
+  charset trimmed_a353_5815_intron = 1747813-1748297;
+  charset trimmed_a353_5816_exon = 1748298-1748553;
+  charset trimmed_a353_5816_intron = 1748554-1749992;
+  charset trimmed_a353_5822_exon = 1749993-1750473;
+  charset trimmed_a353_5822_intron = 1750474-1750770;
+  charset trimmed_a353_5840_exon = 1750771-1751574;
+  charset trimmed_a353_5840_intron = 1751575-1751926;
+  charset trimmed_a353_5841_exon = 1751927-1752439;
+  charset trimmed_a353_5841_intron = 1752440-1754856;
+  charset trimmed_a353_5842_exon = 1754857-1755023;
+  charset trimmed_a353_5842_intron = 1755024-1755371;
+  charset trimmed_a353_5843_exon = 1755372-1755677;
+  charset trimmed_a353_5843_intron = 1755678-1756442;
+  charset trimmed_a353_5849_exon = 1756443-1756830;
+  charset trimmed_a353_5849_intron = 1756831-1757188;
+  charset trimmed_a353_5853_exon = 1757189-1757788;
+  charset trimmed_a353_5853_intron = 1757789-1758122;
+  charset trimmed_a353_5857_exon = 1758123-1758779;
+  charset trimmed_a353_5857_intron = 1758780-1759422;
+  charset trimmed_a353_5858_exon = 1759423-1760052;
+  charset trimmed_a353_5858_intron = 1760053-1762048;
+  charset trimmed_a353_5865_exon = 1762049-1763295;
+  charset trimmed_a353_5865_intron = 1763296-1766514;
+  charset trimmed_a353_5866_exon = 1766515-1767006;
+  charset trimmed_a353_5866_intron = 1767007-1767425;
+  charset trimmed_a353_5870_exon = 1767426-1767857;
+  charset trimmed_a353_5870_intron = 1767858-1768731;
+  charset trimmed_a353_5893_exon = 1768732-1769504;
+  charset trimmed_a353_5894_exon = 1769505-1769732;
+  charset trimmed_a353_5894_intron = 1769733-1770260;
+  charset trimmed_a353_5899_exon = 1770261-1772035;
+  charset trimmed_a353_5899_intron = 1772036-1773705;
+  charset trimmed_a353_5910_exon = 1773706-1774353;
+  charset trimmed_a353_5910_intron = 1774354-1774442;
+  charset trimmed_a353_5918_exon = 1774443-1774799;
+  charset trimmed_a353_5918_intron = 1774800-1775506;
+  charset trimmed_a353_5919_exon = 1775507-1775938;
+  charset trimmed_a353_5919_intron = 1775939-1776117;
+  charset trimmed_a353_5921_exon = 1776118-1778013;
+  charset trimmed_a353_5921_intron = 1778014-1779634;
+  charset trimmed_a353_5922_exon = 1779635-1780977;
+  charset trimmed_a353_5922_intron = 1780978-1785177;
+  charset trimmed_a353_5926_exon = 1785178-1785477;
+  charset trimmed_a353_5926_intron = 1785478-1787247;
+  charset trimmed_a353_5936_exon = 1787248-1787342;
+  charset trimmed_a353_5936_intron = 1787343-1789021;
+  charset trimmed_a353_5940_exon = 1789022-1789714;
+  charset trimmed_a353_5941_exon = 1789715-1789867;
+  charset trimmed_a353_5942_exon = 1789868-1790366;
+  charset trimmed_a353_5942_intron = 1790367-1790525;
+  charset trimmed_a353_5943_exon = 1790526-1792133;
+  charset trimmed_a353_5943_intron = 1792134-1794236;
+  charset trimmed_a353_5944_exon = 1794237-1794803;
+  charset trimmed_a353_5944_intron = 1794804-1795716;
+  charset trimmed_a353_5945_exon = 1795717-1796324;
+  charset trimmed_a353_5945_intron = 1796325-1797589;
+  charset trimmed_a353_5949_exon = 1797590-1798054;
+  charset trimmed_a353_5949_intron = 1798055-1799693;
+  charset trimmed_a353_5950_exon = 1799694-1800248;
+  charset trimmed_a353_5950_intron = 1800249-1802015;
+  charset trimmed_a353_5958_exon = 1802016-1802360;
+  charset trimmed_a353_5960_exon = 1802361-1803329;
+  charset trimmed_a353_5960_intron = 1803330-1803786;
+  charset trimmed_a353_5968_exon = 1803787-1804033;
+  charset trimmed_a353_5968_intron = 1804034-1804310;
+  charset trimmed_a353_5974_exon = 1804311-1804817;
+  charset trimmed_a353_5974_intron = 1804818-1806146;
+  charset trimmed_a353_5977_exon = 1806147-1806623;
+  charset trimmed_a353_5977_intron = 1806624-1807053;
+  charset trimmed_a353_5980_exon = 1807054-1807359;
+  charset trimmed_a353_5980_intron = 1807360-1807632;
+  charset trimmed_a353_5981_exon = 1807633-1808463;
+  charset trimmed_a353_5981_intron = 1808464-1809576;
+  charset trimmed_a353_5990_exon = 1809577-1809987;
+  charset trimmed_a353_5990_intron = 1809988-1810364;
+  charset trimmed_a353_6000_exon = 1810365-1810844;
+  charset trimmed_a353_6000_intron = 1810845-1812093;
+  charset trimmed_a353_6003_exon = 1812094-1812321;
+  charset trimmed_a353_6004_exon = 1812322-1813173;
+  charset trimmed_a353_6004_intron = 1813174-1814077;
+  charset trimmed_a353_6016_exon = 1814078-1814947;
+  charset trimmed_a353_6016_intron = 1814948-1815807;
+  charset trimmed_a353_6026_exon = 1815808-1816444;
+  charset trimmed_a353_6026_intron = 1816445-1817457;
+  charset trimmed_a353_6029_exon = 1817458-1817919;
+  charset trimmed_a353_6029_intron = 1817920-1819227;
+  charset trimmed_a353_6034_exon = 1819228-1819552;
+  charset trimmed_a353_6034_intron = 1819553-1820802;
+  charset trimmed_a353_6036_exon = 1820803-1821886;
+  charset trimmed_a353_6036_intron = 1821887-1822060;
+  charset trimmed_a353_6038_exon = 1822061-1822696;
+  charset trimmed_a353_6038_intron = 1822697-1823782;
+  charset trimmed_a353_6041_exon = 1823783-1824825;
+  charset trimmed_a353_6041_intron = 1824826-1825047;
+  charset trimmed_a353_6048_exon = 1825048-1825353;
+  charset trimmed_a353_6048_intron = 1825354-1826131;
+  charset trimmed_a353_6050_exon = 1826132-1826674;
+  charset trimmed_a353_6050_intron = 1826675-1827015;
+  charset trimmed_a353_6056_exon = 1827016-1827219;
+  charset trimmed_a353_6064_exon = 1827220-1827567;
+  charset trimmed_a353_6064_intron = 1827568-1828412;
+  charset trimmed_a353_6068_exon = 1828413-1828652;
+  charset trimmed_a353_6072_exon = 1828653-1828958;
+  charset trimmed_a353_6072_intron = 1828959-1829925;
+  charset trimmed_a353_6110_exon = 1829926-1830249;
+  charset trimmed_a353_6114_exon = 1830250-1830552;
+  charset trimmed_a353_6119_exon = 1830553-1832742;
+  charset trimmed_a353_6119_intron = 1832743-1833223;
+  charset trimmed_a353_6128_exon = 1833224-1833583;
+  charset trimmed_a353_6128_intron = 1833584-1833897;
+  charset trimmed_a353_6130_exon = 1833898-1834254;
+  charset trimmed_a353_6130_intron = 1834255-1835156;
+  charset trimmed_a353_6148_exon = 1835157-1835519;
+  charset trimmed_a353_6148_intron = 1835520-1836234;
+  charset trimmed_a353_6150_exon = 1836235-1836570;
+  charset trimmed_a353_6150_intron = 1836571-1837206;
+  charset trimmed_a353_6164_exon = 1837207-1837536;
+  charset trimmed_a353_6164_intron = 1837537-1838453;
+  charset trimmed_a353_6176_exon = 1838454-1838831;
+  charset trimmed_a353_6176_intron = 1838832-1841331;
+  charset trimmed_a353_6198_exon = 1841332-1841469;
+  charset trimmed_a353_6216_exon = 1841470-1842033;
+  charset trimmed_a353_6216_intron = 1842034-1842513;
+  charset trimmed_a353_6221_exon = 1842514-1843059;
+  charset trimmed_a353_6227_exon = 1843060-1843650;
+  charset trimmed_a353_6227_intron = 1843651-1845152;
+  charset trimmed_a353_6238_exon = 1845153-1845652;
+  charset trimmed_a353_6238_intron = 1845653-1846669;
+  charset trimmed_a353_6258_exon = 1846670-1847416;
+  charset trimmed_a353_6258_intron = 1847417-1848859;
+  charset trimmed_a353_6265_exon = 1848860-1848999;
+  charset trimmed_a353_6270_exon = 1849000-1849332;
+  charset trimmed_a353_6270_intron = 1849333-1850917;
+  charset trimmed_a353_6274_exon = 1850918-1851154;
+  charset trimmed_a353_6274_intron = 1851155-1852341;
+  charset trimmed_a353_6282_exon = 1852342-1852699;
+  charset trimmed_a353_6282_intron = 1852700-1852961;
+  charset trimmed_a353_6295_exon = 1852962-1854161;
+  charset trimmed_a353_6295_intron = 1854162-1854412;
+  charset trimmed_a353_6298_exon = 1854413-1854933;
+  charset trimmed_a353_6298_intron = 1854934-1856071;
+  charset trimmed_a353_6299_exon = 1856072-1856497;
+  charset trimmed_a353_6299_intron = 1856498-1856718;
+  charset trimmed_a353_6303_exon = 1856719-1857336;
+  charset trimmed_a353_6303_intron = 1857337-1858575;
+  charset trimmed_a353_6318_exon = 1858576-1859901;
+  charset trimmed_a353_6318_intron = 1859902-1862048;
+  charset trimmed_a353_6366_exon = 1862049-1862174;
+  charset trimmed_a353_6366_intron = 1862175-1864297;
+  charset trimmed_a353_6373_exon = 1864298-1865095;
+  charset trimmed_a353_6373_intron = 1865096-1866136;
+  charset trimmed_a353_6376_exon = 1866137-1866490;
+  charset trimmed_a353_6376_intron = 1866491-1868083;
+  charset trimmed_a353_6378_exon = 1868084-1869123;
+  charset trimmed_a353_6378_intron = 1869124-1869559;
+  charset trimmed_a353_6379_exon = 1869560-1869850;
+  charset trimmed_a353_6379_intron = 1869851-1870914;
+  charset trimmed_a353_6383_exon = 1870915-1871923;
+  charset trimmed_a353_6383_intron = 1871924-1872200;
+  charset trimmed_a353_6384_exon = 1872201-1872614;
+  charset trimmed_a353_6384_intron = 1872615-1873203;
+  charset trimmed_a353_6387_exon = 1873204-1874004;
+  charset trimmed_a353_6389_exon = 1874005-1874408;
+  charset trimmed_a353_6389_intron = 1874409-1878816;
+  charset trimmed_a353_6398_exon = 1878817-1878945;
+  charset trimmed_a353_6398_intron = 1878946-1879566;
+  charset trimmed_a353_6401_exon = 1879567-1880103;
+  charset trimmed_a353_6404_exon = 1880104-1880400;
+  charset trimmed_a353_6404_intron = 1880401-1882035;
+  charset trimmed_a353_6405_exon = 1882036-1882329;
+  charset trimmed_a353_6405_intron = 1882330-1884855;
+  charset trimmed_a353_6406_exon = 1884856-1885089;
+  charset trimmed_a353_6406_intron = 1885090-1885978;
+  charset trimmed_a353_6407_exon = 1885979-1886230;
+  charset trimmed_a353_6407_intron = 1886231-1886578;
+  charset trimmed_a353_6412_exon = 1886579-1886809;
+  charset trimmed_a353_6412_intron = 1886810-1887633;
+  charset trimmed_a353_6420_exon = 1887634-1888239;
+  charset trimmed_a353_6420_intron = 1888240-1889643;
+  charset trimmed_a353_6430_exon = 1889644-1889827;
+  charset trimmed_a353_6430_intron = 1889828-1890452;
+  charset trimmed_a353_6432_exon = 1890453-1890836;
+  charset trimmed_a353_6432_intron = 1890837-1891399;
+  charset trimmed_a353_6439_exon = 1891400-1891814;
+  charset trimmed_a353_6439_intron = 1891815-1892879;
+  charset trimmed_a353_6447_exon = 1892880-1893281;
+  charset trimmed_a353_6447_intron = 1893282-1893503;
+  charset trimmed_a353_6448_exon = 1893504-1893886;
+  charset trimmed_a353_6448_intron = 1893887-1894503;
+  charset trimmed_a353_6449_exon = 1894504-1894689;
+  charset trimmed_a353_6454_exon = 1894690-1895272;
+  charset trimmed_a353_6454_intron = 1895273-1895738;
+  charset trimmed_a353_6457_exon = 1895739-1896106;
+  charset trimmed_a353_6458_exon = 1896107-1896641;
+  charset trimmed_a353_6458_intron = 1896642-1897419;
+  charset trimmed_a353_6459_exon = 1897420-1898170;
+  charset trimmed_a353_6459_intron = 1898171-1898793;
+  charset trimmed_a353_6460_exon = 1898794-1899393;
+  charset trimmed_a353_6462_exon = 1899394-1900110;
+  charset trimmed_a353_6462_intron = 1900111-1901810;
+  charset trimmed_a353_6483_exon = 1901811-1902062;
+  charset trimmed_a353_6483_intron = 1902063-1902471;
+  charset trimmed_a353_6487_exon = 1902472-1903419;
+  charset trimmed_a353_6487_intron = 1903420-1905389;
+  charset trimmed_a353_6488_exon = 1905390-1905662;
+  charset trimmed_a353_6488_intron = 1905663-1906067;
+  charset trimmed_a353_6492_exon = 1906068-1906448;
+  charset trimmed_a353_6494_exon = 1906449-1907693;
+  charset trimmed_a353_6494_intron = 1907694-1909149;
+  charset trimmed_a353_6496_exon = 1909150-1909498;
+  charset trimmed_a353_6496_intron = 1909499-1910260;
+  charset trimmed_a353_6498_exon = 1910261-1910539;
+  charset trimmed_a353_6506_exon = 1910540-1910815;
+  charset trimmed_a353_6506_intron = 1910816-1911303;
+  charset trimmed_a353_6507_exon = 1911304-1911609;
+  charset trimmed_a353_6507_intron = 1911610-1912413;
+  charset trimmed_a353_6526_exon = 1912414-1912638;
+  charset trimmed_a353_6526_intron = 1912639-1913176;
+  charset trimmed_a353_6527_exon = 1913177-1913879;
+  charset trimmed_a353_6527_intron = 1913880-1914523;
+  charset trimmed_a353_6528_exon = 1914524-1914892;
+  charset trimmed_a353_6528_intron = 1914893-1915054;
+  charset trimmed_a353_6531_exon = 1915055-1915457;
+  charset trimmed_a353_6531_intron = 1915458-1915800;
+  charset trimmed_a353_6532_exon = 1915801-1916010;
+  charset trimmed_a353_6532_intron = 1916011-1916660;
+  charset trimmed_a353_6533_exon = 1916661-1917407;
+  charset trimmed_a353_6533_intron = 1917408-1917540;
+  charset trimmed_a353_6538_exon = 1917541-1918034;
+  charset trimmed_a353_6538_intron = 1918035-1918516;
+  charset trimmed_a353_6540_exon = 1918517-1918648;
+  charset trimmed_a353_6540_intron = 1918649-1919310;
+  charset trimmed_a353_6544_exon = 1919311-1921539;
+  charset trimmed_a353_6544_intron = 1921540-1924277;
+  charset trimmed_a353_6550_exon = 1924278-1924646;
+  charset trimmed_a353_6550_intron = 1924647-1925014;
+  charset trimmed_a353_6552_exon = 1925015-1925359;
+  charset trimmed_a353_6552_intron = 1925360-1926201;
+  charset trimmed_a353_6557_exon = 1926202-1926360;
+  charset trimmed_a353_6559_exon = 1926361-1926741;
+  charset trimmed_a353_6559_intron = 1926742-1927261;
+  charset trimmed_a353_6563_exon = 1927262-1927500;
+  charset trimmed_a353_6563_intron = 1927501-1927513;
+  charset trimmed_a353_6565_exon = 1927514-1927761;
+  charset trimmed_a353_6565_intron = 1927762-1928358;
+  charset trimmed_a353_6570_exon = 1928359-1928808;
+  charset trimmed_a353_6570_intron = 1928809-1928974;
+  charset trimmed_a353_6572_exon = 1928975-1929522;
+  charset trimmed_a353_6601_exon = 1929523-1930077;
+  charset trimmed_a353_6601_intron = 1930078-1930362;
+  charset trimmed_a353_6620_exon = 1930363-1930866;
+  charset trimmed_a353_6631_exon = 1930867-1931513;
+  charset trimmed_a353_6636_exon = 1931514-1932134;
+  charset trimmed_a353_6636_intron = 1932135-1933797;
+  charset trimmed_a353_6641_exon = 1933798-1934364;
+  charset trimmed_a353_6649_exon = 1934365-1934667;
+  charset trimmed_a353_6649_intron = 1934668-1935155;
+  charset trimmed_a353_6660_exon = 1935156-1935806;
+  charset trimmed_a353_6660_intron = 1935807-1937026;
+  charset trimmed_a353_6667_exon = 1937027-1937935;
+  charset trimmed_a353_6667_intron = 1937936-1938122;
+  charset trimmed_a353_6679_exon = 1938123-1938461;
+  charset trimmed_a353_6679_intron = 1938462-1938801;
+  charset trimmed_a353_6685_exon = 1938802-1939437;
+  charset trimmed_a353_6685_intron = 1939438-1940165;
+  charset trimmed_a353_6689_exon = 1940166-1940378;
+  charset trimmed_a353_6689_intron = 1940379-1941826;
+  charset trimmed_a353_6705_exon = 1941827-1942054;
+  charset trimmed_a353_6713_exon = 1942055-1942608;
+  charset trimmed_a353_6713_intron = 1942609-1942773;
+  charset trimmed_a353_6717_exon = 1942774-1943973;
+  charset trimmed_a353_6717_intron = 1943974-1947013;
+  charset trimmed_a353_6732_exon = 1947014-1947187;
+  charset trimmed_a353_6733_exon = 1947188-1947328;
+  charset trimmed_a353_6733_intron = 1947329-1947960;
+  charset trimmed_a353_6738_exon = 1947961-1948155;
+  charset trimmed_a353_6738_intron = 1948156-1948558;
+  charset trimmed_a353_6746_exon = 1948559-1948633;
+  charset trimmed_a353_6779_exon = 1948634-1949120;
+  charset trimmed_a353_6779_intron = 1949121-1950137;
+  charset trimmed_a353_6780_exon = 1950138-1950374;
+  charset trimmed_a353_6780_intron = 1950375-1950660;
+  charset trimmed_a353_6782_exon = 1950661-1950906;
+  charset trimmed_a353_6782_intron = 1950907-1951405;
+  charset trimmed_a353_6785_exon = 1951406-1951645;
+  charset trimmed_a353_6791_exon = 1951646-1951957;
+  charset trimmed_a353_6791_intron = 1951958-1953490;
+  charset trimmed_a353_6792_exon = 1953491-1954032;
+  charset trimmed_a353_6792_intron = 1954033-1954234;
+  charset trimmed_a353_6797_exon = 1954235-1954576;
+  charset trimmed_a353_6797_intron = 1954577-1954662;
+  charset trimmed_a353_6825_exon = 1954663-1955013;
+  charset trimmed_a353_6825_intron = 1955014-1955682;
+  charset trimmed_a353_6848_exon = 1955683-1956012;
+  charset trimmed_a353_6848_intron = 1956013-1956203;
+  charset trimmed_a353_6854_exon = 1956204-1956849;
+  charset trimmed_a353_6859_exon = 1956850-1957722;
+  charset trimmed_a353_6859_intron = 1957723-1959635;
+  charset trimmed_a353_6860_exon = 1959636-1960265;
+  charset trimmed_a353_6860_intron = 1960266-1961173;
+  charset trimmed_a353_6864_exon = 1961174-1961395;
+  charset trimmed_a353_6864_intron = 1961396-1961961;
+  charset trimmed_a353_6865_exon = 1961962-1962513;
+  charset trimmed_a353_6865_intron = 1962514-1963321;
+  charset trimmed_a353_6882_exon = 1963322-1964044;
+  charset trimmed_a353_6882_intron = 1964045-1965322;
+  charset trimmed_a353_6883_exon = 1965323-1965745;
+  charset trimmed_a353_6883_intron = 1965746-1966000;
+  charset trimmed_a353_6886_exon = 1966001-1966108;
+  charset trimmed_a353_6893_exon = 1966109-1966441;
+  charset trimmed_a353_6893_intron = 1966442-1967328;
+  charset trimmed_a353_6909_exon = 1967329-1967724;
+  charset trimmed_a353_6909_intron = 1967725-1969433;
+  charset trimmed_a353_6913_exon = 1969434-1970162;
+  charset trimmed_a353_6913_intron = 1970163-1973349;
+  charset trimmed_a353_6914_exon = 1973350-1974093;
+  charset trimmed_a353_6914_intron = 1974094-1975039;
+  charset trimmed_a353_6924_exon = 1975040-1976083;
+  charset trimmed_a353_6924_intron = 1976084-1978167;
+  charset trimmed_a353_6933_exon = 1978168-1978746;
+  charset trimmed_a353_6946_exon = 1978747-1978998;
+  charset trimmed_a353_6947_exon = 1978999-1980210;
+  charset trimmed_a353_6947_intron = 1980211-1982125;
+  charset trimmed_a353_6954_exon = 1982126-1982260;
+  charset trimmed_a353_6954_intron = 1982261-1982718;
+  charset trimmed_a353_6955_exon = 1982719-1982949;
+  charset trimmed_a353_6958_exon = 1982950-1983345;
+  charset trimmed_a353_6958_intron = 1983346-1983894;
+  charset trimmed_a353_6961_exon = 1983895-1984608;
+  charset trimmed_a353_6961_intron = 1984609-1985698;
+  charset trimmed_a353_6962_exon = 1985699-1985881;
+  charset trimmed_a353_6968_exon = 1985882-1986309;
+  charset trimmed_a353_6968_intron = 1986310-1987383;
+  charset trimmed_a353_6969_exon = 1987384-1987671;
+  charset trimmed_a353_6977_exon = 1987672-1987830;
+  charset trimmed_a353_6978_exon = 1987831-1988106;
+  charset trimmed_a353_6978_intron = 1988107-1988341;
+  charset trimmed_a353_6979_exon = 1988342-1989061;
+  charset trimmed_a353_6992_exon = 1989062-1989256;
+  charset trimmed_a353_6992_intron = 1989257-1991596;
+  charset trimmed_a353_6995_exon = 1991597-1991683;
+  charset trimmed_a353_7013_exon = 1991684-1991956;
+  charset trimmed_a353_7021_exon = 1991957-1992631;
+  charset trimmed_a353_7021_intron = 1992632-1993388;
+  charset trimmed_a353_7024_exon = 1993389-1993598;
+  charset trimmed_a353_7024_intron = 1993599-1994332;
+  charset trimmed_a353_7028_exon = 1994333-1994539;
+  charset trimmed_a353_7029_exon = 1994540-1995303;
+  charset trimmed_a353_7029_intron = 1995304-1996207;
+  charset trimmed_a353_7067_exon = 1996208-1996477;
+  charset trimmed_a353_7111_exon = 1996478-1996813;
+  charset trimmed_a353_7111_intron = 1996814-1997504;
+  charset trimmed_a353_7128_exon = 1997505-1998483;
+  charset trimmed_a353_7128_intron = 1998484-1998895;
+  charset trimmed_a353_7135_exon = 1998896-1999024;
+  charset trimmed_a353_7136_exon = 1999025-1999321;
+  charset trimmed_a353_7136_intron = 1999322-1999507;
+  charset trimmed_a353_7141_exon = 1999508-1999843;
+  charset trimmed_a353_7141_intron = 1999844-2000076;
+  charset trimmed_a353_7174_exon = 2000077-2001474;
+  charset trimmed_a353_7174_intron = 2001475-2001876;
+  charset trimmed_a353_7194_exon = 2001877-2002233;
+  charset trimmed_a353_7241_exon = 2002234-2002467;
+  charset trimmed_a353_7273_exon = 2002468-2002806;
+  charset trimmed_a353_7273_intron = 2002807-2003554;
+  charset trimmed_a353_7279_exon = 2003555-2004450;
+  charset trimmed_a353_7279_intron = 2004451-2005977;
+  charset trimmed_a353_7296_exon = 2005978-2006142;
+  charset trimmed_a353_7313_exon = 2006143-2006976;
+  charset trimmed_a353_7313_intron = 2006977-2008034;
+  charset trimmed_a353_7324_exon = 2008035-2008529;
+  charset trimmed_a353_7324_intron = 2008530-2009388;
+  charset trimmed_a353_7331_exon = 2009389-2009487;
+  charset trimmed_a353_7331_intron = 2009488-2009996;
+  charset trimmed_a353_7333_exon = 2009997-2010395;
+  charset trimmed_a353_7336_exon = 2010396-2010839;
+  charset trimmed_a353_7361_exon = 2010840-2011283;
+  charset trimmed_a353_7363_exon = 2011284-2011668;
+  charset trimmed_a353_7363_intron = 2011669-2012294;
+  charset trimmed_a353_7367_exon = 2012295-2012393;
+  charset trimmed_a353_7371_exon = 2012394-2012531;
+  charset trimmed_a353_7572_exon = 2012532-2013278;
+  charset trimmed_a353_7572_intron = 2013279-2013864;
+  charset trimmed_a353_7583_exon = 2013865-2014119;
+  charset trimmed_a353_7628_exon = 2014120-2014362;
+  charpartition mymodels =
+    GTR+I{0.196502}+G4{0.827473}: trimmed_344_AT1G01180_exon{1.56803},
+    GTR+I{9.20755e-18}+G4{1.90342}: trimmed_344_AT1G01180_intron{3.12089},
+    GTR+I{0.198819}+G4{0.516373}: trimmed_344_AT1G01880_exon{4.64155},
+    GTR+I{4.11246e-26}+G4{0.854606}: trimmed_344_AT1G01880_intron{5.7748},
+    GTR+I{0.11506}+G4{0.602315}: trimmed_344_AT1G02020_exon{4.74321},
+    GTR+I{1.17627e-38}+G4{1.93213}: trimmed_344_AT1G02020_intron{5.92341},
+    GTR+I{0.0923838}+G4{0.648655}: trimmed_344_AT1G03000_exon{3.74598},
+    GTR+I{1.35893e-16}+G4{1.57723}: trimmed_344_AT1G03000_intron{3.78434},
+    GTR+I{0.255139}+G4{0.925609}: trimmed_344_AT1G03750_exon{1.30376},
+    GTR+I{0.172067}+G4{1.12119}: trimmed_344_AT1G03750_intron{0.808616},
+    GTR+I{0.222899}+G4{0.904419}: trimmed_344_AT1G04110_exon{1.87187},
+    GTR+I{0.00396227}+G4{1.98958}: trimmed_344_AT1G04110_intron{3.61636},
+    GTR+I{0.157211}+G4{0.564462}: trimmed_344_AT1G04640_exon{4.87298},
+    GTR+I{0.00759122}+G4{2.43234}: trimmed_344_AT1G04640_intron{9.87923},
+    GTR+I{0.280951}+G4{0.940061}: trimmed_344_AT1G05590_exon{3.88457},
+    GTR+I{1.0317e-23}+G4{1.82796}: trimmed_344_AT1G05590_intron{8.97114},
+    GTR+I{0.185175}+G4{0.460334}: trimmed_344_AT1G05910_exon{8.22653},
+    GTR+I{1.36521e-07}+G4{1.14345}: trimmed_344_AT1G05910_intron{7.83692},
+    GTR+I{0.378137}+G4{0.910223}: trimmed_344_AT1G05940_exon{1.4877},
+    GTR+I{7.17731e-08}+G4{1.87769}: trimmed_344_AT1G05940_intron{3.58924},
+    GTR+I{0.146007}+G4{0.980633}: trimmed_344_AT1G07040_exon{1.82666},
+    GTR+I{1.60719e-55}+G4{0.848563}: trimmed_344_AT1G07040_intron{8.36929},
+    GTR+I{0.230563}+G4{0.599612}: trimmed_344_AT1G07590_exon{2.67924},
+    GTR+I{5.48167e-50}+G4{1.69276}: trimmed_344_AT1G07590_intron{3.47514},
+    GTR+I{0.210798}+G4{0.7579}: trimmed_344_AT1G07970_exon{2.69232},
+    GTR+I{7.76097e-47}+G4{1.05239}: trimmed_344_AT1G07970_intron{7.94885},
+    GTR+I{0.198529}+G4{0.883784}: trimmed_344_AT1G08460_exon{1.96563},
+    GTR+I{7.60441e-40}+G4{1.00565}: trimmed_344_AT1G08460_intron{8.9002},
+    GTR+I{0.129676}+G4{0.309908}: trimmed_344_AT1G09010_exon{4.88762},
+    GTR+I{2.335e-30}+G4{1.23182}: trimmed_344_AT1G09010_intron{8.70116},
+    GTR+I{0.109416}+G4{1.08639}: trimmed_344_AT1G09680_exon{2.06183},
+    GTR+I{1.78672e-16}+G4{1.47971}: trimmed_344_AT1G09680_intron{4.15909},
+    GTR+I{0.215126}+G4{1.14872}: trimmed_344_AT1G10460_exon{1.83472},
+    GTR+I{2.33772e-07}+G4{1.81637}: trimmed_344_AT1G10460_intron{3.83412},
+    GTR+I{0.197097}+G4{0.927941}: trimmed_344_AT1G11090_exon{2.0548},
+    GTR+I{0.00241773}+G4{2.956}: trimmed_344_AT1G11090_intron{4.75709},
+    GTR+I{0.188289}+G4{0.708308}: trimmed_344_AT1G11290_exon{2.39411},
+    GTR+I{1.42536e-217}+G4{2.20465}: trimmed_344_AT1G11290_intron{16.0967},
+    GTR+I{0.353231}+G4{0.804152}: trimmed_344_AT1G11545_exon{2.13892},
+    GTR+I{3.04575e-34}+G4{1.14724}: trimmed_344_AT1G11545_intron{5.95976},
+    GTR+I{0.156963}+G4{0.712435}: trimmed_344_AT1G11870_exon{3.01073},
+    GTR+I{1.70028e-08}+G4{1.58566}: trimmed_344_AT1G11870_intron{3.06017},
+    GTR+I{0.302281}+G4{0.795603}: trimmed_344_AT1G15440_exon{2.23823},
+    GTR+I{2.7798e-31}+G4{1.15755}: trimmed_344_AT1G15440_intron{5.26778},
+    GTR+I{0.1823}+G4{0.960733}: trimmed_344_AT1G15510_exon{1.49464},
+    GTR+I{1.36044e-06}+G4{1.49223}: trimmed_344_AT1G15510_intron{3.18692},
+    GTR+I{0.260537}+G4{0.915974}: trimmed_344_AT1G15980_exon{2.06314},
+    GTR+I{3.49576e-18}+G4{2.10815}: trimmed_344_AT1G15980_intron{3.41718},
+    GTR+I{0.391549}+G4{0.871838}: trimmed_344_AT1G16180_exon{1.30112},
+    GTR+I{8.4317e-13}+G4{1.37992}: trimmed_344_AT1G16180_intron{2.86499},
+    GTR+I{0.194214}+G4{0.868544}: trimmed_344_AT1G17160_exon{1.97605},
+    GTR+I{8.64725e-06}+G4{1.07374}: trimmed_344_AT1G17160_intron{5.18414},
+    GTR+I{0.256724}+G4{0.916433}: trimmed_344_AT1G18480_exon{2.63178},
+    GTR+I{0}+G4{3.02065}: trimmed_344_AT1G18480_intron{10.9305},
+    GTR+I{0.185285}+G4{0.983097}: trimmed_344_AT1G19290_exon{1.70176},
+    GTR+I{1.72293e-27}+G4{0.915379}: trimmed_344_AT1G19290_intron{5.89369},
+    GTR+I{0.160661}+G4{0.795374}: trimmed_344_AT1G19520_exon{2.19499},
+    GTR+I{0.0644096}+G4{1.07244}: trimmed_344_AT1G19520_intron{5.74701},
+    GTR+I{0.320962}+G4{0.80391}: trimmed_344_AT1G20300_exon{1.72929},
+    GTR+I{0.00193763}+G4{2.11909}: trimmed_344_AT1G20300_intron{13.1978},
+    GTR+I{0.113005}+G4{0.446313}: trimmed_344_AT1G20830_exon{4.08284},
+    GTR+I{2.55579e-11}+G4{1.02646}: trimmed_344_AT1G20830_intron{5.11382},
+    GTR+I{0.186158}+G4{0.394018}: trimmed_344_AT1G21370_exon{9.86685},
+    GTR+I{1.74992e-16}+G4{1.44745}: trimmed_344_AT1G21370_intron{6.24651},
+    GTR+I{0.193245}+G4{0.568482}: trimmed_344_AT1G21480_exon{3.31399},
+    GTR+I{1.44825e-09}+G4{1.6299}: trimmed_344_AT1G21480_intron{5.46175},
+    GTR+I{0.204995}+G4{0.796337}: trimmed_344_AT1G21640_exon{1.95456},
+    GTR+I{9.91408e-26}+G4{1.31813}: trimmed_344_AT1G21640_intron{5.18147},
+    GTR+I{0.326407}+G4{0.938312}: trimmed_344_AT1G21790_exon{1.47976},
+    GTR+I{6.32779e-22}+G4{2.10384}: trimmed_344_AT1G21790_intron{5.0561},
+    GTR+I{0.261879}+G4{0.7871}: trimmed_344_AT1G23400_exon{1.86311},
+    GTR+I{3.98197e-61}+G4{1.1665}: trimmed_344_AT1G23400_intron{7.27567},
+    GTR+I{0.132491}+G4{1.06875}: trimmed_344_AT1G24610_exon{2.20823},
+    GTR+I{0.00651149}+G4{1.53221}: trimmed_344_AT1G24610_intron{5.18186},
+    GTR+I{0.177326}+G4{0.717862}: trimmed_344_AT1G25360_exon{2.67724},
+    GTR+I{3.26853e-123}+G4{3.37394}: trimmed_344_AT1G25360_intron{3.06654},
+    GTR+I{0.178935}+G4{0.882625}: trimmed_344_AT1G26460_exon{2.08628},
+    GTR+I{3.26472e-45}+G4{1.39673}: trimmed_344_AT1G26460_intron{5.4883},
+    GTR+I{0.137697}+G4{0.795682}: trimmed_344_AT1G27060_exon{1.97697},
+    GTR+I{5.38007e-30}+G4{1.47926}: trimmed_344_AT1G27060_intron{5.31915},
+    GTR+I{0.110944}+G4{0.813122}: trimmed_344_AT1G28530_exon{2.27514},
+    GTR+I{2.47802e-10}+G4{1.28607}: trimmed_344_AT1G28530_intron{3.34939},
+    GTR+I{0.0696777}+G4{0.783955}: trimmed_344_AT1G28680_exon{2.66829},
+    GTR+I{1.15284e-05}+G4{2.30579}: trimmed_344_AT1G28680_intron{8.20581},
+    GTR+I{0.335471}+G4{1.02155}: trimmed_344_AT1G30000_exon{0.858736},
+    GTR+I{1.16285e-14}+G4{1.47356}: trimmed_344_AT1G30000_intron{3.82536},
+    GTR+I{0.211606}+G4{0.823796}: trimmed_344_AT1G30360_exon{1.9459},
+    GTR+I{5.3788e-13}+G4{1.0798}: trimmed_344_AT1G30360_intron{4.49587},
+    GTR+I{0.145744}+G4{0.98095}: trimmed_344_AT1G30520_exon{1.97984},
+    GTR+I{1.23428e-09}+G4{1.50996}: trimmed_344_AT1G30520_intron{4.90852},
+    GTR+I{0.171217}+G4{0.897688}: trimmed_344_AT1G30960_exon{2.05132},
+    GTR+I{6.12987e-15}+G4{1.47594}: trimmed_344_AT1G30960_intron{6.91147},
+    GTR+I{0.237729}+G4{0.831438}: trimmed_344_AT1G34160_exon{2.39532},
+    GTR+I{2.07047e-06}+G4{1.97831}: trimmed_344_AT1G34160_intron{6.56325},
+    GTR+I{0.236281}+G4{0.50619}: trimmed_344_AT1G34630_exon{3.75727},
+    GTR+I{3.76701e-10}+G4{1.75918}: trimmed_344_AT1G34630_intron{4.50843},
+    GTR+I{0.131391}+G4{0.632924}: trimmed_344_AT1G43580_exon{4.65828},
+    GTR+I{3.37114e-12}+G4{1.23237}: trimmed_344_AT1G43580_intron{7.094},
+    GTR+I{0.25624}+G4{1.29984}: trimmed_344_AT1G44350_exon{2.51354},
+    GTR+I{6.61951e-16}+G4{1.66262}: trimmed_344_AT1G44350_intron{3.85929},
+    GTR+I{0.236341}+G4{0.797662}: trimmed_344_AT1G51965_exon{1.90804},
+    GTR+I{8.6758e-46}+G4{1.34013}: trimmed_344_AT1G51965_intron{12.1904},
+    GTR+I{0.15432}+G4{0.900181}: trimmed_344_AT1G53280_exon{2.764},
+    GTR+I{2.13126e-65}+G4{1.56098}: trimmed_344_AT1G53280_intron{7.74454},
+    GTR+I{0.190589}+G4{0.974732}: trimmed_344_AT1G54350_exon{1.1733},
+    GTR+I{3.49964e-18}+G4{1.42235}: trimmed_344_AT1G54350_intron{5.24143},
+    GTR+I{0.269985}+G4{0.643418}: trimmed_344_AT1G54780_exon{1.49611},
+    GTR+I{0.0260712}+G4{2.20951}: trimmed_344_AT1G54780_intron{3.32493},
+    GTR+I{0.0869311}+G4{1.10268}: trimmed_344_AT1G54990_exon{1.72501},
+    GTR+I{1.08033e-30}+G4{2.33431}: trimmed_344_AT1G54990_intron{3.4246},
+    GTR+I{0.164849}+G4{0.431976}: trimmed_344_AT1G55870_exon{5.04667},
+    GTR+I{6.05999e-39}+G4{0.955104}: trimmed_344_AT1G55870_intron{7.36142},
+    GTR+I{0.18681}+G4{0.957771}: trimmed_344_AT1G56230_exon{2.00117},
+    GTR+I{6.08501e-16}+G4{1.77082}: trimmed_344_AT1G56230_intron{3.99086},
+    GTR+I{0.203116}+G4{0.717583}: trimmed_344_AT1G56570_exon{1.98581},
+    GTR+I{0.0253911}+G4{1.03828}: trimmed_344_AT1G56570_intron{3.86984},
+    GTR+I{0.223506}+G4{0.776053}: trimmed_344_AT1G57770_exon{2.39996},
+    GTR+I{1.18946e-14}+G4{1.24162}: trimmed_344_AT1G57770_intron{6.78949},
+    GTR+I{0.186091}+G4{0.862696}: trimmed_344_AT1G59600_exon{2.65141},
+    GTR+I{7.14737e-19}+G4{1.07487}: trimmed_344_AT1G59600_intron{5.28088},
+    GTR+I{0.164228}+G4{0.972199}: trimmed_344_AT1G59720_exon{1.70573},
+    GTR+I{1.63433e-52}+G4{2.22459}: trimmed_344_AT1G59720_intron{4.6815},
+    GTR+I{0.118482}+G4{0.682961}: trimmed_344_AT1G60770_exon{1.6081},
+    GTR+I{1.0339e-16}+G4{1.55512}: trimmed_344_AT1G60770_intron{4.74702},
+    GTR+I{0.190923}+G4{0.983503}: trimmed_344_AT1G61870_exon{1.76112},
+    GTR+I{2.34978e-142}+G4{4.70859}: trimmed_344_AT1G61870_intron{2.46326},
+    GTR+I{0.119399}+G4{0.798608}: trimmed_344_AT1G62750_exon{4.20898},
+    GTR+I{7.78096e-58}+G4{1.33571}: trimmed_344_AT1G62750_intron{7.84952},
+    GTR+I{0.220979}+G4{0.844169}: trimmed_344_AT1G64890_exon{2.76394},
+    GTR+I{1.55596e-07}+G4{1.33194}: trimmed_344_AT1G64890_intron{1.75518},
+    GTR+I{0.156665}+G4{1.04049}: trimmed_344_AT1G65070_exon{1.62254},
+    GTR+I{1.98239e-05}+G4{1.52881}: trimmed_344_AT1G65070_intron{3.45529},
+    GTR+I{0.232848}+G4{0.63069}: trimmed_344_AT1G67410_exon{3.0377},
+    GTR+I{1.97439e-05}+G4{1.56139}: trimmed_344_AT1G67410_intron{3.39806},
+    GTR+I{0.23519}+G4{0.990877}: trimmed_344_AT1G67570_exon{1.96262},
+    GTR+I{1.81831e-37}+G4{1.69456}: trimmed_344_AT1G67570_intron{4.47913},
+    GTR+I{0.213362}+G4{0.665396}: trimmed_344_AT1G68070_exon{1.92437},
+    GTR+I{0.0170405}+G4{1.6638}: trimmed_344_AT1G68070_intron{7.88708},
+    GTR+I{0.278505}+G4{0.983403}: trimmed_344_AT1G68400_exon{1.9059},
+    GTR+I{0.0342839}+G4{2.14217}: trimmed_344_AT1G68400_intron{4.66198},
+    GTR+I{0.255141}+G4{0.757477}: trimmed_344_AT1G69800_exon{1.86619},
+    GTR+I{9.75992e-13}+G4{1.22701}: trimmed_344_AT1G69800_intron{4.65485},
+    GTR+I{0.341033}+G4{0.798922}: trimmed_344_AT1G69910_exon{2.2504},
+    GTR+I{2.5401e-31}+G4{1.0231}: trimmed_344_AT1G69910_intron{3.34929},
+    GTR+I{0.385902}+G4{0.910639}: trimmed_344_AT1G70330_exon{1.09311},
+    GTR+I{1.11383e-09}+G4{1.31368}: trimmed_344_AT1G70330_intron{3.88708},
+    GTR+I{0.076899}+G4{0.831116}: trimmed_344_AT1G70820_exon{2.12615},
+    GTR+I{7.13356e-05}+G4{1.48293}: trimmed_344_AT1G70820_intron{5.28173},
+    GTR+I{0.254422}+G4{0.563525}: trimmed_344_AT1G71190_exon{3.1091},
+    GTR+I{4.58832e-28}+G4{0.998092}: trimmed_344_AT1G71190_intron{10.2441},
+    GTR+I{0.213481}+G4{0.82083}: trimmed_344_AT1G71240_exon{2.06072},
+    GTR+I{9.18683e-32}+G4{1.19869}: trimmed_344_AT1G71240_intron{5.40398},
+    GTR+I{0.149514}+G4{0.696815}: trimmed_344_AT1G72320_exon{2.62906},
+    GTR+I{5.16211e-09}+G4{1.40854}: trimmed_344_AT1G72320_intron{4.11929},
+    GTR+I{0.103101}+G4{0.99928}: trimmed_344_AT1G73970_exon{1.5289},
+    GTR+I{0.0150592}+G4{0.96238}: trimmed_344_AT1G73970_intron{3.1558},
+    GTR+I{0.192229}+G4{0.740205}: trimmed_344_AT1G74030_exon{2.38743},
+    GTR+I{7.24393e-07}+G4{1.58267}: trimmed_344_AT1G74030_intron{3.34507},
+    GTR+I{0.367625}+G4{0.705908}: trimmed_344_AT1G74470_exon{1.88929},
+    GTR+I{1.65892e-50}+G4{1.25948}: trimmed_344_AT1G74470_intron{8.28576},
+    GTR+I{0.2773}+G4{1.23374}: trimmed_344_AT1G76920_exon{1.41021},
+    GTR+I{4.34292e-21}+G4{1.39493}: trimmed_344_AT1G76920_intron{3.72543},
+    GTR+I{0.199258}+G4{0.842003}: trimmed_344_AT1G77550_exon{1.84465},
+    GTR+I{1.2505e-19}+G4{1.36437}: trimmed_344_AT1G77550_intron{5.29643},
+    GTR+I{0.0861258}+G4{0.829264}: trimmed_344_AT1G78930_exon{2.16794},
+    GTR+I{2.37798e-31}+G4{1.83514}: trimmed_344_AT1G78930_intron{4.80748},
+    GTR+I{0.101905}+G4{0.838338}: trimmed_344_AT1G79190_exon{2.36791},
+    GTR+I{2.71446e-07}+G4{1.15745}: trimmed_344_AT1G79190_intron{2.93433},
+    GTR+I{8.73196e-25}+G4{0.478861}: trimmed_344_AT1G79600_exon{4.02087},
+    GTR+I{7.5691e-15}+G4{2.38437}: trimmed_344_AT1G79600_intron{5.56196},
+    GTR+I{0.194705}+G4{0.610709}: trimmed_344_AT2G01320_exon{3.12759},
+    GTR+I{1.63794e-27}+G4{1.4425}: trimmed_344_AT2G01320_intron{4.92508},
+    GTR+I{0.0561863}+G4{0.800424}: trimmed_344_AT2G01860_exon{3.80187},
+    GTR+I{7.76699e-06}+G4{1.7698}: trimmed_344_AT2G01860_intron{3.239},
+    GTR+I{0.218775}+G4{0.508411}: trimmed_344_AT2G03270_exon{4.95229},
+    GTR+I{2.61494e-13}+G4{1.37933}: trimmed_344_AT2G03270_intron{5.22864},
+    GTR+I{0.131225}+G4{0.835255}: trimmed_344_AT2G04740_exon{1.71548},
+    GTR+I{1.17651e-05}+G4{1.60112}: trimmed_344_AT2G04740_intron{2.33696},
+    GTR+I{0.323049}+G4{0.963683}: trimmed_344_AT2G04850_exon{2.68937},
+    GTR+I{1.70416e-07}+G4{1.42438}: trimmed_344_AT2G04850_intron{6.05705},
+    GTR+I{0.279385}+G4{0.574029}: trimmed_344_AT2G05170_exon{2.2694},
+    GTR+I{1.68706e-09}+G4{2.36161}: trimmed_344_AT2G05170_intron{2.8094},
+    GTR+I{0.192908}+G4{0.872819}: trimmed_344_AT2G13100_exon{2.00569},
+    GTR+I{1.23819e-27}+G4{5.36169}: trimmed_344_AT2G13100_intron{2.24855},
+    GTR+I{0.272834}+G4{0.928256}: trimmed_344_AT2G13840_exon{1.21123},
+    GTR+I{1.28715e-11}+G4{1.04023}: trimmed_344_AT2G13840_intron{3.15125},
+    GTR+I{0.183566}+G4{0.833169}: trimmed_344_AT2G14530_exon{1.86102},
+    GTR+I{1.65928e-21}+G4{1.08077}: trimmed_344_AT2G14530_intron{6.12672},
+    GTR+I{0.121283}+G4{1.09755}: trimmed_344_AT2G15430_exon{2.29118},
+    GTR+I{6.89396e-17}+G4{1.45737}: trimmed_344_AT2G15430_intron{8.16799},
+    GTR+I{0.0889001}+G4{1.07598}: trimmed_344_AT2G15560_exon{1.67881},
+    GTR+I{1.38973e-15}+G4{3.56605}: trimmed_344_AT2G15560_intron{2.88596},
+    GTR+I{0.202019}+G4{0.975362}: trimmed_344_AT2G15630_exon{1.42868},
+    GTR+I{7.38317e-39}+G4{1.5769}: trimmed_344_AT2G15630_intron{7.74951},
+    GTR+I{0.272076}+G4{0.748618}: trimmed_344_AT2G16860_exon{1.70089},
+    GTR+I{2.39203e-45}+G4{1.08675}: trimmed_344_AT2G16860_intron{6.08259},
+    GTR+I{0.282991}+G4{0.97909}: trimmed_344_AT2G17020_exon{1.67707},
+    GTR+I{7.98366e-10}+G4{1.69517}: trimmed_344_AT2G17020_intron{4.9111},
+    GTR+I{0.0708097}+G4{0.682893}: trimmed_344_AT2G17265_exon{3.02776},
+    GTR+I{2.01537e-167}+G4{3.18482}: trimmed_344_AT2G17265_intron{13.0562},
+    GTR+I{0.242248}+G4{0.865921}: trimmed_344_AT2G17670_exon{2.42162},
+    GTR+I{7.39415e-12}+G4{2.05846}: trimmed_344_AT2G17670_intron{6.27899},
+    GTR+I{0.210923}+G4{0.938236}: trimmed_344_AT2G18710_exon{2.00528},
+    GTR+I{1.37595e-08}+G4{1.56343}: trimmed_344_AT2G18710_intron{4.1724},
+    GTR+I{0.140136}+G4{0.312853}: trimmed_344_AT2G18890_exon{8.52084},
+    GTR+I{2.66941e-24}+G4{2.07416}: trimmed_344_AT2G18890_intron{3.96036},
+    GTR+I{0.157059}+G4{0.949362}: trimmed_344_AT2G21710_exon{1.88362},
+    GTR+I{3.59413e-49}+G4{0.961293}: trimmed_344_AT2G21710_intron{10.0341},
+    GTR+I{0.239617}+G4{0.832948}: trimmed_344_AT2G22410_exon{1.63973},
+    GTR+I{0.015374}+G4{1.74113}: trimmed_344_AT2G22410_intron{2.25098},
+    GTR+I{0.310253}+G4{1.01886}: trimmed_344_AT2G22870_exon{1.41382},
+    GTR+I{4.29879e-16}+G4{2.33584}: trimmed_344_AT2G22870_intron{4.55808},
+    GTR+I{0.198087}+G4{0.536693}: trimmed_344_AT2G24830_exon{3.67783},
+    GTR+I{1.85946e-27}+G4{1.65461}: trimmed_344_AT2G24830_intron{5.10648},
+    GTR+I{0.163252}+G4{0.792338}: trimmed_344_AT2G25530_exon{2.4934},
+    GTR+I{2.61469e-20}+G4{1.01498}: trimmed_344_AT2G25530_intron{4.93907},
+    GTR+I{0.201268}+G4{0.741358}: trimmed_344_AT2G25620_exon{2.61721},
+    GTR+I{1.5362e-21}+G4{1.63345}: trimmed_344_AT2G25620_intron{4.1162},
+    GTR+I{0.221694}+G4{0.806069}: trimmed_344_AT2G26700_exon{1.61429},
+    GTR+I{1.88929e-24}+G4{2.54478}: trimmed_344_AT2G26700_intron{4.83729},
+    GTR+I{0.328696}+G4{0.805433}: trimmed_344_AT2G30080_exon{1.80392},
+    GTR+I{0.00298493}+G4{2.1381}: trimmed_344_AT2G30080_intron{6.65941},
+    GTR+I{0.212336}+G4{0.921453}: trimmed_344_AT2G30100_exon{1.65694},
+    GTR+I{7.18965e-28}+G4{1.34579}: trimmed_344_AT2G30100_intron{4.90577},
+    GTR+I{0.20075}+G4{0.964857}: trimmed_344_AT2G31240_exon{1.67306},
+    GTR+I{8.34898e-05}+G4{1.74799}: trimmed_344_AT2G31240_intron{4.14609},
+    GTR+I{0.337646}+G4{1.03764}: trimmed_344_AT2G31880_exon{1.46007},
+    GTR+I{1.54647e-35}+G4{1.72377}: trimmed_344_AT2G31880_intron{3.88233},
+    GTR+I{0.20388}+G4{1.0204}: trimmed_344_AT2G33610_exon{1.47279},
+    GTR+I{1.17208e-11}+G4{1.57047}: trimmed_344_AT2G33610_intron{2.98825},
+    GTR+I{0.219142}+G4{0.896238}: trimmed_344_AT2G33630_exon{1.6564},
+    GTR+I{3.58228e-44}+G4{1.04439}: trimmed_344_AT2G33630_intron{6.48211},
+    GTR+I{0.207869}+G4{0.725299}: trimmed_344_AT2G35130_exon{1.98753},
+    GTR+I{1.46839e-19}+G4{2.14217}: trimmed_344_AT2G35130_intron{4.12143},
+    GTR+I{0.158869}+G4{0.47553}: trimmed_344_AT2G36660_exon{4.22351},
+    GTR+I{7.28201e-24}+G4{1.21385}: trimmed_344_AT2G36660_intron{4.71905},
+    GTR+I{0.11658}+G4{0.938399}: trimmed_344_AT2G36990_exon{2.14584},
+    GTR+I{2.89688e-12}+G4{1.39812}: trimmed_344_AT2G36990_intron{4.4869},
+    GTR+I{0.164716}+G4{0.951731}: trimmed_344_AT2G37230_exon{1.46315},
+    GTR+I{5.9982e-176}+G4{2.71544}: trimmed_344_AT2G37230_intron{12.3966},
+    GTR+I{0.136804}+G4{0.464303}: trimmed_344_AT2G38000_exon{4.57236},
+    GTR+I{1.0426e-13}+G4{1.18688}: trimmed_344_AT2G38000_intron{3.66866},
+    GTR+I{0.32746}+G4{0.807837}: trimmed_344_AT2G38060_exon{3.51126},
+    GTR+I{1.88289e-13}+G4{3.88563}: trimmed_344_AT2G38060_intron{3.20891},
+    GTR+I{0.0610618}+G4{0.727847}: trimmed_344_AT2G39000_exon{3.17928},
+    GTR+I{4.23399e-46}+G4{2.85033}: trimmed_344_AT2G39000_intron{4.98333},
+    GTR+I{0.16871}+G4{0.775162}: trimmed_344_AT2G40190_exon{2.44128},
+    GTR+I{3.1019e-13}+G4{1.89185}: trimmed_344_AT2G40190_intron{5.53133},
+    GTR+I{0.190236}+G4{0.708778}: trimmed_344_AT2G40770_exon{2.72838},
+    GTR+I{2.04799e-13}+G4{1.74261}: trimmed_344_AT2G40770_intron{4.57743},
+    GTR+I{0.255313}+G4{0.918544}: trimmed_344_AT2G42450_exon{1.59716},
+    GTR+I{1.66323e-15}+G4{1.63561}: trimmed_344_AT2G42450_intron{4.9057},
+    GTR+I{0.193645}+G4{0.839464}: trimmed_344_AT2G42700_exon{1.95753},
+    GTR+I{4.06243e-24}+G4{1.86999}: trimmed_344_AT2G42700_intron{3.86136},
+    GTR+I{0.117936}+G4{0.837977}: trimmed_344_AT2G43540_exon{2.58788},
+    GTR+I{1.59134e-55}+G4{4.64314}: trimmed_344_AT2G43540_intron{7.50333},
+    GTR+I{0.205429}+G4{0.85998}: trimmed_344_AT2G44020_exon{1.95078},
+    GTR+I{3.66591e-11}+G4{1.35832}: trimmed_344_AT2G44020_intron{7.73304},
+    GTR+I{0.104665}+G4{1.11594}: trimmed_344_AT2G47330_exon{1.89734},
+    GTR+I{0.0270727}+G4{2.26608}: trimmed_344_AT2G47330_intron{2.55408},
+    GTR+I{0.137304}+G4{0.87593}: trimmed_344_AT2G47680_exon{1.79164},
+    GTR+I{1.13173e-06}+G4{2.4162}: trimmed_344_AT2G47680_intron{2.94062},
+    GTR+I{0.173335}+G4{0.806281}: trimmed_344_AT2G47990_exon{1.92549},
+    GTR+I{1.8464e-30}+G4{2.25654}: trimmed_344_AT2G47990_intron{6.46742},
+    GTR+I{0.337177}+G4{0.995675}: trimmed_344_AT3G01060_exon{1.48619},
+    GTR+I{1.06093e-35}+G4{1.10727}: trimmed_344_AT3G01060_intron{6.04713},
+    GTR+I{0.263388}+G4{0.838637}: trimmed_344_AT3G01480_exon{2.27728},
+    GTR+I{6.06815e-30}+G4{0.77483}: trimmed_344_AT3G01480_intron{6.41524},
+    GTR+I{0.186418}+G4{0.650332}: trimmed_344_AT3G01720_exon{2.41265},
+    GTR+I{0.0126068}+G4{0.534403}: trimmed_344_AT3G01720_intron{6.60403},
+    GTR+I{0.227507}+G4{0.843884}: trimmed_344_AT3G02450_exon{1.75148},
+    GTR+I{2.53849e-26}+G4{1.45012}: trimmed_344_AT3G02450_intron{4.42783},
+    GTR+I{0.0395205}+G4{0.753162}: trimmed_344_AT3G02760_exon{3.01206},
+    GTR+I{5.3607e-68}+G4{2.56178}: trimmed_344_AT3G02760_intron{9.50962},
+    GTR+I{0.246948}+G4{1.0192}: trimmed_344_AT3G04260_exon{1.31916},
+    GTR+I{1.04482e-21}+G4{1.45909}: trimmed_344_AT3G04260_intron{4.73405},
+    GTR+I{0.336258}+G4{0.888503}: trimmed_344_AT3G04880_exon{2.39808},
+    GTR+I{0.000110465}+G4{1.78036}: trimmed_344_AT3G04880_intron{7.19318},
+    GTR+I{0.203214}+G4{0.82296}: trimmed_344_AT3G05340_exon{2.30681},
+    GTR+I{2.16458e-57}+G4{3.06652}: trimmed_344_AT3G05340_intron{4.90052},
+    GTR+I{0.172171}+G4{0.507637}: trimmed_344_AT3G05410_exon{5.60032},
+    GTR+I{0.0103303}+G4{1.26621}: trimmed_344_AT3G05410_intron{7.95498},
+    GTR+I{0.244771}+G4{0.753337}: trimmed_344_AT3G06510_exon{2.09567},
+    GTR+I{1.63448e-11}+G4{0.981409}: trimmed_344_AT3G06510_intron{4.64763},
+    GTR+I{0.219951}+G4{0.915628}: trimmed_344_AT3G07140_exon{1.95559},
+    GTR+I{3.31411e-43}+G4{1.84535}: trimmed_344_AT3G07140_intron{4.92811},
+    GTR+I{0.186348}+G4{1.03701}: trimmed_344_AT3G08010_exon{1.64572},
+    GTR+I{3.79822e-19}+G4{1.41332}: trimmed_344_AT3G08010_intron{4.87414},
+    GTR+I{0.143821}+G4{0.259783}: trimmed_344_AT3G08760_exon{6.98517},
+    GTR+I{6.87131e-09}+G4{2.52538}: trimmed_344_AT3G08760_intron{3.21972},
+    GTR+I{0.156155}+G4{0.761701}: trimmed_344_AT3G09210_exon{2.51761},
+    GTR+I{3.23085e-21}+G4{1.06454}: trimmed_344_AT3G09210_intron{4.77774},
+    GTR+I{0.177782}+G4{0.840115}: trimmed_344_AT3G09650_exon{1.37619},
+    GTR+I{8.86726e-43}+G4{0.846845}: trimmed_344_AT3G09650_intron{6.75598},
+    GTR+I{0.189931}+G4{0.792621}: trimmed_344_AT3G10150_exon{2.57559},
+    GTR+I{1.63882e-47}+G4{1.20301}: trimmed_344_AT3G10150_intron{9.72659},
+    GTR+I{0.221214}+G4{0.93207}: trimmed_344_AT3G10420_exon{1.76066},
+    GTR+I{2.82711e-18}+G4{2.25126}: trimmed_344_AT3G10420_intron{4.51067},
+    GTR+I{0.293486}+G4{0.915048}: trimmed_344_AT3G12290_exon{1.31944},
+    GTR+I{2.12397e-22}+G4{2.36809}: trimmed_344_AT3G12290_intron{3.50696},
+    GTR+I{0.144182}+G4{0.43435}: trimmed_344_AT3G14075_exon{5.09777},
+    GTR+I{2.20835e-19}+G4{1.53712}: trimmed_344_AT3G14075_intron{4.31324},
+    GTR+I{0.171037}+G4{0.54529}: trimmed_344_AT3G14860_exon{4.1451},
+    GTR+I{2.48139e-26}+G4{1.0609}: trimmed_344_AT3G14860_intron{6.35966},
+    GTR+I{0.1909}+G4{0.85187}: trimmed_344_AT3G14900_exon{2.84771},
+    GTR+I{9.92445e-34}+G4{2.1319}: trimmed_344_AT3G14900_intron{5.21926},
+    GTR+I{0.250963}+G4{0.72067}: trimmed_344_AT3G14910_exon{2.48459},
+    GTR+I{3.2964e-26}+G4{1.28871}: trimmed_344_AT3G14910_intron{7.54127},
+    GTR+I{0.221202}+G4{0.639628}: trimmed_344_AT3G14930_exon{2.71938},
+    GTR+I{4.43357e-15}+G4{2.08887}: trimmed_344_AT3G14930_intron{3.25648},
+    GTR+I{0.188122}+G4{0.970162}: trimmed_344_AT3G18390_exon{1.79039},
+    GTR+I{8.47962e-18}+G4{1.19615}: trimmed_344_AT3G18390_intron{5.34227},
+    GTR+I{0.205991}+G4{1.01794}: trimmed_344_AT3G19553_exon{1.49145},
+    GTR+I{1.40708e-08}+G4{0.954873}: trimmed_344_AT3G19553_intron{6.50225},
+    GTR+I{0.192733}+G4{1.17677}: trimmed_344_AT3G19770_exon{1.55099},
+    GTR+I{1.0277e-09}+G4{4.20846}: trimmed_344_AT3G19770_intron{2.82806},
+    GTR+I{0.119735}+G4{1.05735}: trimmed_344_AT3G19870_exon{1.18986},
+    GTR+I{0.00129569}+G4{1.48836}: trimmed_344_AT3G19870_intron{3.9206},
+    GTR+I{0.257426}+G4{1.01931}: trimmed_344_AT3G20015_exon{1.57668},
+    GTR+I{0.0130613}+G4{2.59185}: trimmed_344_AT3G20015_intron{6.14865},
+    GTR+I{0.349615}+G4{0.356637}: trimmed_344_AT3G20230_exon{5.00595},
+    GTR+I{2.66155e-40}+G4{1.77901}: trimmed_344_AT3G20230_intron{4.36337},
+    GTR+I{0.243775}+G4{0.907103}: trimmed_344_AT3G20420_exon{1.19524},
+    GTR+I{2.38916e-09}+G4{1.2951}: trimmed_344_AT3G20420_intron{5.11547},
+    GTR+I{0.200013}+G4{0.821982}: trimmed_344_AT3G20810_exon{1.56359},
+    GTR+I{3.22535e-12}+G4{1.40198}: trimmed_344_AT3G20810_intron{4.52344},
+    GTR+I{0.252749}+G4{0.857813}: trimmed_344_AT3G21540_exon{1.59715},
+    GTR+I{1.49751e-14}+G4{1.43309}: trimmed_344_AT3G21540_intron{4.73424},
+    GTR+I{0.175598}+G4{0.511376}: trimmed_344_AT3G21740_exon{3.94888},
+    GTR+I{1.01029e-92}+G4{3.57823}: trimmed_344_AT3G21740_intron{5.20361},
+    GTR+I{0.241513}+G4{0.496652}: trimmed_344_AT3G24190_exon{5.01557},
+    GTR+I{2.10256e-24}+G4{1.26514}: trimmed_344_AT3G24190_intron{5.9123},
+    GTR+I{2.5879e-07}+G4{0.420989}: trimmed_344_AT3G25440_exon{8.61828},
+    GTR+I{3.03663e-84}+G4{1.77537}: trimmed_344_AT3G25440_intron{9.56952},
+    GTR+I{0.285981}+G4{1.21103}: trimmed_344_AT3G26570_exon{2.07289},
+    GTR+I{5.94631e-21}+G4{1.02604}: trimmed_344_AT3G26570_intron{12.4538},
+    GTR+I{0.119301}+G4{0.651298}: trimmed_344_AT3G26580_exon{2.9075},
+    GTR+I{1.13612e-34}+G4{1.69263}: trimmed_344_AT3G26580_intron{4.67766},
+    GTR+I{0.127936}+G4{1.03646}: trimmed_344_AT3G29240_exon{2.21053},
+    GTR+I{0.000349713}+G4{1.30136}: trimmed_344_AT3G29240_intron{5.58633},
+    GTR+I{0.178185}+G4{0.506982}: trimmed_344_AT3G44880_exon{4.80038},
+    GTR+I{8.20352e-25}+G4{1.4145}: trimmed_344_AT3G44880_intron{5.48608},
+    GTR+I{0.125191}+G4{0.976538}: trimmed_344_AT3G46610_exon{1.8941},
+    GTR+I{7.49791e-49}+G4{1.67328}: trimmed_344_AT3G46610_intron{5.68553},
+    GTR+I{0.257834}+G4{0.915451}: trimmed_344_AT3G47390_exon{1.65648},
+    GTR+I{2.02539e-18}+G4{1.39598}: trimmed_344_AT3G47390_intron{5.54362},
+    GTR+I{0.0366651}+G4{0.976646}: trimmed_344_AT3G47610_exon{3.10111},
+    GTR+I{1.52768e-46}+G4{2.08288}: trimmed_344_AT3G47610_intron{4.3021},
+    GTR+I{0.144831}+G4{0.62219}: trimmed_344_AT3G47830_exon{3.87318},
+    GTR+I{1.41929e-23}+G4{0.864138}: trimmed_344_AT3G47830_intron{6.85359},
+    GTR+I{0.273301}+G4{0.884115}: trimmed_344_AT3G48250_exon{1.44391},
+    GTR+I{1.31122e-20}+G4{1.78401}: trimmed_344_AT3G48250_intron{2.25758},
+    GTR+I{0.21981}+G4{1.01154}: trimmed_344_AT3G48460_exon{1.95753},
+    GTR+I{8.69642e-21}+G4{1.12297}: trimmed_344_AT3G48460_intron{3.34317},
+    GTR+I{0.0415646}+G4{0.512191}: trimmed_344_AT3G49170_exon{5.58542},
+    GTR+I{6.48745e-91}+G4{2.19113}: trimmed_344_AT3G49170_intron{8.49549},
+    GTR+I{0.308943}+G4{0.775092}: trimmed_344_AT3G51980_exon{1.79182},
+    GTR+I{9.43438e-29}+G4{1.32068}: trimmed_344_AT3G51980_intron{6.60941},
+    GTR+I{0.194584}+G4{0.712941}: trimmed_344_AT3G52570_exon{2.4515},
+    GTR+I{1.17246e-38}+G4{1.51308}: trimmed_344_AT3G52570_intron{6.60869},
+    GTR+I{0.175656}+G4{0.467159}: trimmed_344_AT3G53140_exon{8.51865},
+    GTR+I{0.0140128}+G4{0.991072}: trimmed_344_AT3G53140_intron{18.563},
+    GTR+I{0.215765}+G4{0.871369}: trimmed_344_AT3G53700_exon{1.17089},
+    GTR+I{0.00831721}+G4{18.5476}: trimmed_344_AT3G53700_intron{4.54391},
+    GTR+I{0.383428}+G4{1.04245}: trimmed_344_AT3G54690_exon{1.5907},
+    GTR+I{0.0153053}+G4{1.39039}: trimmed_344_AT3G54690_intron{8.2654},
+    GTR+I{0.291895}+G4{0.832534}: trimmed_344_AT3G55070_exon{1.52538},
+    GTR+I{4.78887e-26}+G4{1.84602}: trimmed_344_AT3G55070_intron{4.0058},
+    GTR+I{0.210601}+G4{0.932611}: trimmed_344_AT3G55120_exon{2.06454},
+    GTR+I{1.87231e-16}+G4{1.02186}: trimmed_344_AT3G55120_intron{6.17406},
+    GTR+I{0.256313}+G4{1.1716}: trimmed_344_AT3G55400_exon{1.6643},
+    GTR+I{8.67225e-21}+G4{1.0335}: trimmed_344_AT3G55400_intron{5.01255},
+    GTR+I{0.140858}+G4{1.07313}: trimmed_344_AT3G55480_exon{1.47177},
+    GTR+I{4.88921e-30}+G4{1.06666}: trimmed_344_AT3G55480_intron{4.93638},
+    GTR+I{0.129578}+G4{1.02842}: trimmed_344_AT3G57180_exon{1.71719},
+    GTR+I{2.24854e-21}+G4{1.56333}: trimmed_344_AT3G57180_intron{4.65783},
+    GTR+I{0.197666}+G4{1.08898}: trimmed_344_AT3G57190_exon{1.57762},
+    GTR+I{0.000236268}+G4{2.40803}: trimmed_344_AT3G57190_intron{3.72186},
+    GTR+I{0.191773}+G4{0.357184}: trimmed_344_AT3G57790_exon{6.56467},
+    GTR+I{6.55371e-12}+G4{1.03309}: trimmed_344_AT3G57790_intron{5.32216},
+    GTR+I{4.11783e-09}+G4{0.380687}: trimmed_344_AT3G58470_exon{6.84857},
+    GTR+I{0.0257198}+G4{4.58834}: trimmed_344_AT3G58470_intron{3.16118},
+    GTR+I{0.246057}+G4{0.67733}: trimmed_344_AT3G58690_exon{2.34969},
+    GTR+I{1.72023e-31}+G4{1.12452}: trimmed_344_AT3G58690_intron{6.25468},
+    GTR+I{0.231336}+G4{0.474792}: trimmed_344_AT3G59040_exon{3.91844},
+    GTR+I{8.95351e-46}+G4{1.10884}: trimmed_344_AT3G59040_intron{7.55283},
+    GTR+I{0.269457}+G4{1.01286}: trimmed_344_AT3G59420_exon{1.61805},
+    GTR+I{0.0141914}+G4{4.99826}: trimmed_344_AT3G59420_intron{3.48916},
+    GTR+I{0.298218}+G4{0.612056}: trimmed_344_AT3G59530_exon{3.28291},
+    GTR+I{6.75943e-27}+G4{0.985067}: trimmed_344_AT3G59530_intron{8.99028},
+    GTR+I{0.271934}+G4{0.650865}: trimmed_344_AT3G59770_exon{2.32687},
+    GTR+I{1.32379e-26}+G4{1.35969}: trimmed_344_AT3G59770_intron{4.36645},
+    GTR+I{0.272906}+G4{0.442143}: trimmed_344_AT3G60850_exon{3.10195},
+    GTR+I{0.00153843}+G4{1.14565}: trimmed_344_AT3G60850_intron{6.17648},
+    GTR+I{0.262957}+G4{0.535652}: trimmed_344_AT3G61320_exon{3.15726},
+    GTR+I{1.65126e-21}+G4{1.12721}: trimmed_344_AT3G61320_intron{3.87073},
+    GTR+I{0.122883}+G4{0.966874}: trimmed_344_AT3G61350_exon{1.49667},
+    GTR+I{7.29163e-17}+G4{1.92924}: trimmed_344_AT3G61350_intron{3.17039},
+    GTR+I{0.116845}+G4{1.11055}: trimmed_344_AT3G61360_exon{1.33052},
+    GTR+I{4.35359e-20}+G4{7.17678}: trimmed_344_AT3G61360_intron{2.71426},
+    GTR+I{0.10083}+G4{1.21352}: trimmed_344_AT3G62390_exon{1.62919},
+    GTR+I{1.34304e-15}+G4{2.45159}: trimmed_344_AT3G62390_intron{4.17296},
+    GTR+I{0.11415}+G4{0.399722}: trimmed_344_AT4G01130_exon{7.57637},
+    GTR+I{9.12831e-50}+G4{0.916185}: trimmed_344_AT4G01130_intron{11.4314},
+    GTR+I{0.28719}+G4{0.592229}: trimmed_344_AT4G01310_exon{3.72258},
+    GTR+I{2.1405e-52}+G4{0.771619}: trimmed_344_AT4G01310_intron{8.49594},
+    GTR+I{0.113562}+G4{0.748646}: trimmed_344_AT4G01870_exon{4.56916},
+    GTR+I{0}+G4{4.75443}: trimmed_344_AT4G01870_intron{15.8705},
+    GTR+I{2.95768e-20}+G4{0.483474}: trimmed_344_AT4G02405_exon{7.45864},
+    GTR+I{1.06333e-78}+G4{1.29923}: trimmed_344_AT4G02405_intron{5.12463},
+    GTR+I{0.0950867}+G4{1.00223}: trimmed_344_AT4G02820_exon{1.33964},
+    GTR+I{0.121025}+G4{1.18872}: trimmed_344_AT4G02820_intron{1.39935},
+    GTR+I{0.098511}+G4{0.776367}: trimmed_344_AT4G04180_exon{2.00207},
+    GTR+I{2.47175e-18}+G4{1.56913}: trimmed_344_AT4G04180_intron{4.59661},
+    GTR+I{0.266298}+G4{1.00378}: trimmed_344_AT4G04930_exon{1.42059},
+    GTR+I{7.47056e-43}+G4{2.44346}: trimmed_344_AT4G04930_intron{3.68412},
+    GTR+I{0.25092}+G4{0.921596}: trimmed_344_AT4G08810_exon{1.69125},
+    GTR+I{9.83838e-11}+G4{1.49035}: trimmed_344_AT4G08810_intron{3.34748},
+    GTR+I{0.180425}+G4{0.855145}: trimmed_344_AT4G09730_exon{1.75716},
+    GTR+I{8.30789e-32}+G4{1.68618}: trimmed_344_AT4G09730_intron{5.00217},
+    GTR+I{0.051454}+G4{0.823191}: trimmed_344_AT4G12130_exon{2.90566},
+    GTR+I{4.19047e-57}+G4{0.737946}: trimmed_344_AT4G12130_intron{11.4057},
+    GTR+I{0.289597}+G4{0.931575}: trimmed_344_AT4G13970_exon{1.63502},
+    GTR+I{7.14794e-24}+G4{1.50658}: trimmed_344_AT4G13970_intron{3.26674},
+    GTR+I{0.266448}+G4{0.556441}: trimmed_344_AT4G15420_exon{3.43999},
+    GTR+I{1.78112e-15}+G4{1.81065}: trimmed_344_AT4G15420_intron{3.55303},
+    GTR+I{0.186484}+G4{1.02601}: trimmed_344_AT4G15850_exon{1.49943},
+    GTR+I{6.73269e-32}+G4{1.44816}: trimmed_344_AT4G15850_intron{5.41271},
+    GTR+I{0.304933}+G4{0.886372}: trimmed_344_AT4G16180_exon{1.6275},
+    GTR+I{1.56399e-16}+G4{2.15014}: trimmed_344_AT4G16180_intron{3.41337},
+    GTR+I{0.0812813}+G4{0.479637}: trimmed_344_AT4G16390_exon{5.0152},
+    GTR+I{3.43286e-121}+G4{2.43232}: trimmed_344_AT4G16390_intron{10.7423},
+    GTR+I{0.198498}+G4{0.813353}: trimmed_344_AT4G17370_exon{1.65631},
+    GTR+I{1.46324e-31}+G4{1.50504}: trimmed_344_AT4G17370_intron{4.95762},
+    GTR+I{0.157019}+G4{0.870289}: trimmed_344_AT4G19180_exon{1.36395},
+    GTR+I{1.20742e-33}+G4{2.12076}: trimmed_344_AT4G19180_intron{3.4383},
+    GTR+I{0.165566}+G4{1.00451}: trimmed_344_AT4G20740_exon{1.57988},
+    GTR+I{0.0481667}+G4{1.00804}: trimmed_344_AT4G20740_intron{2.29952},
+    GTR+I{0.402497}+G4{1.16273}: trimmed_344_AT4G23930_exon{1.43401},
+    GTR+I{4.12202e-37}+G4{1.69043}: trimmed_344_AT4G23930_intron{3.94204},
+    GTR+I{0.14274}+G4{0.875576}: trimmed_344_AT4G26180_exon{1.34829},
+    GTR+I{1.0756e-30}+G4{1.48035}: trimmed_344_AT4G26180_intron{5.21482},
+    GTR+I{0.184402}+G4{0.953168}: trimmed_344_AT4G28980_exon{1.27334},
+    GTR+I{1.76077e-09}+G4{1.94847}: trimmed_344_AT4G28980_intron{3.72807},
+    GTR+I{0.117259}+G4{0.67923}: trimmed_344_AT4G29120_exon{3.776},
+    GTR+I{0.00222014}+G4{2.18721}: trimmed_344_AT4G29120_intron{10.1914},
+    GTR+I{0.152992}+G4{0.849354}: trimmed_344_AT4G30825_exon{1.3932},
+    GTR+I{0.115763}+G4{0.697254}: trimmed_344_AT4G30825_intron{2.03593},
+    GTR+I{0.196}+G4{0.707633}: trimmed_344_AT4G32605_exon{2.88463},
+    GTR+I{6.09821e-20}+G4{1.30332}: trimmed_344_AT4G32605_intron{4.6634},
+    GTR+I{0.152075}+G4{1.06262}: trimmed_344_AT4G33410_exon{1.42157},
+    GTR+I{4.38469e-23}+G4{2.75692}: trimmed_344_AT4G33410_intron{3.55517},
+    GTR+I{0.145767}+G4{0.975031}: trimmed_344_AT4G33945_exon{2.25545},
+    GTR+I{8.46677e-36}+G4{1.58321}: trimmed_344_AT4G33945_intron{4.6932},
+    GTR+I{0.299216}+G4{0.707222}: trimmed_344_AT4G34030_exon{1.99306},
+    GTR+I{5.42408e-24}+G4{0.998754}: trimmed_344_AT4G34030_intron{5.68443},
+    GTR+I{0.270237}+G4{1.01443}: trimmed_344_AT4G35870_exon{1.5928},
+    GTR+I{5.93784e-68}+G4{3.7336}: trimmed_344_AT4G35870_intron{4.58607},
+    GTR+I{0.270225}+G4{0.866085}: trimmed_344_AT4G36390_exon{2.08387},
+    GTR+I{1.0969e-49}+G4{1.95324}: trimmed_344_AT4G36390_intron{6.45655},
+    GTR+I{0.122676}+G4{1.00628}: trimmed_344_AT4G37380_exon{1.644},
+    GTR+I{0.0353992}+G4{3.16413}: trimmed_344_AT4G37380_intron{3.71188},
+    GTR+I{0.172358}+G4{0.784376}: trimmed_344_AT4G38020_exon{2.32707},
+    GTR+I{2.35906e-09}+G4{2.21255}: trimmed_344_AT4G38020_intron{4.12916},
+    GTR+I{0.303829}+G4{0.721633}: trimmed_344_AT4G38460_exon{2.32158},
+    GTR+I{0.00692286}+G4{1.56799}: trimmed_344_AT4G38460_intron{5.02013},
+    GTR+I{0.220542}+G4{0.992683}: trimmed_344_AT4G38890_exon{1.87391},
+    GTR+I{2.8732e-19}+G4{1.79493}: trimmed_344_AT4G38890_intron{4.68979},
+    GTR+I{0.283897}+G4{1.05798}: trimmed_344_AT4G39010_exon{2.05205},
+    GTR+I{0.0204021}+G4{1.17991}: trimmed_344_AT4G39010_intron{3.39543},
+    GTR+I{0.218376}+G4{1.065}: trimmed_344_AT4G39820_exon{2.14154},
+    GTR+I{0.0136023}+G4{2.07472}: trimmed_344_AT4G39820_intron{6.00142},
+    GTR+I{0.147475}+G4{0.604517}: trimmed_344_AT4G39920_exon{4.80695},
+    GTR+I{1.64785e-15}+G4{1.54667}: trimmed_344_AT4G39920_intron{8.55918},
+    GTR+I{0.22111}+G4{0.841473}: trimmed_344_AT5G02250_exon{1.79363},
+    GTR+I{1.64305e-40}+G4{0.994837}: trimmed_344_AT5G02250_intron{7.56363},
+    GTR+I{0.104992}+G4{0.724114}: trimmed_344_AT5G02270_exon{3.20067},
+    GTR+I{1.03112e-20}+G4{1.79007}: trimmed_344_AT5G02270_intron{4.16753},
+    GTR+I{0.103171}+G4{1.0242}: trimmed_344_AT5G02410_exon{2.22257},
+    GTR+I{1.81195e-24}+G4{1.34564}: trimmed_344_AT5G02410_intron{4.92516},
+    GTR+I{0.537263}+G4{0.781999}: trimmed_344_AT5G02820_exon{1.42155},
+    GTR+I{0.0216189}+G4{1.84522}: trimmed_344_AT5G02820_intron{2.51901},
+    GTR+I{0.264611}+G4{0.765114}: trimmed_344_AT5G03160_exon{1.50721},
+    GTR+I{1.68139e-11}+G4{1.39457}: trimmed_344_AT5G03160_intron{3.34357},
+    GTR+I{0.317289}+G4{0.644352}: trimmed_344_AT5G03555_exon{2.71976},
+    GTR+I{0.00525545}+G4{1.60999}: trimmed_344_AT5G03555_intron{4.7749},
+    GTR+I{0.146425}+G4{0.599484}: trimmed_344_AT5G03800_exon{3.33855},
+    GTR+I{3.97866e-09}+G4{1.29015}: trimmed_344_AT5G03800_intron{4.61626},
+    GTR+I{0.167129}+G4{0.815438}: trimmed_344_AT5G04480_exon{1.8264},
+    GTR+I{2.09816e-29}+G4{1.48574}: trimmed_344_AT5G04480_intron{4.70767},
+    GTR+I{0.234963}+G4{0.820679}: trimmed_344_AT5G04710_exon{2.04661},
+    GTR+I{0.00141673}+G4{1.26971}: trimmed_344_AT5G04710_intron{6.60969},
+    GTR+I{0.264771}+G4{0.980242}: trimmed_344_AT5G06680_exon{1.33172},
+    GTR+I{0.0238183}+G4{2.49875}: trimmed_344_AT5G06680_intron{4.45158},
+    GTR+I{0.238983}+G4{0.363729}: trimmed_344_AT5G07360_exon{10.4797},
+    GTR+I{1.56304e-52}+G4{1.11694}: trimmed_344_AT5G07360_intron{10.4761},
+    GTR+I{0.184635}+G4{0.861649}: trimmed_344_AT5G08305_exon{1.44192},
+    GTR+I{1.44438e-38}+G4{2.07052}: trimmed_344_AT5G08305_intron{4.0519},
+    GTR+I{0.161301}+G4{0.930797}: trimmed_344_AT5G08510_exon{2.38872},
+    GTR+I{0.00716008}+G4{2.43444}: trimmed_344_AT5G08510_intron{5.04667},
+    GTR+I{0.289513}+G4{0.734874}: trimmed_344_AT5G10750_exon{2.70339},
+    GTR+I{0.000301026}+G4{1.75644}: trimmed_344_AT5G10750_intron{6.88023},
+    GTR+I{0.0595987}+G4{1.00172}: trimmed_344_AT5G12410_exon{2.23522},
+    GTR+I{0.00027926}+G4{1.60594}: trimmed_344_AT5G12410_intron{6.95614},
+    GTR+I{0.244951}+G4{0.657388}: trimmed_344_AT5G13030_exon{2.81686},
+    GTR+I{3.424e-28}+G4{1.64754}: trimmed_344_AT5G13030_intron{4.39421},
+    GTR+I{0.238772}+G4{0.756213}: trimmed_344_AT5G13390_exon{0.967427},
+    GTR+I{3.33258e-06}+G4{1.40684}: trimmed_344_AT5G13390_intron{2.82504},
+    GTR+I{0.312722}+G4{1.36771}: trimmed_344_AT5G13400_exon{1.42949},
+    GTR+I{0.0219896}+G4{6.02933}: trimmed_344_AT5G13400_intron{2.78638},
+    GTR+I{0.167911}+G4{0.733053}: trimmed_344_AT5G13520_exon{10.2062},
+    GTR+I{1.92072e-26}+G4{1.54015}: trimmed_344_AT5G13520_intron{9.07999},
+    GTR+I{0.33164}+G4{0.810574}: trimmed_344_AT5G13630_exon{1.68657},
+    GTR+I{1.18151e-36}+G4{0.755248}: trimmed_344_AT5G13630_intron{6.01454},
+    GTR+I{0.261324}+G4{0.689761}: trimmed_344_AT5G14580_exon{2.43818},
+    GTR+I{1.00568e-31}+G4{0.957463}: trimmed_344_AT5G14580_intron{8.41653},
+    GTR+I{0.22355}+G4{0.79365}: trimmed_344_AT5G14600_exon{1.93233},
+    GTR+I{1.4855e-25}+G4{1.43851}: trimmed_344_AT5G14600_intron{6.16762},
+    GTR+I{0.210195}+G4{1.13096}: trimmed_344_AT5G15300_exon{1.33875},
+    GTR+I{8.13957e-11}+G4{2.80329}: trimmed_344_AT5G15300_intron{3.51278},
+    GTR+I{0.226934}+G4{0.952476}: trimmed_344_AT5G16210_exon{1.70731},
+    GTR+I{2.27582e-11}+G4{1.07864}: trimmed_344_AT5G16210_intron{5.48426},
+    GTR+I{0.0969063}+G4{1.07617}: trimmed_344_AT5G17790_exon{1.74909},
+    GTR+I{2.64833e-26}+G4{1.3656}: trimmed_344_AT5G17790_intron{5.28992},
+    GTR+I{0.0460689}+G4{0.411014}: trimmed_344_AT5G18070_exon{7.90913},
+    GTR+I{8.6019e-89}+G4{0.820451}: trimmed_344_AT5G18070_intron{9.87196},
+    GTR+I{0.129543}+G4{0.533051}: trimmed_344_AT5G19540_exon{5.17543},
+    GTR+I{8.36021e-21}+G4{1.35182}: trimmed_344_AT5G19540_intron{3.94096},
+    GTR+I{0.283455}+G4{0.827874}: trimmed_344_AT5G19660_exon{1.73852},
+    GTR+I{8.60625e-41}+G4{0.846764}: trimmed_344_AT5G19660_intron{7.39779},
+    GTR+I{0.233747}+G4{0.838041}: trimmed_344_AT5G20320_exon{1.89869},
+    GTR+I{1.59254e-05}+G4{1.26652}: trimmed_344_AT5G20320_intron{2.77126},
+    GTR+I{0.28442}+G4{0.869199}: trimmed_344_AT5G20910_exon{1.53321},
+    GTR+I{2.98828e-60}+G4{1.28346}: trimmed_344_AT5G20910_intron{5.69019},
+    GTR+I{0.0979167}+G4{0.918745}: trimmed_344_AT5G23060_exon{1.93807},
+    GTR+I{1.1871e-34}+G4{1.1278}: trimmed_344_AT5G23060_intron{5.68189},
+    GTR+I{0.17372}+G4{0.493995}: trimmed_344_AT5G23940_exon{4.81495},
+    GTR+I{0.0273667}+G4{2.60639}: trimmed_344_AT5G23940_intron{5.86577},
+    GTR+I{0.149694}+G4{0.791156}: trimmed_344_AT5G24120_exon{3.11992},
+    GTR+I{4.77528e-29}+G4{0.929224}: trimmed_344_AT5G24120_intron{6.46392},
+    GTR+I{0.25781}+G4{0.788014}: trimmed_344_AT5G24340_exon{1.57658},
+    GTR+I{3.05265e-42}+G4{1.16636}: trimmed_344_AT5G24340_intron{5.23588},
+    GTR+I{0.156297}+G4{0.848065}: trimmed_344_AT5G26850_exon{1.73077},
+    GTR+I{6.19197e-16}+G4{1.41181}: trimmed_344_AT5G26850_intron{4.39832},
+    GTR+I{0.235024}+G4{0.841073}: trimmed_344_AT5G37830_exon{1.67272},
+    GTR+I{0.0187082}+G4{2.1961}: trimmed_344_AT5G37830_intron{5.67001},
+    GTR+I{0.223191}+G4{0.877055}: trimmed_344_AT5G39410_exon{3.09398},
+    GTR+I{3.21111e-52}+G4{1.27879}: trimmed_344_AT5G39410_intron{7.30614},
+    GTR+I{0.109681}+G4{0.65434}: trimmed_344_AT5G39590_exon{3.11178},
+    GTR+I{1.35521e-30}+G4{0.806757}: trimmed_344_AT5G39590_intron{7.31236},
+    GTR+I{0.205552}+G4{0.664999}: trimmed_344_AT5G39680_exon{2.13414},
+    GTR+I{2.28391e-10}+G4{1.08308}: trimmed_344_AT5G39680_intron{5.43351},
+    GTR+I{0.395125}+G4{0.965919}: trimmed_344_AT5G39900_exon{1.00696},
+    GTR+I{9.34832e-10}+G4{1.98954}: trimmed_344_AT5G39900_intron{2.51489},
+    GTR+I{0.27901}+G4{1.25659}: trimmed_344_AT5G41330_exon{0.973117},
+    GTR+I{1.38087e-15}+G4{1.69558}: trimmed_344_AT5G41330_intron{3.23697},
+    GTR+I{0.260293}+G4{0.754795}: trimmed_344_AT5G43280_exon{2.59373},
+    GTR+I{1.75481e-32}+G4{1.02173}: trimmed_344_AT5G43280_intron{6.77964},
+    GTR+I{0.174318}+G4{0.98517}: trimmed_344_AT5G44000_exon{1.70344},
+    GTR+I{4.46065e-39}+G4{1.56962}: trimmed_344_AT5G44000_intron{4.59123},
+    GTR+I{0.336027}+G4{0.652735}: trimmed_344_AT5G45380_exon{2.4419},
+    GTR+I{4.06826e-24}+G4{1.47417}: trimmed_344_AT5G45380_intron{4.05939},
+    GTR+I{0.168273}+G4{0.69866}: trimmed_344_AT5G45900_exon{3.0006},
+    GTR+I{1.37587e-07}+G4{1.68448}: trimmed_344_AT5G45900_intron{2.6406},
+    GTR+I{0.291946}+G4{1.03103}: trimmed_344_AT5G46220_exon{1.44787},
+    GTR+I{1.88147e-09}+G4{1.51577}: trimmed_344_AT5G46220_intron{4.34763},
+    GTR+I{0.17354}+G4{0.918523}: trimmed_344_AT5G46580_exon{1.82148},
+    GTR+I{1.40093e-08}+G4{1.62458}: trimmed_344_AT5G46580_intron{2.1789},
+    GTR+I{0.429488}+G4{0.797139}: trimmed_344_AT5G46800_exon{2.27637},
+    GTR+I{6.95932e-07}+G4{0.788745}: trimmed_344_AT5G46800_intron{1.81916},
+    GTR+I{0.194491}+G4{0.964259}: trimmed_344_AT5G48730_exon{1.47216},
+    GTR+I{1.41425e-13}+G4{1.19591}: trimmed_344_AT5G48730_intron{3.10818},
+    GTR+I{0.367978}+G4{1.12688}: trimmed_344_AT5G49800_exon{1.28855},
+    GTR+I{9.3195e-15}+G4{2.07472}: trimmed_344_AT5G49800_intron{3.874},
+    GTR+I{0.190427}+G4{0.923466}: trimmed_344_AT5G50230_exon{1.52611},
+    GTR+I{0.000291405}+G4{2.12088}: trimmed_344_AT5G50230_intron{2.91953},
+    GTR+I{0.154715}+G4{1.06542}: trimmed_344_AT5G50280_exon{1.75962},
+    GTR+I{8.18062e-49}+G4{1.95092}: trimmed_344_AT5G50280_intron{4.04458},
+    GTR+I{0.0300885}+G4{0.444525}: trimmed_344_AT5G50390_exon{6.24558},
+    GTR+I{1.95681e-166}+G4{2.59478}: trimmed_344_AT5G50390_intron{11.4633},
+    GTR+I{0.314755}+G4{0.786144}: trimmed_344_AT5G51340_exon{2.27842},
+    GTR+I{1.28366e-18}+G4{2.20098}: trimmed_344_AT5G51340_intron{3.7464},
+    GTR+I{0.245106}+G4{0.810941}: trimmed_344_AT5G52630_exon{1.8767},
+    GTR+I{1.06861e-36}+G4{2.87705}: trimmed_344_AT5G52630_intron{7.48977},
+    GTR+I{0.0451746}+G4{0.880108}: trimmed_344_AT5G52810_exon{3.08673},
+    GTR+I{2.40998e-06}+G4{2.23234}: trimmed_344_AT5G52810_intron{4.86321},
+    GTR+I{0.177792}+G4{0.827741}: trimmed_344_AT5G54140_exon{2.93658},
+    GTR+I{7.22396e-13}+G4{1.49446}: trimmed_344_AT5G54140_intron{8.39954},
+    GTR+I{0.231345}+G4{0.897377}: trimmed_344_AT5G54910_exon{1.71221},
+    GTR+I{5.98894e-40}+G4{1.26378}: trimmed_344_AT5G54910_intron{5.53367},
+    GTR+I{0.252062}+G4{0.927457}: trimmed_344_AT5G55500_exon{1.63052},
+    GTR+I{5.44879e-23}+G4{1.42915}: trimmed_344_AT5G55500_intron{4.22409},
+    GTR+I{0.0922266}+G4{0.420089}: trimmed_344_AT5G55580_exon{7.26874},
+    GTR+I{1.22866e-45}+G4{0.900629}: trimmed_344_AT5G55580_intron{9.58192},
+    GTR+I{0.151132}+G4{1.00434}: trimmed_344_AT5G56900_exon{1.90953},
+    GTR+I{3.47186e-12}+G4{1.81024}: trimmed_344_AT5G56900_intron{2.75682},
+    GTR+I{0.222805}+G4{0.531772}: trimmed_344_AT5G57460_exon{2.92967},
+    GTR+I{4.3135e-07}+G4{0.955005}: trimmed_344_AT5G57460_intron{2.94019},
+    GTR+I{0.167809}+G4{0.975701}: trimmed_344_AT5G57590_exon{1.51761},
+    GTR+I{1.29672e-15}+G4{2.31017}: trimmed_344_AT5G57590_intron{4.38221},
+    GTR+I{0.178528}+G4{1.15962}: trimmed_344_AT5G58480_exon{1.56416},
+    GTR+I{1.05988e-29}+G4{3.23078}: trimmed_344_AT5G58480_intron{3.1819},
+    GTR+I{0.17629}+G4{0.925998}: trimmed_344_AT5G59600_exon{1.76416},
+    GTR+I{1.2408e-23}+G4{1.34304}: trimmed_344_AT5G59600_intron{4.62158},
+    GTR+I{0.0720551}+G4{0.457363}: trimmed_344_AT5G61510_exon{4.51928},
+    GTR+I{4.93269e-06}+G4{1.40093}: trimmed_344_AT5G61510_intron{3.15172},
+    GTR+I{0.198535}+G4{0.818208}: trimmed_344_AT5G63010_exon{1.92283},
+    GTR+I{2.0359e-12}+G4{1.69985}: trimmed_344_AT5G63010_intron{2.82918},
+    GTR+I{0.211193}+G4{1.00044}: trimmed_344_AT5G63200_exon{1.61069},
+    GTR+I{1.21862e-13}+G4{1.56004}: trimmed_344_AT5G63200_intron{4.68661},
+    GTR+I{0.207981}+G4{1.0751}: trimmed_344_AT5G64150_exon{1.95481},
+    GTR+I{3.17332e-41}+G4{1.25459}: trimmed_344_AT5G64150_intron{8.72167},
+    GTR+I{0.201164}+G4{0.872157}: trimmed_344_AT5G64250_exon{2.40269},
+    GTR+I{4.69347e-05}+G4{1.34553}: trimmed_344_AT5G64250_intron{3.78237},
+    GTR+I{0.144112}+G4{0.961054}: trimmed_344_AT5G65490_exon{1.77556},
+    GTR+I{8.56778e-15}+G4{1.76629}: trimmed_344_AT5G65490_intron{3.78006},
+    GTR+I{0.255348}+G4{1.22147}: trimmed_344_AT5G65540_exon{1.5718},
+    GTR+I{8.23223e-10}+G4{1.95175}: trimmed_344_AT5G65540_intron{2.57769},
+    GTR+I{0.353711}+G4{0.474329}: trimmed_344_AT5G65720_exon{20.1284},
+    GTR+I{0.00995565}+G4{2.25905}: trimmed_344_AT5G65720_intron{10.7221},
+    GTR+I{0.138568}+G4{0.480363}: trimmed_344_AT5G65760_exon{5.74259},
+    GTR+I{1.8297e-19}+G4{1.31415}: trimmed_344_AT5G65760_intron{4.82437},
+    GTR+I{0.0909505}+G4{0.742672}: trimmed_344_AT5G66631_exon{3.08422},
+    GTR+I{0.15068}+G4{0.973987}: trimmed_344_AT5G66631_intron{3.35},
+    GTR+I{0.0928255}+G4{0.817071}: trimmed_4848_31_overlapped_exon{5.52445},
+    GTR+I{5.53373e-19}+G4{1.49301}: trimmed_4848_31_overlapped_intron{5.35161},
+    GTR+I{0.159502}+G4{1.30997}: trimmed_5162_31_overlapped_exon{2.6419},
+    GTR+I{2.79906e-37}+G4{0.854847}: trimmed_5162_31_overlapped_intron{9.1794},
+    GTR+I{0.0695242}+G4{0.621363}: trimmed_5257_31_overlapped_exon{5.57907},
+    GTR+I{4.307e-46}+G4{1.25716}: trimmed_5257_31_overlapped_intron{10.0566},
+    GTR+I{9.18907e-12}+G4{0.415919}: trimmed_5333_31_overlapped_exon{53.7328},
+    GTR+I{0}+G4{5.06937}: trimmed_5333_31_overlapped_intron{8.00249},
+    GTR+I{0.326647}+G4{0.750145}: trimmed_5343_31_overlapped_exon{3.46399},
+    GTR+I{4.62126e-40}+G4{2.36922}: trimmed_5343_31_overlapped_intron{4.68597},
+    GTR+I{0.192449}+G4{0.825272}: trimmed_5426_31_overlapped_exon{3.73576},
+    GTR+I{2.78198e-22}+G4{1.66746}: trimmed_5426_31_overlapped_intron{6.23091},
+    GTR+I{0.13978}+G4{1.01116}: trimmed_5449_31_overlapped_exon{5.43563},
+    GTR+I{1.77354e-18}+G4{2.26889}: trimmed_5449_31_overlapped_intron{6.63681},
+    GTR+I{0.30466}+G4{1.26897}: trimmed_5594_31_overlapped_exon{4.52646},
+    GTR+I{2.53523e-24}+G4{1.33667}: trimmed_5594_31_overlapped_intron{9.45005},
+    GTR+I{0.264387}+G4{1.23784}: trimmed_5660_31_overlapped_exon{2.92981},
+    GTR+I{0.0513589}+G4{1.72834}: trimmed_5660_31_overlapped_intron{3.70242},
+    GTR+I{0.239094}+G4{0.71944}: trimmed_5802_31_overlapped_exon{5.33294},
+    GTR+I{1.6864e-25}+G4{1.05899}: trimmed_5802_31_overlapped_intron{5.82806},
+    GTR+I{0.043699}+G4{0.765971}: trimmed_5821_31_overlapped_exon{4.58448},
+    GTR+I{3.85787e-28}+G4{1.12122}: trimmed_5821_31_overlapped_intron{7.08927},
+    GTR+I{0.232442}+G4{0.723167}: trimmed_5859_31_overlapped_exon{4.30685},
+    GTR+I{0.0281265}+G4{2.44189}: trimmed_5859_31_overlapped_intron{7.99281},
+    GTR+I{0.358707}+G4{0.77473}: trimmed_5913_31_overlapped_exon{2.36357},
+    GTR+I{0.000478531}+G4{2.09511}: trimmed_5913_31_overlapped_intron{3.46035},
+    GTR+I{0.138656}+G4{0.833391}: trimmed_5933_31_overlapped_exon{3.12358},
+    GTR+I{5.12667e-20}+G4{1.70819}: trimmed_5933_31_overlapped_intron{5.64742},
+    GTR+I{0.187569}+G4{0.984492}: trimmed_6051_31_overlapped_exon{5.30974},
+    GTR+I{2.81361e-196}+G4{1.83017}: trimmed_6051_31_overlapped_intron{10.9169},
+    GTR+I{0.226588}+G4{0.915806}: trimmed_6098_31_overlapped_exon{2.87829},
+    GTR+I{2.42947e-14}+G4{1.19327}: trimmed_6098_31_overlapped_intron{7.80499},
+    GTR+I{0.0951363}+G4{0.532794}: trimmed_6139_31_overlapped_exon{19.9062},
+    GTR+I{5.67212e-42}+G4{2.02267}: trimmed_6139_31_overlapped_intron{7.92986},
+    GTR+I{0.111511}+G4{0.813817}: trimmed_6175_31_overlapped_exon{4.61485},
+    GTR+I{0.000358432}+G4{1.95847}: trimmed_6175_31_overlapped_intron{4.18333},
+    GTR+I{0.124692}+G4{0.860212}: trimmed_6226_31_overlapped_exon{6.13116},
+    GTR+I{3.72032e-09}+G4{1.30861}: trimmed_6226_31_overlapped_intron{7.78221},
+    GTR+I{0.0712433}+G4{0.929221}: trimmed_6284_31_overlapped_exon{4.66455},
+    GTR+I{2.65659e-10}+G4{2.01731}: trimmed_6284_31_overlapped_intron{5.45821},
+    GTR+I{0.212716}+G4{0.841675}: trimmed_6320_31_overlapped_exon{3.54392},
+    GTR+I{1.38679e-39}+G4{1.42389}: trimmed_6320_31_overlapped_intron{6.31936},
+    GTR+I{0.115323}+G4{0.445819}: trimmed_6363_31_overlapped_exon{5.4415},
+    GTR+I{1.07227e-14}+G4{1.79927}: trimmed_6363_31_overlapped_intron{5.1237},
+    GTR+I{0.139963}+G4{1.12526}: trimmed_6393_31_overlapped_exon{4.8059},
+    GTR+I{8.1565e-09}+G4{1.38579}: trimmed_6393_31_overlapped_intron{5.98997},
+    GTR+I{0.00192822}+G4{0.367878}: trimmed_6450_31_overlapped_exon{14.3462},
+    GTR+I{1.37819e-35}+G4{1.00576}: trimmed_6450_31_overlapped_intron{12.5716},
+    GTR+I{0.164137}+G4{0.682874}: trimmed_6500_31_overlapped_exon{6.08206},
+    GTR+I{2.02744e-39}+G4{1.21545}: trimmed_6500_31_overlapped_intron{10.8371},
+    GTR+I{0.0761987}+G4{0.821116}: trimmed_6639_31_overlapped_exon{6.54168},
+    GTR+I{1.64175e-35}+G4{0.834514}: trimmed_6639_31_overlapped_intron{11.0051},
+    GTR+I{0.221132}+G4{0.758709}: trimmed_6652_31_overlapped_exon{4.70055},
+    GTR+I{2.14045e-13}+G4{1.60181}: trimmed_6652_31_overlapped_intron{8.55099},
+    GTR+I{0.310332}+G4{1.10528}: trimmed_6875_31_overlapped_exon{1.95633},
+    GTR+I{2.88356e-11}+G4{2.01736}: trimmed_6875_31_overlapped_intron{4.07427},
+    GTR+I{0.144176}+G4{0.713056}: trimmed_7325_31_overlapped_exon{3.52619},
+    GTR+I{3.15692e-42}+G4{0.917561}: trimmed_7325_31_overlapped_intron{7.59965},
+    GTR+I{0.216751}+G4{0.77194}: trimmed_7577_31_overlapped_exon{3.44117},
+    GTR+I{3.46713e-19}+G4{1.6111}: trimmed_7577_31_overlapped_intron{4.9005},
+    GTR+I{0.17265}+G4{0.752495}: trimmed_7602_31_overlapped_exon{4.28451},
+    GTR+I{1.4e-52}+G4{0.956408}: trimmed_7602_31_overlapped_intron{12.9292},
+    GTR+I{0.16621}+G4{0.677615}: trimmed_a353_4471_exon{2.59871},
+    GTR+I{1.14904e-06}+G4{1.66952}: trimmed_a353_4471_intron{1.12618},
+    GTR+I{0.24083}+G4{0.894293}: trimmed_a353_4527_exon{3.52663},
+    GTR+I{0.000518755}+G4{0.995743}: trimmed_a353_4527_intron{1.92729},
+    GTR+I{0.346713}+G4{1.03417}: trimmed_a353_4691_exon{3.32648},
+    GTR+I{2.30054e-36}+G4{11.6891}: trimmed_a353_4691_intron{0.961636},
+    GTR+I{0.184509}+G4{1.00549}: trimmed_a353_4724_exon{2.91138},
+    GTR+I{0.0318435}+G4{2.39525}: trimmed_a353_4724_intron{0.971977},
+    GTR+I{0.141451}+G4{0.536227}: trimmed_a353_4744_exon{4.25049},
+    GTR+I{0.0130834}+G4{1.44688}: trimmed_a353_4744_intron{1.02546},
+    GTR+I{0.300656}+G4{0.625797}: trimmed_a353_4757_exon{2.64775},
+    GTR+I{0.00351352}+G4{1.12359}: trimmed_a353_4757_intron{0.902782},
+    GTR+I{0.124392}+G4{0.455912}: trimmed_a353_4793_exon{19.6524},
+    GTR+I{0.000131327}+G4{1.07396}: trimmed_a353_4793_intron{2.4679},
+    GTR+I{0.00626752}+G4{0.734241}: trimmed_a353_4796_exon{3.45203},
+    GTR+I{4.0567e-06}+G4{2.02743}: trimmed_a353_4796_intron{1.19605},
+    GTR+I{0.253657}+G4{0.762368}: trimmed_a353_4802_exon{4.17435},
+    GTR+I{0.115804}+G4{1.19522}: trimmed_a353_4802_intron{0.679173},
+    GTR+I{0.181836}+G4{1.08997}: trimmed_a353_4806_exon{2.1214},
+    GTR+I{0.000206435}+G4{3.56841}: trimmed_a353_4806_intron{1.47576},
+    GTR+I{0.270939}+G4{0.884524}: trimmed_a353_4889_exon{2.61058},
+    GTR+I{0.0852633}+G4{0.968998}: trimmed_a353_4889_intron{0.675638},
+    GTR+I{0.00531361}+G4{0.522235}: trimmed_a353_4890_exon{6.2634},
+    GTR+I{3.10292e-16}+G4{0.323666}: trimmed_a353_4890_intron{2.72739},
+    GTR+I{0.0510145}+G4{0.86125}: trimmed_a353_4893_exon{2.07749},
+    GTR+I{0.0297538}+G4{1.6076}: trimmed_a353_4893_intron{1.1455},
+    GTR+I{0.317998}+G4{0.847443}: trimmed_a353_4932_exon{2.32041},
+    GTR+I{0.00394808}+G4{0.975877}: trimmed_a353_4932_intron{0.99357},
+    GTR+I{0.312985}+G4{1.23682}: trimmed_a353_4942_exon{2.74144},
+    GTR+I{0.013233}+G4{1.42214}: trimmed_a353_4942_intron{1.24485},
+    GTR+I{0.0983455}+G4{0.422581}: trimmed_a353_4951_exon{9.59383},
+    GTR+I{0.15226}+G4{1.61762}: trimmed_a353_4951_intron{3.99161},
+    GTR+I{0.354298}+G4{0.864444}: trimmed_a353_4954_exon{1.52201},
+    GTR+I{0.250126}+G4{0.737157}: trimmed_a353_4989_exon{2.45455},
+    GTR+I{0.00103677}+G4{1.66352}: trimmed_a353_4989_intron{1.01833},
+    GTR+I{0.204912}+G4{0.715092}: trimmed_a353_4992_exon{2.30669},
+    GTR+I{0.0051173}+G4{1.52227}: trimmed_a353_4992_intron{1.39779},
+    GTR+I{0.284021}+G4{1.37781}: trimmed_a353_5018_exon{2.56179},
+    GTR+I{0.515537}+G4{998.631}: trimmed_a353_5018_intron{0.294209},
+    GTR+I{0.188231}+G4{0.838587}: trimmed_a353_5032_exon{2.35362},
+    GTR+I{0.258866}+G4{0.896635}: trimmed_a353_5034_exon{2.34323},
+    GTR+I{0.131829}+G4{0.787874}: trimmed_a353_5034_intron{0.982874},
+    GTR+I{0.18465}+G4{0.63757}: trimmed_a353_5038_exon{3.80269},
+    GTR+I{0.582136}+G4{2.04217}: trimmed_a353_5064_exon{1.44722},
+    GTR+I{0.342745}+G4{1.14892}: trimmed_a353_5090_exon{2.00476},
+    GTR+I{0.00727437}+G4{1.40811}: trimmed_a353_5090_intron{1.22196},
+    GTR+I{0.0705353}+G4{0.569732}: trimmed_a353_5104_exon{1.21862},
+    GTR+I{0.222269}+G4{5.32445}: trimmed_a353_5104_intron{0.652594},
+    GTR+I{0.113004}+G4{0.906399}: trimmed_a353_5116_exon{2.05875},
+    GTR+I{0.00229078}+G4{1.54926}: trimmed_a353_5116_intron{1.01128},
+    GTR+I{0.254618}+G4{0.62843}: trimmed_a353_5123_exon{3.10422},
+    GTR+I{0.0635797}+G4{0.709653}: trimmed_a353_5123_intron{1.69745},
+    GTR+I{0.146329}+G4{0.401077}: trimmed_a353_5131_exon{7.0838},
+    GTR+I{0.0123457}+G4{1.00101}: trimmed_a353_5131_intron{1.10957},
+    GTR+I{0.359217}+G4{1.29073}: trimmed_a353_5138_exon{1.64417},
+    GTR+I{0.0906616}+G4{1.35234}: trimmed_a353_5138_intron{0.763734},
+    GTR+I{0.336951}+G4{1.36771}: trimmed_a353_5163_exon{1.61364},
+    GTR+I{0.00678178}+G4{1.29701}: trimmed_a353_5163_intron{1.13264},
+    GTR+I{0.115616}+G4{0.98225}: trimmed_a353_5168_exon{1.74376},
+    GTR+I{0.22292}+G4{1.02656}: trimmed_a353_5177_exon{1.91776},
+    GTR+I{1.47846e-05}+G4{1.88981}: trimmed_a353_5177_intron{1.62562},
+    GTR+I{0.277019}+G4{0.854842}: trimmed_a353_5188_exon{2.94901},
+    GTR+I{0.022053}+G4{1.25402}: trimmed_a353_5188_intron{1.48058},
+    GTR+I{0.302849}+G4{0.716882}: trimmed_a353_5200_exon{1.92262},
+    GTR+I{0.0231926}+G4{0.760498}: trimmed_a353_5200_intron{1.33811},
+    GTR+I{0.203184}+G4{0.656265}: trimmed_a353_5206_exon{2.83691},
+    GTR+I{0.037166}+G4{3.14694}: trimmed_a353_5206_intron{0.959765},
+    GTR+I{0.0338107}+G4{0.275076}: trimmed_a353_5220_exon{21.4899},
+    GTR+I{0.146025}+G4{0.199094}: trimmed_a353_5220_intron{7.43591},
+    GTR+I{0.231282}+G4{0.67217}: trimmed_a353_5260_exon{3.42967},
+    GTR+I{0.000433719}+G4{1.09297}: trimmed_a353_5260_intron{1.47851},
+    GTR+I{0.223064}+G4{0.94794}: trimmed_a353_5264_exon{1.89471},
+    GTR+I{0.00313062}+G4{1.64761}: trimmed_a353_5264_intron{1.45861},
+    GTR+I{1.09988e-10}+G4{0.849262}: trimmed_a353_5271_exon{2.35526},
+    GTR+I{0.0230422}+G4{1.67402}: trimmed_a353_5271_intron{1.0708},
+    GTR+I{0.0885472}+G4{0.9375}: trimmed_a353_5273_exon{2.43772},
+    GTR+I{1.37643e-06}+G4{1.18806}: trimmed_a353_5273_intron{1.35608},
+    GTR+I{0.409559}+G4{0.876217}: trimmed_a353_5280_exon{1.57922},
+    GTR+I{0.0526635}+G4{1.34975}: trimmed_a353_5280_intron{0.955556},
+    GTR+I{0.101107}+G4{0.502979}: trimmed_a353_5296_exon{3.83859},
+    GTR+I{0.208479}+G4{0.863562}: trimmed_a353_5296_intron{0.950335},
+    GTR+I{0.153038}+G4{0.787516}: trimmed_a353_5299_exon{1.8625},
+    GTR+I{0.0504397}+G4{0.81656}: trimmed_a353_5304_exon{4.56628},
+    GTR+I{0.00196152}+G4{1.50095}: trimmed_a353_5304_intron{0.916078},
+    GTR+I{0.178548}+G4{0.425404}: trimmed_a353_5318_exon{6.66148},
+    GTR+I{0.0559758}+G4{1.24845}: trimmed_a353_5318_intron{0.806381},
+    GTR+I{0.354387}+G4{0.761548}: trimmed_a353_5326_exon{2.157},
+    GTR+I{9.03215e-07}+G4{2.26585}: trimmed_a353_5326_intron{2.23984},
+    GTR+I{0.191481}+G4{0.850122}: trimmed_a353_5328_exon{2.96703},
+    GTR+I{0.146321}+G4{0.509902}: trimmed_a353_5335_exon{5.12232},
+    GTR+I{0.344809}+G4{0.958179}: trimmed_a353_5335_intron{0.494479},
+    GTR+I{0.124569}+G4{1.48666}: trimmed_a353_5339_exon{3.85453},
+    GTR+I{0.380692}+G4{0.541811}: trimmed_a353_5339_intron{0.580086},
+    GTR+I{0.372376}+G4{1.23871}: trimmed_a353_5347_exon{1.72807},
+    GTR+I{0.224692}+G4{0.320613}: trimmed_a353_5348_exon{5.36682},
+    GTR+I{0.0107378}+G4{3.61296}: trimmed_a353_5348_intron{1.34759},
+    GTR+I{0.251126}+G4{0.54036}: trimmed_a353_5354_exon{3.61171},
+    GTR+I{0.00152255}+G4{2.85477}: trimmed_a353_5354_intron{0.559627},
+    GTR+I{0.201203}+G4{0.820655}: trimmed_a353_5355_exon{2.25614},
+    GTR+I{0.0185482}+G4{0.488316}: trimmed_a353_5357_exon{7.70379},
+    GTR+I{0.0854341}+G4{0.565383}: trimmed_a353_5357_intron{3.23643},
+    GTR+I{0.00257549}+G4{0.790775}: trimmed_a353_5366_exon{3.56363},
+    GTR+I{4.49249e-05}+G4{1.77884}: trimmed_a353_5366_intron{1.06102},
+    GTR+I{0.244918}+G4{0.862159}: trimmed_a353_5398_exon{2.1058},
+    GTR+I{0.0209319}+G4{1.10429}: trimmed_a353_5398_intron{1.1735},
+    GTR+I{0.226437}+G4{0.879189}: trimmed_a353_5404_exon{2.54928},
+    GTR+I{0.0562187}+G4{1.09291}: trimmed_a353_5404_intron{0.815104},
+    GTR+I{0.389258}+G4{0.873685}: trimmed_a353_5406_exon{2.1069},
+    GTR+I{0.00826354}+G4{1.33501}: trimmed_a353_5406_intron{1.24761},
+    GTR+I{0.136336}+G4{0.77265}: trimmed_a353_5421_exon{3.36803},
+    GTR+I{0.0215958}+G4{1.15179}: trimmed_a353_5421_intron{1.46929},
+    GTR+I{0.153018}+G4{1.0473}: trimmed_a353_5422_exon{2.67325},
+    GTR+I{0.339089}+G4{0.626405}: trimmed_a353_5422_intron{0.544362},
+    GTR+I{0.164695}+G4{0.340502}: trimmed_a353_5427_exon{3.17359},
+    GTR+I{1.09026e-05}+G4{1.04491}: trimmed_a353_5427_intron{1.88238},
+    GTR+I{0.228575}+G4{0.969801}: trimmed_a353_5428_exon{2.56669},
+    GTR+I{0.163301}+G4{0.391751}: trimmed_a353_5430_exon{14.2472},
+    GTR+I{2.28932e-06}+G4{0.84587}: trimmed_a353_5430_intron{2.80054},
+    GTR+I{0.336593}+G4{0.785147}: trimmed_a353_5434_exon{2.56168},
+    GTR+I{1.11631e-09}+G4{1.24799}: trimmed_a353_5434_intron{1.90489},
+    GTR+I{0.222093}+G4{1.04154}: trimmed_a353_5454_exon{2.18885},
+    GTR+I{0.00224102}+G4{1.20313}: trimmed_a353_5454_intron{1.27599},
+    GTR+I{0.0510107}+G4{0.952116}: trimmed_a353_5460_exon{2.30723},
+    GTR+I{0.0236379}+G4{1.45036}: trimmed_a353_5460_intron{0.778133},
+    GTR+I{0.380653}+G4{1.09357}: trimmed_a353_5463_exon{1.58705},
+    GTR+I{0.200362}+G4{2.7436}: trimmed_a353_5463_intron{0.902185},
+    GTR+I{0.173708}+G4{0.672013}: trimmed_a353_5464_exon{3.6374},
+    GTR+I{0.0149201}+G4{1.02596}: trimmed_a353_5464_intron{1.67749},
+    GTR+I{0.283145}+G4{0.773998}: trimmed_a353_5469_exon{2.53594},
+    GTR+I{0.00228203}+G4{1.95724}: trimmed_a353_5469_intron{1.39057},
+    GTR+I{2.03247e-07}+G4{0.806008}: trimmed_a353_5477_exon{3.14769},
+    GTR+I{0.0129962}+G4{2.04495}: trimmed_a353_5477_intron{0.837837},
+    GTR+I{0.0307569}+G4{0.519815}: trimmed_a353_5489_exon{4.33879},
+    GTR+I{0.103335}+G4{0.929408}: trimmed_a353_5489_intron{0.407956},
+    GTR+I{0.280582}+G4{0.768927}: trimmed_a353_5502_exon{2.87107},
+    GTR+I{0.0137786}+G4{1.28278}: trimmed_a353_5502_intron{1.44055},
+    GTR+I{0.0576176}+G4{0.865507}: trimmed_a353_5513_exon{2.75685},
+    GTR+I{0.453473}+G4{15.9234}: trimmed_a353_5513_intron{0.507995},
+    GTR+I{0.297796}+G4{0.879121}: trimmed_a353_5528_exon{1.67799},
+    GTR+I{0.0891962}+G4{1.82344}: trimmed_a353_5528_intron{0.995649},
+    GTR+I{0.160531}+G4{0.978007}: trimmed_a353_5531_exon{2.7992},
+    GTR+I{1.5709e-06}+G4{998.421}: trimmed_a353_5531_intron{0.413848},
+    GTR+I{0.337308}+G4{1.12073}: trimmed_a353_5536_exon{2.52676},
+    GTR+I{0.0359476}+G4{0.826279}: trimmed_a353_5536_intron{0.995157},
+    GTR+I{0.164516}+G4{1.06159}: trimmed_a353_5551_exon{2.84915},
+    GTR+I{0.133001}+G4{1.06441}: trimmed_a353_5551_intron{1.25568},
+    GTR+I{0.206749}+G4{0.833426}: trimmed_a353_5554_exon{3.31941},
+    GTR+I{0.00121313}+G4{1.15985}: trimmed_a353_5554_intron{1.40302},
+    GTR+I{0.210367}+G4{0.786123}: trimmed_a353_5562_exon{2.22993},
+    GTR+I{0.0172842}+G4{1.14174}: trimmed_a353_5562_intron{1.05713},
+    GTR+I{0.311875}+G4{0.874714}: trimmed_a353_5578_exon{2.72842},
+    GTR+I{0.1591}+G4{0.525911}: trimmed_a353_5596_exon{4.23187},
+    GTR+I{0.193296}+G4{1.3295}: trimmed_a353_5596_intron{0.813319},
+    GTR+I{0.174864}+G4{0.4754}: trimmed_a353_5599_exon{12.7715},
+    GTR+I{6.77583e-08}+G4{0.367471}: trimmed_a353_5599_intron{5.08508},
+    GTR+I{0.116512}+G4{0.88851}: trimmed_a353_5614_exon{2.39981},
+    GTR+I{0.0081348}+G4{1.02668}: trimmed_a353_5614_intron{1.44335},
+    GTR+I{0.197433}+G4{0.898334}: trimmed_a353_5620_exon{2.94128},
+    GTR+I{0.0478283}+G4{0.445829}: trimmed_a353_5634_exon{13.634},
+    GTR+I{0.113138}+G4{2.52057}: trimmed_a353_5634_intron{6.64438},
+    GTR+I{0.20753}+G4{0.763476}: trimmed_a353_5639_exon{2.18347},
+    GTR+I{0.00051165}+G4{1.48096}: trimmed_a353_5639_intron{1.20877},
+    GTR+I{0.0963734}+G4{0.527453}: trimmed_a353_5642_exon{2.19556},
+    GTR+I{0.0477263}+G4{1.18297}: trimmed_a353_5642_intron{0.873059},
+    GTR+I{0.153502}+G4{0.942584}: trimmed_a353_5644_exon{2.63805},
+    GTR+I{0.00986844}+G4{1.60929}: trimmed_a353_5644_intron{1.04673},
+    GTR+I{0.162774}+G4{0.859625}: trimmed_a353_5656_exon{2.04195},
+    GTR+I{0.246317}+G4{1.22409}: trimmed_a353_5664_exon{2.20151},
+    GTR+I{0.00325396}+G4{1.04664}: trimmed_a353_5664_intron{1.01978},
+    GTR+I{0.107477}+G4{0.372849}: trimmed_a353_5670_exon{5.87722},
+    GTR+I{0.062666}+G4{1.55464}: trimmed_a353_5670_intron{1.40285},
+    GTR+I{0.203972}+G4{0.300931}: trimmed_a353_5699_exon{8.73564},
+    GTR+I{0.0221958}+G4{2.61243}: trimmed_a353_5699_intron{1.20902},
+    GTR+I{0.267193}+G4{0.850091}: trimmed_a353_5702_exon{2.41351},
+    GTR+I{0.0306227}+G4{1.37572}: trimmed_a353_5702_intron{1.34662},
+    GTR+I{0.314313}+G4{1.59352}: trimmed_a353_5703_exon{2.16786},
+    GTR+I{0.278234}+G4{1.50306}: trimmed_a353_5703_intron{0.830165},
+    GTR+I{0.120881}+G4{1.00737}: trimmed_a353_5716_exon{2.16585},
+    GTR+I{0.448946}+G4{998.897}: trimmed_a353_5716_intron{0.667531},
+    GTR+I{0.278442}+G4{0.912338}: trimmed_a353_5721_exon{2.57189},
+    GTR+I{0.000861969}+G4{1.12597}: trimmed_a353_5721_intron{1.07189},
+    GTR+I{0.0922556}+G4{0.539659}: trimmed_a353_5733_exon{4.39171},
+    GTR+I{0.0198275}+G4{1.24395}: trimmed_a353_5733_intron{0.998404},
+    GTR+I{0.161171}+G4{0.884345}: trimmed_a353_5744_exon{2.42947},
+    GTR+I{0.113721}+G4{0.803454}: trimmed_a353_5744_intron{2.00057},
+    GTR+I{0.11065}+G4{0.79022}: trimmed_a353_5770_exon{3.03158},
+    GTR+I{0.0236704}+G4{1.11492}: trimmed_a353_5770_intron{1.14731},
+    GTR+I{0.195799}+G4{1.02291}: trimmed_a353_5772_exon{2.30067},
+    GTR+I{0.0252883}+G4{3.00564}: trimmed_a353_5772_intron{0.970119},
+    GTR+I{0.0938836}+G4{1.1984}: trimmed_a353_5791_exon{3.09068},
+    GTR+I{0.000375424}+G4{2.54366}: trimmed_a353_5791_intron{1.01227},
+    GTR+I{0.219084}+G4{0.798404}: trimmed_a353_5815_exon{5.36126},
+    GTR+I{0.000651667}+G4{1.36352}: trimmed_a353_5815_intron{0.773714},
+    GTR+I{0.18469}+G4{0.932742}: trimmed_a353_5816_exon{1.95549},
+    GTR+I{0.000956261}+G4{1.17301}: trimmed_a353_5816_intron{1.17844},
+    GTR+I{0.18327}+G4{1.02273}: trimmed_a353_5822_exon{3.0135},
+    GTR+I{0.0108787}+G4{0.97686}: trimmed_a353_5822_intron{1.03155},
+    GTR+I{0.295786}+G4{0.887561}: trimmed_a353_5840_exon{1.96948},
+    GTR+I{0.170384}+G4{0.715995}: trimmed_a353_5840_intron{0.969289},
+    GTR+I{0.202759}+G4{1.28832}: trimmed_a353_5841_exon{1.85798},
+    GTR+I{0.010446}+G4{1.3733}: trimmed_a353_5841_intron{0.992179},
+    GTR+I{0.372503}+G4{0.680997}: trimmed_a353_5842_exon{2.71597},
+    GTR+I{0.00697137}+G4{1.14136}: trimmed_a353_5842_intron{0.788684},
+    GTR+I{0.149916}+G4{0.724296}: trimmed_a353_5843_exon{3.09762},
+    GTR+I{0.0870075}+G4{1.62303}: trimmed_a353_5843_intron{0.728139},
+    GTR+I{0.0567806}+G4{0.491503}: trimmed_a353_5849_exon{2.41289},
+    GTR+I{0.0852631}+G4{1.42786}: trimmed_a353_5849_intron{0.79826},
+    GTR+I{0.223034}+G4{1.24166}: trimmed_a353_5853_exon{2.04334},
+    GTR+I{0.158306}+G4{0.950307}: trimmed_a353_5853_intron{0.590662},
+    GTR+I{0.302112}+G4{1.13512}: trimmed_a353_5857_exon{1.96653},
+    GTR+I{0.00130444}+G4{1.35281}: trimmed_a353_5857_intron{1.38608},
+    GTR+I{0.405125}+G4{0.718404}: trimmed_a353_5858_exon{3.72573},
+    GTR+I{0.000168315}+G4{2.02771}: trimmed_a353_5858_intron{1.54478},
+    GTR+I{0.0232126}+G4{0.881062}: trimmed_a353_5865_exon{2.32438},
+    GTR+I{0.0129557}+G4{1.58949}: trimmed_a353_5865_intron{1.20972},
+    GTR+I{0.0775542}+G4{0.626183}: trimmed_a353_5866_exon{3.44698},
+    GTR+I{0.106005}+G4{1.3787}: trimmed_a353_5866_intron{1.37212},
+    GTR+I{0.376602}+G4{0.456106}: trimmed_a353_5870_exon{5.9601},
+    GTR+I{2.85251e-17}+G4{0.592376}: trimmed_a353_5870_intron{4.68976},
+    GTR+I{0.099929}+G4{0.853162}: trimmed_a353_5893_exon{3.20616},
+    GTR+I{0.428385}+G4{1.22535}: trimmed_a353_5894_exon{1.42197},
+    GTR+I{0.00430977}+G4{1.40581}: trimmed_a353_5894_intron{0.988748},
+    GTR+I{0.0424539}+G4{1.04625}: trimmed_a353_5899_exon{3.15054},
+    GTR+I{0.0384258}+G4{1.61641}: trimmed_a353_5899_intron{1.12257},
+    GTR+I{0.387573}+G4{2.2296}: trimmed_a353_5910_exon{2.33167},
+    GTR+I{0.11797}+G4{1.83008}: trimmed_a353_5910_intron{0.303517},
+    GTR+I{0.166238}+G4{1.17118}: trimmed_a353_5918_exon{2.19189},
+    GTR+I{0.0984013}+G4{3.66457}: trimmed_a353_5918_intron{0.745746},
+    GTR+I{0.227794}+G4{1.03229}: trimmed_a353_5919_exon{2.29492},
+    GTR+I{0.687916}+G4{998.196}: trimmed_a353_5919_intron{0.392054},
+    GTR+I{0.0938702}+G4{1.09398}: trimmed_a353_5921_exon{2.72446},
+    GTR+I{0.012084}+G4{1.25153}: trimmed_a353_5921_intron{1.29397},
+    GTR+I{0.262884}+G4{1.17025}: trimmed_a353_5922_exon{1.90426},
+    GTR+I{0.000836096}+G4{2.19245}: trimmed_a353_5922_intron{1.34745},
+    GTR+I{0.00970763}+G4{0.802617}: trimmed_a353_5926_exon{1.95913},
+    GTR+I{0.00080181}+G4{1.63067}: trimmed_a353_5926_intron{1.11005},
+    GTR+I{0.387103}+G4{0.312303}: trimmed_a353_5936_exon{2.55036},
+    GTR+I{0.0617138}+G4{1.3684}: trimmed_a353_5936_intron{1.0373},
+    GTR+I{0.233558}+G4{0.981981}: trimmed_a353_5940_exon{2.20254},
+    GTR+I{0.082045}+G4{0.57446}: trimmed_a353_5941_exon{1.6177},
+    GTR+I{0.366472}+G4{0.509447}: trimmed_a353_5942_exon{37.3644},
+    GTR+I{0.16029}+G4{1.06858}: trimmed_a353_5942_intron{0.989187},
+    GTR+I{0.283633}+G4{0.783122}: trimmed_a353_5943_exon{2.30944},
+    GTR+I{0.000476524}+G4{3.81823}: trimmed_a353_5943_intron{1.39443},
+    GTR+I{0.299404}+G4{0.983293}: trimmed_a353_5944_exon{2.24449},
+    GTR+I{0.397056}+G4{0.899743}: trimmed_a353_5944_intron{0.322066},
+    GTR+I{0.236631}+G4{0.888926}: trimmed_a353_5945_exon{1.90529},
+    GTR+I{0.0424926}+G4{1.7602}: trimmed_a353_5945_intron{1.10155},
+    GTR+I{0.387392}+G4{1.09773}: trimmed_a353_5949_exon{1.84616},
+    GTR+I{0.029955}+G4{1.91901}: trimmed_a353_5949_intron{1.73355},
+    GTR+I{0.241439}+G4{0.741906}: trimmed_a353_5950_exon{3.11725},
+    GTR+I{0.0101247}+G4{0.752079}: trimmed_a353_5950_intron{1.64027},
+    GTR+I{0.430977}+G4{1.37457}: trimmed_a353_5958_exon{2.41024},
+    GTR+I{0.129211}+G4{0.798805}: trimmed_a353_5960_exon{3.50832},
+    GTR+I{0.0282936}+G4{2.73473}: trimmed_a353_5960_intron{1.15567},
+    GTR+I{0.419607}+G4{1.59985}: trimmed_a353_5968_exon{2.17145},
+    GTR+I{0.000167658}+G4{998.432}: trimmed_a353_5968_intron{0.289964},
+    GTR+I{0.180895}+G4{0.784139}: trimmed_a353_5974_exon{2.42985},
+    GTR+I{0.232224}+G4{2.71115}: trimmed_a353_5974_intron{0.515515},
+    GTR+I{0.174217}+G4{1.10718}: trimmed_a353_5977_exon{2.57035},
+    GTR+I{0.306411}+G4{3.20439}: trimmed_a353_5977_intron{0.373897},
+    GTR+I{0.262885}+G4{0.88256}: trimmed_a353_5980_exon{1.7291},
+    GTR+I{0.200011}+G4{0.866226}: trimmed_a353_5980_intron{0.761979},
+    GTR+I{0.0909272}+G4{0.78973}: trimmed_a353_5981_exon{3.94501},
+    GTR+I{1.16165e-07}+G4{1.1741}: trimmed_a353_5981_intron{2.77048},
+    GTR+I{0.230754}+G4{0.473844}: trimmed_a353_5990_exon{3.85605},
+    GTR+I{0.0064359}+G4{0.979113}: trimmed_a353_5990_intron{1.19693},
+    GTR+I{0.263946}+G4{0.647437}: trimmed_a353_6000_exon{2.66779},
+    GTR+I{0.0491017}+G4{0.82105}: trimmed_a353_6000_intron{1.18312},
+    GTR+I{0.467002}+G4{1.03688}: trimmed_a353_6003_exon{1.25825},
+    GTR+I{0.169875}+G4{0.971845}: trimmed_a353_6004_exon{3.88512},
+    GTR+I{0.00585584}+G4{1.1141}: trimmed_a353_6004_intron{1.35313},
+    GTR+I{0.362168}+G4{1.05976}: trimmed_a353_6016_exon{2.04592},
+    GTR+I{3.65855e-05}+G4{1.35665}: trimmed_a353_6016_intron{1.31239},
+    GTR+I{0.0676983}+G4{0.913547}: trimmed_a353_6026_exon{5.29285},
+    GTR+I{0.195129}+G4{5.66457}: trimmed_a353_6026_intron{0.952024},
+    GTR+I{0.260695}+G4{1.25314}: trimmed_a353_6029_exon{3.13312},
+    GTR+I{0.0312614}+G4{1.32806}: trimmed_a353_6029_intron{0.954477},
+    GTR+I{0.206329}+G4{0.804129}: trimmed_a353_6034_exon{6.16156},
+    GTR+I{0.0703414}+G4{2.66029}: trimmed_a353_6034_intron{0.937608},
+    GTR+I{0.2873}+G4{0.975831}: trimmed_a353_6036_exon{2.10285},
+    GTR+I{0.218013}+G4{1.26805}: trimmed_a353_6036_intron{1.09012},
+    GTR+I{0.212887}+G4{0.919009}: trimmed_a353_6038_exon{2.33464},
+    GTR+I{0.032897}+G4{1.19276}: trimmed_a353_6038_intron{0.784793},
+    GTR+I{0.210134}+G4{0.560262}: trimmed_a353_6041_exon{4.21496},
+    GTR+I{2.48893e-05}+G4{2.17449}: trimmed_a353_6041_intron{1.36339},
+    GTR+I{0.143421}+G4{0.468932}: trimmed_a353_6048_exon{6.92485},
+    GTR+I{0.00746652}+G4{1.51075}: trimmed_a353_6048_intron{1.41646},
+    GTR+I{0.304893}+G4{0.339614}: trimmed_a353_6050_exon{7.18543},
+    GTR+I{0.339807}+G4{0.737679}: trimmed_a353_6050_intron{0.554548},
+    GTR+I{0.227102}+G4{0.365034}: trimmed_a353_6056_exon{5.78479},
+    GTR+I{0.115369}+G4{1.05491}: trimmed_a353_6064_exon{3.43465},
+    GTR+I{0.15638}+G4{5.34186}: trimmed_a353_6064_intron{0.204276},
+    GTR+I{0.331782}+G4{1.18508}: trimmed_a353_6068_exon{1.32721},
+    GTR+I{0.289333}+G4{1.55948}: trimmed_a353_6072_exon{1.78144},
+    GTR+I{3.63417e-07}+G4{1.77393}: trimmed_a353_6072_intron{1.66081},
+    GTR+I{0.275106}+G4{0.983986}: trimmed_a353_6110_exon{2.80283},
+    GTR+I{0.222434}+G4{1.31918}: trimmed_a353_6114_exon{2.28832},
+    GTR+I{0.197313}+G4{1.02408}: trimmed_a353_6119_exon{2.74273},
+    GTR+I{0.18605}+G4{0.905589}: trimmed_a353_6119_intron{0.388095},
+    GTR+I{0.0575298}+G4{0.511791}: trimmed_a353_6128_exon{10.752},
+    GTR+I{0.01992}+G4{0.819027}: trimmed_a353_6128_intron{0.880241},
+    GTR+I{0.172921}+G4{0.753638}: trimmed_a353_6130_exon{2.52436},
+    GTR+I{0.111766}+G4{4.34634}: trimmed_a353_6130_intron{0.793704},
+    GTR+I{0.137869}+G4{1.14565}: trimmed_a353_6148_exon{2.48685},
+    GTR+I{0.0128121}+G4{1.07834}: trimmed_a353_6148_intron{1.56124},
+    GTR+I{0.0636216}+G4{1.01435}: trimmed_a353_6150_exon{1.93058},
+    GTR+I{0.0652293}+G4{4.8188}: trimmed_a353_6150_intron{0.650967},
+    GTR+I{0.165582}+G4{0.945419}: trimmed_a353_6164_exon{3.08393},
+    GTR+I{0.000125802}+G4{2.0927}: trimmed_a353_6164_intron{2.35556},
+    GTR+I{0.222942}+G4{0.69452}: trimmed_a353_6176_exon{1.98502},
+    GTR+I{0.0151075}+G4{1.36092}: trimmed_a353_6176_intron{1.04606},
+    GTR+I{0.316497}+G4{1.27782}: trimmed_a353_6198_exon{1.81328},
+    GTR+I{0.0448809}+G4{0.401341}: trimmed_a353_6216_exon{9.83501},
+    GTR+I{0.288118}+G4{0.966359}: trimmed_a353_6216_intron{0.498007},
+    GTR+I{0.304001}+G4{1.56192}: trimmed_a353_6221_exon{1.97944},
+    GTR+I{0.243897}+G4{1.13682}: trimmed_a353_6227_exon{2.08529},
+    GTR+I{0.00982972}+G4{1.48889}: trimmed_a353_6227_intron{1.09273},
+    GTR+I{0.152617}+G4{1.05497}: trimmed_a353_6238_exon{2.10002},
+    GTR+I{0.0169967}+G4{2.92143}: trimmed_a353_6238_intron{0.877161},
+    GTR+I{0.166511}+G4{0.831913}: trimmed_a353_6258_exon{2.12772},
+    GTR+I{0.00282074}+G4{3.11875}: trimmed_a353_6258_intron{1.21097},
+    GTR+I{0.195646}+G4{0.691789}: trimmed_a353_6265_exon{2.97396},
+    GTR+I{0.162116}+G4{0.647317}: trimmed_a353_6270_exon{6.62358},
+    GTR+I{0.00645913}+G4{0.60142}: trimmed_a353_6270_intron{3.04688},
+    GTR+I{0.30541}+G4{0.535638}: trimmed_a353_6274_exon{2.38826},
+    GTR+I{0.000458784}+G4{1.39785}: trimmed_a353_6274_intron{1.55234},
+    GTR+I{0.0623917}+G4{0.665325}: trimmed_a353_6282_exon{1.77304},
+    GTR+I{0.080469}+G4{1.45147}: trimmed_a353_6282_intron{0.543313},
+    GTR+I{0.134775}+G4{0.690988}: trimmed_a353_6295_exon{4.39831},
+    GTR+I{0.0235652}+G4{9.68582}: trimmed_a353_6295_intron{3.50123},
+    GTR+I{0.162653}+G4{0.647235}: trimmed_a353_6298_exon{3.3529},
+    GTR+I{0.0728476}+G4{1.04064}: trimmed_a353_6298_intron{1.00901},
+    GTR+I{0.315055}+G4{1.06296}: trimmed_a353_6299_exon{2.57088},
+    GTR+I{2.07457e-11}+G4{3.10474}: trimmed_a353_6299_intron{0.962634},
+    GTR+I{0.226319}+G4{0.830549}: trimmed_a353_6303_exon{2.27766},
+    GTR+I{0.0922186}+G4{0.874768}: trimmed_a353_6303_intron{0.800208},
+    GTR+I{0.151632}+G4{1.14819}: trimmed_a353_6318_exon{2.08639},
+    GTR+I{0.0347008}+G4{1.70058}: trimmed_a353_6318_intron{1.17231},
+    GTR+I{0.489012}+G4{1.28509}: trimmed_a353_6366_exon{2.11113},
+    GTR+I{0.0217148}+G4{0.910631}: trimmed_a353_6366_intron{1.97942},
+    GTR+I{0.183074}+G4{0.79505}: trimmed_a353_6373_exon{2.52269},
+    GTR+I{0.0527672}+G4{1.65044}: trimmed_a353_6373_intron{0.899856},
+    GTR+I{6.13961e-08}+G4{0.979948}: trimmed_a353_6376_exon{2.2657},
+    GTR+I{0.0048671}+G4{1.32714}: trimmed_a353_6376_intron{1.11858},
+    GTR+I{0.102632}+G4{0.688809}: trimmed_a353_6378_exon{3.36638},
+    GTR+I{0.00115268}+G4{1.39904}: trimmed_a353_6378_intron{0.831046},
+    GTR+I{0.174463}+G4{0.940205}: trimmed_a353_6379_exon{2.17196},
+    GTR+I{0.0633953}+G4{2.0023}: trimmed_a353_6379_intron{1.7894},
+    GTR+I{0.0906773}+G4{0.488594}: trimmed_a353_6383_exon{7.32163},
+    GTR+I{0.00794733}+G4{1.18947}: trimmed_a353_6383_intron{0.687708},
+    GTR+I{0.192295}+G4{1.09603}: trimmed_a353_6384_exon{3.04524},
+    GTR+I{0.444788}+G4{0.908105}: trimmed_a353_6384_intron{0.295797},
+    GTR+I{0.356816}+G4{1.08392}: trimmed_a353_6387_exon{2.04726},
+    GTR+I{0.348755}+G4{0.713661}: trimmed_a353_6389_exon{2.71641},
+    GTR+I{0.00203575}+G4{1.12718}: trimmed_a353_6389_intron{1.98475},
+    GTR+I{0.202809}+G4{0.785768}: trimmed_a353_6398_exon{2.06456},
+    GTR+I{0.0539144}+G4{0.980999}: trimmed_a353_6398_intron{1.0079},
+    GTR+I{0.261614}+G4{1.2498}: trimmed_a353_6401_exon{2.0622},
+    GTR+I{0.256744}+G4{0.590323}: trimmed_a353_6404_exon{2.75258},
+    GTR+I{0.00851763}+G4{1.55928}: trimmed_a353_6404_intron{0.818344},
+    GTR+I{0.34083}+G4{1.20186}: trimmed_a353_6405_exon{2.10596},
+    GTR+I{0.00103124}+G4{1.37001}: trimmed_a353_6405_intron{1.70144},
+    GTR+I{1.43196e-06}+G4{0.740024}: trimmed_a353_6406_exon{2.48901},
+    GTR+I{2.14968e-05}+G4{1.4883}: trimmed_a353_6406_intron{1.71524},
+    GTR+I{0.189452}+G4{1.35729}: trimmed_a353_6407_exon{3.39717},
+    GTR+I{5.60857e-14}+G4{3.49704}: trimmed_a353_6407_intron{1.81039},
+    GTR+I{0.317202}+G4{1.2581}: trimmed_a353_6412_exon{1.73815},
+    GTR+I{0.0427396}+G4{1.47923}: trimmed_a353_6412_intron{1.10354},
+    GTR+I{0.301344}+G4{0.803215}: trimmed_a353_6420_exon{2.80825},
+    GTR+I{0.00594859}+G4{1.67533}: trimmed_a353_6420_intron{1.44484},
+    GTR+I{0.414527}+G4{0.815797}: trimmed_a353_6430_exon{1.31989},
+    GTR+I{0.0137358}+G4{1.49565}: trimmed_a353_6430_intron{0.960848},
+    GTR+I{0.322866}+G4{0.670146}: trimmed_a353_6432_exon{2.87175},
+    GTR+I{0.0993281}+G4{1.44202}: trimmed_a353_6432_intron{1.0581},
+    GTR+I{0.0134342}+G4{0.75813}: trimmed_a353_6439_exon{3.204},
+    GTR+I{0.0112258}+G4{0.615946}: trimmed_a353_6439_intron{1.82597},
+    GTR+I{0.171102}+G4{0.583412}: trimmed_a353_6447_exon{6.86042},
+    GTR+I{0.363715}+G4{998.825}: trimmed_a353_6447_intron{0.518606},
+    GTR+I{0.171925}+G4{0.939617}: trimmed_a353_6448_exon{2.15899},
+    GTR+I{0.269956}+G4{998.418}: trimmed_a353_6448_intron{1.61926},
+    GTR+I{0.343688}+G4{0.864605}: trimmed_a353_6449_exon{2.5579},
+    GTR+I{0.160298}+G4{0.85174}: trimmed_a353_6454_exon{7.38196},
+    GTR+I{0.00483624}+G4{1.7303}: trimmed_a353_6454_intron{0.653487},
+    GTR+I{0.139455}+G4{2.12679}: trimmed_a353_6457_exon{3.22704},
+    GTR+I{0.168715}+G4{0.398689}: trimmed_a353_6458_exon{7.46403},
+    GTR+I{0.0900412}+G4{0.601265}: trimmed_a353_6458_intron{3.0751},
+    GTR+I{0.132626}+G4{0.419492}: trimmed_a353_6459_exon{6.84513},
+    GTR+I{0.100764}+G4{6.8227}: trimmed_a353_6459_intron{1.88182},
+    GTR+I{0.177282}+G4{0.915754}: trimmed_a353_6460_exon{2.09486},
+    GTR+I{0.261263}+G4{0.496937}: trimmed_a353_6462_exon{7.55443},
+    GTR+I{0.0298404}+G4{0.807003}: trimmed_a353_6462_intron{2.04445},
+    GTR+I{0.380503}+G4{1.09225}: trimmed_a353_6483_exon{1.46185},
+    GTR+I{0.00764603}+G4{1.40703}: trimmed_a353_6483_intron{0.702901},
+    GTR+I{0.282833}+G4{0.592777}: trimmed_a353_6487_exon{4.24566},
+    GTR+I{0.00315702}+G4{1.86489}: trimmed_a353_6487_intron{1.22916},
+    GTR+I{0.228352}+G4{0.495982}: trimmed_a353_6488_exon{3.62689},
+    GTR+I{0.180369}+G4{998.435}: trimmed_a353_6488_intron{0.308996},
+    GTR+I{0.219461}+G4{1.0018}: trimmed_a353_6492_exon{2.29702},
+    GTR+I{0.233902}+G4{0.922886}: trimmed_a353_6494_exon{2.00194},
+    GTR+I{0.0111419}+G4{1.33904}: trimmed_a353_6494_intron{1.24735},
+    GTR+I{0.178356}+G4{0.545383}: trimmed_a353_6496_exon{2.86684},
+    GTR+I{1.12432e-05}+G4{2.56576}: trimmed_a353_6496_intron{0.948389},
+    GTR+I{0.530903}+G4{1.60345}: trimmed_a353_6498_exon{1.63009},
+    GTR+I{0.191113}+G4{1.08324}: trimmed_a353_6506_exon{2.39789},
+    GTR+I{0.23872}+G4{998.189}: trimmed_a353_6506_intron{2.38015},
+    GTR+I{1.06791e-06}+G4{0.990493}: trimmed_a353_6507_exon{2.12663},
+    GTR+I{7.49078e-10}+G4{3.52677}: trimmed_a353_6507_intron{1.36321},
+    GTR+I{0.21579}+G4{0.359763}: trimmed_a353_6526_exon{6.73581},
+    GTR+I{0.338207}+G4{0.340822}: trimmed_a353_6526_intron{0.292125},
+    GTR+I{0.161327}+G4{0.941509}: trimmed_a353_6527_exon{2.26335},
+    GTR+I{0.0902678}+G4{1.18679}: trimmed_a353_6527_intron{0.832468},
+    GTR+I{0.204775}+G4{0.536512}: trimmed_a353_6528_exon{25.0757},
+    GTR+I{3.06296e-38}+G4{0.389784}: trimmed_a353_6528_intron{2.45779},
+    GTR+I{0.0557398}+G4{0.515796}: trimmed_a353_6531_exon{5.3398},
+    GTR+I{0.264997}+G4{0.772318}: trimmed_a353_6531_intron{1.17757},
+    GTR+I{0.530789}+G4{0.738519}: trimmed_a353_6532_exon{1.61678},
+    GTR+I{0.14701}+G4{0.73152}: trimmed_a353_6532_intron{1.0569},
+    GTR+I{0.274634}+G4{0.822595}: trimmed_a353_6533_exon{2.23769},
+    GTR+I{2.99985e-06}+G4{2.40434}: trimmed_a353_6533_intron{1.30543},
+    GTR+I{0.305211}+G4{1.07898}: trimmed_a353_6538_exon{2.10985},
+    GTR+I{3.5962e-09}+G4{1.46706}: trimmed_a353_6538_intron{2.3086},
+    GTR+I{0.368821}+G4{0.894845}: trimmed_a353_6540_exon{1.36026},
+    GTR+I{9.01865e-09}+G4{1.79144}: trimmed_a353_6540_intron{1.23733},
+    GTR+I{0.108018}+G4{0.742301}: trimmed_a353_6544_exon{4.83339},
+    GTR+I{0.0112148}+G4{1.1061}: trimmed_a353_6544_intron{1.34123},
+    GTR+I{0.200114}+G4{1.22177}: trimmed_a353_6550_exon{1.69123},
+    GTR+I{0.417831}+G4{0.886861}: trimmed_a353_6550_intron{0.396254},
+    GTR+I{0.108438}+G4{0.802089}: trimmed_a353_6552_exon{3.00983},
+    GTR+I{0.00276025}+G4{1.54303}: trimmed_a353_6552_intron{0.99573},
+    GTR+I{0.108842}+G4{0.420089}: trimmed_a353_6557_exon{4.95775},
+    GTR+I{0.281005}+G4{0.877474}: trimmed_a353_6559_exon{2.37426},
+    GTR+I{0.20461}+G4{2.1355}: trimmed_a353_6559_intron{0.340257},
+    GTR+I{0.194242}+G4{0.237763}: trimmed_a353_6563_exon{54.7059},
+    GTR+I{0.10612}+G4{0.293853}: trimmed_a353_6563_intron{28.3921},
+    GTR+I{0.351105}+G4{1.02108}: trimmed_a353_6565_exon{1.36955},
+    GTR+I{0.059742}+G4{1.03035}: trimmed_a353_6565_intron{0.465262},
+    GTR+I{0.226186}+G4{0.818456}: trimmed_a353_6570_exon{3.02916},
+    GTR+I{0.243865}+G4{998.373}: trimmed_a353_6570_intron{0.914692},
+    GTR+I{0.0670938}+G4{0.719966}: trimmed_a353_6572_exon{2.89749},
+    GTR+I{0.0423143}+G4{0.967857}: trimmed_a353_6601_exon{3.3495},
+    GTR+I{0.0161713}+G4{1.12818}: trimmed_a353_6601_intron{1.25177},
+    GTR+I{0.0810036}+G4{0.734492}: trimmed_a353_6620_exon{2.30712},
+    GTR+I{0.189571}+G4{0.354555}: trimmed_a353_6631_exon{10.8509},
+    GTR+I{0.161227}+G4{0.762972}: trimmed_a353_6636_exon{3.6111},
+    GTR+I{0.000746649}+G4{2.13735}: trimmed_a353_6636_intron{1.22691},
+    GTR+I{0.135088}+G4{1.16345}: trimmed_a353_6641_exon{1.72717},
+    GTR+I{0.110115}+G4{0.992252}: trimmed_a353_6649_exon{2.17679},
+    GTR+I{0.0791229}+G4{1.74011}: trimmed_a353_6649_intron{0.981727},
+    GTR+I{0.0312897}+G4{0.946644}: trimmed_a353_6660_exon{2.86733},
+    GTR+I{0.0100485}+G4{0.387174}: trimmed_a353_6660_intron{1.90967},
+    GTR+I{0.19312}+G4{1.13223}: trimmed_a353_6667_exon{2.64949},
+    GTR+I{0.000747612}+G4{1.6929}: trimmed_a353_6667_intron{1.27475},
+    GTR+I{0.120054}+G4{0.912283}: trimmed_a353_6679_exon{2.84895},
+    GTR+I{0.00149535}+G4{6.52713}: trimmed_a353_6679_intron{0.578718},
+    GTR+I{0.31262}+G4{0.619537}: trimmed_a353_6685_exon{4.56919},
+    GTR+I{0.131031}+G4{998.424}: trimmed_a353_6685_intron{0.698585},
+    GTR+I{0.416104}+G4{1.06756}: trimmed_a353_6689_exon{2.10378},
+    GTR+I{0.000286126}+G4{1.76664}: trimmed_a353_6689_intron{1.53454},
+    GTR+I{0.310651}+G4{1.7236}: trimmed_a353_6705_exon{1.90912},
+    GTR+I{7.23654e-21}+G4{1.19494}: trimmed_a353_6713_exon{5.51743},
+    GTR+I{0.0363888}+G4{0.520072}: trimmed_a353_6713_intron{0.847979},
+    GTR+I{0.264786}+G4{1.05708}: trimmed_a353_6717_exon{2.2534},
+    GTR+I{0.00568313}+G4{2.04048}: trimmed_a353_6717_intron{1.35634},
+    GTR+I{0.0377119}+G4{1.17231}: trimmed_a353_6732_exon{2.52997},
+    GTR+I{0.119404}+G4{1.12856}: trimmed_a353_6733_exon{1.43432},
+    GTR+I{0.0485671}+G4{1.9854}: trimmed_a353_6733_intron{0.904727},
+    GTR+I{0.204142}+G4{1.14988}: trimmed_a353_6738_exon{1.60409},
+    GTR+I{0.00276013}+G4{3.91264}: trimmed_a353_6738_intron{0.754313},
+    GTR+I{6.50508e-33}+G4{1.37319}: trimmed_a353_6746_exon{3.98006},
+    GTR+I{0.225516}+G4{1.61703}: trimmed_a353_6779_exon{2.94528},
+    GTR+I{0.000182167}+G4{1.10351}: trimmed_a353_6779_intron{1.4},
+    GTR+I{0.382811}+G4{0.686054}: trimmed_a353_6780_exon{3.23848},
+    GTR+I{0.000134587}+G4{6.78284}: trimmed_a353_6780_intron{0.855726},
+    GTR+I{0.100888}+G4{0.598313}: trimmed_a353_6782_exon{2.39242},
+    GTR+I{0.228116}+G4{0.830043}: trimmed_a353_6782_intron{0.546255},
+    GTR+I{0.256993}+G4{0.944914}: trimmed_a353_6785_exon{2.99539},
+    GTR+I{0.0945968}+G4{1.24984}: trimmed_a353_6791_exon{2.62041},
+    GTR+I{0.0237817}+G4{1.27303}: trimmed_a353_6791_intron{0.969375},
+    GTR+I{0.0580629}+G4{0.581997}: trimmed_a353_6792_exon{4.19294},
+    GTR+I{0.173075}+G4{1.96675}: trimmed_a353_6792_intron{1.28719},
+    GTR+I{1.93642e-12}+G4{0.549769}: trimmed_a353_6797_exon{3.7737},
+    GTR+I{0.0119869}+G4{1.63321}: trimmed_a353_6797_intron{0.402451},
+    GTR+I{0.261805}+G4{0.663335}: trimmed_a353_6825_exon{2.47057},
+    GTR+I{1.15148e-07}+G4{4.27172}: trimmed_a353_6825_intron{1.30173},
+    GTR+I{0.088024}+G4{0.582064}: trimmed_a353_6848_exon{4.53923},
+    GTR+I{0.00357745}+G4{1.57545}: trimmed_a353_6848_intron{0.515399},
+    GTR+I{0.131046}+G4{1.03662}: trimmed_a353_6854_exon{3.19329},
+    GTR+I{0.234606}+G4{0.693453}: trimmed_a353_6859_exon{3.17036},
+    GTR+I{0.00393729}+G4{1.75452}: trimmed_a353_6859_intron{0.942729},
+    GTR+I{0.177407}+G4{0.320962}: trimmed_a353_6860_exon{10.6245},
+    GTR+I{0.00619294}+G4{1.24392}: trimmed_a353_6860_intron{1.0361},
+    GTR+I{1.80126e-11}+G4{0.598288}: trimmed_a353_6864_exon{5.51171},
+    GTR+I{0.417699}+G4{7.12005}: trimmed_a353_6864_intron{1.1363},
+    GTR+I{0.354125}+G4{1.1309}: trimmed_a353_6865_exon{1.99246},
+    GTR+I{0.0193765}+G4{1.3341}: trimmed_a353_6865_intron{0.70375},
+    GTR+I{0.0893592}+G4{0.574129}: trimmed_a353_6882_exon{5.21186},
+    GTR+I{0.0205819}+G4{0.963438}: trimmed_a353_6882_intron{1.56036},
+    GTR+I{0.408674}+G4{1.29702}: trimmed_a353_6883_exon{1.79753},
+    GTR+I{3.87237e-08}+G4{1.70727}: trimmed_a353_6883_intron{1.10433},
+    GTR+I{0.631574}+G4{998.373}: trimmed_a353_6886_exon{0.782966},
+    GTR+I{0.165075}+G4{1.18601}: trimmed_a353_6893_exon{2.37225},
+    GTR+I{0.00187764}+G4{1.24787}: trimmed_a353_6893_intron{1.0822},
+    GTR+I{0.310216}+G4{1.17032}: trimmed_a353_6909_exon{2.24472},
+    GTR+I{0.00771313}+G4{1.44685}: trimmed_a353_6909_intron{1.01927},
+    GTR+I{0.363012}+G4{0.91229}: trimmed_a353_6913_exon{2.33762},
+    GTR+I{0.0183749}+G4{1.83224}: trimmed_a353_6913_intron{1.1493},
+    GTR+I{0.120031}+G4{1.06083}: trimmed_a353_6914_exon{3.14848},
+    GTR+I{0.000828671}+G4{1.35845}: trimmed_a353_6914_intron{1.16463},
+    GTR+I{0.306833}+G4{0.858362}: trimmed_a353_6924_exon{1.82631},
+    GTR+I{0.00290357}+G4{1.77247}: trimmed_a353_6924_intron{1.30582},
+    GTR+I{0.1057}+G4{0.518229}: trimmed_a353_6933_exon{7.36819},
+    GTR+I{0.0409882}+G4{0.657869}: trimmed_a353_6946_exon{1.67538},
+    GTR+I{0.134998}+G4{0.734836}: trimmed_a353_6947_exon{3.43832},
+    GTR+I{0.0345533}+G4{0.901113}: trimmed_a353_6947_intron{1.30999},
+    GTR+I{0.392189}+G4{1.81155}: trimmed_a353_6954_exon{1.5791},
+    GTR+I{0.0129795}+G4{1.71369}: trimmed_a353_6954_intron{0.943153},
+    GTR+I{0.469037}+G4{1.66285}: trimmed_a353_6955_exon{2.05325},
+    GTR+I{0.0181606}+G4{0.80667}: trimmed_a353_6958_exon{2.03567},
+    GTR+I{0.0282739}+G4{1.0165}: trimmed_a353_6958_intron{0.796852},
+    GTR+I{0.288868}+G4{1.35113}: trimmed_a353_6961_exon{1.53901},
+    GTR+I{0.130111}+G4{1.19064}: trimmed_a353_6961_intron{0.874796},
+    GTR+I{0.00488366}+G4{0.54106}: trimmed_a353_6962_exon{1.30579},
+    GTR+I{0.319423}+G4{0.688429}: trimmed_a353_6968_exon{3.51996},
+    GTR+I{0.164503}+G4{0.988136}: trimmed_a353_6968_intron{0.685415},
+    GTR+I{0.145196}+G4{0.21744}: trimmed_a353_6969_exon{13.3636},
+    GTR+I{0.146469}+G4{1.63313}: trimmed_a353_6977_exon{1.06925},
+    GTR+I{0.214792}+G4{0.728331}: trimmed_a353_6978_exon{1.55121},
+    GTR+I{0.011758}+G4{1.50134}: trimmed_a353_6978_intron{0.792129},
+    GTR+I{0.216171}+G4{0.868462}: trimmed_a353_6979_exon{2.49355},
+    GTR+I{0.370089}+G4{0.31289}: trimmed_a353_6992_exon{7.49227},
+    GTR+I{0.0117089}+G4{1.34445}: trimmed_a353_6992_intron{1.2573},
+    GTR+I{0.407887}+G4{1.27714}: trimmed_a353_6995_exon{1.49202},
+    GTR+I{0.253709}+G4{0.756368}: trimmed_a353_7013_exon{2.12356},
+    GTR+I{0.00143562}+G4{0.844473}: trimmed_a353_7021_exon{2.43246},
+    GTR+I{0.180791}+G4{2.76011}: trimmed_a353_7021_intron{0.381379},
+    GTR+I{0.382626}+G4{1.64432}: trimmed_a353_7024_exon{1.73137},
+    GTR+I{0.074517}+G4{1.93302}: trimmed_a353_7024_intron{0.512521},
+    GTR+I{0.15559}+G4{0.869726}: trimmed_a353_7028_exon{1.64405},
+    GTR+I{0.132475}+G4{0.913179}: trimmed_a353_7029_exon{1.99125},
+    GTR+I{0.0112101}+G4{1.5068}: trimmed_a353_7029_intron{0.758474},
+    GTR+I{0.019376}+G4{0.92817}: trimmed_a353_7067_exon{1.97753},
+    GTR+I{0.186265}+G4{0.821234}: trimmed_a353_7111_exon{2.60085},
+    GTR+I{0.0376684}+G4{0.846943}: trimmed_a353_7111_intron{1.39366},
+    GTR+I{0.193153}+G4{0.795682}: trimmed_a353_7128_exon{4.24969},
+    GTR+I{0.0392792}+G4{0.939084}: trimmed_a353_7128_intron{0.928497},
+    GTR+I{1.44884e-17}+G4{0.457222}: trimmed_a353_7135_exon{5.86504},
+    GTR+I{0.379209}+G4{0.953077}: trimmed_a353_7136_exon{2.13276},
+    GTR+I{0.0040401}+G4{1.20535}: trimmed_a353_7136_intron{0.821263},
+    GTR+I{0.340602}+G4{1.39762}: trimmed_a353_7141_exon{1.83851},
+    GTR+I{0.121766}+G4{1.19497}: trimmed_a353_7141_intron{0.30028},
+    GTR+I{0.0955764}+G4{1.1152}: trimmed_a353_7174_exon{2.52499},
+    GTR+I{0.00814549}+G4{0.79888}: trimmed_a353_7174_intron{1.08671},
+    GTR+I{0.26715}+G4{1.13005}: trimmed_a353_7194_exon{2.48441},
+    GTR+I{0.164068}+G4{0.323652}: trimmed_a353_7241_exon{28.1774},
+    GTR+I{0.172701}+G4{1.0475}: trimmed_a353_7273_exon{2.04917},
+    GTR+I{0.211364}+G4{2.09455}: trimmed_a353_7273_intron{0.329229},
+    GTR+I{0.0518664}+G4{0.52072}: trimmed_a353_7279_exon{6.18621},
+    GTR+I{0.0151387}+G4{2.06062}: trimmed_a353_7279_intron{1.15858},
+    GTR+I{0.208061}+G4{0.973}: trimmed_a353_7296_exon{1.43586},
+    GTR+I{0.277449}+G4{0.963834}: trimmed_a353_7313_exon{2.69046},
+    GTR+I{0.060348}+G4{5.68452}: trimmed_a353_7313_intron{0.683536},
+    GTR+I{0.245536}+G4{0.811855}: trimmed_a353_7324_exon{2.2584},
+    GTR+I{0.00990365}+G4{1.4119}: trimmed_a353_7324_intron{0.977488},
+    GTR+I{0.252502}+G4{1.03042}: trimmed_a353_7331_exon{2.11351},
+    GTR+I{0.395464}+G4{998.409}: trimmed_a353_7331_intron{0.245011},
+    GTR+I{0.389086}+G4{1.40731}: trimmed_a353_7333_exon{2.32758},
+    GTR+I{0.226608}+G4{0.779329}: trimmed_a353_7336_exon{2.92911},
+    GTR+I{0.237108}+G4{1.36923}: trimmed_a353_7361_exon{3.612},
+    GTR+I{0.00551576}+G4{0.786707}: trimmed_a353_7363_exon{2.19774},
+    GTR+I{0.0908985}+G4{4.92352}: trimmed_a353_7363_intron{1.25681},
+    GTR+I{0.361868}+G4{0.303988}: trimmed_a353_7367_exon{9.12759},
+    GTR+I{0.550419}+G4{1.06381}: trimmed_a353_7371_exon{1.39454},
+    GTR+I{0.0070033}+G4{0.794303}: trimmed_a353_7572_exon{1.73547},
+    GTR+I{0.138263}+G4{998.433}: trimmed_a353_7572_intron{0.501453},
+    GTR+I{0.264228}+G4{0.959022}: trimmed_a353_7583_exon{2.66655},
+    GTR+I{0.194858}+G4{0.780342}: trimmed_a353_7628_exon{2.06482};
+end;

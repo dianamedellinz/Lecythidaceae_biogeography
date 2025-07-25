@@ -1,0 +1,20 @@
+treefile = Lecy_all_loci_ingroup.treefile
+smooth = 100
+numsites = 1398128
+mrca = LECYTHIDACEAE_OW1 Lecythidaceae_Barringtonia_edulis_P021_WF10 Lecythidaceae_Careya_arborea_DAL3_D11
+min = LECYTHIDACEAE_OW1 63
+max = LECYTHIDACEAE_OW1 67.5
+mrca = LECYTHIDACEAE_OW2 Lecythidaceae_Barringtonia_macrostachya_L995 Lecythidaceae_Careya_arborea_DAL3_D11
+min = LECYTHIDACEAE_OW2 63
+max = LECYTHIDACEAE_OW2 67.5
+mrca = LECYTHIDACEAE_NW1 Lecythidaceae_Lecythis_ampla_L313 Lecythidaceae_Couratari_pyramidata_L378
+min = LECYTHIDACEAE_NW1 5.3
+max = LECYTHIDACEAE_NW1 23
+mrca = LECYTHIDACEAE_NW2 Lecythidaceae_Cariniana_estrellensis_L363 Lecythidaceae_Allantoma_lineata_L357
+min = LECYTHIDACEAE_NW2 39.14
+max = LECYTHIDACEAE_NW2 39.56
+mrca = OUTGROUP Lecythidaceae_Napoleonaea_vogelii_P021_WB09 Lecythidaceae_Oubanguia_alata_DAL1_C12
+min = OUTGROUP 92
+max = OUTGROUP 94
+outfile = Lecy_all_loci_dated.treefile
+thorough

@@ -1,3 +1,6 @@
+[![Journal](https://img.shields.io/badge/Journal-Plant%20Journal%20of%20Biogeography-blue)]([https://plecevo.eu/](https://onlinelibrary.wiley.com/journal/13652699)
+[![Status](https://img.shields.io/badge/Status-Under%20Review-orange)]()
+
 # Lecythidaceae_biogeography
 
 Supplementary data for the manuscript: "A new biogeographic reconstruction for Lecythidaceae across bio and ecoregions of the American tropics supports the connectivity between the Amazon and Andean forests".

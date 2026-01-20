@@ -3,7 +3,7 @@
 
 # Lecythidaceae_biogeography
 
-Supplementary data for the manuscript: "A new biogeographic reconstruction for Lecythidaceae across bio and ecoregions of the American tropics supports the connectivity between the Amazon and Andean forests".
+Supplementary data for the manuscript: "Spatio-temporal evolution of Lecythidaceae: Evidence of connectivity between the Amazon and Andean forests".
 
 ## Phylogenetic Analyses
 

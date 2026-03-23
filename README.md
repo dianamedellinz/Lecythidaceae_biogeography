@@ -3,7 +3,7 @@
 
 # Lecythidaceae_biogeography
 
-Supplementary data for the manuscript: "Spatio-temporal evolution of Lecythidaceae: Evidence of connectivity between the Amazon and Andean forests".
+Supplementary data for the manuscript: "Assembling the Neotropical tree flora: Andean Uplift and the Historical Biogeography of the Brazil nut family (Lecythidaceae)"
 
 ## Phylogenetic Analyses
 

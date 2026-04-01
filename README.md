@@ -3,7 +3,7 @@
 
 # Lecythidaceae_biogeography
 
-Supplementary data for the manuscript: "Assembling the Neotropical tree flora: Andean Uplift and the Historical Biogeography of the Brazil nut family (Lecythidaceae)"
+Supporting data for the manuscript: "Assembling the Neotropical tree flora: Andean uplift and the historical biogeography of the Brazil nut family (Lecythidaceae)"
 
 ## Phylogenetic Analyses
 

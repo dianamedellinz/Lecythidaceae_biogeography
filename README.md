@@ -1,9 +1,9 @@
 [![Journal](https://img.shields.io/badge/Journal-%20Journal%20of%20Biogeography-blue)]([https://onlinelibrary.wiley.com/journal/13652699])
-[![Status](https://img.shields.io/badge/Status-Accepted-orange)]()
+[![Status](https://img.shields.io/badge/Status-Published-orange)]()
 
 # Lecythidaceae_biogeography
 
-Supporting data for the manuscript: "Assembling the Neotropical tree flora: Andean uplift and the historical biogeography of the Brazil nut family (Lecythidaceae)"
+Supporting data for the manuscript: "Assembling the Neotropical Tree Flora: Andean Uplift and the Historical Biogeography of the Brazil Nut Family (Lecythidaceae)".
 
 ## Phylogenetic Analyses
 

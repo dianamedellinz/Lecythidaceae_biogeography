@@ -1,5 +1,6 @@
-[![Journal](https://img.shields.io/badge/Journal-%20Journal%20of%20Biogeography-blue)]([https://onlinelibrary.wiley.com/journal/13652699])
-[![Status](https://img.shields.io/badge/Status-Published-orange)]()
+[![Journal](https://img.shields.io/badge/Journal-%20Journal%20of%20Biogeography-green)]([https://onlinelibrary.wiley.com/journal/13652699])
+[![Status](https://img.shields.io/badge/Status-Published-orange)]
+[![DOI](https://doi.org/10.1111/jbi.70225/badge/DOI-blue)]()
 
 # Lecythidaceae_biogeography
 

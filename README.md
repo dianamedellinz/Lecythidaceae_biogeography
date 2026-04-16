@@ -1,6 +1,6 @@
-[![Journal](https://img.shields.io/badge/Journal-%20Journal%20of%20Biogeography-orange)]([https://onlinelibrary.wiley.com/journal/13652699])
+[![Journal](https://img.shields.io/badge/Journal-%20Journal%20of%20Biogeography-orange)](https://onlinelibrary.wiley.com/journal/13652699)
 ![Status](https://img.shields.io/badge/Status-Published-green)
-[![DOI](https://img.shields.io/badge/DOI-https://doi/10.1111/jbi.70225-blue)]([https://doi/10.1111/jbi.70225])
+[![DOI](https://img.shields.io/badge/DOI-https://doi.org/10.1111/jbi.70225-blue)](https://doi.org/10.1111/jbi.70225)
 
 # Lecythidaceae_biogeography
 

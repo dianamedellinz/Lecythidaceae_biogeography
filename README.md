@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Published-green)
 [![DOI](https://img.shields.io/badge/DOI-https://doi.org/10.1111/jbi.70225-blue)](https://doi.org/10.1111/jbi.70225)
 
-Supporting data for: Medellín-Zabala, D., J. L. M.Charboneau, O. M.Vargas, et al. 2026. “Assembling the Neotropical Tree Flora: Andean Uplift and the Historical Biogeography of the Brazil Nut Family (Lecythidaceae).” Journal of Biogeography53, no. 4: e70225. https://doi.org/10.1111/jbi.70225.
+Supporting data for: Medellín-Zabala, D., Charboneau, J.L.M., Vargas, O.M., Smith, S.A., Gonçalves, D.J.P., Chanderbali, A.S., Soltis, D.E., Soltis, P.S. and Dick, C.W. (2026). “Assembling the Neotropical Tree Flora: Andean Uplift and the Historical Biogeography of the Brazil Nut Family (Lecythidaceae).” Journal of Biogeography 53, no. 4: e70225. https://doi.org/10.1111/jbi.70225.
 
 ## Phylogenetic Analyses
 
